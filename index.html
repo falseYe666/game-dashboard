@@ -173,135 +173,7 @@ body {
 .invest-total-item { text-align: center; }
 .invest-total-item .ti-num { font-size: 32px; font-weight: 800; }
 .invest-total-item .ti-label { font-size: 12px; color: #888; margin-top: 4px; }
-
-/* ===== Strategy Panel Styles ===== */
-.gradient-text { background: linear-gradient(135deg, #a78bfa, #f472b6, #fb923c); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-.card { background: rgba(30,41,59,0.6); backdrop-filter: blur(10px); border: 1px solid rgba(51,65,85,0.6); border-radius: 16px; transition: all 0.3s ease; margin-bottom: 16px; }
-.card:hover { border-color: rgba(167,139,250,0.3); transform: translateY(-2px); }
-.card-static { background: rgba(30,41,59,0.5); border: 1px solid rgba(51,65,85,0.4); border-radius: 12px; padding: 14px; text-align: center; }
-.rank-s { background: linear-gradient(135deg, #a78bfa, #7c3aed); color: white; padding: 3px 10px; border-radius: 8px; font-size: 11px; font-weight: 700; display: inline-block; }
-.rank-a { background: linear-gradient(135deg, #06b6d4, #0891b2); color: white; padding: 3px 10px; border-radius: 8px; font-size: 11px; font-weight: 700; display: inline-block; }
-.rank-b { background: linear-gradient(135deg, #f472b6, #db2777); color: white; padding: 3px 10px; border-radius: 8px; font-size: 11px; font-weight: 700; display: inline-block; }
-.rank-c { background: linear-gradient(135deg, #fb923c, #ea580c); color: white; padding: 3px 10px; border-radius: 8px; font-size: 11px; font-weight: 700; display: inline-block; }
-.rank-d { background: linear-gradient(135deg, #ef4444, #dc2626); color: white; padding: 3px 10px; border-radius: 8px; font-size: 11px; font-weight: 700; display: inline-block; }
-.priority-p0 { background: rgba(239,68,68,0.15); color: #ef4444; border: 1px solid rgba(239,68,68,0.3); padding: 2px 10px; border-radius: 6px; font-size: 11px; font-weight: 700; }
-.priority-p1 { background: rgba(234,179,8,0.15); color: #eab308; border: 1px solid rgba(234,179,8,0.3); padding: 2px 10px; border-radius: 6px; font-size: 11px; font-weight: 700; }
-.priority-p2 { background: rgba(34,197,94,0.15); color: #22c55e; border: 1px solid rgba(34,197,94,0.3); padding: 2px 10px; border-radius: 6px; font-size: 11px; font-weight: 700; }
-.priority-p3 { background: rgba(107,114,128,0.15); color: #9ca3af; border: 1px solid rgba(107,114,128,0.3); padding: 2px 10px; border-radius: 6px; font-size: 11px; font-weight: 700; }
-.highlight-purple { background: linear-gradient(135deg, rgba(167,139,250,0.12), rgba(139,92,246,0.06)); border-left: 4px solid #a78bfa; padding: 14px 18px; border-radius: 10px; }
-.highlight-green { background: linear-gradient(135deg, rgba(34,197,94,0.12), rgba(16,185,129,0.06)); border-left: 4px solid #22c55e; padding: 14px 18px; border-radius: 10px; }
-.highlight-yellow { background: linear-gradient(135deg, rgba(234,179,8,0.12), rgba(245,158,11,0.06)); border-left: 4px solid #eab308; padding: 14px 18px; border-radius: 10px; }
-.highlight-red { background: linear-gradient(135deg, rgba(239,68,68,0.12), rgba(220,38,38,0.06)); border-left: 4px solid #ef4444; padding: 14px 18px; border-radius: 10px; }
-.data-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 16px 0; }
-.data-table th { background: rgba(51,65,85,0.8); padding: 14px 16px; text-align: left; font-size: 13px; font-weight: 600; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 1px solid rgba(71,85,105,0.6); }
-.data-table td { padding: 14px 16px; border-bottom: 1px solid rgba(51,65,85,0.3); font-size: 14px; transition: background 0.2s; }
-.data-table tr:hover td { background: rgba(167,139,250,0.05); }
-.data-table tr:last-child td { border-bottom: none; }
-.account-card-s { border-top: 3px solid #a78bfa; }
-.account-card-a { border-top: 3px solid #06b6d4; }
-.account-card-b { border-top: 3px solid #f472b6; }
-.account-card-c { border-top: 3px solid #fb923c; }
-.account-card-d { border-top: 3px solid #ef4444; }
-@keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
-.animate-in { animation: fadeInUp 0.5s ease forwards; opacity: 0; }
-.delay-1 { animation-delay: 0.1s; } .delay-2 { animation-delay: 0.2s; } .delay-3 { animation-delay: 0.3s; } .delay-4 { animation-delay: 0.4s; } .delay-5 { animation-delay: 0.5s; }
-#panel-strategy h2.section-title { color: #a78bfa; font-size: 1.35rem; font-weight: 700; border-bottom: 2px solid rgba(167,139,250,0.25); padding-bottom: 10px; margin: 32px 0 20px; display: flex; align-items: center; gap: 10px; border-left: none; padding-left: 0; }
-#panel-strategy h3.sub-title { color: #e2e8f0; font-size: 1.05rem; font-weight: 600; margin: 20px 0 10px; }
-#panel-strategy .stat-number { font-size: 2rem; font-weight: 800; line-height: 1.2; }
-#panel-strategy .stat-number-sm { font-size: 1.4rem; font-weight: 700; }
-/* ===== Tailwind-compatible Utility Classes for Strategy Panel ===== */
-.flex { display: flex; }
-.flex-wrap { flex-wrap: wrap; }
-.items-center { align-items: center; }
-.items-start { align-items: flex-start; }
-.justify-center { justify-content: center; }
-.justify-between { justify-content: space-between; }
-.grid { display: grid; }
-.grid-cols-1 { grid-template-columns: repeat(1, 1fr); }
-.grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
-.grid-cols-4 { grid-template-columns: repeat(4, 1fr); }
-.gap-2 { gap: 8px; }
-.gap-3 { gap: 12px; }
-.gap-4 { gap: 16px; }
-.gap-x-6 { column-gap: 24px; }
-.gap-y-2 { row-gap: 8px; }
-.space-y-3 > * + * { margin-top: 12px; }
-.space-y-4 > * + * { margin-top: 16px; }
-.space-y-5 > * + * { margin-top: 20px; }
-.space-y-6 > * + * { margin-top: 24px; }
-.w-full { width: 100%; }
-.w-7\/12 { width: 58.333%; }
-.w-9\/12 { width: 75%; }
-.w-11\/12 { width: 91.666%; }
-.max-w-lg { max-width: 512px; }
-.mx-auto { margin-left: auto; margin-right: auto; }
-.my-10 { margin-top: 40px; margin-bottom: 40px; }
-.mt-3 { margin-top: 12px; }
-.mt-4 { margin-top: 16px; }
-.mt-6 { margin-top: 24px; }
-.mt-8 { margin-top: 32px; }
-.mb-0 { margin-bottom: 0 !important; }
-.mb-1 { margin-bottom: 4px; }
-.mb-2 { margin-bottom: 8px; }
-.mb-4 { margin-bottom: 16px; }
-.ml-auto { margin-left: auto; }
-.p-3 { padding: 12px; }
-.p-4 { padding: 16px; }
-.p-5 { padding: 20px; }
-.p-6 { padding: 24px; }
-.px-2 { padding-left: 8px; padding-right: 8px; }
-.px-3 { padding-left: 12px; padding-right: 12px; }
-.py-0\.5 { padding-top: 2px; padding-bottom: 2px; }
-.py-1 { padding-top: 4px; padding-bottom: 4px; }
-.pt-3 { padding-top: 12px; }
-.text-center { text-align: center; }
-.text-left { text-align: left; }
-.text-right { text-align: right; }
-.font-semibold { font-weight: 600; }
-.font-bold { font-weight: 700; }
-.font-black { font-weight: 900; }
-.text-xs { font-size: 11px; }
-.text-sm { font-size: 13px; }
-.text-base { font-size: 15px; }
-.text-lg { font-size: 18px; }
-.tracking-widest { letter-spacing: 0.1em; }
-.rounded { border-radius: 6px; }
-.rounded-lg { border-radius: 8px; }
-.rounded-xl { border-radius: 12px; }
-.rounded-full { border-radius: 9999px; }
-.border-t { border-top-width: 1px; border-top-style: solid; }
-.border-slate-700\/50 { border-color: rgba(51,65,85,0.5); }
-.overflow-x-auto { overflow-x: auto; }
-.whitespace-nowrap { white-space: nowrap; }
-.inline-block { display: inline-block; }
-/* Text colors */
-.text-white { color: #fff !important; }
-.text-slate-300 { color: #cbd5e1 !important; }
-.text-slate-400 { color: #94a3b8 !important; }
-.text-slate-500 { color: #64748b !important; }
-.text-purple-300 { color: #d8b4fe !important; }
-.text-purple-400 { color: #c084fc !important; }
-.text-green-400 { color: #4ade80 !important; }
-.text-yellow-300 { color: #fcd34d !important; }
-.text-yellow-400 { color: #facc15 !important; }
-.text-orange-300 { color: #fdba74 !important; }
-.text-orange-400 { color: #fb923c !important; }
-.text-red-400 { color: #f87171 !important; }
-.text-cyan-300 { color: #67e8f9 !important; }
-.text-cyan-400 { color: #22d3ee !important; }
-.text-pink-300 { color: #f9a8d4 !important; }
-.text-pink-400 { color: #f472b6 !important; }
-.text-emerald-400 { color: #34d399 !important; }
-.text-blue-400 { color: #60a5fa !important; }
-.text-amber-400 { color: #fbbf24 !important; }
-/* Misc utility */
-.m-0 { margin: 0 !important; }
-.pl-4 { padding-left: 16px; }
-.self-start { align-self: flex-start; }
-.flex-1 { flex: 1 1 0%; }
-.shrink-0 { flex-shrink: 0; }
-
-@media (max-width: 768px) { .container { padding: 20px 16px; } .header h1 { font-size: 28px; } .account-card { grid-template-columns: 1fr 1fr; } .analysis-grid { grid-template-columns: 1fr; } .tab-nav { gap: 4px; } .tab-btn { padding: 10px 16px; font-size: 13px; } .video-table { font-size: 12px; } .video-table th, .video-table td { padding: 8px 10px; } .overview-grid { grid-template-columns: 1fr 1fr; } .brief-grid { grid-template-columns: 1fr; } .invest-phase-grid { grid-template-columns: 1fr; } .grid-cols-4 { grid-template-columns: repeat(2, 1fr); } .grid-cols-2 { grid-template-columns: 1fr; } }
+@media (max-width: 768px) { .container { padding: 20px 16px; } .header h1 { font-size: 28px; } .account-card { grid-template-columns: 1fr 1fr; } .analysis-grid { grid-template-columns: 1fr; } .tab-nav { gap: 4px; } .tab-btn { padding: 10px 16px; font-size: 13px; } .video-table { font-size: 12px; } .video-table th, .video-table td { padding: 8px 10px; } .overview-grid { grid-template-columns: 1fr 1fr; } .brief-grid { grid-template-columns: 1fr; } .invest-phase-grid { grid-template-columns: 1fr; } }
 
 </style>
 </head>
@@ -318,15 +190,14 @@ body {
         <span>📊 数据来源：抖音创作者中心</span>
         <span>🎯 分析维度：播放趋势·完播率·互动数据·内容结构·优化建议</span>
     </div>
-    <div class="update-time">报告更新时间：2026-04-16 20:04 · 数据周期：2026-03-18 ~ 2026-04-15</div>
+    <div class="update-time">报告更新时间：2026-04-17 17:09 · 数据周期：2026-03-18 ~ 2026-04-16</div>
 </div>
 
-<!-- Tab Navigation (v2026-04-17-1623-fix) -->
+<!-- Tab Navigation -->
 <div class="tab-nav">
     <button class="tab-btn overview-btn active" onclick="switchTab('overview')">📊 总览</button>
-    <button class="tab-btn" onclick="switchTab('strategy')">🚀 战略规划</button>
-    <button class="tab-btn" onclick="switchTab('monetize')">💰 变现计划</button>
     <button class="tab-btn" onclick="switchTab('weekly')">📋 周报分析</button>
+    <button class="tab-btn" onclick="switchTab('monetize')" style="background:linear-gradient(135deg,rgba(34,197,94,0.15),rgba(34,197,94,0.08));border-color:rgba(34,197,94,0.3);color:#22c55e;">💰 变现计划</button>
     <button class="tab-btn" onclick="switchTab('youyu')">🐙 鱿鱼说游 <span class="tab-fans">15.1万粉</span></button>
     <button class="tab-btn" onclick="switchTab('niuma')">🐴 牛马说游戏 <span class="tab-fans">10.5万粉</span></button>
     <button class="tab-btn" onclick="switchTab('ami')">🔐 阿密说游戏 <span class="tab-fans">12.4万粉</span></button>
@@ -427,513 +298,6 @@ body {
     </div>
 </div>
 
-<div id="panel-strategy" class="account-panel">
-
-<!-- ==================== 第一章：战略目标金字塔 ==================== -->
-<section id="goals" class="animate-in">
-    <h2 class="section-title"><span>🏆</span> 第一章 · 战略目标金字塔</h2>
-
-    <!-- 金字塔可视化 -->
-    <div class="flex justify-center my-10">
-        <div class="w-full max-w-lg space-y-3">
-            <!-- 终极目标 -->
-            <div class="card p-6 text-center animate-in delay-1" style="background: linear-gradient(135deg, rgba(168,85,247,0.18), rgba(236,72,153,0.1)); border-color: rgba(168,85,247,0.35);">
-                <div class="text-xs font-semibold text-purple-300 tracking-widest mb-1">🏁 终极目标 — Q3~Q4</div>
-                <div class="stat-number gradient-text">150,000</div>
-                <div class="text-sm text-slate-400 mt-1">全矩阵平均播放量（含投流）</div>
-                <div class="mt-3 text-xs text-slate-400">全员投流 + 内容爆款双引擎</div>
-            </div>
-            <!-- 阶段二 -->
-            <div class="mx-auto w-11/12 card p-5 text-center animate-in delay-2" style="background: linear-gradient(135deg, rgba(245,158,11,0.12), rgba(239,68,68,0.06)); border-color: rgba(245,158,11,0.25);">
-                <div class="text-xs font-semibold text-orange-300 mb-1">🎯 阶段二 — Q2末</div>
-                <div class="stat-number text-yellow-400">50,000</div>
-                <div class="text-sm text-slate-400 mt-1">鱿鱼放量 + 其余破万</div>
-            </div>
-            <!-- 阶段一 -->
-            <div class="mx-auto w-9/12 card p-5 text-center animate-in delay-3" style="background: linear-gradient(135deg, rgba(6,182,212,0.12), rgba(34,197,94,0.06)); border-color: rgba(6,182,212,0.25);">
-                <div class="text-xs font-semibold text-cyan-300 mb-1">✅ 阶段一 — 2026年5月</div>
-                <div class="stat-number text-green-400">10,000</div>
-                <div class="text-sm text-slate-400 mt-1">鱿鱼先行投流 + 其余刷量达标</div>
-            </div>
-            <!-- 当前基线 -->
-            <div class="mx-auto w-7/12 card p-4 text-center animate-in delay-4" style="background: rgba(51,65,85,0.4); border-color: rgba(71,85,105,0.4);">
-                <div class="text-xs text-slate-400 mb-1">📍 当前基线 — 4.17</div>
-                <div class="stat-number-sm text-slate-300">1,669</div>
-                <div class="text-xs text-slate-500 mt-1">5号矩阵均值</div>
-            </div>
-        </div>
-    </div>
-
-    <!-- 差距分析表 -->
-    <div class="card p-6 mt-8 animate-in delay-5">
-        <h3 class="sub-title">各账号距阶段一目标（均播1万）的差距</h3>
-        <div class="overflow-x-auto">
-            <table class="data-table">
-                <thead>
-                    <tr>
-                        <th>账号</th>
-                        <th>等级</th>
-                        <th>当前均播</th>
-                        <th>缺口倍数</th>
-                        <th>优先级</th>
-                        <th>核心策略</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><span class="font-semibold">🐙 鱿鱼说游</span></td>
-                        <td><span class="px-2 py-0.5 rounded text-xs font-bold rank-s">S</span></td>
-                        <td class="font-bold text-green-400">2,836</td>
-                        <td><span class="text-yellow-400 font-semibold">2.5x</span></td>
-                        <td><span class="px-2 py-0.5 rounded text-xs font-bold priority-p0">P0 先行投流</span></td>
-                        <td class="text-slate-400 text-sm">本周启动Dou+测试</td>
-                    </tr>
-                    <tr>
-                        <td><span class="font-semibold">⚡ 有料玩家</span></td>
-                        <td><span class="px-2 py-0.5 rounded text-xs font-bold rank-a">A</span></td>
-                        <td class="font-bold text-green-400">2,291</td>
-                        <td><span class="text-yellow-400 font-semibold">3.4x</span></td>
-                        <td><span class="px-2 py-0.5 rounded text-xs font-bold priority-p0">P0 核心主攻</span></td>
-                        <td class="text-slate-400 text-sm">钩子重写+时长压缩</td>
-                    </tr>
-                    <tr>
-                        <td><span class="font-semibold">🐴 牛马说游戏</span></td>
-                        <td><span class="px-2 py-0.5 rounded text-xs font-bold rank-b">B+</span></td>
-                        <td class="font-bold text-yellow-400">1,683</td>
-                        <td><span class="text-orange-400 font-semibold">4.9x</span></td>
-                        <td><span class="px-2 py-0.5 rounded text-xs font-bold priority-p1">P1 重点提升</span></td>
-                        <td class="text-slate-400 text-sm">封面升级+刷量撬动</td>
-                    </tr>
-                    <tr>
-                        <td><span class="font-semibold">🔐 阿密说游戏</span></td>
-                        <td><span class="px-2 py-0.5 rounded text-xs font-bold rank-c">C</span></td>
-                        <td class="font-bold text-orange-400">961</td>
-                        <td><span class="text-red-400 font-semibold">9.4x</span></td>
-                        <td><span class="px-2 py-0.5 rounded text-xs font-bold priority-p2">P2 稳步跟进</span></td>
-                        <td class="text-slate-400 text-sm">解决标题党+干货盘点</td>
-                    </tr>
-                    <tr>
-                        <td><span class="font-semibold">❌ 哈吉米说游戏</span></td>
-                        <td><span class="px-2 py-0.5 rounded text-xs font-bold rank-d">D</span></td>
-                        <td class="font-bold text-red-400">574</td>
-                        <td><span class="text-red-400 font-bold">16.4x</span></td>
-                        <td><span class="px-2 py-0.5 rounded text-xs font-bold priority-p3">P3 整改观察</span></td>
-                        <td class="text-slate-400 text-sm">封面重建+减产保质量</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <!-- 关键洞察 -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
-            <div class="highlight-purple p-4 rounded-xl">
-                <p class="font-semibold text-white text-sm mb-2">💡 全矩阵均值仅1,669，距离10,000需要<strong class="text-yellow-400">6倍增长</strong></p>
-                <p class="text-xs text-slate-400 m-0">这不是靠内容自然增长能实现的，必须结合「内容优化 + 刷量/投流」组合拳。</p>
-            </div>
-            <div class="highlight-red p-4 rounded-xl">
-                <p class="font-semibold text-white text-sm mb-2">⚠️ 哈吉米缺口最大（16.4倍），在投流前必须先完成基础整改</p>
-                <p class="text-xs text-slate-400 m-0">否则投流等于烧钱——2s跳出率54%是致命伤。</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!-- ==================== 第二章：五账号深度诊断 ==================== -->
-<section id="diagnosis" class="mt-8">
-    <h2 class="section-title"><span>🔬</span> 第二章 · 五账号独立深度诊断</h2>
-
-    <div class="space-y-6">
-
-        <!-- === 2.1 鱿鱼说游 === -->
-        <div class="card account-card-s p-6">
-            <div class="flex flex-wrap items-center gap-3 mb-4">
-                <span class="text-2xl">🐙</span>
-                <h3 class="sub-title !mb-0 !mt-0">鱿鱼说游 — 投流先锋</h3>
-                <span class="px-3 py-1 rounded-full text-xs font-black rank-s">S级</span>
-                <span class="text-xs text-slate-400 ml-auto">均播 2,836 | 完播率 9.4% | 互动率 2.90%</span>
-            </div>
-
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
-                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">近一周作品</div><div class="text-lg font-bold text-white">11部</div></div>
-                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">总播放</div><div class="text-lg font-bold text-green-400">31,196</div></div>
-                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">2s跳出率</div><div class="text-lg font-bold text-green-400">41.9% ⬇️最低</div></div>
-                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">分享占比</div><div class="text-lg font-bold text-purple-400">32% 🔥</div></div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div class="highlight-green p-3 rounded-lg">
-                    <p class="font-semibold text-green-400 text-xs mb-1">✅ S 核心优势</p>
-                    <ul class="text-xs text-slate-300 space-y-1 m-0 pl-4">
-                        <li>多品类抗风险极强（覆盖6+IP赛道）</li>
-                        <li>2s跳出率41.9%最低，开头吸引力最强</li>
-                        <li>分享驱动型增长（294分享占32%）</li>
-                        <li>已具备投流条件（数据健康度最佳）</li>
-                    </ul>
-                </div>
-                <div class="highlight-yellow p-3 rounded-lg">
-                    <p class="font-semibold text-yellow-400 text-xs mb-1">⚠️ W 核心劣势</p>
-                    <ul class="text-xs text-slate-300 space-y-1 m-0 pl-4">
-                        <li>同题不同命差距极大（头像投票47 vs 4620）</li>
-                        <li>怀旧盘点遇冷（老游戏仅80播放）</li>
-                        <li>评论率偏低（2.2%）缺乏讨论设计</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="mt-4 p-3 rounded-lg" style="background: rgba(167,139,250,0.08); border: 1px dashed rgba(167,139,250,0.3);">
-                <p class="text-sm m-0"><strong class="text-purple-300">诊断结论：</strong><span class="text-emerald-400 font-semibold">【投流就绪】</span> 数据健康度最优，多品类抗风险能力强。建议<span class="text-yellow-300 font-bold">本周内立即开启Dou+/千川测试</span>。</p>
-            </div>
-        </div>
-
-        <!-- === 2.2 有料玩家 === -->
-        <div class="card account-card-a p-6">
-            <div class="flex flex-wrap items-center gap-3 mb-4">
-                <span class="text-2xl">⚡</span>
-                <h3 class="sub-title !mb-0 !mt-0">有料玩家 — 核心主力</h3>
-                <span class="px-3 py-1 rounded-full text-xs font-black rank-a">A级</span>
-                <span class="text-xs text-slate-400 ml-auto">均播 2,291 | 完播率 7.2% | 互动率 1.986%</span>
-            </div>
-
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
-                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">近一周作品</div><div class="text-lg font-bold text-white">10部</div></div>
-                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">总播放</div><div class="text-lg font-bold text-cyan-400">22,913</div></div>
-                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">评论率</div><div class="text-lg font-bold text-green-400">6.8% ⬆️最高</div></div>
-                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">2s跳出率</div><div class="text-lg font-bold text-yellow-400">46.2%</div></div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div class="highlight-green p-3 rounded-lg">
-                    <p class="font-semibold text-green-400 text-xs mb-1">✅ S 核心优势</p>
-                    <ul class="text-xs text-slate-300 space-y-1 m-0 pl-4">
-                        <li>评论率6.8%全矩阵最高（内容能激发表达欲）</li>
-                        <li>逆战情感向内容有惊喜（17.96%完播率）</li>
-                        <li>洛克王国基本盘稳固（Top3占2席）</li>
-                    </ul>
-                </div>
-                <div class="highlight-yellow p-3 rounded-lg">
-                    <p class="font-semibold text-yellow-400 text-xs mb-1">⚠️ W 核心劣势</p>
-                    <ul class="text-xs text-slate-300 space-y-1 m-0 pl-4">
-                        <li>完播率仅7.2%（低于鱿油的9.4%）</li>
-                        <li>2s跳出率46.2%偏高（近半观众前2秒走）</li>
-                        <li>IP依赖度高（洛克王国占Top3的2/3）</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="mt-4 p-3 rounded-lg" style="background: rgba(6,182,212,0.08); border: 1px dashed rgba(6,182,212,0.3);">
-                <p class="text-sm m-0"><strong class="text-cyan-300">诊断结论：</strong><span class="text-blue-400 font-semibold">【内容为王】</span> 互动质量极高但留存需提升。应聚焦"优化内容结构+拓展选题品类"，待完播率和2s跳出改善后再考虑投流。</p>
-            </div>
-        </div>
-
-        <!-- === 2.3 牛马说游戏 === -->
-        <div class="card account-card-b p-6">
-            <div class="flex flex-wrap items-center gap-3 mb-4">
-                <span class="text-2xl">🐴</span>
-                <h3 class="sub-title !mb-0 !mt-0">牛马说游戏 — 潜力股</h3>
-                <span class="px-3 py-1 rounded-full text-xs font-black rank-b">B+级</span>
-                <span class="text-xs text-slate-400 ml-auto">均播 1,683 | 完播率 9.7% | 互动率 1.756%</span>
-            </div>
-
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
-                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">近一周作品</div><div class="text-lg font-bold text-white">9部</div></div>
-                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">完播率</div><div class="text-lg font-bold text-green-400">9.7% 🏆最高</div></div>
-                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">2s跳出率</div><div class="text-lg font-bold text-green-400">40.2% 🏆最低</div></div>
-                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">数据方差</div><div class="text-lg font-bold text-cyan-400">最小 ✅</div></div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div class="highlight-green p-3 rounded-lg">
-                    <p class="font-semibold text-green-400 text-xs mb-1">✅ S 核心优势</p>
-                    <ul class="text-xs text-slate-300 space-y-1 m-0 pl-4">
-                        <li>完播率9.7%全矩阵最高！内容粘性极强</li>
-                        <li>2s跳出率40.2%全矩阵最低！</li>
-                        <li>数据方差小，无极端扑街，风格稳健</li>
-                        <li>高完播率 = 投流后ROI保障</li>
-                    </ul>
-                </div>
-                <div class="highlight-yellow p-3 rounded-lg">
-                    <p class="font-semibold text-yellow-400 text-xs mb-1">⚠️ W 核心劣势</p>
-                    <ul class="text-xs text-slate-300 space-y-1 m-0 pl-4">
-                        <li>均播1683流量天花板低（好内容缺流量）</li>
-                        <li>评论极度稀缺（7条/9部 ≈ 零讨论）</li>
-                        <li>总互动266倒数第二</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="mt-4 p-3 rounded-lg" style="background: rgba(244,114,182,0.08); border: 1px dashed rgba(244,114,182,0.3);">
-                <p class="text-sm m-0"><strong class="text-pink-300">诊断结论：</strong><span class="text-amber-400 font-semibold">【待价而沽】</span> 完播率和跳出率全矩阵最优，但流量天花板明显。适合用"<span class="text-green-300">刷量</span>"手段撬动初始推荐，再过渡到投流。</p>
-            </div>
-        </div>
-
-        <!-- === 2.4 阿密说游戏 === -->
-        <div class="card account-card-c p-6">
-            <div class="flex flex-wrap items-center gap-3 mb-4">
-                <span class="text-2xl">🔐</span>
-                <h3 class="sub-title !mb-0 !mt-0">阿密说游戏 — 待激活</h3>
-                <span class="px-3 py-1 rounded-full text-xs font-black rank-c">C级</span>
-                <span class="text-xs text-slate-400 ml-auto">均播 961 | 完播率 4.5% | 互动率 2.508%</span>
-            </div>
-
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
-                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">近一周作品</div><div class="text-lg font-bold text-white">10部</div></div>
-                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">收藏率</div><div class="text-lg font-bold text-purple-400">24.5% 🏆最高</div></div>
-                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">完播率</div><div class="text-lg font-bold text-red-400">4.5% ⚠️最低</div></div>
-                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">互动率</div><div class="text-lg font-bold text-green-400">2.508%</div></div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div class="highlight-green p-3 rounded-lg">
-                    <p class="font-semibold text-green-400 text-xs mb-1">✅ S 核心优势</p>
-                    <ul class="text-xs text-slate-300 space-y-1 m-0 pl-4">
-                        <li>收藏率24.5%全矩阵最高！（内容有工具属性/长尾价值）</li>
-                        <li>互动率2.508%全矩阵最高</li>
-                        <li>洛克王国撞脸爆款验证赛道可行性</li>
-                    </ul>
-                </div>
-                <div class="highlight-red p-3 rounded-lg">
-                    <p class="font-semibold text-red-400 text-xs mb-1">⛔ W 核心劣势</p>
-                    <ul class="text-xs text-slate-300 space-y-1 m-0 pl-4">
-                        <li>完播率4.5%全矩阵最低!!（95%中途流失）</li>
-                        <li>可能存在标题党问题（吸引进来但留不住）</li>
-                        <li>小众选题天花板有限</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="mt-4 p-3 rounded-lg" style="background: rgba(251,146,60,0.08); border: 1px dashed rgba(251,146,60,0.3);">
-                <p class="text-sm m-0"><strong class="text-orange-300">诊断结论：</strong><span class="text-orange-400 font-semibold">【工具转型】</span> 收藏率极高说明内容有价值，但完播率崩塌。需解决"标题承诺vs内容交付"落差问题，同时强化干货盘点方向形成差异化。</p>
-            </div>
-        </div>
-
-        <!-- === 2.5 哈吉米说游戏 === -->
-        <div class="card account-card-d p-6">
-            <div class="flex flex-wrap items-center gap-3 mb-4">
-                <span class="text-2xl">❌</span>
-                <h3 class="sub-title !mb-0 !mt-0">哈吉米说游戏 — 整改对象</h3>
-                <span class="px-3 py-1 rounded-full text-xs font-black rank-d">D级</span>
-                <span class="text-xs text-slate-400 ml-auto">均播 574 | 完播率 7.7% | 互动率 1.219%</span>
-            </div>
-
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
-                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">近一周作品</div><div class="text-lg font-bold text-white">11部</div></div>
-                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">2s跳出率</div><div class="text-lg font-bold text-red-400">54% 💀致命</div></div>
-                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">总互动</div><div class="text-lg font-bold text-red-400">77 垫底</div></div>
-                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">最低播放</div><div class="text-lg font-bold text-red-400">129 ❌新低</div></div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div class="highlight-green p-3 rounded-lg">
-                    <p class="font-semibold text-green-400 text-xs mb-1">✅ S 少量亮点</p>
-                    <ul class="text-xs text-slate-300 space-y-1 m-0 pl-4">
-                        <li>电竞方向有一定受众（BLG 1042 / 逆战 2758）</li>
-                        <li>产量充足（11部/周），态度不摆烂</li>
-                        <li>电竞娱乐化包装后潜力大</li>
-                    </ul>
-                </div>
-                <div class="highlight-red p-3 rounded-lg">
-                    <p class="font-semibold text-red-400 text-xs mb-1">⛔ W 全面劣势</p>
-                    <ul class="text-xs text-slate-300 space-y-1 m-0 pl-4">
-                        <li>均播574全矩阵最低!!!</li>
-                        <li>2s跳出率54%致命伤（过半前2秒走人）</li>
-                        <li>电竞纯资讯表现差（BLG/VCT仅208）</li>
-                        <li>可能陷入恶性循环：越差→越少推→越差</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="mt-4 p-3 rounded-lg" style="background: rgba(239,68,68,0.1); border: 1px solid rgba(239,68,68,0.3);">
-                <p class="text-sm m-0"><strong class="text-red-300">诊断结论：</strong><span class="text-red-400 font-bold">【紧急抢救】</span> 多项指标垫底，处于危险状态。<span class="text-yellow-300 font-bold">必须在投流/刷量前完成基础整改</span>（封面体系重建+钩子重写+选题转向），否则投入产出比极低。</p>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-
-<!-- ==================== 第三章：核心问题推演 ==================== -->
-<section id="forecast" class="mt-8">
-    <h2 class="section-title"><span>⏰</span> 第三章 · 核心问题推演（如果不解决会怎样？）</h2>
-
-    <div class="overflow-x-auto">
-        <table class="data-table">
-            <thead>
-                <tr>
-                    <th>账号</th>
-                    <th>当前最大隐患</th>
-                    <th>30天不处理</th>
-                    <th>90天不处理</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><span class="font-semibold">🐙 鱿鱼说游</span></td>
-                    <td>投流时机流失</td>
-                    <td class="text-yellow-400 text-sm">竞品追赶，红利期错过<br>均播停滞3000-4000</td>
-                    <td class="text-red-400 text-sm font-semibold">失去先发优势<br>投流成本涨30-50%</td>
-                </tr>
-                <tr>
-                    <td><span class="font-semibold">⚡ 有料玩家</span></td>
-                    <td>完播率持续低位</td>
-                    <td class="text-yellow-400 text-sm">平台判定"内容一般"<br>推荐池缩水20-30%</td>
-                    <td class="text-red-400 text-sm font-semibold">账号权重持续下降<br>后期投流ROI远低于预期</td>
-                </tr>
-                <tr>
-                    <td><span class="font-semibold">🐴 牛马说游戏</span></td>
-                    <td>流量天花板锁死</td>
-                    <td class="text-yellow-400 text-sm">好内容始终无匹配曝光<br>团队士气受挫</td>
-                    <td class="text-red-400 text-sm font-semibold">创作者等级下降<br>进入恶性循环</td>
-                </tr>
-                <tr>
-                    <td><span class="font-semibold">🔐 阿密说游戏</span></td>
-                    <td>标题党陷阱加深</td>
-                    <td class="text-yellow-400 text-sm">用户产生"被骗感"<br>取关+举报增加</td>
-                    <td class="text-red-400 text-sm font-semibold">被打上"标题党"标签<br>平台限流甚至封禁风险</td>
-                </tr>
-                <tr>
-                    <td><span class="font-semibold">❌ 哈吉米说游戏</span></td>
-                    <td class="text-red-400 font-semibold">全面崩溃边缘</td>
-                    <td class="text-red-400 text-sm font-semibold">2s跳出>50%，系统停止推荐<br>均播跌破400</td>
-                    <td class="text-red-400 text-sm font-bold">账号基本死亡<br>复活成本 > 开新号</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <!-- 推演核心结论 -->
-    <div class="mt-6 space-y-4">
-        <div class="highlight-red p-4 rounded-xl">
-            <p class="font-bold text-white text-sm mb-2">🔥 结论1：时间窗口紧迫</p>
-            <p class="text-sm m-0">鱿鱼的投流窗口期大约只有 <strong class="text-yellow-300">4-6周</strong>。过了这村没这店，建议<strong class="text-yellow-300 font-bold">本周内启动Dou+测试</strong>。</p>
-        </div>
-        <div class="highlight-yellow p-4 rounded-xl">
-            <p class="font-bold text-white text-sm mb-2">⚖️ 结论2：不进则退是铁律</p>
-            <p class="text-sm m-0">抖音推荐机制动态变化。你的数据不变 = 相对排名下降（因为别人在进步）。<strong>保持现状 = 在倒退。</strong></p>
-        </div>
-        <div class="highlight-purple p-4 rounded-xl">
-            <p class="font-bold text-white text-sm mb-2">💀 结论3：哈吉米的生死线</p>
-            <p class="text-sm m-0">如果哈吉米在<strong class="text-yellow-300">30天内不能将2s跳出降到45%以下</strong>，沉没成本会越来越高。不如考虑合并内容到其他账号或暂停更新整顿。</p>
-        </div>
-        <div class="highlight-green p-4 rounded-xl">
-            <p class="font-bold text-white text-sm mb-2">💰 结论4：投流的黄金法则</p>
-            <p class="text-sm m-0">只给"值得被更多人看到的内容"投流。目前<strong class="text-green-300">只有鱿鱼符合条件</strong>；有料还需1-2周优化；其他三个暂时不符合。</p>
-        </div>
-    </div>
-</section>
-
-
-<!-- ==================== 第四章：优化执行方案 ==================== -->
-<section id="execution" class="mt-8">
-    <h2 class="section-title"><span>⚡</span> 第四章 · 优化执行方案</h2>
-
-    <div class="space-y-5">
-
-        <!-- 鱿鱼方案 -->
-        <div class="card p-5 account-card-s">
-            <div class="flex items-center gap-3 mb-3">
-                <span class="text-xl">🐙</span>
-                <h4 class="font-bold text-white text-base !mt-0 !mb-0">鱿鱼说游 → 投流先行</h4>
-                <span class="ml-auto px-2 py-0.5 rounded text-xs font-bold priority-p0">P0</span>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2">
-                <div class="flex items-start gap-2 text-sm"><span class="text-purple-400 mt-0.5">▸</span><span>开启 Dou+ 测试（首周预算 <strong class="text-yellow-300">2000元</strong>）</span></div>
-                <div class="flex items-start gap-2 text-sm"><span class="text-purple-400 mt-0.5">▸</span><span>选3条历史爆款追加投放</span></div>
-                <div class="flex items-start gap-2 text-sm"><span class="text-purple-400 mt-0.5">▸</span><span>千川账户搭建 + 人群包测试</span></div>
-                <div class="flex items-start gap-2 text-sm"><span class="text-purple-400 mt-0.5">▸</span><span>保持日均1.5部发稿节奏</span></div>
-            </div>
-            <div class="mt-3 pt-3 border-t border-slate-700/50 flex flex-wrap gap-4 text-xs text-slate-400">
-                <span>预期30天：<strong class="text-green-400">均播6000+</strong></span>
-                <span>投流ROI：<strong class="text-green-400">≥1.5</strong></span>
-                <span>爆款率：<strong class="text-green-400">≥20%</strong></span>
-            </div>
-        </div>
-
-        <!-- 有料方案 -->
-        <div class="card p-5 account-card-a">
-            <div class="flex items-center gap-3 mb-3">
-                <span class="text-xl">⚡</span>
-                <h4 class="font-bold text-white text-base !mt-0 !mb-0">有料玩家 → 内容攻坚</h4>
-                <span class="ml-auto px-2 py-0.5 rounded text-xs font-bold priority-p0">P0</span>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2">
-                <div class="flex items-start gap-2 text-sm"><span class="text-cyan-400 mt-0.5">▸</span><span>前3秒钩子全面重写（AB测试）</span></div>
-                <div class="flex items-start gap-2 text-sm"><span class="text-cyan-400 mt-0.5">▸</span><span>时长压缩至 <strong>55-70s</strong></span></div>
-                <div class="flex items-start gap-2 text-sm"><span class="text-cyan-400 mt-0.5">▸</span><span>拓展非洛克王国选题至40%</span></div>
-                <div class="flex items-start gap-2 text-sm"><span class="text-cyan-400 mt-0.5">▸</span><span>结尾统一改为讨论/悬念向</span></div>
-            </div>
-            <div class="mt-3 pt-3 border-t border-slate-700/50 flex flex-wrap gap-4 text-xs text-slate-400">
-                <span>预期30天：<strong class="text-cyan-400">均播3500+</strong></span>
-                <span>完播率：<strong class="text-cyan-400">≥10%</strong></span>
-                <span>2s跳出：<strong class="text-cyan-400">≤40%</strong></span>
-            </div>
-        </div>
-
-        <!-- 牛马方案 -->
-        <div class="card p-5 account-card-b">
-            <div class="flex items-center gap-3 mb-3">
-                <span class="text-xl">🐴</span>
-                <h4 class="font-bold text-white text-base !mt-0 !mb-0">牛马说游戏 → 刷量撬动</h4>
-                <span class="ml-auto px-2 py-0.5 rounded text-xs font-bold priority-p1">P1</span>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2">
-                <div class="flex items-start gap-2 text-sm"><span class="text-pink-400 mt-0.5">▸</span><span>封面升级为黄字双段式</span></div>
-                <div class="flex items-start gap-2 text-sm"><span class="text-pink-400 mt-0.5">▸</span><span>植入争议话题点（<strong>目标评论翻倍</strong>）</span></div>
-                <div class="flex items-start gap-2 text-sm"><span class="text-pink-400 mt-0.5">▸</span><span>增加发稿频至12部/周</span></div>
-                <div class="flex items-start gap-2 text-sm"><span class="text-pink-400 mt-0.5">▸</span><span>测试不同发布时间段</span></div>
-            </div>
-            <div class="mt-3 pt-3 border-t border-slate-700/50 flex flex-wrap gap-4 text-xs text-slate-400">
-                <span>预期30天：<strong class="text-pink-400">均播3000+</strong></span>
-                <span>评论：<strong class="text-pink-400">≥20/周</strong></span>
-                <span>分享：<strong class="text-pink-400">≥80/周</strong></span>
-            </div>
-        </div>
-
-        <!-- 阿密方案 -->
-        <div class="card p-5 account-card-c">
-            <div class="flex items-center gap-3 mb-3">
-                <span class="text-xl">🔐</span>
-                <h4 class="font-bold text-white text-base !mt-0 !mb-0">阿密说游戏 → 存量优化</h4>
-                <span class="ml-auto px-2 py-0.5 rounded text-xs font-bold priority-p2">P2</span>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2">
-                <div class="flex items-start gap-2 text-sm"><span class="text-orange-400 mt-0.5">▸</span><span>解决标题党问题（<strong>内容配得上标题</strong>）</span></div>
-                <div class="flex items-start gap-2 text-sm"><span class="text-orange-400 mt-0.5">▸</span><span>加码洛克王国赛道至50%</span></div>
-                <div class="flex items-start gap-2 text-sm"><span class="text-orange-400 mt-0.5">▸</span><span>强化干货盘点类（利用高收藏优势）</span></div>
-                <div class="flex items-start gap-2 text-sm"><span class="text-orange-400 mt-0.5">▸</span><span>每条视频加入1个实用信息点</span></div>
-            </div>
-            <div class="mt-3 pt-3 border-t border-slate-700/50 flex flex-wrap gap-4 text-xs text-slate-400">
-                <span>预期30天：<strong class="text-orange-400">均播2000+</strong></span>
-                <span>完播率：<strong class="text-orange-400">≥7%</strong></span>
-                <span>2s跳出：<strong class="text-orange-400">≤43%</strong></span>
-            </div>
-        </div>
-
-        <!-- 哈吉米方案 -->
-        <div class="card p-5 account-card-d">
-            <div class="flex items-center gap-3 mb-3">
-                <span class="text-xl">❌</span>
-                <h4 class="font-bold text-white text-base !mt-0 !mb-0">哈吉米说游戏 → 基础整改</h4>
-                <span class="ml-auto px-2 py-0.5 rounded text-xs font-bold priority-p3">P3</span>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2">
-                <div class="flex items-start gap-2 text-sm"><span class="text-red-400 mt-0.5">▸</span><span><strong>封面体系完全重建</strong>（对标鱿鱼模板）</span></div>
-                <div class="flex items-start gap-2 text-sm"><span class="text-red-400 mt-0.5">▸</span><span>前3秒钩子强制评审制</span></div>
-                <div class="flex items-start gap-2 text-sm"><span class="text-red-400 mt-0.5">▸</span><span>砍掉纯电竞资讯（保留电竞+娱乐混合）</span></div>
-                <div class="flex items-start gap-2 text-sm"><span class="text-red-400 mt-0.5">▸</span><span>降低产量至 <strong>7-8部/周</strong> 保质量</span></div>
-            </div>
-            <div class="mt-3 pt-3 border-t border-slate-700/50 flex flex-wrap gap-4 text-xs text-slate-400">
-                <span>预期30天：<strong class="text-red-400">均播900+</strong></span>
-                <span>2s跳出：<strong class="text-red-400">≤48%</strong></span>
-                <span>不再出现 &lt;200播放的视频</span>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-</div>
-
 <div id="panel-monetize" class="account-panel">
 
     <!-- 公式说明 -->
@@ -1024,6 +388,8 @@ body {
     <div class="section">
         <div class="section-title"><span class="icon">📈</span> 盈利预测 · 三档场景</div>
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:16px;">
+
+            <!-- 现阶段 -->
             <div class="summary-card">
                 <div style="font-size:18px;font-weight:800;color:#f472b6;margin-bottom:20px;text-align:center;border-bottom:1px solid rgba(244,114,182,0.2);padding-bottom:12px;">📍 现阶段（5号×40条）</div>
                 <table style="width:100%;border-collapse:collapse;" class="video-table">
@@ -1035,6 +401,8 @@ body {
                     </tbody>
                 </table>
             </div>
+
+            <!-- 未来阶段 -->
             <div class="summary-card">
                 <div style="font-size:18px;font-weight:800;color:#22c55e;margin-bottom:20px;text-align:center;border-bottom:1px solid rgba(34,197,94,0.2);padding-bottom:12px;">🚀 未来阶段（10号×15条）</div>
                 <table style="width:100%;border-collapse:collapse;" class="video-table">
@@ -1061,6 +429,7 @@ body {
                     广告位翻倍 → 总毛利翻倍 → 净利翻3倍
                 </div>
             </div>
+
             <div class="analysis-card">
                 <div class="card-header"><div class="card-icon" style="background:rgba(234,179,8,0.15);">🛡️</div><div class="card-title">单号压力断崖式下降</div></div>
                 <div class="card-body">
@@ -1069,6 +438,7 @@ body {
                     新号冷启动期存活率大幅提升。前几个月接不到多少广告？几乎没有压力。
                 </div>
             </div>
+
             <div class="analysis-card">
                 <div class="card-header"><div class="card-icon" style="background:rgba(102,126,234,0.15);">🔄</div><div class="card-title">抗风险能力翻倍</div></div>
                 <div class="card-body">
@@ -1078,6 +448,7 @@ body {
                     某类内容违规/降权的影响直接减半。
                 </div>
             </div>
+
             <div class="analysis-card">
                 <div class="card-header"><div class="card-icon" style="background:rgba(244,114,182,0.15);">✨</div><div class="card-title">单条精品化空间</div></div>
                 <div class="card-body">
@@ -1104,6 +475,7 @@ body {
                     <li>标准月净利约 <strong>5.3万元</strong></li>
                 </ul>
             </div>
+
             <div class="strategy-phase">
                 <div class="phase-header">
                     <span class="phase-tag" style="background:rgba(34,197,94,0.2);color:#22c55e;">Phase 1</span>
@@ -1115,6 +487,7 @@ body {
                     <li>老号继续40条/月，新号开始养号</li>
                 </ul>
             </div>
+
             <div class="strategy-phase">
                 <div class="phase-header">
                     <span class="phase-tag" style="background:rgba(234,179,8,0.2);color:#eab308;">Phase 2</span>
@@ -1127,6 +500,7 @@ body {
                     <li>验证新号跑通，调整人员分工为1人2号</li>
                 </ul>
             </div>
+
             <div class="strategy-phase">
                 <div class="phase-header">
                     <span class="phase-tag" style="background:rgba(244,114,182,0.2);color:#f472b6;">Phase 3</span>
@@ -1138,6 +512,7 @@ body {
                     <li>达到标准盈利预期 <strong style="color:#22c55e;">~15.5万/月</strong></li>
                 </ul>
             </div>
+
             <div class="strategy-phase">
                 <div class="phase-header">
                     <span class="phase-tag" style="background:rgba(239,68,68,0.2);color:#ef4444;">Phase 4</span>
@@ -1190,11 +565,11 @@ body {
     
 <div class="overview-grid">
     <div class="overview-stat"><div class="ov-value">5</div><div class="ov-label">矩阵账号</div></div>
-    <div class="overview-stat"><div class="ov-value">190</div><div class="ov-label">发布视频数</div></div>
-    <div class="overview-stat"><div class="ov-value">50.8万</div><div class="ov-label">总播放量</div></div>
-    <div class="overview-stat"><div class="ov-value">2673</div><div class="ov-label">条均播放量</div></div>
+    <div class="overview-stat"><div class="ov-value">195</div><div class="ov-label">发布视频数</div></div>
+    <div class="overview-stat"><div class="ov-value">51.9万</div><div class="ov-label">总播放量</div></div>
+    <div class="overview-stat"><div class="ov-value">2660</div><div class="ov-label">条均播放量</div></div>
     <div class="overview-stat"><div class="ov-value" style="color:#ef4444;">98%</div><div class="ov-label">距15万目标差距</div></div>
-    <div class="overview-stat"><div class="ov-value">110</div><div class="ov-label">总粉丝增量</div></div>
+    <div class="overview-stat"><div class="ov-value">112</div><div class="ov-label">总粉丝增量</div></div>
 </div>
 </div>
 
@@ -1213,12 +588,12 @@ body {
             <span class="brief-fans">15.1万粉</span>
         </div>
         <div class="brief-stats">
-            <div class="bs-item"><div class="bs-val">38.2万</div><div class="bs-label">总播放</div></div>
-            <div class="bs-item"><div class="bs-val" style="color:#ef4444">7080</div><div class="bs-label">条均播放</div></div>
-            <div class="bs-item"><div class="bs-val">54</div><div class="bs-label">发布数</div></div>
+            <div class="bs-item"><div class="bs-val">38.6万</div><div class="bs-label">总播放</div></div>
+            <div class="bs-item"><div class="bs-val" style="color:#ef4444">7018</div><div class="bs-label">条均播放</div></div>
+            <div class="bs-item"><div class="bs-val">55</div><div class="bs-label">发布数</div></div>
         </div>
         <div class="brief-bar"><div class="brief-bar-fill" style="width:5%;background:#ef4444;"></div></div>
-        <div class="brief-top">🎯 目标进度 5% · 最高：<strong>18.5万</strong></div>
+        <div class="brief-top">🎯 目标进度 5% · 最高：<strong>18.6万</strong></div>
         <div class="brief-top">🔥 最佳：「太讷了，OWL的职业战队居然使用这种战术？！」</div>
     </div>
     <div class="brief-card">
@@ -1228,13 +603,13 @@ body {
             <span class="brief-fans">10.5万粉</span>
         </div>
         <div class="brief-stats">
-            <div class="bs-item"><div class="bs-val">5.5万</div><div class="bs-label">总播放</div></div>
-            <div class="bs-item"><div class="bs-val" style="color:#ef4444">1029</div><div class="bs-label">条均播放</div></div>
-            <div class="bs-item"><div class="bs-val">53</div><div class="bs-label">发布数</div></div>
+            <div class="bs-item"><div class="bs-val">5.7万</div><div class="bs-label">总播放</div></div>
+            <div class="bs-item"><div class="bs-val" style="color:#ef4444">1052</div><div class="bs-label">条均播放</div></div>
+            <div class="bs-item"><div class="bs-val">54</div><div class="bs-label">发布数</div></div>
         </div>
         <div class="brief-bar"><div class="brief-bar-fill" style="width:1%;background:#ef4444;"></div></div>
-        <div class="brief-top">🎯 目标进度 1% · 最高：<strong>3354</strong></div>
-        <div class="brief-top">🔥 最佳：「简直阴到没边，阴间梗的由来原来是这样」</div>
+        <div class="brief-top">🎯 目标进度 1% · 最高：<strong>4620</strong></div>
+        <div class="brief-top">🔥 最佳：「职业选手左右不定，房管误上断头台」</div>
     </div>
     <div class="brief-card">
         <div class="brief-header">
@@ -1243,12 +618,12 @@ body {
             <span class="brief-fans">12.4万粉</span>
         </div>
         <div class="brief-stats">
-            <div class="bs-item"><div class="bs-val">2.4万</div><div class="bs-label">总播放</div></div>
-            <div class="bs-item"><div class="bs-val" style="color:#ef4444">831</div><div class="bs-label">条均播放</div></div>
-            <div class="bs-item"><div class="bs-val">29</div><div class="bs-label">发布数</div></div>
+            <div class="bs-item"><div class="bs-val">2.5万</div><div class="bs-label">总播放</div></div>
+            <div class="bs-item"><div class="bs-val" style="color:#ef4444">850</div><div class="bs-label">条均播放</div></div>
+            <div class="bs-item"><div class="bs-val">30</div><div class="bs-label">发布数</div></div>
         </div>
         <div class="brief-bar"><div class="brief-bar-fill" style="width:1%;background:#ef4444;"></div></div>
-        <div class="brief-top">🎯 目标进度 1% · 最高：<strong>2089</strong></div>
+        <div class="brief-top">🎯 目标进度 1% · 最高：<strong>2125</strong></div>
         <div class="brief-top">🔥 最佳：「洛克王国精灵竟和大博主撞脸？！」</div>
     </div>
     <div class="brief-card">
@@ -1258,12 +633,12 @@ body {
             <span class="brief-fans">14.0万粉</span>
         </div>
         <div class="brief-stats">
-            <div class="bs-item"><div class="bs-val">2.1万</div><div class="bs-label">总播放</div></div>
-            <div class="bs-item"><div class="bs-val" style="color:#ef4444">530</div><div class="bs-label">条均播放</div></div>
-            <div class="bs-item"><div class="bs-val">40</div><div class="bs-label">发布数</div></div>
+            <div class="bs-item"><div class="bs-val">2.2万</div><div class="bs-label">总播放</div></div>
+            <div class="bs-item"><div class="bs-val" style="color:#ef4444">541</div><div class="bs-label">条均播放</div></div>
+            <div class="bs-item"><div class="bs-val">41</div><div class="bs-label">发布数</div></div>
         </div>
         <div class="brief-bar"><div class="brief-bar-fill" style="width:0%;background:#ef4444;"></div></div>
-        <div class="brief-top">🎯 目标进度 0% · 最高：<strong>6451</strong></div>
+        <div class="brief-top">🎯 目标进度 0% · 最高：<strong>6459</strong></div>
         <div class="brief-top">🔥 最佳：「今年真的有希望了！BLG 横扫先锋赛夺冠！」</div>
     </div>
     <div class="brief-card">
@@ -1273,12 +648,12 @@ body {
             <span class="brief-fans">13.1万粉</span>
         </div>
         <div class="brief-stats">
-            <div class="bs-item"><div class="bs-val">2.6万</div><div class="bs-label">总播放</div></div>
-            <div class="bs-item"><div class="bs-val" style="color:#ef4444">1836</div><div class="bs-label">条均播放</div></div>
-            <div class="bs-item"><div class="bs-val">14</div><div class="bs-label">发布数</div></div>
+            <div class="bs-item"><div class="bs-val">2.8万</div><div class="bs-label">总播放</div></div>
+            <div class="bs-item"><div class="bs-val" style="color:#ef4444">1883</div><div class="bs-label">条均播放</div></div>
+            <div class="bs-item"><div class="bs-val">15</div><div class="bs-label">发布数</div></div>
         </div>
         <div class="brief-bar"><div class="brief-bar-fill" style="width:1%;background:#ef4444;"></div></div>
-        <div class="brief-top">🎯 目标进度 1% · 最高：<strong>6527</strong></div>
+        <div class="brief-top">🎯 目标进度 1% · 最高：<strong>6560</strong></div>
         <div class="brief-top">🔥 最佳：「论整活还得看洛克王国玩家！」</div>
     </div></div>
 </div>
@@ -1292,36 +667,36 @@ body {
         <tbody><tr>
             <td>🐙 鱿鱼说游</td>
             <td>15.1万</td>
-            <td>54</td>
-            <td class="gap-current">7080</td>
+            <td>55</td>
+            <td class="gap-current">7018</td>
             <td class="gap-target">15万</td>
             <td class="gap-ratio" style="color:#ef4444">5%</td>
         </tr><tr>
             <td>🐴 牛马说游戏</td>
             <td>10.5万</td>
-            <td>53</td>
-            <td class="gap-current">1029</td>
+            <td>54</td>
+            <td class="gap-current">1052</td>
             <td class="gap-target">15万</td>
             <td class="gap-ratio" style="color:#ef4444">1%</td>
         </tr><tr>
             <td>🔐 阿密说游戏</td>
             <td>12.4万</td>
-            <td>29</td>
-            <td class="gap-current">831</td>
+            <td>30</td>
+            <td class="gap-current">850</td>
             <td class="gap-target">15万</td>
             <td class="gap-ratio" style="color:#ef4444">1%</td>
         </tr><tr>
             <td>🐱 哈吉米说游戏</td>
             <td>14.0万</td>
-            <td>40</td>
-            <td class="gap-current">530</td>
+            <td>41</td>
+            <td class="gap-current">541</td>
             <td class="gap-target">15万</td>
             <td class="gap-ratio" style="color:#ef4444">0%</td>
         </tr><tr>
             <td>🎮 有料玩家</td>
             <td>13.1万</td>
-            <td>14</td>
-            <td class="gap-current">1836</td>
+            <td>15</td>
+            <td class="gap-current">1883</td>
             <td class="gap-target">15万</td>
             <td class="gap-ratio" style="color:#ef4444">1%</td>
         </tr></tbody>
@@ -1333,7 +708,7 @@ body {
 <div class="section">
     <div class="section-title"><span class="icon">🎯</span> 条均播放15万 · 投放优化计划</div>
     <div class="summary-card"><div class="card-body" style="margin-bottom:24px;">
-        当前矩阵条均播放 <strong style="color:#ef4444;">2673</strong>，目标 <strong style="color:#22c55e;">15万</strong>，差距 <strong>98%</strong>。<br>
+        当前矩阵条均播放 <strong style="color:#ef4444;">2660</strong>，目标 <strong style="color:#22c55e;">15万</strong>，差距 <strong>98%</strong>。<br>
         达成路径不是靠运气爆一条，而是<strong>系统性提升每条视频的初始推荐量</strong>。核心逻辑：抖音算法先给200-500播放测试，根据完播率、互动率决定是否推入下一级流量池。我们的目标是让每条视频都能通过第一轮测试，进入万级流量池。
     </div></div>
 
@@ -1553,11 +928,11 @@ body {
 <div class="account-card">
     <div class="name"><span>🐙 鱿鱼说游</span></div>
     <div class="douyin-id">抖音号：520panchun</div>
-    <div class="extra-info">IP属地：广东 · 分析周期：2026-03-18 — 2026-04-15 · 本周期发布54条视频</div>
+    <div class="extra-info">IP属地：广东 · 分析周期：2026-03-18 — 2026-04-16 · 本周期发布55条视频</div>
     <div class="stat-item"><div class="value">15.1万</div><div class="label">粉丝数</div></div>
-    <div class="stat-item"><div class="value">38.2万</div><div class="label">总播放量</div></div>
-    <div class="stat-item"><div class="value">7080</div><div class="label">平均播放</div></div>
-    <div class="stat-item"><div class="value">18.5万</div><div class="label">最高播放</div></div>
+    <div class="stat-item"><div class="value">38.6万</div><div class="label">总播放量</div></div>
+    <div class="stat-item"><div class="value">7018</div><div class="label">平均播放</div></div>
+    <div class="stat-item"><div class="value">18.6万</div><div class="label">最高播放</div></div>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">📈</span> 播放量趋势</div>
@@ -1568,15 +943,21 @@ body {
     <table class="video-table">
         <thead><tr><th>视频标题</th><th>涉及内容</th><th>播放量</th><th>互动数据</th></tr></thead>
         <tbody><tr>
+            <td class="title">一张白纸拼出全球20强！第五人格选手Pit用实力证明自己</td>
+            <td class="tags"><span>第五人格</span><span>第五人格赛事</span><span>第五人格深渊</span></td>
+            <td class="likes low">1645</td>
+            <td class="engagement">👍53 💬4 🔄6 ⭐1</td>
+        </tr>
+<tr>
             <td class="title">联机开黑新神作！躲抽屉聚众抽烟，被房主一脚踩截肢</td>
             <td class="tags"><span>steam游戏</span><span>steam喜加一</span><span>免费游戏</span><span>steam</span></td>
-            <td class="likes mid">9476</td>
-            <td class="engagement">👍99 💬1 🔄138 ⭐14</td>
+            <td class="likes high">1.1万</td>
+            <td class="engagement">👍106 💬1 🔄149 ⭐15</td>
         </tr>
 <tr>
             <td class="title">头像投票事件引爆第五人格！</td>
             <td class="tags"><span>第五人格</span><span>第五人格八周年</span><span>第五人格桃晚安</span></td>
-            <td class="likes low">44</td>
+            <td class="likes low">47</td>
             <td class="engagement">👍3 💬0 🔄0 ⭐3</td>
         </tr>
 <tr>
@@ -1588,49 +969,49 @@ body {
 <tr>
             <td class="title">简直夯爆了！到底是哪些神人想的这些游戏彩蛋</td>
             <td class="tags"><span>逆战未来</span><span>荒野大镖客2</span><span>杀戮塔尖</span></td>
-            <td class="likes low">1725</td>
+            <td class="likes low">1730</td>
             <td class="engagement">👍42 💬0 🔄1 ⭐3</td>
         </tr>
 <tr>
             <td class="title">三角洲迎来一位强敌？纳克园能否与之一战</td>
             <td class="tags"><span>纳克园最后的乐园</span><span>纳克园</span><span>三角洲行动</span></td>
-            <td class="likes low">378</td>
+            <td class="likes low">382</td>
             <td class="engagement">👍6 💬0 🔄3 ⭐0</td>
         </tr>
 <tr>
             <td class="title">史上最勇玩家单挑南山必胜客</td>
             <td class="tags"><span>南山必胜客</span><span>王者荣耀匹配机制</span><span>王者荣耀</span></td>
-            <td class="likes low">769</td>
+            <td class="likes low">773</td>
             <td class="engagement">👍22 💬0 🔄5 ⭐2</td>
         </tr>
 <tr>
             <td class="title">盘点那些多年过去仍然屹立不倒的老游戏</td>
             <td class="tags"><span>梦幻西游</span><span>剑网三</span><span>英雄联盟</span></td>
-            <td class="likes low">79</td>
+            <td class="likes low">80</td>
             <td class="engagement">👍2 💬2 🔄0 ⭐0</td>
         </tr>
 <tr>
             <td class="title">五年磨一剑，王者荣耀世界上线现状如何？</td>
             <td class="tags"><span>王者荣耀世界</span><span>王者荣耀</span><span>王者世界</span></td>
-            <td class="likes low">54</td>
+            <td class="likes low">58</td>
             <td class="engagement">👍1 💬0 🔄0 ⭐0</td>
         </tr>
 <tr>
             <td class="title">洛克王国精灵撞脸大赏</td>
             <td class="tags"><span>洛克王国世界</span><span>创出洛克王国世界</span><span>洛克创作激励计划</span></td>
-            <td class="likes mid">4684</td>
-            <td class="engagement">👍67 💬8 🔄29 ⭐3</td>
+            <td class="likes mid">4771</td>
+            <td class="engagement">👍68 💬8 🔄29 ⭐3</td>
         </tr>
 <tr>
             <td class="title">从甜妹到 BOSS！逆战新角色悦，身世直接封神！</td>
             <td class="tags"><span>逆战未来</span><span>逆战未来s2</span><span>逆战s2</span></td>
-            <td class="likes low">941</td>
+            <td class="likes low">979</td>
             <td class="engagement">👍6 💬1 🔄1 ⭐1</td>
         </tr>
 <tr>
             <td class="title">庆祝夺冠竟被判负？宝可梦 GO 这判罚也太离谱了</td>
             <td class="tags"><span>宝可梦</span><span>宝可梦go</span><span>Firestar</span></td>
-            <td class="likes low">683</td>
+            <td class="likes low">685</td>
             <td class="engagement">👍15 💬1 🔄1 ⭐0</td>
         </tr>
 <tr>
@@ -1642,7 +1023,7 @@ body {
 <tr>
             <td class="title">岩系专辅降临！莉奈娅大招回血近两万!</td>
             <td class="tags"><span>原神</span><span>莉奈娅</span><span>原神创作者激励计划</span></td>
-            <td class="likes low">310</td>
+            <td class="likes low">315</td>
             <td class="engagement">👍14 💬0 🔄0 ⭐0</td>
         </tr>
 <tr>
@@ -1654,25 +1035,25 @@ body {
 <tr>
             <td class="title">纳克园口碑两极分化：潜力拉满还是高开低走？玩家说出真相</td>
             <td class="tags"><span>纳克园最后的乐园</span><span>游戏</span><span>三角洲</span></td>
-            <td class="likes low">225</td>
+            <td class="likes low">227</td>
             <td class="engagement">👍2 💬0 🔄0 ⭐0</td>
         </tr>
 <tr>
             <td class="title">一句 “相信我”，我记了BT-7274好多年</td>
             <td class="tags"><span>泰坦陨落2</span><span>感人瞬间</span><span>游戏npc</span></td>
-            <td class="likes low">1409</td>
+            <td class="likes low">1414</td>
             <td class="engagement">👍34 💬1 🔄3 ⭐8</td>
         </tr>
 <tr>
             <td class="title">被洛克玩家的另类玩法惊到了，不卷强度，只图自己开心</td>
             <td class="tags"><span>洛克王国世界</span><span>洛克创作激励计划</span><span>游戏</span></td>
-            <td class="likes mid">6492</td>
+            <td class="likes mid">6493</td>
             <td class="engagement">👍102 💬1 🔄14 ⭐3</td>
         </tr>
 <tr>
             <td class="title">原神新角色莉奈娅，颜值与实力双在线，太好磕</td>
             <td class="tags"><span>原神</span><span>莉奈娅</span><span>米哈游</span></td>
-            <td class="likes low">2206</td>
+            <td class="likes low">2207</td>
             <td class="engagement">👍92 💬0 🔄0 ⭐5</td>
         </tr>
 <tr>
@@ -1684,13 +1065,13 @@ body {
 <tr>
             <td class="title">蓝色星原旅谣今日新 PV，星宠萌化，种田党直接冲</td>
             <td class="tags"><span>蓝色星原旅谣</span><span>二次元</span><span>游戏</span></td>
-            <td class="likes low">188</td>
+            <td class="likes low">189</td>
             <td class="engagement">👍4 💬0 🔄0 ⭐0</td>
         </tr>
 <tr>
             <td class="title">等了3年！移动端狩猎天花板真的要来了？</td>
             <td class="tags"><span>怪物猎人旅人</span><span>怪物猎人</span><span>怪物猎人手游</span></td>
-            <td class="likes low">475</td>
+            <td class="likes low">477</td>
             <td class="engagement">👍12 💬0 🔄7 ⭐0</td>
         </tr>
 <tr>
@@ -1720,7 +1101,7 @@ body {
 <tr>
             <td class="title">时间循环 + 开放世界！归环这新 PV 直接封神</td>
             <td class="tags"><span>归环</span><span>归环一周目测试</span><span>游戏</span></td>
-            <td class="likes low">1542</td>
+            <td class="likes low">1543</td>
             <td class="engagement">👍22 💬6 🔄4 ⭐2</td>
         </tr>
 <tr>
@@ -1739,7 +1120,7 @@ body {
             <td class="title">魔性解压！谁能拒绝一只会搞事的捣蛋蛙</td>
             <td class="tags"><span>捣蛋蛙</span><span>双人游戏</span><span>情侣游戏</span></td>
             <td class="likes high">1.1万</td>
-            <td class="engagement">👍11 💬0 🔄4 ⭐6</td>
+            <td class="engagement">👍12 💬0 🔄4 ⭐6</td>
         </tr>
 <tr>
             <td class="title">从网页到 Steam！《Lurkers》免费上线</td>
@@ -1804,13 +1185,13 @@ body {
 <tr>
             <td class="title">日更游戏BUG？！这位火影玩家也太励志吧！</td>
             <td class="tags"><span>火影忍者</span><span>火影忍者手游</span><span>bug</span></td>
-            <td class="likes mid">3375</td>
+            <td class="likes mid">3376</td>
             <td class="engagement">👍40 💬9 🔄8 ⭐5</td>
         </tr>
 <tr>
             <td class="title">王者荣耀比赛事故！最惨赞助商原来是它！！</td>
             <td class="tags"><span>王者</span><span>kpl</span><span>游戏</span></td>
-            <td class="likes mid">5194</td>
+            <td class="likes mid">5197</td>
             <td class="engagement">👍100 💬1 🔄2 ⭐5</td>
         </tr>
 <tr>
@@ -1823,7 +1204,7 @@ body {
             <td class="title">神人主角之亨利的诡辩！这游戏还是太抽象了</td>
             <td class="tags"><span>天国拯救2</span><span>亨利</span><span>游戏</span></td>
             <td class="likes high">4.3万</td>
-            <td class="engagement">👍607 💬72 🔄223 ⭐44</td>
+            <td class="engagement">👍608 💬72 🔄223 ⭐44</td>
         </tr>
 <tr>
             <td class="title">CF比赛大狙实力一串三！不过串了两个是队友。。</td>
@@ -1840,25 +1221,25 @@ body {
 <tr>
             <td class="title">太讷了，OWL的职业战队居然使用这种战术？！</td>
             <td class="tags"><span>守望先锋</span><span>OW</span><span>游戏</span></td>
-            <td class="likes high">18.5万</td>
-            <td class="engagement">👍1415 💬122 🔄416 ⭐39</td>
+            <td class="likes high">18.6万</td>
+            <td class="engagement">👍1420 💬122 🔄417 ⭐39</td>
         </tr>
 <tr>
             <td class="title">还有这种事？这导播是懂观众们爱看什么的~</td>
             <td class="tags"><span>街头霸王</span><span>游戏</span><span>抽象</span></td>
             <td class="likes high">1.3万</td>
-            <td class="engagement">👍142 💬0 🔄23 ⭐9</td>
+            <td class="engagement">👍143 💬0 🔄23 ⭐9</td>
         </tr>
 <tr>
             <td class="title">不是哥们？！迷你世界还搞了个枪战职业比赛？？</td>
             <td class="tags"><span>迷你世界</span><span>游戏</span><span>抽象</span></td>
-            <td class="likes mid">6378</td>
+            <td class="likes mid">6435</td>
             <td class="engagement">👍44 💬12 🔄4 ⭐24</td>
         </tr>
 <tr>
             <td class="title">年年不一样，年年都一样，盘点LOL大赛里的软脚虾</td>
             <td class="tags"><span>软脚虾</span><span>lol</span><span>英雄联盟职业联赛</span></td>
-            <td class="likes mid">5322</td>
+            <td class="likes mid">5324</td>
             <td class="engagement">👍34 💬2 🔄2 ⭐4</td>
         </tr>
 <tr>
@@ -1870,7 +1251,7 @@ body {
 <tr>
             <td class="title">小时候的回忆！这可是承载着00后的童年青春呀！</td>
             <td class="tags"><span>洛克王国世界3月26日上线</span><span>洛克王国手游</span><span>洛克王国世界</span></td>
-            <td class="likes low">80</td>
+            <td class="likes low">0</td>
             <td class="engagement">👍2 💬0 🔄0 ⭐1</td>
         </tr>
 <tr>
@@ -1913,25 +1294,25 @@ body {
     <div class="section-title"><span class="icon">🔍</span> 深度分析</div>
     <div class="analysis-grid"><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">🔥</div><div class="card-title">最佳表现视频</div></div>
-        <div class="card-body">「太讷了，OWL的职业战队居然使用这种战术？！」获得 <strong>18.5万</strong> 播放，点赞 <strong>1415</strong>，评论 <strong>122</strong>，分享 <strong>416</strong>。完播率 <strong>43.1%</strong>，是本周期表现最好的内容。</div>
+        <div class="card-body">「太讷了，OWL的职业战队居然使用这种战术？！」获得 <strong>18.6万</strong> 播放，点赞 <strong>1420</strong>，评论 <strong>122</strong>，分享 <strong>417</strong>。完播率 <strong>43.1%</strong>，是本周期表现最好的内容。</div>
         <div class="highlight good">💡 分析这条视频的成功要素（选题、标题、发布时间），在后续内容中复制。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(239,68,68,0.15);">📉</div><div class="card-title">最差表现视频</div></div>
-        <div class="card-body">「头像投票事件引爆第五人格！」仅获得 <strong>44</strong> 播放，2s跳出率 <strong>63.0%</strong>。需要分析是否为选题冷门、标题不吸引人或发布时间不当。</div>
+        <div class="card-body">「小时候的回忆！这可是承载着00后的童年青春呀！」仅获得 <strong>0</strong> 播放，2s跳出率 <strong>52.9%</strong>。需要分析是否为选题冷门、标题不吸引人或发布时间不当。</div>
         <div class="highlight bad">🔴 低播放意味着内容未能进入推荐池，需复盘原因。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(167,139,250,0.15);">📊</div><div class="card-title">完播率分析 · 一般</div></div>
-        <div class="card-body">平均完播率 <strong>12.0%</strong>，偏低。5s留存 <strong>12.0%</strong>，2s跳出率 <strong>36.5%</strong>。前几秒能留住约一半观众，但后续内容可能导致大量流失。建议优化视频节奏和叙事结构。</div>
+        <div class="card-body">平均完播率 <strong>12.1%</strong>，偏低。5s留存 <strong>12.1%</strong>，2s跳出率 <strong>36.4%</strong>。前几秒能留住约一半观众，但后续内容可能导致大量流失。建议优化视频节奏和叙事结构。</div>
         <div class="highlight warn">⚠️ 完播率是算法推荐的核心指标，直接影响后续流量分配。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">💬</div><div class="card-title">互动数据</div></div>
-        <div class="card-body">本周期共 <strong>54</strong> 条视频，总播放 <strong>38.2万</strong>。<br>
-        点赞率 <strong>1.10%</strong> · 评论率 <strong>0.07%</strong> · 分享率 <strong>0.27%</strong> · 收藏率 <strong>0.08%</strong><br>
+        <div class="card-body">本周期共 <strong>55</strong> 条视频，总播放 <strong>38.6万</strong>。<br>
+        点赞率 <strong>1.11%</strong> · 评论率 <strong>0.07%</strong> · 分享率 <strong>0.27%</strong> · 收藏率 <strong>0.08%</strong><br>
         粉丝增量：<strong>62</strong></div>
         <div class="highlight good">💡 点赞和评论是核心互动指标，分享和收藏是扩散指标。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(234,179,8,0.15);">🎯</div><div class="card-title">内容品类分布</div></div>
-        <div class="card-body">高频话题：游戏(19)、洛克王国世界(6)、洛克创作激励计划(5)、新游推荐(5)、steam游戏(4)。覆盖 <strong>111</strong> 个不同话题标签。<br>
+        <div class="card-body">高频话题：游戏(19)、洛克王国世界(6)、洛克创作激励计划(5)、新游推荐(5)、steam游戏(4)。覆盖 <strong>113</strong> 个不同话题标签。<br>
         建议聚焦<strong>3-5个核心品类</strong>，避免品类过于分散导致账号标签模糊。</div>
         <div class="highlight warn">⚠️ 品类过多会稀释账号标签，影响算法对目标人群的精准推荐。</div>
     </div><div class="analysis-card">
@@ -1943,18 +1324,18 @@ body {
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">🚀</span> 优化建议</div>
-    <ul class="opt-list"><li><div class="priority p0">P0</div><div class="opt-content"><h3>🎯 优化前5秒开场钩子</h3><p>2s跳出率高达 <strong>36.5%</strong>，说明大量观众在前2秒就划走了。建议：①开场3秒内给出核心信息或悬念 ②使用情绪化的开场白 ③避免冗长的前奏和自我介绍。</p><div class="action">→ 每条视频准备至少2个开场方案，A/B测试选择跳出率最低的</div></div></li>
-<li><div class="priority p0">P0</div><div class="opt-content"><h3>💡 复制最佳视频的成功模式</h3><p>「太讷了，OWL的职业战队居然使用这种战术？！」获得 18.5万 播放，远超平均水平。分析这条视频的选题角度、标题措辞、发布时间和内容结构，提炼可复制的爆款公式。</p><div class="action">→ 本周复盘最佳视频的全部指标，总结成功要素</div></div></li>
-<li><div class="priority p1">P1</div><div class="opt-content"><h3>📌 聚焦核心品类</h3><p>当前覆盖 <strong>111</strong> 个不同话题，品类过于分散。建议聚焦3-5个核心游戏/IP，建立"想看XX就来这里"的用户心智。</p><div class="action">→ 每周选题控制在3个核心品类内</div></div></li>
+    <ul class="opt-list"><li><div class="priority p0">P0</div><div class="opt-content"><h3>🎯 优化前5秒开场钩子</h3><p>2s跳出率高达 <strong>36.4%</strong>，说明大量观众在前2秒就划走了。建议：①开场3秒内给出核心信息或悬念 ②使用情绪化的开场白 ③避免冗长的前奏和自我介绍。</p><div class="action">→ 每条视频准备至少2个开场方案，A/B测试选择跳出率最低的</div></div></li>
+<li><div class="priority p0">P0</div><div class="opt-content"><h3>💡 复制最佳视频的成功模式</h3><p>「太讷了，OWL的职业战队居然使用这种战术？！」获得 18.6万 播放，远超平均水平。分析这条视频的选题角度、标题措辞、发布时间和内容结构，提炼可复制的爆款公式。</p><div class="action">→ 本周复盘最佳视频的全部指标，总结成功要素</div></div></li>
+<li><div class="priority p1">P1</div><div class="opt-content"><h3>📌 聚焦核心品类</h3><p>当前覆盖 <strong>113</strong> 个不同话题，品类过于分散。建议聚焦3-5个核心游戏/IP，建立"想看XX就来这里"的用户心智。</p><div class="action">→ 每周选题控制在3个核心品类内</div></div></li>
 <li><div class="priority p2">P2</div><div class="opt-content"><h3>⏰ 发布时间优化</h3><p>建议固定在 <strong>12:00-13:00 或 20:00-22:00</strong> 发布，并连续2周测试记录数据。建立粉丝的观看预期。</p><div class="action">→ 固定发布时间，建立粉丝预期</div></div></li>
 </ul>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">📋</span> 总结</div>
     <div class="summary-card"><div class="card-body">
-        <strong style="color:#a78bfa;">鱿鱼说游</strong> 本周期共发布 <strong>54</strong> 条视频，总播放 <strong>38.2万</strong>，平均播放 <strong>7080</strong>。<br><br>
-        最佳表现：「太讷了，OWL的职业战队居然使用这种战术？！」— <strong style="color:#22c55e;">18.5万播放</strong><br>
-        平均完播率 <strong>12.0%</strong>，5s留存 <strong>12.0%</strong>，2s跳出率 <strong>36.5%</strong><br><br>
+        <strong style="color:#a78bfa;">鱿鱼说游</strong> 本周期共发布 <strong>55</strong> 条视频，总播放 <strong>38.6万</strong>，平均播放 <strong>7018</strong>。<br><br>
+        最佳表现：「太讷了，OWL的职业战队居然使用这种战术？！」— <strong style="color:#22c55e;">18.6万播放</strong><br>
+        平均完播率 <strong>12.1%</strong>，5s留存 <strong>12.1%</strong>，2s跳出率 <strong>36.4%</strong><br><br>
         <strong style="color:#22c55e;">核心方向：优化完播率 + 复制爆款模式 + 增强互动引导。</strong>
     </div></div>
 </div>
@@ -1965,11 +1346,11 @@ body {
 <div class="account-card">
     <div class="name"><span>🐴 牛马说游戏</span></div>
     <div class="douyin-id">抖音号：TikTokxy123</div>
-    <div class="extra-info">IP属地：广东 · 分析周期：2026-03-18 — 2026-04-15 · 本周期发布53条视频</div>
+    <div class="extra-info">IP属地：广东 · 分析周期：2026-03-18 — 2026-04-16 · 本周期发布54条视频</div>
     <div class="stat-item"><div class="value">10.5万</div><div class="label">粉丝数</div></div>
-    <div class="stat-item"><div class="value">5.5万</div><div class="label">总播放量</div></div>
-    <div class="stat-item"><div class="value">1029</div><div class="label">平均播放</div></div>
-    <div class="stat-item"><div class="value">3354</div><div class="label">最高播放</div></div>
+    <div class="stat-item"><div class="value">5.7万</div><div class="label">总播放量</div></div>
+    <div class="stat-item"><div class="value">1052</div><div class="label">平均播放</div></div>
+    <div class="stat-item"><div class="value">4620</div><div class="label">最高播放</div></div>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">📈</span> 播放量趋势</div>
@@ -1980,57 +1361,63 @@ body {
     <table class="video-table">
         <thead><tr><th>视频标题</th><th>涉及内容</th><th>播放量</th><th>互动数据</th></tr></thead>
         <tbody><tr>
+            <td class="title">靠热爱硬拼到20强！场均3.67分的背后，是无数日夜的坚持</td>
+            <td class="tags"><span>第五人格</span><span>第五人格赛事</span><span>第五人格深渊</span></td>
+            <td class="likes low">648</td>
+            <td class="engagement">👍20 💬0 🔄0 ⭐0</td>
+        </tr>
+<tr>
             <td class="title">画风魔性到离谱！6 人联机偷家，既能爽杀又能整活爆笑</td>
             <td class="tags"><span>steam</span><span>steam喜加一</span><span>多人游戏</span><span>免费游戏</span></td>
-            <td class="likes low">445</td>
-            <td class="engagement">👍4 💬0 🔄0 ⭐3</td>
+            <td class="likes low">525</td>
+            <td class="engagement">👍4 💬0 🔄0 ⭐2</td>
         </tr>
 <tr>
             <td class="title">职业选手左右不定，房管误上断头台</td>
             <td class="tags"><span>第五人格</span><span>第五人格八周年</span><span>第五人格桃晚安</span></td>
-            <td class="likes mid">3250</td>
-            <td class="engagement">👍52 💬0 🔄25 ⭐4</td>
+            <td class="likes mid">4620</td>
+            <td class="engagement">👍68 💬0 🔄40 ⭐4</td>
         </tr>
 <tr>
             <td class="title">洛克王国世界玩家脑洞再创新高！</td>
             <td class="tags"><span>洛克王国世界</span><span>洛克王国</span><span>洛克创作激励计划</span></td>
-            <td class="likes low">2944</td>
+            <td class="likes low">2955</td>
             <td class="engagement">👍43 💬2 🔄7 ⭐7</td>
         </tr>
 <tr>
             <td class="title">盘点那些出现在游戏里的离谱彩蛋</td>
             <td class="tags"><span>逆战未来</span><span>植物大战僵尸</span><span>消逝的光芒</span></td>
-            <td class="likes low">1279</td>
+            <td class="likes low">1305</td>
             <td class="engagement">👍9 💬2 🔄3 ⭐4</td>
         </tr>
 <tr>
             <td class="title">三角洲劲敌纳克园到底怎么样？</td>
             <td class="tags"><span>纳克园最后的乐园</span><span>纳克园</span><span>三角洲行动</span></td>
-            <td class="likes low">523</td>
+            <td class="likes low">531</td>
             <td class="engagement">👍1 💬0 🔄0 ⭐0</td>
         </tr>
 <tr>
             <td class="title">王者逆天排位机制终于迎来了它的宿敌</td>
             <td class="tags"><span>王者荣耀</span><span>王者</span><span>王者荣耀elo机制</span></td>
-            <td class="likes low">815</td>
+            <td class="likes low">822</td>
             <td class="engagement">👍1 💬0 🔄0 ⭐0</td>
         </tr>
 <tr>
             <td class="title">洛克王国和篮球圈联动了？</td>
             <td class="tags"><span>洛克王国手游</span><span>洛克王国世界</span><span>洛克创作激励计划</span></td>
-            <td class="likes low">1435</td>
+            <td class="likes low">1448</td>
             <td class="engagement">👍14 💬0 🔄1 ⭐2</td>
         </tr>
 <tr>
             <td class="title">粉毛甜妹的身世比樱之渊还悲凉！逆战 S2 新角色直接刀麻了！</td>
             <td class="tags"><span>逆战未来</span><span>逆战未来s2</span><span>逆战s2</span></td>
-            <td class="likes low">2270</td>
+            <td class="likes low">2292</td>
             <td class="engagement">👍23 💬3 🔄2 ⭐4</td>
         </tr>
 <tr>
             <td class="title">规则模糊引争议！宝可梦选手因庆祝动作被直接判负</td>
             <td class="tags"><span>宝可梦</span><span>宝可梦go</span><span>Firestar</span></td>
-            <td class="likes low">879</td>
+            <td class="likes low">881</td>
             <td class="engagement">👍8 💬0 🔄0 ⭐1</td>
         </tr>
 <tr>
@@ -2042,43 +1429,43 @@ body {
 <tr>
             <td class="title">炸裂！刃SP千冶·刃正式曝光，4.3版本最强期待值预定！</td>
             <td class="tags"><span>崩铁</span><span>崩坏星穹铁道</span><span>崩坏星穹铁道创作者激励计划</span></td>
-            <td class="likes low">728</td>
+            <td class="likes low">729</td>
             <td class="engagement">👍11 💬1 🔄1 ⭐0</td>
         </tr>
 <tr>
             <td class="title">岩队救星！莉奈娅0命即成型，减抗+回血盘活冷门体系</td>
             <td class="tags"><span>原神</span><span>莉奈娅</span><span>原神创作者激励计划</span></td>
-            <td class="likes low">712</td>
+            <td class="likes low">713</td>
             <td class="engagement">👍14 💬1 🔄0 ⭐1</td>
         </tr>
 <tr>
             <td class="title">两款腾讯大世界来了！一个主打战斗，一个偏向休闲，你更期待谁？</td>
             <td class="tags"><span>洛克王国世界</span><span>王者荣耀世界</span><span>洛克创作激励计划</span></td>
-            <td class="likes low">486</td>
+            <td class="likes low">488</td>
             <td class="engagement">👍2 💬1 🔄1 ⭐0</td>
         </tr>
 <tr>
             <td class="title">纳克园玩家评价：近战潜行是惊喜，优化卡顿是硬伤</td>
             <td class="tags"><span>纳克园最后的乐园</span><span>游戏</span><span>三角洲</span></td>
-            <td class="likes low">495</td>
+            <td class="likes low">497</td>
             <td class="engagement">👍5 💬0 🔄0 ⭐1</td>
         </tr>
 <tr>
             <td class="title">运营超十年还不凉，这些游戏到底凭什么？</td>
             <td class="tags"><span>老游戏</span><span>游戏</span><span>回忆</span></td>
-            <td class="likes low">525</td>
+            <td class="likes low">526</td>
             <td class="engagement">👍8 💬0 🔄0 ⭐1</td>
         </tr>
 <tr>
             <td class="title">洛克王国世界的另类玩家，把魔法世界玩成了自己的小天地</td>
             <td class="tags"><span>洛克王国世界</span><span>洛克创作激励计划</span><span>游戏</span></td>
-            <td class="likes low">844</td>
+            <td class="likes low">845</td>
             <td class="engagement">👍12 💬0 🔄0 ⭐0</td>
         </tr>
 <tr>
             <td class="title">原神新角色莉奈娅，不止是颜值，实力更能打</td>
             <td class="tags"><span>原神</span><span>莉奈娅</span><span>米哈游</span></td>
-            <td class="likes low">372</td>
+            <td class="likes low">373</td>
             <td class="engagement">👍4 💬0 🔄0 ⭐0</td>
         </tr>
 <tr>
@@ -2096,7 +1483,7 @@ body {
 <tr>
             <td class="title">埃索岛冒险开启！这次我们能当真正的『旅人』了！</td>
             <td class="tags"><span>怪物猎人旅人</span><span>怪物猎人</span><span>怪物猎人手游</span></td>
-            <td class="likes low">819</td>
+            <td class="likes low">820</td>
             <td class="engagement">👍4 💬0 🔄1 ⭐0</td>
         </tr>
 <tr>
@@ -2120,13 +1507,13 @@ body {
 <tr>
             <td class="title">大司马杯欢乐整活，Uzi 杯却深陷假赛，差距太大了！</td>
             <td class="tags"><span>大司马杯</span><span>uzi杯</span><span>游戏</span></td>
-            <td class="likes low">2116</td>
+            <td class="likes low">2117</td>
             <td class="engagement">👍11 💬2 🔄0 ⭐1</td>
         </tr>
 <tr>
             <td class="title">跃入时间之环，《归环》一周目测试 PV 启幕</td>
             <td class="tags"><span>归环</span><span>归环一周目测试</span><span>游戏</span></td>
-            <td class="likes low">302</td>
+            <td class="likes low">303</td>
             <td class="engagement">👍1 💬0 🔄0 ⭐1</td>
         </tr>
 <tr>
@@ -2144,7 +1531,7 @@ body {
 <tr>
             <td class="title">全网都在玩的捣蛋蛙到底有多魔性？</td>
             <td class="tags"><span>捣蛋蛙</span><span>双人游戏</span><span>情侣游戏</span></td>
-            <td class="likes low">2526</td>
+            <td class="likes low">2537</td>
             <td class="engagement">👍0 💬1 🔄2 ⭐0</td>
         </tr>
 <tr>
@@ -2210,7 +1597,7 @@ body {
 <tr>
             <td class="title">最“黑”的欧洲人来了，这爆率让职业选手都不敢相信！</td>
             <td class="tags"><span>lol</span><span>整活</span><span>英雄联盟</span></td>
-            <td class="likes low">2324</td>
+            <td class="likes low">2325</td>
             <td class="engagement">👍33 💬1 🔄0 ⭐0</td>
         </tr>
 <tr>
@@ -2240,13 +1627,13 @@ body {
 <tr>
             <td class="title">简直阴到没边，阴间梗的由来原来是这样</td>
             <td class="tags"><span>阴间</span><span>火影忍者手游</span><span>游戏</span></td>
-            <td class="likes mid">3354</td>
-            <td class="engagement">👍36 💬3 🔄24 ⭐6</td>
+            <td class="likes mid">3384</td>
+            <td class="engagement">👍36 💬3 🔄26 ⭐6</td>
         </tr>
 <tr>
             <td class="title">还有高手？植物大战僵尸里的植物居然还有操作怪？！</td>
             <td class="tags"><span>植物大战僵尸</span><span>抽象</span><span>游戏</span></td>
-            <td class="likes low">1918</td>
+            <td class="likes low">1919</td>
             <td class="engagement">👍35 💬2 🔄0 ⭐18</td>
         </tr>
 <tr>
@@ -2270,7 +1657,7 @@ body {
 <tr>
             <td class="title">还能这么用？腾讯会议ai复盘还是太超模了！</td>
             <td class="tags"><span>腾讯会议</span><span>游戏</span><span>抽象</span></td>
-            <td class="likes low">976</td>
+            <td class="likes low">977</td>
             <td class="engagement">👍6 💬1 🔄5 ⭐1</td>
         </tr>
 <tr>
@@ -2282,14 +1669,14 @@ body {
 <tr>
             <td class="title">顶级和事佬啊！14岁初中生竟实现了MC和迷你世界的联机！</td>
             <td class="tags"><span>我的世界</span><span>迷你世界</span><span>MC</span></td>
-            <td class="likes low">1582</td>
+            <td class="likes low">1583</td>
             <td class="engagement">👍12 💬1 🔄1 ⭐9</td>
         </tr>
 <tr>
             <td class="title">终于吃上细糠了！国内五款不同品类的5A级大作即将发布！</td>
             <td class="tags"><span>影之刃零</span><span>昭和米国物语</span><span>湮灭之潮</span></td>
-            <td class="likes low">474</td>
-            <td class="engagement">👍2 💬0 🔄0 ⭐4</td>
+            <td class="likes low">475</td>
+            <td class="engagement">👍3 💬0 🔄0 ⭐4</td>
         </tr>
 <tr>
             <td class="title">想起来了，都想起来了，我的青春回来了</td>
@@ -2311,7 +1698,7 @@ body {
         <div class="score-card"><div class="score-value score-green">100</div><div class="score-label">热点覆盖</div></div>
         <div class="score-card"><div class="score-value score-red">33</div><div class="score-label">完播表现</div></div>
         <div class="score-card"><div class="score-value score-red">18</div><div class="score-label">互动数据</div></div>
-        <div class="score-card"><div class="score-value score-red">24</div><div class="score-label">传播力</div></div>
+        <div class="score-card"><div class="score-value score-red">26</div><div class="score-label">传播力</div></div>
         <div class="score-card"><div class="score-value score-red">55</div><div class="score-label">综合</div></div>
     </div>
 </div>
@@ -2319,7 +1706,7 @@ body {
     <div class="section-title"><span class="icon">🔍</span> 深度分析</div>
     <div class="analysis-grid"><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">🔥</div><div class="card-title">最佳表现视频</div></div>
-        <div class="card-body">「简直阴到没边，阴间梗的由来原来是这样」获得 <strong>3354</strong> 播放，点赞 <strong>36</strong>，评论 <strong>3</strong>，分享 <strong>24</strong>。完播率 <strong>9.1%</strong>，是本周期表现最好的内容。</div>
+        <div class="card-body">「职业选手左右不定，房管误上断头台」获得 <strong>4620</strong> 播放，点赞 <strong>68</strong>，评论 <strong>0</strong>，分享 <strong>40</strong>。完播率 <strong>14.0%</strong>，是本周期表现最好的内容。</div>
         <div class="highlight good">💡 分析这条视频的成功要素（选题、标题、发布时间），在后续内容中复制。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(239,68,68,0.15);">📉</div><div class="card-title">最差表现视频</div></div>
@@ -2327,41 +1714,41 @@ body {
         <div class="highlight bad">🔴 低播放意味着内容未能进入推荐池，需复盘原因。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(167,139,250,0.15);">📊</div><div class="card-title">完播率分析 · 较差</div></div>
-        <div class="card-body">平均完播率 <strong>6.7%</strong>，严重偏低。5s留存 <strong>6.7%</strong>，2s跳出率 <strong>44.3%</strong>。观众在前几秒就大量流失，需要重点优化开场钩子和视频前5秒的内容吸引力。</div>
+        <div class="card-body">平均完播率 <strong>6.7%</strong>，严重偏低。5s留存 <strong>6.7%</strong>，2s跳出率 <strong>44.2%</strong>。观众在前几秒就大量流失，需要重点优化开场钩子和视频前5秒的内容吸引力。</div>
         <div class="highlight bad">🔴 完播率是算法推荐的核心指标，直接影响后续流量分配。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">💬</div><div class="card-title">互动数据</div></div>
-        <div class="card-body">本周期共 <strong>53</strong> 条视频，总播放 <strong>5.5万</strong>。<br>
-        点赞率 <strong>1.02%</strong> · 评论率 <strong>0.06%</strong> · 分享率 <strong>0.16%</strong> · 收藏率 <strong>0.20%</strong><br>
+        <div class="card-body">本周期共 <strong>54</strong> 条视频，总播放 <strong>5.7万</strong>。<br>
+        点赞率 <strong>1.04%</strong> · 评论率 <strong>0.06%</strong> · 分享率 <strong>0.19%</strong> · 收藏率 <strong>0.19%</strong><br>
         粉丝增量：<strong>36</strong></div>
         <div class="highlight good">💡 点赞和评论是核心互动指标，分享和收藏是扩散指标。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(234,179,8,0.15);">🎯</div><div class="card-title">内容品类分布</div></div>
-        <div class="card-body">高频话题：游戏(19)、洛克王国世界(6)、洛克创作激励计划(6)、新游推荐(5)、抽象(5)。覆盖 <strong>107</strong> 个不同话题标签。<br>
+        <div class="card-body">高频话题：游戏(19)、洛克王国世界(6)、洛克创作激励计划(6)、新游推荐(5)、抽象(5)。覆盖 <strong>109</strong> 个不同话题标签。<br>
         建议聚焦<strong>3-5个核心品类</strong>，避免品类过于分散导致账号标签模糊。</div>
         <div class="highlight warn">⚠️ 品类过多会稀释账号标签，影响算法对目标人群的精准推荐。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">⏱️</div><div class="card-title">播放时长分析</div></div>
-        <div class="card-body">平均播放时长 <strong>9.0秒</strong>。结合完播率来看，观众可能在10秒后就流失了。<br>
+        <div class="card-body">平均播放时长 <strong>8.9秒</strong>。结合完播率来看，观众可能在10秒后就流失了。<br>
         建议控制视频时长在<strong>30-90秒</strong>之间，前5秒必须有强力钩子。</div>
         <div class="highlight good">💡 短视频时代，前5秒决定60%的去留。</div>
     </div></div>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">🚀</span> 优化建议</div>
-    <ul class="opt-list"><li><div class="priority p0">P0</div><div class="opt-content"><h3>🎯 优化前5秒开场钩子</h3><p>2s跳出率高达 <strong>44.3%</strong>，说明大量观众在前2秒就划走了。建议：①开场3秒内给出核心信息或悬念 ②使用情绪化的开场白 ③避免冗长的前奏和自我介绍。</p><div class="action">→ 每条视频准备至少2个开场方案，A/B测试选择跳出率最低的</div></div></li>
+    <ul class="opt-list"><li><div class="priority p0">P0</div><div class="opt-content"><h3>🎯 优化前5秒开场钩子</h3><p>2s跳出率高达 <strong>44.2%</strong>，说明大量观众在前2秒就划走了。建议：①开场3秒内给出核心信息或悬念 ②使用情绪化的开场白 ③避免冗长的前奏和自我介绍。</p><div class="action">→ 每条视频准备至少2个开场方案，A/B测试选择跳出率最低的</div></div></li>
 <li><div class="priority p0">P0</div><div class="opt-content"><h3>📈 提升完播率</h3><p>平均完播率仅 <strong>6.7%</strong>，严重影响算法推荐。建议：①视频控制在60秒内 ②每15秒设置一个小高潮 ③结尾加入互动引导（"你怎么看？"）</p><div class="action">→ 目标完播率提升至15%以上</div></div></li>
-<li><div class="priority p0">P0</div><div class="opt-content"><h3>💡 复制最佳视频的成功模式</h3><p>「简直阴到没边，阴间梗的由来原来是这样」获得 3354 播放，远超平均水平。分析这条视频的选题角度、标题措辞、发布时间和内容结构，提炼可复制的爆款公式。</p><div class="action">→ 本周复盘最佳视频的全部指标，总结成功要素</div></div></li>
-<li><div class="priority p1">P1</div><div class="opt-content"><h3>📌 聚焦核心品类</h3><p>当前覆盖 <strong>107</strong> 个不同话题，品类过于分散。建议聚焦3-5个核心游戏/IP，建立"想看XX就来这里"的用户心智。</p><div class="action">→ 每周选题控制在3个核心品类内</div></div></li>
+<li><div class="priority p0">P0</div><div class="opt-content"><h3>💡 复制最佳视频的成功模式</h3><p>「职业选手左右不定，房管误上断头台」获得 4620 播放，远超平均水平。分析这条视频的选题角度、标题措辞、发布时间和内容结构，提炼可复制的爆款公式。</p><div class="action">→ 本周复盘最佳视频的全部指标，总结成功要素</div></div></li>
+<li><div class="priority p1">P1</div><div class="opt-content"><h3>📌 聚焦核心品类</h3><p>当前覆盖 <strong>109</strong> 个不同话题，品类过于分散。建议聚焦3-5个核心游戏/IP，建立"想看XX就来这里"的用户心智。</p><div class="action">→ 每周选题控制在3个核心品类内</div></div></li>
 <li><div class="priority p2">P2</div><div class="opt-content"><h3>⏰ 发布时间优化</h3><p>建议固定在 <strong>12:00-13:00 或 20:00-22:00</strong> 发布，并连续2周测试记录数据。建立粉丝的观看预期。</p><div class="action">→ 固定发布时间，建立粉丝预期</div></div></li>
 </ul>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">📋</span> 总结</div>
     <div class="summary-card"><div class="card-body">
-        <strong style="color:#a78bfa;">牛马说游戏</strong> 本周期共发布 <strong>53</strong> 条视频，总播放 <strong>5.5万</strong>，平均播放 <strong>1029</strong>。<br><br>
-        最佳表现：「简直阴到没边，阴间梗的由来原来是这样」— <strong style="color:#22c55e;">3354播放</strong><br>
-        平均完播率 <strong>6.7%</strong>，5s留存 <strong>6.7%</strong>，2s跳出率 <strong>44.3%</strong><br><br>
+        <strong style="color:#a78bfa;">牛马说游戏</strong> 本周期共发布 <strong>54</strong> 条视频，总播放 <strong>5.7万</strong>，平均播放 <strong>1052</strong>。<br><br>
+        最佳表现：「职业选手左右不定，房管误上断头台」— <strong style="color:#22c55e;">4620播放</strong><br>
+        平均完播率 <strong>6.7%</strong>，5s留存 <strong>6.7%</strong>，2s跳出率 <strong>44.2%</strong><br><br>
         <strong style="color:#22c55e;">核心方向：优化完播率 + 复制爆款模式 + 增强互动引导。</strong>
     </div></div>
 </div>
@@ -2372,11 +1759,11 @@ body {
 <div class="account-card">
     <div class="name"><span>🔐 阿密说游戏</span></div>
     <div class="douyin-id">抖音号：58501769370</div>
-    <div class="extra-info">IP属地：广东 · 分析周期：2026-03-30 — 2026-04-15 · 本周期发布29条视频</div>
+    <div class="extra-info">IP属地：广东 · 分析周期：2026-03-30 — 2026-04-16 · 本周期发布30条视频</div>
     <div class="stat-item"><div class="value">12.4万</div><div class="label">粉丝数</div></div>
-    <div class="stat-item"><div class="value">2.4万</div><div class="label">总播放量</div></div>
-    <div class="stat-item"><div class="value">831</div><div class="label">平均播放</div></div>
-    <div class="stat-item"><div class="value">2089</div><div class="label">最高播放</div></div>
+    <div class="stat-item"><div class="value">2.5万</div><div class="label">总播放量</div></div>
+    <div class="stat-item"><div class="value">850</div><div class="label">平均播放</div></div>
+    <div class="stat-item"><div class="value">2125</div><div class="label">最高播放</div></div>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">📈</span> 播放量趋势</div>
@@ -2387,147 +1774,153 @@ body {
     <table class="video-table">
         <thead><tr><th>视频标题</th><th>涉及内容</th><th>播放量</th><th>互动数据</th></tr></thead>
         <tbody><tr>
+            <td class="title">拒绝歧视！第五选手Pit用实力封嘴，这才是电竞精神！</td>
+            <td class="tags"><span>第五人格</span><span>第五人格深渊</span><span>omni</span><span>第五人格赛事</span></td>
+            <td class="likes low">893</td>
+            <td class="engagement">👍24 💬2 🔄0 ⭐2</td>
+        </tr>
+<tr>
             <td class="title">最抽象联机游戏！6 个小地精偷家，死法比整活还离谱</td>
             <td class="tags"><span>多人游戏</span><span>steam游戏</span><span>steam喜加一</span><span>免费游戏</span></td>
-            <td class="likes low">1207</td>
-            <td class="engagement">👍26 💬1 🔄4 ⭐12</td>
+            <td class="likes low">1397</td>
+            <td class="engagement">👍30 💬1 🔄4 ⭐17</td>
         </tr>
 <tr>
             <td class="title">桃晚安会二次回应粉丝的期待吗？</td>
             <td class="tags"><span>第五人格</span><span>桃晚安</span><span>第五人格八周年</span></td>
-            <td class="likes low">111</td>
+            <td class="likes low">120</td>
             <td class="engagement">👍1 💬0 🔄0 ⭐2</td>
         </tr>
 <tr>
             <td class="title">洛克王国世界创新玩法大赏</td>
             <td class="tags"><span>洛克王国世界</span><span>洛克王国</span><span>洛克创作激励计划</span></td>
-            <td class="likes low">1241</td>
+            <td class="likes low">1252</td>
             <td class="engagement">👍24 💬0 🔄9 ⭐7</td>
         </tr>
 <tr>
             <td class="title">红色沙漠翻盘！玩法多到玩不过来！</td>
             <td class="tags"><span>红色沙漠</span><span>红色沙漠风景</span><span>动作冒险</span><span>开放世界</span></td>
-            <td class="likes low">869</td>
+            <td class="likes low">893</td>
             <td class="engagement">👍5 💬1 🔄0 ⭐1</td>
         </tr>
 <tr>
             <td class="title">Epic裁员千人要断奶？虚惊一场依旧享有白嫖福利</td>
             <td class="tags"><span>epic</span><span>epic喜加一</span><span>steam</span></td>
-            <td class="likes low">863</td>
+            <td class="likes low">882</td>
             <td class="engagement">👍12 💬0 🔄0 ⭐4</td>
         </tr>
 <tr>
             <td class="title">爽玩2026第一友尽小游戏</td>
             <td class="tags"><span>捣蛋蛙</span><span>休闲小游戏</span><span>双人游戏</span></td>
-            <td class="likes low">830</td>
-            <td class="engagement">👍11 💬0 🔄0 ⭐8</td>
+            <td class="likes low">913</td>
+            <td class="engagement">👍11 💬0 🔄1 ⭐8</td>
         </tr>
 <tr>
             <td class="title">洛克王国精灵竟和大博主撞脸？！</td>
             <td class="tags"><span>洛克王国</span><span>洛克王国世界</span><span>洛克创作激励计划</span></td>
-            <td class="likes low">2089</td>
-            <td class="engagement">👍29 💬1 🔄9 ⭐11</td>
+            <td class="likes low">2125</td>
+            <td class="engagement">👍30 💬1 🔄9 ⭐12</td>
         </tr>
 <tr>
             <td class="title">被 ELO 制裁到破防，律师玩家告腾讯，结果还是驳回</td>
             <td class="tags"><span>王者</span><span>王者荣耀</span><span>王者荣耀排位机制</span></td>
-            <td class="likes low">746</td>
+            <td class="likes low">757</td>
             <td class="engagement">👍9 💬2 🔄0 ⭐3</td>
         </tr>
 <tr>
             <td class="title">逆战未来 S2 把老玩家青春搬回来了！樱之城重制诚意拉满！</td>
             <td class="tags"><span>逆战未来</span><span>逆战未来s2</span><span>逆战s2</span></td>
-            <td class="likes low">363</td>
+            <td class="likes low">376</td>
             <td class="engagement">👍5 💬1 🔄0 ⭐3</td>
         </tr>
 <tr>
             <td class="title">放耳机也算违规？宝可梦赛事判罚引玩家两极争论</td>
             <td class="tags"><span>宝可梦</span><span>宝可梦赛事</span><span>Firestar</span></td>
-            <td class="likes low">692</td>
+            <td class="likes low">701</td>
             <td class="engagement">👍6 💬0 🔄3 ⭐2</td>
         </tr>
 <tr>
             <td class="title">聊聊三角洲行动游戏环境</td>
             <td class="tags"><span>三角洲行动</span><span>三角洲行动手游</span><span>三角洲新赛季</span><span>三角洲s8蝶变时刻新赛季</span></td>
-            <td class="likes low">933</td>
+            <td class="likes low">945</td>
             <td class="engagement">👍8 💬2 🔄3 ⭐11</td>
         </tr>
 <tr>
             <td class="title">王者荣耀世界伽罗远程射手天花板</td>
             <td class="tags"><span>王者荣耀世界</span><span>伽罗</span><span>王者荣耀</span></td>
-            <td class="likes low">286</td>
+            <td class="likes low">296</td>
             <td class="engagement">👍3 💬0 🔄1 ⭐0</td>
         </tr>
 <tr>
             <td class="title">千冶·刃定位与卡池前瞻：火系输出，4.3上半UP预定？</td>
             <td class="tags"><span>崩坏星穹铁道</span><span>崩铁</span><span>崩坏星穹铁道创作者激励计划</span></td>
-            <td class="likes low">473</td>
+            <td class="likes low">482</td>
             <td class="engagement">👍4 💬0 🔄0 ⭐2</td>
         </tr>
 <tr>
             <td class="title">原神莉奈娅前瞻炸锅！岩队迎来真神？</td>
             <td class="tags"><span>原神</span><span>莉奈娅</span><span>原神创作者激励计划</span></td>
-            <td class="likes low">625</td>
+            <td class="likes low">633</td>
             <td class="engagement">👍8 💬0 🔄0 ⭐1</td>
         </tr>
 <tr>
             <td class="title">都是腾讯的 “世界” 游戏，王者和洛克差别居然这么大！</td>
             <td class="tags"><span>洛克王国世界</span><span>王者荣耀世界</span><span>洛克创作激励计划</span></td>
-            <td class="likes low">653</td>
+            <td class="likes low">661</td>
             <td class="engagement">👍6 💬1 🔄0 ⭐3</td>
         </tr>
 <tr>
             <td class="title">国区运营都被裁了！没有免费游戏白嫖了</td>
             <td class="tags"><span>epic</span><span>epic裁员</span><span>epic喜加一</span></td>
-            <td class="likes low">845</td>
+            <td class="likes low">849</td>
             <td class="engagement">👍6 💬2 🔄0 ⭐4</td>
         </tr>
 <tr>
             <td class="title">没想到这些游戏，竟然陪我们走过了十年以上，越玩越有味道</td>
             <td class="tags"><span>老游戏</span><span>游戏</span><span>回忆</span></td>
-            <td class="likes low">1133</td>
+            <td class="likes low">1143</td>
             <td class="engagement">👍7 💬0 🔄0 ⭐2</td>
         </tr>
 <tr>
             <td class="title">同为洛克玩家，别人卷天梯，另类玩家却在玩点不一样的</td>
             <td class="tags"><span>洛克王国世界</span><span>洛克创作激励计划</span><span>游戏</span></td>
-            <td class="likes low">846</td>
+            <td class="likes low">852</td>
             <td class="engagement">👍9 💬0 🔄0 ⭐3</td>
         </tr>
 <tr>
             <td class="title">原神莉奈娅登场！新角色细节藏满惊喜，颜值实力双在线</td>
             <td class="tags"><span>原神</span><span>莉奈娅</span><span>米哈游</span></td>
-            <td class="likes low">466</td>
+            <td class="likes low">476</td>
             <td class="engagement">👍3 💬0 🔄0 ⭐6</td>
         </tr>
 <tr>
             <td class="title">星布谷地新PV实测：星际旅行+地形改造，玩法自由度拉满</td>
             <td class="tags"><span>星布谷地</span><span>米哈游</span><span>游戏</span></td>
-            <td class="likes low">598</td>
+            <td class="likes low">599</td>
             <td class="engagement">👍10 💬0 🔄0 ⭐2</td>
         </tr>
 <tr>
             <td class="title">今日炸场！《蓝色星原：旅谣》新 PV 流出，黄鸡这次没摸鱼</td>
             <td class="tags"><span>蓝色星原旅谣</span><span>二次元</span><span>游戏</span></td>
-            <td class="likes low">684</td>
+            <td class="likes low">693</td>
             <td class="engagement">👍8 💬0 🔄1 ⭐2</td>
         </tr>
 <tr>
             <td class="title">怪猎IP手游化！这是经典IP的革新还是妥协？</td>
             <td class="tags"><span>怪物猎人旅人</span><span>怪物猎人</span><span>怪物猎人手游</span></td>
-            <td class="likes low">733</td>
+            <td class="likes low">738</td>
             <td class="engagement">👍6 💬1 🔄0 ⭐1</td>
         </tr>
 <tr>
             <td class="title">暗区 S17 更新，诡雾山谷或将改变当前玩法环境</td>
             <td class="tags"><span>暗区突围</span><span>暗区突围s17</span><span>暗区突围手游</span></td>
-            <td class="likes low">863</td>
+            <td class="likes low">865</td>
             <td class="engagement">👍11 💬0 🔄0 ⭐5</td>
         </tr>
 <tr>
             <td class="title">顶级折磨！谁看了大司马的操作能不笑啊！</td>
             <td class="tags"><span>大司马</span><span>大司马杯</span><span>PUBG</span></td>
-            <td class="likes low">1147</td>
+            <td class="likes low">1149</td>
             <td class="engagement">👍16 💬0 🔄1 ⭐7</td>
         </tr>
 <tr>
@@ -2545,7 +1938,7 @@ body {
 <tr>
             <td class="title">归环新PV炸了！时间循环+骰子战斗，这开放世界有点东西！</td>
             <td class="tags"><span>归环</span><span>归环一周目测试</span><span>游戏</span></td>
-            <td class="likes low">701</td>
+            <td class="likes low">702</td>
             <td class="engagement">👍2 💬1 🔄0 ⭐3</td>
         </tr>
 <tr>
@@ -2565,7 +1958,7 @@ body {
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">📊</span> 内容品类分布</div>
-    <div class="dist-bar"><div style="width:37%;background:#a78bfa;">游戏 37%</div><div style="width:21%;background:#f472b6;">洛克王国世界 21%</div><div style="width:21%;background:#fb923c;">洛克创作激励 21%</div><div style="width:11%;background:#22c55e;">洛克王国 11%</div><div style="width:11%;background:#06b6d4;">epic 11%</div></div><div class="legend"><span><span class="dot" style="background:#a78bfa;"></span>游戏（7条）</span><span><span class="dot" style="background:#f472b6;"></span>洛克王国世界（4条）</span><span><span class="dot" style="background:#fb923c;"></span>洛克创作激励计划（4条）</span><span><span class="dot" style="background:#22c55e;"></span>洛克王国（2条）</span><span><span class="dot" style="background:#06b6d4;"></span>epic（2条）</span></div>
+    <div class="dist-bar"><div style="width:37%;background:#a78bfa;">游戏 37%</div><div style="width:21%;background:#f472b6;">洛克王国世界 21%</div><div style="width:21%;background:#fb923c;">洛克创作激励 21%</div><div style="width:11%;background:#22c55e;">第五人格 11%</div><div style="width:11%;background:#06b6d4;">洛克王国 11%</div></div><div class="legend"><span><span class="dot" style="background:#a78bfa;"></span>游戏（7条）</span><span><span class="dot" style="background:#f472b6;"></span>洛克王国世界（4条）</span><span><span class="dot" style="background:#fb923c;"></span>洛克创作激励计划（4条）</span><span><span class="dot" style="background:#22c55e;"></span>第五人格（2条）</span><span><span class="dot" style="background:#06b6d4;"></span>洛克王国（2条）</span></div>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">⭐</span> 综合评分</div>
@@ -2582,25 +1975,25 @@ body {
     <div class="section-title"><span class="icon">🔍</span> 深度分析</div>
     <div class="analysis-grid"><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">🔥</div><div class="card-title">最佳表现视频</div></div>
-        <div class="card-body">「洛克王国精灵竟和大博主撞脸？！」获得 <strong>2089</strong> 播放，点赞 <strong>29</strong>，评论 <strong>1</strong>，分享 <strong>9</strong>。完播率 <strong>2.8%</strong>，是本周期表现最好的内容。</div>
+        <div class="card-body">「洛克王国精灵竟和大博主撞脸？！」获得 <strong>2125</strong> 播放，点赞 <strong>30</strong>，评论 <strong>1</strong>，分享 <strong>9</strong>。完播率 <strong>2.8%</strong>，是本周期表现最好的内容。</div>
         <div class="highlight good">💡 分析这条视频的成功要素（选题、标题、发布时间），在后续内容中复制。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(239,68,68,0.15);">📉</div><div class="card-title">最差表现视频</div></div>
-        <div class="card-body">「桃晚安会二次回应粉丝的期待吗？」仅获得 <strong>111</strong> 播放，2s跳出率 <strong>67.8%</strong>。需要分析是否为选题冷门、标题不吸引人或发布时间不当。</div>
+        <div class="card-body">「桃晚安会二次回应粉丝的期待吗？」仅获得 <strong>120</strong> 播放，2s跳出率 <strong>66.7%</strong>。需要分析是否为选题冷门、标题不吸引人或发布时间不当。</div>
         <div class="highlight bad">🔴 低播放意味着内容未能进入推荐池，需复盘原因。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(167,139,250,0.15);">📊</div><div class="card-title">完播率分析 · 较差</div></div>
-        <div class="card-body">平均完播率 <strong>2.9%</strong>，严重偏低。5s留存 <strong>2.9%</strong>，2s跳出率 <strong>56.4%</strong>。观众在前几秒就大量流失，需要重点优化开场钩子和视频前5秒的内容吸引力。</div>
+        <div class="card-body">平均完播率 <strong>2.9%</strong>，严重偏低。5s留存 <strong>2.9%</strong>，2s跳出率 <strong>55.9%</strong>。观众在前几秒就大量流失，需要重点优化开场钩子和视频前5秒的内容吸引力。</div>
         <div class="highlight bad">🔴 完播率是算法推荐的核心指标，直接影响后续流量分配。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">💬</div><div class="card-title">互动数据</div></div>
-        <div class="card-body">本周期共 <strong>29</strong> 条视频，总播放 <strong>2.4万</strong>。<br>
-        点赞率 <strong>1.10%</strong> · 评论率 <strong>0.07%</strong> · 分享率 <strong>0.13%</strong> · 收藏率 <strong>0.52%</strong><br>
-        粉丝增量：<strong>4</strong></div>
+        <div class="card-body">本周期共 <strong>30</strong> 条视频，总播放 <strong>2.5万</strong>。<br>
+        点赞率 <strong>1.15%</strong> · 评论率 <strong>0.07%</strong> · 分享率 <strong>0.13%</strong> · 收藏率 <strong>0.52%</strong><br>
+        粉丝增量：<strong>5</strong></div>
         <div class="highlight good">💡 点赞和评论是核心互动指标，分享和收藏是扩散指标。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(234,179,8,0.15);">🎯</div><div class="card-title">内容品类分布</div></div>
-        <div class="card-body">高频话题：游戏(7)、洛克王国世界(4)、洛克创作激励计划(4)、洛克王国(2)、epic(2)。覆盖 <strong>69</strong> 个不同话题标签。<br>
+        <div class="card-body">高频话题：游戏(7)、洛克王国世界(4)、洛克创作激励计划(4)、第五人格(2)、洛克王国(2)。覆盖 <strong>72</strong> 个不同话题标签。<br>
         建议聚焦<strong>3-5个核心品类</strong>，避免品类过于分散导致账号标签模糊。</div>
         <div class="highlight warn">⚠️ 品类过多会稀释账号标签，影响算法对目标人群的精准推荐。</div>
     </div><div class="analysis-card">
@@ -2612,19 +2005,19 @@ body {
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">🚀</span> 优化建议</div>
-    <ul class="opt-list"><li><div class="priority p0">P0</div><div class="opt-content"><h3>🎯 优化前5秒开场钩子</h3><p>2s跳出率高达 <strong>56.4%</strong>，说明大量观众在前2秒就划走了。建议：①开场3秒内给出核心信息或悬念 ②使用情绪化的开场白 ③避免冗长的前奏和自我介绍。</p><div class="action">→ 每条视频准备至少2个开场方案，A/B测试选择跳出率最低的</div></div></li>
+    <ul class="opt-list"><li><div class="priority p0">P0</div><div class="opt-content"><h3>🎯 优化前5秒开场钩子</h3><p>2s跳出率高达 <strong>55.9%</strong>，说明大量观众在前2秒就划走了。建议：①开场3秒内给出核心信息或悬念 ②使用情绪化的开场白 ③避免冗长的前奏和自我介绍。</p><div class="action">→ 每条视频准备至少2个开场方案，A/B测试选择跳出率最低的</div></div></li>
 <li><div class="priority p0">P0</div><div class="opt-content"><h3>📈 提升完播率</h3><p>平均完播率仅 <strong>2.9%</strong>，严重影响算法推荐。建议：①视频控制在60秒内 ②每15秒设置一个小高潮 ③结尾加入互动引导（"你怎么看？"）</p><div class="action">→ 目标完播率提升至15%以上</div></div></li>
-<li><div class="priority p0">P0</div><div class="opt-content"><h3>💡 复制最佳视频的成功模式</h3><p>「洛克王国精灵竟和大博主撞脸？！」获得 2089 播放，远超平均水平。分析这条视频的选题角度、标题措辞、发布时间和内容结构，提炼可复制的爆款公式。</p><div class="action">→ 本周复盘最佳视频的全部指标，总结成功要素</div></div></li>
-<li><div class="priority p1">P1</div><div class="opt-content"><h3>📌 聚焦核心品类</h3><p>当前覆盖 <strong>69</strong> 个不同话题，品类过于分散。建议聚焦3-5个核心游戏/IP，建立"想看XX就来这里"的用户心智。</p><div class="action">→ 每周选题控制在3个核心品类内</div></div></li>
+<li><div class="priority p0">P0</div><div class="opt-content"><h3>💡 复制最佳视频的成功模式</h3><p>「洛克王国精灵竟和大博主撞脸？！」获得 2125 播放，远超平均水平。分析这条视频的选题角度、标题措辞、发布时间和内容结构，提炼可复制的爆款公式。</p><div class="action">→ 本周复盘最佳视频的全部指标，总结成功要素</div></div></li>
+<li><div class="priority p1">P1</div><div class="opt-content"><h3>📌 聚焦核心品类</h3><p>当前覆盖 <strong>72</strong> 个不同话题，品类过于分散。建议聚焦3-5个核心游戏/IP，建立"想看XX就来这里"的用户心智。</p><div class="action">→ 每周选题控制在3个核心品类内</div></div></li>
 <li><div class="priority p2">P2</div><div class="opt-content"><h3>⏰ 发布时间优化</h3><p>建议固定在 <strong>12:00-13:00 或 20:00-22:00</strong> 发布，并连续2周测试记录数据。建立粉丝的观看预期。</p><div class="action">→ 固定发布时间，建立粉丝预期</div></div></li>
 </ul>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">📋</span> 总结</div>
     <div class="summary-card"><div class="card-body">
-        <strong style="color:#a78bfa;">阿密说游戏</strong> 本周期共发布 <strong>29</strong> 条视频，总播放 <strong>2.4万</strong>，平均播放 <strong>831</strong>。<br><br>
-        最佳表现：「洛克王国精灵竟和大博主撞脸？！」— <strong style="color:#22c55e;">2089播放</strong><br>
-        平均完播率 <strong>2.9%</strong>，5s留存 <strong>2.9%</strong>，2s跳出率 <strong>56.4%</strong><br><br>
+        <strong style="color:#a78bfa;">阿密说游戏</strong> 本周期共发布 <strong>30</strong> 条视频，总播放 <strong>2.5万</strong>，平均播放 <strong>850</strong>。<br><br>
+        最佳表现：「洛克王国精灵竟和大博主撞脸？！」— <strong style="color:#22c55e;">2125播放</strong><br>
+        平均完播率 <strong>2.9%</strong>，5s留存 <strong>2.9%</strong>，2s跳出率 <strong>55.9%</strong><br><br>
         <strong style="color:#22c55e;">核心方向：优化完播率 + 复制爆款模式 + 增强互动引导。</strong>
     </div></div>
 </div>
@@ -2635,11 +2028,11 @@ body {
 <div class="account-card">
     <div class="name"><span>🐱 哈吉米说游戏</span></div>
     <div class="douyin-id">抖音号：ming99888899</div>
-    <div class="extra-info">IP属地：广东 · 分析周期：2026-03-23 — 2026-04-15 · 本周期发布40条视频</div>
+    <div class="extra-info">IP属地：广东 · 分析周期：2026-03-23 — 2026-04-16 · 本周期发布41条视频</div>
     <div class="stat-item"><div class="value">14.0万</div><div class="label">粉丝数</div></div>
-    <div class="stat-item"><div class="value">2.1万</div><div class="label">总播放量</div></div>
-    <div class="stat-item"><div class="value">530</div><div class="label">平均播放</div></div>
-    <div class="stat-item"><div class="value">6451</div><div class="label">最高播放</div></div>
+    <div class="stat-item"><div class="value">2.2万</div><div class="label">总播放量</div></div>
+    <div class="stat-item"><div class="value">541</div><div class="label">平均播放</div></div>
+    <div class="stat-item"><div class="value">6459</div><div class="label">最高播放</div></div>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">📈</span> 播放量趋势</div>
@@ -2650,99 +2043,105 @@ body {
     <table class="video-table">
         <thead><tr><th>视频标题</th><th>涉及内容</th><th>播放量</th><th>互动数据</th></tr></thead>
         <tbody><tr>
+            <td class="title">场均3.67分的OMNI黑马，为何还要遭受歧视？</td>
+            <td class="tags"><span>第五人格</span><span>第五人格赛事</span><span>omni</span><span>第五人格深渊</span></td>
+            <td class="likes low">590</td>
+            <td class="engagement">👍26 💬1 🔄1 ⭐0</td>
+        </tr>
+<tr>
             <td class="title">VCT 全面改革！取消联赛、CN 赛区独立，网吧队的春天来了</td>
             <td class="tags"><span>无畏契约</span><span>无畏契约赛事</span><span>无畏契约电竞</span></td>
-            <td class="likes low">161</td>
+            <td class="likes low">208</td>
             <td class="engagement">👍3 💬0 🔄0 ⭐0</td>
         </tr>
 <tr>
             <td class="title">BLG 连胜无人能破？LPL 谁能终结这支完全体战队</td>
             <td class="tags"><span>2026LPL</span><span>2026LPL第二赛段</span><span>LOL</span></td>
-            <td class="likes low">203</td>
+            <td class="likes low">208</td>
             <td class="engagement">👍1 💬1 🔄0 ⭐0</td>
         </tr>
 <tr>
             <td class="title">4:0 被零封！狼队决赛失误不断，看得太揪心</td>
             <td class="tags"><span>kpl</span><span>2026KPL春季赛</span><span>kpl新星计划</span></td>
-            <td class="likes low">1037</td>
+            <td class="likes low">1042</td>
             <td class="engagement">👍11 💬1 🔄0 ⭐2</td>
         </tr>
 <tr>
             <td class="title">舰长过期 = 毁号？三角洲主播彻底刷新底线</td>
             <td class="tags"><span>三角洲行动</span><span>三角洲s8赛季</span><span>三角洲s8蝶变时刻新赛季</span></td>
-            <td class="likes low">260</td>
+            <td class="likes low">264</td>
             <td class="engagement">👍0 💬0 🔄1 ⭐0</td>
         </tr>
 <tr>
             <td class="title">纳克园测评，三角洲强劲对手真的要来了？</td>
             <td class="tags"><span>纳克园最后的乐园</span><span>纳克园</span><span>三角洲行动</span></td>
-            <td class="likes low">253</td>
+            <td class="likes low">274</td>
             <td class="engagement">👍1 💬0 🔄0 ⭐0</td>
         </tr>
 <tr>
             <td class="title">洛克王国精灵撞脸大博主？</td>
             <td class="tags"><span>洛克王国</span><span>洛克王国世界</span><span>洛克创作激励计划</span></td>
-            <td class="likes low">581</td>
+            <td class="likes low">603</td>
             <td class="engagement">👍3 💬1 🔄2 ⭐2</td>
         </tr>
 <tr>
             <td class="title">盘点那些游戏里的隐藏彩蛋</td>
             <td class="tags"><span>王者荣耀</span><span>LOL</span><span>塞尔达传说</span><span>csgo</span></td>
-            <td class="likes low">124</td>
+            <td class="likes low">129</td>
             <td class="engagement">👍1 💬0 🔄0 ⭐1</td>
         </tr>
 <tr>
             <td class="title">王者荣耀世界拉完了？</td>
             <td class="tags"><span>王者荣耀世界</span><span>王者荣耀世界实机演示</span><span>新游推荐</span></td>
-            <td class="likes low">128</td>
+            <td class="likes low">132</td>
             <td class="engagement">👍1 💬0 🔄0 ⭐0</td>
         </tr>
 <tr>
             <td class="title">王者排位机制将迎来转机？玩家的春天终于要来了吗</td>
             <td class="tags"><span>王者荣耀</span><span>王者</span><span>王者荣耀匹配机制</span></td>
-            <td class="likes low">108</td>
+            <td class="likes low">111</td>
             <td class="engagement">👍3 💬0 🔄0 ⭐0</td>
         </tr>
 <tr>
             <td class="title">以为是卖萌？逆战新角色黑化变渊・黑蝶，剧情直接刀麻了！</td>
             <td class="tags"><span>逆战未来</span><span>逆战未来s2</span><span>逆战s2</span></td>
-            <td class="likes low">2547</td>
+            <td class="likes low">2758</td>
             <td class="engagement">👍9 💬1 🔄0 ⭐4</td>
         </tr>
 <tr>
             <td class="title">随手放耳机丢冠军？宝可梦赛事争议判罚引全网热议</td>
             <td class="tags"><span>宝可梦</span><span>宝可梦go</span><span>Firestar</span></td>
-            <td class="likes low">311</td>
+            <td class="likes low">319</td>
             <td class="engagement">👍1 💬0 🔄0 ⭐2</td>
         </tr>
 <tr>
             <td class="title">三角洲的环境怎么了？</td>
             <td class="tags"><span>三角洲行动</span><span>三角洲行动手游</span><span>三角洲新赛季</span><span>三角洲s8蝶变时刻新赛季</span></td>
-            <td class="likes low">202</td>
+            <td class="likes low">203</td>
             <td class="engagement">👍1 💬0 🔄0 ⭐0</td>
         </tr>
 <tr>
             <td class="title">剧情升华+强度保障！千冶刃这波，厨党和强度党都得冲！</td>
             <td class="tags"><span>崩铁</span><span>崩坏星穹铁道</span><span>崩坏星穹铁道创作者激励计划</span></td>
-            <td class="likes low">148</td>
+            <td class="likes low">153</td>
             <td class="engagement">👍2 💬0 🔄0 ⭐0</td>
         </tr>
 <tr>
             <td class="title">岩队终于有救了？莉奈娅减抗+回血双buff，深渊满星稳了！</td>
             <td class="tags"><span>原神</span><span>莉奈娅</span><span>原神创作者激励计划</span></td>
-            <td class="likes low">178</td>
+            <td class="likes low">179</td>
             <td class="engagement">👍3 💬0 🔄0 ⭐1</td>
         </tr>
 <tr>
             <td class="title">腾讯半个月两款大世界！王者世界和洛克王国世界到底有啥不一样？</td>
             <td class="tags"><span>洛克创作激励计划</span><span>洛克王国世界</span><span>王者荣耀世界</span><span>洛克王国</span></td>
-            <td class="likes low">211</td>
+            <td class="likes low">212</td>
             <td class="engagement">👍3 💬1 🔄1 ⭐1</td>
         </tr>
 <tr>
             <td class="title">一边捧上天一边踩到底？纳克园玩家评价，到底是真香还是真翻车？</td>
             <td class="tags"><span>纳克园最后的乐园</span><span>游戏</span><span>三角洲</span></td>
-            <td class="likes low">714</td>
+            <td class="likes low">720</td>
             <td class="engagement">👍2 💬0 🔄0 ⭐1</td>
         </tr>
 <tr>
@@ -2760,19 +2159,19 @@ body {
 <tr>
             <td class="title">温柔又能打！原神莉奈娅，承包岩系队伍辅助天花板</td>
             <td class="tags"><span>原神</span><span>莉奈娅</span><span>米哈游</span></td>
-            <td class="likes low">166</td>
+            <td class="likes low">167</td>
             <td class="engagement">👍3 💬0 🔄0 ⭐0</td>
         </tr>
 <tr>
             <td class="title">米哈游杀疯了！《星布谷地》新PV流出，治愈系星球种田太绝了！</td>
             <td class="tags"><span>星布谷地</span><span>米哈游</span><span>游戏</span></td>
-            <td class="likes low">160</td>
+            <td class="likes low">161</td>
             <td class="engagement">👍1 💬0 🔄0 ⭐2</td>
         </tr>
 <tr>
             <td class="title">看完今日蓝色星原新 PV，我直接蹲测试资格</td>
             <td class="tags"><span>蓝色星原旅谣</span><span>二次元</span><span>游戏</span></td>
-            <td class="likes low">113</td>
+            <td class="likes low">114</td>
             <td class="engagement">👍2 💬0 🔄0 ⭐1</td>
         </tr>
 <tr>
@@ -2826,7 +2225,7 @@ body {
 <tr>
             <td class="title">别再玩普通休闲游戏了，捣蛋蛙才是真上头</td>
             <td class="tags"><span>捣蛋蛙</span><span>双人游戏</span><span>情侣游戏</span></td>
-            <td class="likes low">2352</td>
+            <td class="likes low">2357</td>
             <td class="engagement">👍4 💬0 🔄6 ⭐1</td>
         </tr>
 <tr>
@@ -2886,7 +2285,7 @@ body {
 <tr>
             <td class="title">今年真的有希望了！BLG 横扫先锋赛夺冠！</td>
             <td class="tags"><span>BLG</span><span>blg</span><span>英雄联盟</span></td>
-            <td class="likes mid">6451</td>
+            <td class="likes mid">6459</td>
             <td class="engagement">👍70 💬2 🔄4 ⭐3</td>
         </tr>
 </tbody>
@@ -2901,9 +2300,9 @@ body {
     <div class="score-section">
         <div class="score-card"><div class="score-value score-green">100</div><div class="score-label">更新频率</div></div>
         <div class="score-card"><div class="score-value score-green">100</div><div class="score-label">热点覆盖</div></div>
-        <div class="score-card"><div class="score-value score-red">22</div><div class="score-label">完播表现</div></div>
-        <div class="score-card"><div class="score-value score-red">14</div><div class="score-label">互动数据</div></div>
-        <div class="score-card"><div class="score-value score-red">17</div><div class="score-label">传播力</div></div>
+        <div class="score-card"><div class="score-value score-red">23</div><div class="score-label">完播表现</div></div>
+        <div class="score-card"><div class="score-value score-red">15</div><div class="score-label">互动数据</div></div>
+        <div class="score-card"><div class="score-value score-red">16</div><div class="score-label">传播力</div></div>
         <div class="score-card"><div class="score-value score-red">50</div><div class="score-label">综合</div></div>
     </div>
 </div>
@@ -2911,50 +2310,50 @@ body {
     <div class="section-title"><span class="icon">🔍</span> 深度分析</div>
     <div class="analysis-grid"><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">🔥</div><div class="card-title">最佳表现视频</div></div>
-        <div class="card-body">「今年真的有希望了！BLG 横扫先锋赛夺冠！」获得 <strong>6451</strong> 播放，点赞 <strong>70</strong>，评论 <strong>2</strong>，分享 <strong>4</strong>。完播率 <strong>4.2%</strong>，是本周期表现最好的内容。</div>
+        <div class="card-body">「今年真的有希望了！BLG 横扫先锋赛夺冠！」获得 <strong>6459</strong> 播放，点赞 <strong>70</strong>，评论 <strong>2</strong>，分享 <strong>4</strong>。完播率 <strong>4.2%</strong>，是本周期表现最好的内容。</div>
         <div class="highlight good">💡 分析这条视频的成功要素（选题、标题、发布时间），在后续内容中复制。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(239,68,68,0.15);">📉</div><div class="card-title">最差表现视频</div></div>
-        <div class="card-body">「王者排位机制将迎来转机？玩家的春天终于要来了吗」仅获得 <strong>108</strong> 播放，2s跳出率 <strong>71.1%</strong>。需要分析是否为选题冷门、标题不吸引人或发布时间不当。</div>
+        <div class="card-body">「王者排位机制将迎来转机？玩家的春天终于要来了吗」仅获得 <strong>111</strong> 播放，2s跳出率 <strong>70.4%</strong>。需要分析是否为选题冷门、标题不吸引人或发布时间不当。</div>
         <div class="highlight bad">🔴 低播放意味着内容未能进入推荐池，需复盘原因。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(167,139,250,0.15);">📊</div><div class="card-title">完播率分析 · 较差</div></div>
-        <div class="card-body">平均完播率 <strong>4.6%</strong>，严重偏低。5s留存 <strong>4.6%</strong>，2s跳出率 <strong>59.7%</strong>。观众在前几秒就大量流失，需要重点优化开场钩子和视频前5秒的内容吸引力。</div>
+        <div class="card-body">平均完播率 <strong>4.7%</strong>，严重偏低。5s留存 <strong>4.7%</strong>，2s跳出率 <strong>59.1%</strong>。观众在前几秒就大量流失，需要重点优化开场钩子和视频前5秒的内容吸引力。</div>
         <div class="highlight bad">🔴 完播率是算法推荐的核心指标，直接影响后续流量分配。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">💬</div><div class="card-title">互动数据</div></div>
-        <div class="card-body">本周期共 <strong>40</strong> 条视频，总播放 <strong>2.1万</strong>。<br>
-        点赞率 <strong>0.82%</strong> · 评论率 <strong>0.04%</strong> · 分享率 <strong>0.07%</strong> · 收藏率 <strong>0.19%</strong><br>
+        <div class="card-body">本周期共 <strong>41</strong> 条视频，总播放 <strong>2.2万</strong>。<br>
+        点赞率 <strong>0.90%</strong> · 评论率 <strong>0.04%</strong> · 分享率 <strong>0.07%</strong> · 收藏率 <strong>0.18%</strong><br>
         粉丝增量：<strong>4</strong></div>
         <div class="highlight good">💡 点赞和评论是核心互动指标，分享和收藏是扩散指标。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(234,179,8,0.15);">🎯</div><div class="card-title">内容品类分布</div></div>
-        <div class="card-body">高频话题：游戏(11)、新游推荐(6)、洛克王国世界(5)、洛克创作激励计划(5)、三角洲行动(3)。覆盖 <strong>83</strong> 个不同话题标签。<br>
+        <div class="card-body">高频话题：游戏(11)、新游推荐(6)、洛克王国世界(5)、洛克创作激励计划(5)、三角洲行动(3)。覆盖 <strong>87</strong> 个不同话题标签。<br>
         建议聚焦<strong>3-5个核心品类</strong>，避免品类过于分散导致账号标签模糊。</div>
         <div class="highlight warn">⚠️ 品类过多会稀释账号标签，影响算法对目标人群的精准推荐。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">⏱️</div><div class="card-title">播放时长分析</div></div>
-        <div class="card-body">平均播放时长 <strong>5.8秒</strong>。结合完播率来看，观众可能在10秒后就流失了。<br>
+        <div class="card-body">平均播放时长 <strong>6.1秒</strong>。结合完播率来看，观众可能在10秒后就流失了。<br>
         建议控制视频时长在<strong>30-90秒</strong>之间，前5秒必须有强力钩子。</div>
         <div class="highlight good">💡 短视频时代，前5秒决定60%的去留。</div>
     </div></div>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">🚀</span> 优化建议</div>
-    <ul class="opt-list"><li><div class="priority p0">P0</div><div class="opt-content"><h3>🎯 优化前5秒开场钩子</h3><p>2s跳出率高达 <strong>59.7%</strong>，说明大量观众在前2秒就划走了。建议：①开场3秒内给出核心信息或悬念 ②使用情绪化的开场白 ③避免冗长的前奏和自我介绍。</p><div class="action">→ 每条视频准备至少2个开场方案，A/B测试选择跳出率最低的</div></div></li>
-<li><div class="priority p0">P0</div><div class="opt-content"><h3>📈 提升完播率</h3><p>平均完播率仅 <strong>4.6%</strong>，严重影响算法推荐。建议：①视频控制在60秒内 ②每15秒设置一个小高潮 ③结尾加入互动引导（"你怎么看？"）</p><div class="action">→ 目标完播率提升至15%以上</div></div></li>
-<li><div class="priority p0">P0</div><div class="opt-content"><h3>💡 复制最佳视频的成功模式</h3><p>「今年真的有希望了！BLG 横扫先锋赛夺冠！」获得 6451 播放，远超平均水平。分析这条视频的选题角度、标题措辞、发布时间和内容结构，提炼可复制的爆款公式。</p><div class="action">→ 本周复盘最佳视频的全部指标，总结成功要素</div></div></li>
+    <ul class="opt-list"><li><div class="priority p0">P0</div><div class="opt-content"><h3>🎯 优化前5秒开场钩子</h3><p>2s跳出率高达 <strong>59.1%</strong>，说明大量观众在前2秒就划走了。建议：①开场3秒内给出核心信息或悬念 ②使用情绪化的开场白 ③避免冗长的前奏和自我介绍。</p><div class="action">→ 每条视频准备至少2个开场方案，A/B测试选择跳出率最低的</div></div></li>
+<li><div class="priority p0">P0</div><div class="opt-content"><h3>📈 提升完播率</h3><p>平均完播率仅 <strong>4.7%</strong>，严重影响算法推荐。建议：①视频控制在60秒内 ②每15秒设置一个小高潮 ③结尾加入互动引导（"你怎么看？"）</p><div class="action">→ 目标完播率提升至15%以上</div></div></li>
+<li><div class="priority p0">P0</div><div class="opt-content"><h3>💡 复制最佳视频的成功模式</h3><p>「今年真的有希望了！BLG 横扫先锋赛夺冠！」获得 6459 播放，远超平均水平。分析这条视频的选题角度、标题措辞、发布时间和内容结构，提炼可复制的爆款公式。</p><div class="action">→ 本周复盘最佳视频的全部指标，总结成功要素</div></div></li>
 <li><div class="priority p1">P1</div><div class="opt-content"><h3>💬 增强互动引导</h3><p>评论率仅 <strong>0.04%</strong>，互动意愿偏低。建议在视频结尾加入明确的互动引导："你觉得呢？""评论区告诉我"，并在发布后30分钟内积极回复前排评论。</p><div class="action">→ 每条视频至少1个互动问题 + 发布后30分钟内回复前10条评论</div></div></li>
-<li><div class="priority p1">P1</div><div class="opt-content"><h3>📌 聚焦核心品类</h3><p>当前覆盖 <strong>83</strong> 个不同话题，品类过于分散。建议聚焦3-5个核心游戏/IP，建立"想看XX就来这里"的用户心智。</p><div class="action">→ 每周选题控制在3个核心品类内</div></div></li>
+<li><div class="priority p1">P1</div><div class="opt-content"><h3>📌 聚焦核心品类</h3><p>当前覆盖 <strong>87</strong> 个不同话题，品类过于分散。建议聚焦3-5个核心游戏/IP，建立"想看XX就来这里"的用户心智。</p><div class="action">→ 每周选题控制在3个核心品类内</div></div></li>
 <li><div class="priority p2">P2</div><div class="opt-content"><h3>⏰ 发布时间优化</h3><p>建议固定在 <strong>12:00-13:00 或 20:00-22:00</strong> 发布，并连续2周测试记录数据。建立粉丝的观看预期。</p><div class="action">→ 固定发布时间，建立粉丝预期</div></div></li>
 </ul>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">📋</span> 总结</div>
     <div class="summary-card"><div class="card-body">
-        <strong style="color:#a78bfa;">哈吉米说游戏</strong> 本周期共发布 <strong>40</strong> 条视频，总播放 <strong>2.1万</strong>，平均播放 <strong>530</strong>。<br><br>
-        最佳表现：「今年真的有希望了！BLG 横扫先锋赛夺冠！」— <strong style="color:#22c55e;">6451播放</strong><br>
-        平均完播率 <strong>4.6%</strong>，5s留存 <strong>4.6%</strong>，2s跳出率 <strong>59.7%</strong><br><br>
+        <strong style="color:#a78bfa;">哈吉米说游戏</strong> 本周期共发布 <strong>41</strong> 条视频，总播放 <strong>2.2万</strong>，平均播放 <strong>541</strong>。<br><br>
+        最佳表现：「今年真的有希望了！BLG 横扫先锋赛夺冠！」— <strong style="color:#22c55e;">6459播放</strong><br>
+        平均完播率 <strong>4.7%</strong>，5s留存 <strong>4.7%</strong>，2s跳出率 <strong>59.1%</strong><br><br>
         <strong style="color:#22c55e;">核心方向：优化完播率 + 复制爆款模式 + 增强互动引导。</strong>
     </div></div>
 </div>
@@ -2965,11 +2364,11 @@ body {
 <div class="account-card">
     <div class="name"><span>🎮 有料玩家</span></div>
     <div class="douyin-id">抖音号：71214210408</div>
-    <div class="extra-info">IP属地：广东 · 分析周期：2026-04-08 — 2026-04-15 · 本周期发布14条视频</div>
+    <div class="extra-info">IP属地：广东 · 分析周期：2026-04-08 — 2026-04-16 · 本周期发布15条视频</div>
     <div class="stat-item"><div class="value">13.1万</div><div class="label">粉丝数</div></div>
-    <div class="stat-item"><div class="value">2.6万</div><div class="label">总播放量</div></div>
-    <div class="stat-item"><div class="value">1836</div><div class="label">平均播放</div></div>
-    <div class="stat-item"><div class="value">6527</div><div class="label">最高播放</div></div>
+    <div class="stat-item"><div class="value">2.8万</div><div class="label">总播放量</div></div>
+    <div class="stat-item"><div class="value">1883</div><div class="label">平均播放</div></div>
+    <div class="stat-item"><div class="value">6560</div><div class="label">最高播放</div></div>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">📈</span> 播放量趋势</div>
@@ -2980,87 +2379,93 @@ body {
     <table class="video-table">
         <thead><tr><th>视频标题</th><th>涉及内容</th><th>播放量</th><th>互动数据</th></tr></thead>
         <tbody><tr>
+            <td class="title">OMNI Pitstoper的逆袭，不该被恶意抹黑</td>
+            <td class="tags"><span>第五人格</span><span>第五人格赛事</span><span>第五人格深渊</span></td>
+            <td class="likes low">1979</td>
+            <td class="engagement">👍44 💬3 🔄0 ⭐2</td>
+        </tr>
+<tr>
             <td class="title">steam联机抽象游戏，最怕的不是死，是看朋友离谱死法被笑死</td>
             <td class="tags"><span>steam</span><span>steam游戏</span><span>steam喜加一</span></td>
-            <td class="likes low">1300</td>
+            <td class="likes low">1408</td>
             <td class="engagement">👍20 💬3 🔄4 ⭐13</td>
         </tr>
 <tr>
             <td class="title">头像投票闹乌龙，粉丝操作比游戏还魔幻</td>
             <td class="tags"><span>第五人格</span><span>第五人格八周年</span><span>桃晚安</span></td>
-            <td class="likes low">237</td>
+            <td class="likes low">279</td>
             <td class="engagement">👍0 💬0 🔄0 ⭐0</td>
         </tr>
 <tr>
             <td class="title">论整活还得看洛克王国玩家！</td>
             <td class="tags"><span>洛克王国世界</span><span>洛克王国</span><span>洛克创作激励计划</span></td>
-            <td class="likes mid">6527</td>
+            <td class="likes mid">6560</td>
             <td class="engagement">👍133 💬15 🔄56 ⭐14</td>
         </tr>
 <tr>
             <td class="title">就这个游戏彩蛋爽！</td>
             <td class="tags"><span>逆战未来</span><span>街霸6</span><span>合金装备5</span><span>黑神话悟空</span></td>
-            <td class="likes low">561</td>
+            <td class="likes low">623</td>
             <td class="engagement">👍7 💬1 🔄0 ⭐3</td>
         </tr>
 <tr>
             <td class="title">2026友尽游戏，高低得尝尝</td>
             <td class="tags"><span>捣蛋蛙</span><span>双人游戏</span><span>情侣游戏</span></td>
-            <td class="likes low">696</td>
+            <td class="likes low">739</td>
             <td class="engagement">👍6 💬0 🔄0 ⭐8</td>
         </tr>
 <tr>
             <td class="title">洛克王国创新玩法！别有一番滋味</td>
             <td class="tags"><span>洛克王国世界</span><span>洛克王国</span><span>洛克创作激励计划</span></td>
-            <td class="likes low">690</td>
+            <td class="likes low">707</td>
             <td class="engagement">👍11 💬0 🔄0 ⭐4</td>
         </tr>
 <tr>
             <td class="title">终于有人来制裁逆天排位机制了吗</td>
             <td class="tags"><span>王者荣耀</span><span>王者荣耀排位机制</span><span>王者农药</span></td>
-            <td class="likes low">321</td>
+            <td class="likes low">334</td>
             <td class="engagement">👍2 💬0 🔄0 ⭐0</td>
         </tr>
 <tr>
             <td class="title">盘点洛克王国那些神级撞脸</td>
             <td class="tags"><span>洛克王国</span><span>洛克王国世界</span><span>洛克创作激励计划</span></td>
-            <td class="likes mid">5803</td>
+            <td class="likes mid">5838</td>
             <td class="engagement">👍34 💬1 🔄19 ⭐1</td>
         </tr>
 <tr>
             <td class="title">生于深渊，却要做照亮一切的光！逆战新角色悦・无垢之春太好哭了</td>
             <td class="tags"><span>逆战未来</span><span>逆战s2</span><span>逆战未来s2</span></td>
-            <td class="likes mid">4295</td>
+            <td class="likes mid">4446</td>
             <td class="engagement">👍30 💬8 🔄4 ⭐9</td>
         </tr>
 <tr>
             <td class="title">赢了比赛却丢冠军？宝可梦这场判罚让玩家看不懂</td>
             <td class="tags"><span>宝可梦</span><span>宝可梦go</span><span>Firestar</span></td>
-            <td class="likes low">655</td>
+            <td class="likes low">664</td>
             <td class="engagement">👍3 💬1 🔄1 ⭐4</td>
         </tr>
 <tr>
             <td class="title">从峡谷到大陆！《王者荣耀世界》4月10日上线！</td>
             <td class="tags"><span>王者荣耀世界</span><span>王者荣耀</span><span>王者</span></td>
-            <td class="likes low">646</td>
+            <td class="likes low">651</td>
             <td class="engagement">👍5 💬0 🔄0 ⭐2</td>
         </tr>
 <tr>
             <td class="title">星琼别乱花！千冶·刃锁定4.3，追击队核心来了！</td>
             <td class="tags"><span>崩铁</span><span>崩坏星穹铁道</span><span>崩坏星穹铁道创作者激励计划</span></td>
-            <td class="likes low">1739</td>
+            <td class="likes low">1764</td>
             <td class="engagement">👍19 💬0 🔄0 ⭐6</td>
         </tr>
 <tr>
             <td class="title">从立绘到机制！原神6.5莉奈娅全方位拆解！</td>
             <td class="tags"><span>原神</span><span>莉奈娅</span><span>原神创作者激励计划</span></td>
-            <td class="likes low">1122</td>
-            <td class="engagement">👍11 💬1 🔄1 ⭐2</td>
+            <td class="likes low">1128</td>
+            <td class="engagement">👍12 💬1 🔄1 ⭐2</td>
         </tr>
 <tr>
             <td class="title">这些“老登游戏”活了十几年，玩家忠诚度拉满！</td>
             <td class="tags"><span>游戏资讯</span><span>英雄联盟</span><span>穿越火线</span><span>梦幻西游</span><span>地下城与勇士</span></td>
-            <td class="likes low">1105</td>
+            <td class="likes low">1121</td>
             <td class="engagement">👍10 💬0 🔄0 ⭐7</td>
         </tr>
 </tbody>
@@ -3068,7 +2473,7 @@ body {
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">📊</span> 内容品类分布</div>
-    <div class="dist-bar"><div style="width:23%;background:#a78bfa;">洛克王国世界 23%</div><div style="width:23%;background:#f472b6;">洛克王国 23%</div><div style="width:23%;background:#fb923c;">洛克创作激励 23%</div><div style="width:15%;background:#22c55e;">逆战未来 15%</div><div style="width:15%;background:#06b6d4;">王者荣耀 15%</div></div><div class="legend"><span><span class="dot" style="background:#a78bfa;"></span>洛克王国世界（3条）</span><span><span class="dot" style="background:#f472b6;"></span>洛克王国（3条）</span><span><span class="dot" style="background:#fb923c;"></span>洛克创作激励计划（3条）</span><span><span class="dot" style="background:#22c55e;"></span>逆战未来（2条）</span><span><span class="dot" style="background:#06b6d4;"></span>王者荣耀（2条）</span></div>
+    <div class="dist-bar"><div style="width:23%;background:#a78bfa;">洛克王国世界 23%</div><div style="width:23%;background:#f472b6;">洛克王国 23%</div><div style="width:23%;background:#fb923c;">洛克创作激励 23%</div><div style="width:15%;background:#22c55e;">第五人格 15%</div><div style="width:15%;background:#06b6d4;">逆战未来 15%</div></div><div class="legend"><span><span class="dot" style="background:#a78bfa;"></span>洛克王国世界（3条）</span><span><span class="dot" style="background:#f472b6;"></span>洛克王国（3条）</span><span><span class="dot" style="background:#fb923c;"></span>洛克创作激励计划（3条）</span><span><span class="dot" style="background:#22c55e;"></span>第五人格（2条）</span><span><span class="dot" style="background:#06b6d4;"></span>逆战未来（2条）</span></div>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">⭐</span> 综合评分</div>
@@ -3076,8 +2481,8 @@ body {
         <div class="score-card"><div class="score-value score-green">100</div><div class="score-label">更新频率</div></div>
         <div class="score-card"><div class="score-value score-green">100</div><div class="score-label">热点覆盖</div></div>
         <div class="score-card"><div class="score-value score-red">27</div><div class="score-label">完播表现</div></div>
-        <div class="score-card"><div class="score-value score-red">22</div><div class="score-label">互动数据</div></div>
-        <div class="score-card"><div class="score-value score-red">43</div><div class="score-label">传播力</div></div>
+        <div class="score-card"><div class="score-value score-red">23</div><div class="score-label">互动数据</div></div>
+        <div class="score-card"><div class="score-value score-red">40</div><div class="score-label">传播力</div></div>
         <div class="score-card"><div class="score-value score-red">58</div><div class="score-label">综合</div></div>
     </div>
 </div>
@@ -3085,49 +2490,49 @@ body {
     <div class="section-title"><span class="icon">🔍</span> 深度分析</div>
     <div class="analysis-grid"><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">🔥</div><div class="card-title">最佳表现视频</div></div>
-        <div class="card-body">「论整活还得看洛克王国玩家！」获得 <strong>6527</strong> 播放，点赞 <strong>133</strong>，评论 <strong>15</strong>，分享 <strong>56</strong>。完播率 <strong>25.0%</strong>，是本周期表现最好的内容。</div>
+        <div class="card-body">「论整活还得看洛克王国玩家！」获得 <strong>6560</strong> 播放，点赞 <strong>133</strong>，评论 <strong>15</strong>，分享 <strong>56</strong>。完播率 <strong>24.9%</strong>，是本周期表现最好的内容。</div>
         <div class="highlight good">💡 分析这条视频的成功要素（选题、标题、发布时间），在后续内容中复制。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(239,68,68,0.15);">📉</div><div class="card-title">最差表现视频</div></div>
-        <div class="card-body">「头像投票闹乌龙，粉丝操作比游戏还魔幻」仅获得 <strong>237</strong> 播放，2s跳出率 <strong>65.3%</strong>。需要分析是否为选题冷门、标题不吸引人或发布时间不当。</div>
+        <div class="card-body">「头像投票闹乌龙，粉丝操作比游戏还魔幻」仅获得 <strong>279</strong> 播放，2s跳出率 <strong>65.0%</strong>。需要分析是否为选题冷门、标题不吸引人或发布时间不当。</div>
         <div class="highlight bad">🔴 低播放意味着内容未能进入推荐池，需复盘原因。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(167,139,250,0.15);">📊</div><div class="card-title">完播率分析 · 较差</div></div>
-        <div class="card-body">平均完播率 <strong>5.4%</strong>，严重偏低。5s留存 <strong>5.4%</strong>，2s跳出率 <strong>52.9%</strong>。观众在前几秒就大量流失，需要重点优化开场钩子和视频前5秒的内容吸引力。</div>
+        <div class="card-body">平均完播率 <strong>5.5%</strong>，严重偏低。5s留存 <strong>5.5%</strong>，2s跳出率 <strong>51.3%</strong>。观众在前几秒就大量流失，需要重点优化开场钩子和视频前5秒的内容吸引力。</div>
         <div class="highlight bad">🔴 完播率是算法推荐的核心指标，直接影响后续流量分配。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">💬</div><div class="card-title">互动数据</div></div>
-        <div class="card-body">本周期共 <strong>14</strong> 条视频，总播放 <strong>2.6万</strong>。<br>
-        点赞率 <strong>1.13%</strong> · 评论率 <strong>0.12%</strong> · 分享率 <strong>0.33%</strong> · 收藏率 <strong>0.28%</strong><br>
-        粉丝增量：<strong>4</strong></div>
+        <div class="card-body">本周期共 <strong>15</strong> 条视频，总播放 <strong>2.8万</strong>。<br>
+        点赞率 <strong>1.19%</strong> · 评论率 <strong>0.12%</strong> · 分享率 <strong>0.30%</strong> · 收藏率 <strong>0.27%</strong><br>
+        粉丝增量：<strong>5</strong></div>
         <div class="highlight good">💡 点赞和评论是核心互动指标，分享和收藏是扩散指标。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(234,179,8,0.15);">🎯</div><div class="card-title">内容品类分布</div></div>
-        <div class="card-body">高频话题：洛克王国世界(3)、洛克王国(3)、洛克创作激励计划(3)、逆战未来(2)、王者荣耀(2)。覆盖 <strong>37</strong> 个不同话题标签。<br>
+        <div class="card-body">高频话题：洛克王国世界(3)、洛克王国(3)、洛克创作激励计划(3)、第五人格(2)、逆战未来(2)。覆盖 <strong>39</strong> 个不同话题标签。<br>
         建议聚焦<strong>3-5个核心品类</strong>，避免品类过于分散导致账号标签模糊。</div>
         <div class="highlight warn">⚠️ 品类过多会稀释账号标签，影响算法对目标人群的精准推荐。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">⏱️</div><div class="card-title">播放时长分析</div></div>
-        <div class="card-body">平均播放时长 <strong>7.7秒</strong>。结合完播率来看，观众可能在10秒后就流失了。<br>
+        <div class="card-body">平均播放时长 <strong>7.9秒</strong>。结合完播率来看，观众可能在10秒后就流失了。<br>
         建议控制视频时长在<strong>30-90秒</strong>之间，前5秒必须有强力钩子。</div>
         <div class="highlight good">💡 短视频时代，前5秒决定60%的去留。</div>
     </div></div>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">🚀</span> 优化建议</div>
-    <ul class="opt-list"><li><div class="priority p0">P0</div><div class="opt-content"><h3>🎯 优化前5秒开场钩子</h3><p>2s跳出率高达 <strong>52.9%</strong>，说明大量观众在前2秒就划走了。建议：①开场3秒内给出核心信息或悬念 ②使用情绪化的开场白 ③避免冗长的前奏和自我介绍。</p><div class="action">→ 每条视频准备至少2个开场方案，A/B测试选择跳出率最低的</div></div></li>
-<li><div class="priority p0">P0</div><div class="opt-content"><h3>📈 提升完播率</h3><p>平均完播率仅 <strong>5.4%</strong>，严重影响算法推荐。建议：①视频控制在60秒内 ②每15秒设置一个小高潮 ③结尾加入互动引导（"你怎么看？"）</p><div class="action">→ 目标完播率提升至15%以上</div></div></li>
-<li><div class="priority p0">P0</div><div class="opt-content"><h3>💡 复制最佳视频的成功模式</h3><p>「论整活还得看洛克王国玩家！」获得 6527 播放，远超平均水平。分析这条视频的选题角度、标题措辞、发布时间和内容结构，提炼可复制的爆款公式。</p><div class="action">→ 本周复盘最佳视频的全部指标，总结成功要素</div></div></li>
-<li><div class="priority p1">P1</div><div class="opt-content"><h3>📌 聚焦核心品类</h3><p>当前覆盖 <strong>37</strong> 个不同话题，品类过于分散。建议聚焦3-5个核心游戏/IP，建立"想看XX就来这里"的用户心智。</p><div class="action">→ 每周选题控制在3个核心品类内</div></div></li>
+    <ul class="opt-list"><li><div class="priority p0">P0</div><div class="opt-content"><h3>🎯 优化前5秒开场钩子</h3><p>2s跳出率高达 <strong>51.3%</strong>，说明大量观众在前2秒就划走了。建议：①开场3秒内给出核心信息或悬念 ②使用情绪化的开场白 ③避免冗长的前奏和自我介绍。</p><div class="action">→ 每条视频准备至少2个开场方案，A/B测试选择跳出率最低的</div></div></li>
+<li><div class="priority p0">P0</div><div class="opt-content"><h3>📈 提升完播率</h3><p>平均完播率仅 <strong>5.5%</strong>，严重影响算法推荐。建议：①视频控制在60秒内 ②每15秒设置一个小高潮 ③结尾加入互动引导（"你怎么看？"）</p><div class="action">→ 目标完播率提升至15%以上</div></div></li>
+<li><div class="priority p0">P0</div><div class="opt-content"><h3>💡 复制最佳视频的成功模式</h3><p>「论整活还得看洛克王国玩家！」获得 6560 播放，远超平均水平。分析这条视频的选题角度、标题措辞、发布时间和内容结构，提炼可复制的爆款公式。</p><div class="action">→ 本周复盘最佳视频的全部指标，总结成功要素</div></div></li>
+<li><div class="priority p1">P1</div><div class="opt-content"><h3>📌 聚焦核心品类</h3><p>当前覆盖 <strong>39</strong> 个不同话题，品类过于分散。建议聚焦3-5个核心游戏/IP，建立"想看XX就来这里"的用户心智。</p><div class="action">→ 每周选题控制在3个核心品类内</div></div></li>
 <li><div class="priority p2">P2</div><div class="opt-content"><h3>⏰ 发布时间优化</h3><p>建议固定在 <strong>12:00-13:00 或 20:00-22:00</strong> 发布，并连续2周测试记录数据。建立粉丝的观看预期。</p><div class="action">→ 固定发布时间，建立粉丝预期</div></div></li>
 </ul>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">📋</span> 总结</div>
     <div class="summary-card"><div class="card-body">
-        <strong style="color:#a78bfa;">有料玩家</strong> 本周期共发布 <strong>14</strong> 条视频，总播放 <strong>2.6万</strong>，平均播放 <strong>1836</strong>。<br><br>
-        最佳表现：「论整活还得看洛克王国玩家！」— <strong style="color:#22c55e;">6527播放</strong><br>
-        平均完播率 <strong>5.4%</strong>，5s留存 <strong>5.4%</strong>，2s跳出率 <strong>52.9%</strong><br><br>
+        <strong style="color:#a78bfa;">有料玩家</strong> 本周期共发布 <strong>15</strong> 条视频，总播放 <strong>2.8万</strong>，平均播放 <strong>1883</strong>。<br><br>
+        最佳表现：「论整活还得看洛克王国玩家！」— <strong style="color:#22c55e;">6560播放</strong><br>
+        平均完播率 <strong>5.5%</strong>，5s留存 <strong>5.5%</strong>，2s跳出率 <strong>51.3%</strong><br><br>
         <strong style="color:#22c55e;">核心方向：优化完播率 + 复制爆款模式 + 增强互动引导。</strong>
     </div></div>
 </div>
@@ -3135,8 +2540,8 @@ body {
 
 
 <div class="footer">
-    <p>本报告基于抖音创作者中心数据导出 · 数据周期：2026-03-18 ~ 2026-04-15</p>
-    <p style="margin-top:8px;">波儿组合 · 2026年04月16日</p>
+    <p>本报告基于抖音创作者中心数据导出 · 数据周期：2026-03-18 ~ 2026-04-16</p>
+    <p style="margin-top:8px;">波儿组合 · 2026年04月17日</p>
 </div>
 
 </div>
@@ -3158,9 +2563,9 @@ function switchTab(name) {
         var chartDom = document.getElementById('chart-youyu');
         if (!chartDom) return;
         var myChart = echarts.init(chartDom);
-        var dates = ["03-18", "03-18", "03-19", "03-19", "03-19", "03-20", "03-20", "03-20", "03-21", "03-21", "03-21", "03-22", "03-22", "03-22", "03-23", "03-23", "03-24", "03-25", "03-26", "03-26", "03-27", "03-27", "03-28", "03-28", "03-29", "03-29", "03-30", "03-30", "03-31", "03-31", "04-01", "04-01", "04-02", "04-02", "04-03", "04-03", "04-04", "04-04", "04-05", "04-05", "04-07", "04-08", "04-08", "04-09", "04-10", "04-10", "04-11", "04-11", "04-11", "04-12", "04-12", "04-13", "04-14", "04-15"];
-        var plays = [1369, 1029, 10593, 80, 5454, 5322, 6378, 13043, 185274, 985, 10226, 42753, 6138, 5194, 3375, 3884, 1390, 201, 1863, 99, 1532, 1108, 172, 2700, 744, 10811, 2339, 254, 1542, 867, 1065, 10986, 465, 475, 188, 73, 2206, 6492, 1409, 225, 2507, 310, 214, 683, 941, 4684, 54, 79, 769, 378, 1725, 10137, 44, 9476];
-        var chartData = [["03-18", 1369, "终究，电竞陀螺还是转到了娱乐圈，飞驰人生"], ["03-18", 1029, "提前70天过百日庆典！谁家游戏厂商这么会"], ["03-19", 10593, "电竞圈最显眼包的神人战队，就连比赛都在整"], ["03-19", 80, "小时候的回忆！这可是承载着00后的童年青"], ["03-19", 5454, "世纪大和解！MC和迷你世界链接，我这些年"], ["03-20", 5322, "年年不一样，年年都一样，盘点LOL大赛里"], ["03-20", 6378, "不是哥们？！迷你世界还搞了个枪战职业比赛"], ["03-20", 13043, "还有这种事？这导播是懂观众们爱看什么的~"], ["03-21", 185274, "太讷了，OWL的职业战队居然使用这种战术"], ["03-21", 985, "狠狠期待上了，宝可梦系列又出新大作！"], ["03-21", 10226, "CF比赛大狙实力一串三！不过串了两个是队"], ["03-22", 42753, "神人主角之亨利的诡辩！这游戏还是太抽象了"], ["03-22", 6138, "职业选手承认自己“开”了？被动开挂太夯了"], ["03-22", 5194, "王者荣耀比赛事故！最惨赞助商原来是它！！"], ["03-23", 3375, "日更游戏BUG？！这位火影玩家也太励志吧"], ["03-23", 3884, "谁还敢质疑 bin？我bin终于不是失信"], ["03-24", 1390, "苦等多年终不负！死亡搁浅 2 好评如潮，"], ["03-25", 201, "王者荣耀世界定档 4.10！这波能打赢开"], ["03-26", 1863, "IGN 又成小丑？红色沙漠口碑反转打了多"], ["03-26", 99, "steam春促最后一天！史低游戏推荐必入"], ["03-27", 1532, "6000万预约兑现！洛克王国首日新增15"], ["03-27", 1108, "御三家？不，是火花一家"], ["03-28", 172, "逆天翻盘？爽文主角？小破站联手打造三国志"], ["03-28", 2700, "E父一裁员，我直接失去经济来源（指白嫖）"], ["03-29", 744, "从网页到 Steam！《Lurkers》"], ["03-29", 10811, "魔性解压！谁能拒绝一只会搞事的捣蛋蛙"], ["03-30", 2339, "晚开服又如何？中国魔兽公会登顶世界榜前三"], ["03-30", 254, "都别睡了！四月国产新游多到根本玩不完"], ["03-31", 1542, "时间循环 + 开放世界！归环这新 PV "], ["03-31", 867, "大司马杯vsUzi 杯：两大顶流杯赛，为"], ["04-01", 1065, "别抽歪了！鸣潮 3.3 必抽两大女神，强"], ["04-01", 10986, "小白：早知道夺冠后要被笑刑，我就不打决赛"], ["04-02", 465, "暗区最恐怖更新！理智崩溃见幻象，玩家：不"], ["04-02", 475, "等了3年！移动端狩猎天花板真的要来了？"], ["04-03", 188, "蓝色星原旅谣今日新 PV，星宠萌化，种田"], ["04-03", 73, "温柔到犯规！星布谷地新PV，每一幕都藏着"], ["04-04", 2206, "原神新角色莉奈娅，颜值与实力双在线，太好"], ["04-04", 6492, "被洛克玩家的另类玩法惊到了，不卷强度，只"], ["04-05", 1409, "一句 “相信我”，我记了BT-7274好"], ["04-05", 225, "纳克园口碑两极分化：潜力拉满还是高开低走"], ["04-07", 2507, "简单聊聊三角洲的环境怎么了？"], ["04-08", 310, "岩系专辅降临！莉奈娅大招回血近两万!"], ["04-08", 214, "千冶・刃：火属性虚无！是主C还是辅助？这"], ["04-09", 683, "庆祝夺冠竟被判负？宝可梦 GO 这判罚也"], ["04-10", 941, "从甜妹到 BOSS！逆战新角色悦，身世直"], ["04-10", 4684, "洛克王国精灵撞脸大赏"], ["04-11", 54, "五年磨一剑，王者荣耀世界上线现状如何？"], ["04-11", 79, "盘点那些多年过去仍然屹立不倒的老游戏"], ["04-11", 769, "史上最勇玩家单挑南山必胜客"], ["04-12", 378, "三角洲迎来一位强敌？纳克园能否与之一战"], ["04-12", 1725, "简直夯爆了！到底是哪些神人想的这些游戏彩"], ["04-13", 10137, "洛克王国世界玩家整活另类玩法"], ["04-14", 44, "头像投票事件引爆第五人格！"], ["04-15", 9476, "联机开黑新神作！躲抽屉聚众抽烟，被房主一"]];
+        var dates = ["03-18", "03-18", "03-19", "03-19", "03-19", "03-20", "03-20", "03-20", "03-21", "03-21", "03-21", "03-22", "03-22", "03-22", "03-23", "03-23", "03-24", "03-25", "03-26", "03-26", "03-27", "03-27", "03-28", "03-28", "03-29", "03-29", "03-30", "03-30", "03-31", "03-31", "04-01", "04-01", "04-02", "04-02", "04-03", "04-03", "04-04", "04-04", "04-05", "04-05", "04-07", "04-08", "04-08", "04-09", "04-10", "04-10", "04-11", "04-11", "04-11", "04-12", "04-12", "04-13", "04-14", "04-15", "04-16"];
+        var plays = [1369, 1029, 10594, 0, 5454, 5324, 6435, 13323, 185719, 985, 10226, 42798, 6138, 5197, 3376, 3884, 1390, 201, 1863, 99, 1532, 1108, 172, 2700, 744, 10822, 2339, 254, 1543, 867, 1065, 10988, 465, 477, 189, 73, 2207, 6493, 1414, 227, 2507, 315, 214, 685, 979, 4771, 58, 80, 773, 382, 1730, 10149, 47, 10582, 1645];
+        var chartData = [["03-18", 1369, "终究，电竞陀螺还是转到了娱乐圈，飞驰人生"], ["03-18", 1029, "提前70天过百日庆典！谁家游戏厂商这么会"], ["03-19", 10594, "电竞圈最显眼包的神人战队，就连比赛都在整"], ["03-19", 0, "小时候的回忆！这可是承载着00后的童年青"], ["03-19", 5454, "世纪大和解！MC和迷你世界链接，我这些年"], ["03-20", 5324, "年年不一样，年年都一样，盘点LOL大赛里"], ["03-20", 6435, "不是哥们？！迷你世界还搞了个枪战职业比赛"], ["03-20", 13323, "还有这种事？这导播是懂观众们爱看什么的~"], ["03-21", 185719, "太讷了，OWL的职业战队居然使用这种战术"], ["03-21", 985, "狠狠期待上了，宝可梦系列又出新大作！"], ["03-21", 10226, "CF比赛大狙实力一串三！不过串了两个是队"], ["03-22", 42798, "神人主角之亨利的诡辩！这游戏还是太抽象了"], ["03-22", 6138, "职业选手承认自己“开”了？被动开挂太夯了"], ["03-22", 5197, "王者荣耀比赛事故！最惨赞助商原来是它！！"], ["03-23", 3376, "日更游戏BUG？！这位火影玩家也太励志吧"], ["03-23", 3884, "谁还敢质疑 bin？我bin终于不是失信"], ["03-24", 1390, "苦等多年终不负！死亡搁浅 2 好评如潮，"], ["03-25", 201, "王者荣耀世界定档 4.10！这波能打赢开"], ["03-26", 1863, "IGN 又成小丑？红色沙漠口碑反转打了多"], ["03-26", 99, "steam春促最后一天！史低游戏推荐必入"], ["03-27", 1532, "6000万预约兑现！洛克王国首日新增15"], ["03-27", 1108, "御三家？不，是火花一家"], ["03-28", 172, "逆天翻盘？爽文主角？小破站联手打造三国志"], ["03-28", 2700, "E父一裁员，我直接失去经济来源（指白嫖）"], ["03-29", 744, "从网页到 Steam！《Lurkers》"], ["03-29", 10822, "魔性解压！谁能拒绝一只会搞事的捣蛋蛙"], ["03-30", 2339, "晚开服又如何？中国魔兽公会登顶世界榜前三"], ["03-30", 254, "都别睡了！四月国产新游多到根本玩不完"], ["03-31", 1543, "时间循环 + 开放世界！归环这新 PV "], ["03-31", 867, "大司马杯vsUzi 杯：两大顶流杯赛，为"], ["04-01", 1065, "别抽歪了！鸣潮 3.3 必抽两大女神，强"], ["04-01", 10988, "小白：早知道夺冠后要被笑刑，我就不打决赛"], ["04-02", 465, "暗区最恐怖更新！理智崩溃见幻象，玩家：不"], ["04-02", 477, "等了3年！移动端狩猎天花板真的要来了？"], ["04-03", 189, "蓝色星原旅谣今日新 PV，星宠萌化，种田"], ["04-03", 73, "温柔到犯规！星布谷地新PV，每一幕都藏着"], ["04-04", 2207, "原神新角色莉奈娅，颜值与实力双在线，太好"], ["04-04", 6493, "被洛克玩家的另类玩法惊到了，不卷强度，只"], ["04-05", 1414, "一句 “相信我”，我记了BT-7274好"], ["04-05", 227, "纳克园口碑两极分化：潜力拉满还是高开低走"], ["04-07", 2507, "简单聊聊三角洲的环境怎么了？"], ["04-08", 315, "岩系专辅降临！莉奈娅大招回血近两万!"], ["04-08", 214, "千冶・刃：火属性虚无！是主C还是辅助？这"], ["04-09", 685, "庆祝夺冠竟被判负？宝可梦 GO 这判罚也"], ["04-10", 979, "从甜妹到 BOSS！逆战新角色悦，身世直"], ["04-10", 4771, "洛克王国精灵撞脸大赏"], ["04-11", 58, "五年磨一剑，王者荣耀世界上线现状如何？"], ["04-11", 80, "盘点那些多年过去仍然屹立不倒的老游戏"], ["04-11", 773, "史上最勇玩家单挑南山必胜客"], ["04-12", 382, "三角洲迎来一位强敌？纳克园能否与之一战"], ["04-12", 1730, "简直夯爆了！到底是哪些神人想的这些游戏彩"], ["04-13", 10149, "洛克王国世界玩家整活另类玩法"], ["04-14", 47, "头像投票事件引爆第五人格！"], ["04-15", 10582, "联机开黑新神作！躲抽屉聚众抽烟，被房主一"], ["04-16", 1645, "一张白纸拼出全球20强！第五人格选手Pi"]];
         var color = '#a78bfa';
 
         var option = {
@@ -3233,9 +2638,9 @@ function switchTab(name) {
         var chartDom = document.getElementById('chart-niuma');
         if (!chartDom) return;
         var myChart = echarts.init(chartDom);
-        var dates = ["03-18", "03-18", "03-19", "03-19", "03-19", "03-20", "03-20", "03-20", "03-21", "03-21", "03-21", "03-22", "03-22", "03-22", "03-23", "03-23", "03-24", "03-25", "03-26", "03-26", "03-27", "03-27", "03-28", "03-28", "03-29", "03-29", "03-30", "03-30", "03-31", "03-31", "04-01", "04-01", "04-02", "04-02", "04-03", "04-03", "04-04", "04-04", "04-05", "04-05", "04-07", "04-08", "04-08", "04-09", "04-09", "04-10", "04-10", "04-11", "04-11", "04-12", "04-13", "04-14", "04-15"];
-        var plays = [789, 474, 1582, 716, 976, 309, 1202, 1420, 1918, 3354, 1044, 901, 430, 563, 2324, 1100, 1201, 243, 449, 368, 1107, 432, 358, 1449, 445, 2526, 644, 343, 302, 2116, 856, 848, 820, 819, 463, 526, 372, 844, 525, 495, 486, 712, 728, 1130, 879, 2270, 1435, 815, 523, 1279, 2944, 3250, 445];
-        var chartData = [["03-18", 789, "想起来了，都想起来了，我的青春回来了"], ["03-18", 474, "终于吃上细糠了！国内五款不同品类的5A级"], ["03-19", 1582, "顶级和事佬啊！14岁初中生竟实现了MC和"], ["03-19", 716, "曾经风靡全国的几大网游！你都玩过哪些呢？"], ["03-19", 976, "还能这么用？腾讯会议ai复盘还是太超模了"], ["03-20", 309, "做游戏还能被封爵？！简直震惊我的大小眼！"], ["03-20", 1202, "职业选手不务正业？！熬夜肝原神错过比赛！"], ["03-20", 1420, "多兰又又又整活？这波忘买装备诗人吗？！"], ["03-21", 1918, "还有高手？植物大战僵尸里的植物居然还有操"], ["03-21", 3354, "简直阴到没边，阴间梗的由来原来是这样"], ["03-21", 1044, "泪目了！原神里最意难平的五个角色"], ["03-22", 901, "打工人的精神杂粮！手机休闲游戏推荐！"], ["03-22", 430, "太炸裂了！比赛现场真实互爆！竟然引来FB"], ["03-22", 563, "史上最“燃”的比赛，选手打到一半现场着火"], ["03-23", 2324, "最“黑”的欧洲人来了，这爆率让职业选手都"], ["03-23", 1100, "bin哥又神了！BLG强势拿下lol先锋"], ["03-24", 1201, "上线即巅峰！好评9.6分直接爽玩一整天！"], ["03-25", 243, "泪目！苦等多年，王者荣耀世界终于定档 4"], ["03-26", 449, "谁能想到！红色沙漠一周完成口碑逆袭，玩家"], ["03-26", 368, "春促落幕！这些史低游戏买了绝对不亏"], ["03-27", 1107, "开服13小时1500 万！洛克王国：世界"], ["03-27", 432, "御三家选择率 56%：火花凭什么成为全民"], ["03-28", 358, "从被告到授权！三国志：王道天下上线，小破"], ["03-28", 1449, "Epic裁员 1000 人，我的喜加一时"], ["03-29", 445, "可破坏世界 + 自由建造！Steam《L"], ["03-29", 2526, "全网都在玩的捣蛋蛙到底有多魔性？"], ["03-30", 644, "魔兽这波杀疯了！中国俩公会包揽世界第二第"], ["03-30", 343, "四月国产游戏扎堆上线，终于不用愁玩啥了"], ["03-31", 302, "跃入时间之环，《归环》一周目测试 PV "], ["03-31", 2116, "大司马杯欢乐整活，Uzi 杯却深陷假赛，"], ["04-01", 856, "库洛你藏太深！这两个新角色，直接把周年庆"], ["04-01", 848, "全员破防！大司马杯冠军也顶不住这种笑点！"], ["04-02", 820, "暗区变恐怖游戏？诡雾里有怪物，刚上线就吓"], ["04-02", 819, "埃索岛冒险开启！这次我们能当真正的『旅人"], ["04-03", 463, "蛮啾发力！今日蓝色星原新 PV，战斗打击"], ["04-03", 526, "米哈游新PV太治愈！星布谷地，把慢生活搬"], ["04-04", 372, "原神新角色莉奈娅，不止是颜值，实力更能打"], ["04-04", 844, "洛克王国世界的另类玩家，把魔法世界玩成了"], ["04-05", 525, "运营超十年还不凉，这些游戏到底凭什么？"], ["04-05", 495, "纳克园玩家评价：近战潜行是惊喜，优化卡顿"], ["04-07", 486, "两款腾讯大世界来了！一个主打战斗，一个偏"], ["04-08", 712, "岩队救星！莉奈娅0命即成型，减抗+回血盘"], ["04-08", 728, "炸裂！刃SP千冶·刃正式曝光，4.3版本"], ["04-09", 1130, "聊聊三角洲近期大事件"], ["04-09", 879, "规则模糊引争议！宝可梦选手因庆祝动作被直"], ["04-10", 2270, "粉毛甜妹的身世比樱之渊还悲凉！逆战 S2"], ["04-10", 1435, "洛克王国和篮球圈联动了？"], ["04-11", 815, "王者逆天排位机制终于迎来了它的宿敌"], ["04-11", 523, "三角洲劲敌纳克园到底怎么样？"], ["04-12", 1279, "盘点那些出现在游戏里的离谱彩蛋"], ["04-13", 2944, "洛克王国世界玩家脑洞再创新高！"], ["04-14", 3250, "职业选手左右不定，房管误上断头台"], ["04-15", 445, "画风魔性到离谱！6 人联机偷家，既能爽杀"]];
+        var dates = ["03-18", "03-18", "03-19", "03-19", "03-19", "03-20", "03-20", "03-20", "03-21", "03-21", "03-21", "03-22", "03-22", "03-22", "03-23", "03-23", "03-24", "03-25", "03-26", "03-26", "03-27", "03-27", "03-28", "03-28", "03-29", "03-29", "03-30", "03-30", "03-31", "03-31", "04-01", "04-01", "04-02", "04-02", "04-03", "04-03", "04-04", "04-04", "04-05", "04-05", "04-07", "04-08", "04-08", "04-09", "04-09", "04-10", "04-10", "04-11", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16"];
+        var plays = [789, 475, 1583, 716, 977, 309, 1202, 1420, 1919, 3384, 1044, 901, 430, 563, 2325, 1100, 1201, 243, 449, 368, 1107, 432, 358, 1449, 445, 2537, 644, 343, 303, 2117, 856, 848, 820, 820, 463, 526, 373, 845, 526, 497, 488, 713, 729, 1130, 881, 2292, 1448, 822, 531, 1305, 2955, 4620, 525, 648];
+        var chartData = [["03-18", 789, "想起来了，都想起来了，我的青春回来了"], ["03-18", 475, "终于吃上细糠了！国内五款不同品类的5A级"], ["03-19", 1583, "顶级和事佬啊！14岁初中生竟实现了MC和"], ["03-19", 716, "曾经风靡全国的几大网游！你都玩过哪些呢？"], ["03-19", 977, "还能这么用？腾讯会议ai复盘还是太超模了"], ["03-20", 309, "做游戏还能被封爵？！简直震惊我的大小眼！"], ["03-20", 1202, "职业选手不务正业？！熬夜肝原神错过比赛！"], ["03-20", 1420, "多兰又又又整活？这波忘买装备诗人吗？！"], ["03-21", 1919, "还有高手？植物大战僵尸里的植物居然还有操"], ["03-21", 3384, "简直阴到没边，阴间梗的由来原来是这样"], ["03-21", 1044, "泪目了！原神里最意难平的五个角色"], ["03-22", 901, "打工人的精神杂粮！手机休闲游戏推荐！"], ["03-22", 430, "太炸裂了！比赛现场真实互爆！竟然引来FB"], ["03-22", 563, "史上最“燃”的比赛，选手打到一半现场着火"], ["03-23", 2325, "最“黑”的欧洲人来了，这爆率让职业选手都"], ["03-23", 1100, "bin哥又神了！BLG强势拿下lol先锋"], ["03-24", 1201, "上线即巅峰！好评9.6分直接爽玩一整天！"], ["03-25", 243, "泪目！苦等多年，王者荣耀世界终于定档 4"], ["03-26", 449, "谁能想到！红色沙漠一周完成口碑逆袭，玩家"], ["03-26", 368, "春促落幕！这些史低游戏买了绝对不亏"], ["03-27", 1107, "开服13小时1500 万！洛克王国：世界"], ["03-27", 432, "御三家选择率 56%：火花凭什么成为全民"], ["03-28", 358, "从被告到授权！三国志：王道天下上线，小破"], ["03-28", 1449, "Epic裁员 1000 人，我的喜加一时"], ["03-29", 445, "可破坏世界 + 自由建造！Steam《L"], ["03-29", 2537, "全网都在玩的捣蛋蛙到底有多魔性？"], ["03-30", 644, "魔兽这波杀疯了！中国俩公会包揽世界第二第"], ["03-30", 343, "四月国产游戏扎堆上线，终于不用愁玩啥了"], ["03-31", 303, "跃入时间之环，《归环》一周目测试 PV "], ["03-31", 2117, "大司马杯欢乐整活，Uzi 杯却深陷假赛，"], ["04-01", 856, "库洛你藏太深！这两个新角色，直接把周年庆"], ["04-01", 848, "全员破防！大司马杯冠军也顶不住这种笑点！"], ["04-02", 820, "暗区变恐怖游戏？诡雾里有怪物，刚上线就吓"], ["04-02", 820, "埃索岛冒险开启！这次我们能当真正的『旅人"], ["04-03", 463, "蛮啾发力！今日蓝色星原新 PV，战斗打击"], ["04-03", 526, "米哈游新PV太治愈！星布谷地，把慢生活搬"], ["04-04", 373, "原神新角色莉奈娅，不止是颜值，实力更能打"], ["04-04", 845, "洛克王国世界的另类玩家，把魔法世界玩成了"], ["04-05", 526, "运营超十年还不凉，这些游戏到底凭什么？"], ["04-05", 497, "纳克园玩家评价：近战潜行是惊喜，优化卡顿"], ["04-07", 488, "两款腾讯大世界来了！一个主打战斗，一个偏"], ["04-08", 713, "岩队救星！莉奈娅0命即成型，减抗+回血盘"], ["04-08", 729, "炸裂！刃SP千冶·刃正式曝光，4.3版本"], ["04-09", 1130, "聊聊三角洲近期大事件"], ["04-09", 881, "规则模糊引争议！宝可梦选手因庆祝动作被直"], ["04-10", 2292, "粉毛甜妹的身世比樱之渊还悲凉！逆战 S2"], ["04-10", 1448, "洛克王国和篮球圈联动了？"], ["04-11", 822, "王者逆天排位机制终于迎来了它的宿敌"], ["04-11", 531, "三角洲劲敌纳克园到底怎么样？"], ["04-12", 1305, "盘点那些出现在游戏里的离谱彩蛋"], ["04-13", 2955, "洛克王国世界玩家脑洞再创新高！"], ["04-14", 4620, "职业选手左右不定，房管误上断头台"], ["04-15", 525, "画风魔性到离谱！6 人联机偷家，既能爽杀"], ["04-16", 648, "靠热爱硬拼到20强！场均3.67分的背后"]];
         var color = '#f472b6';
 
         var option = {
@@ -3308,9 +2713,9 @@ function switchTab(name) {
         var chartDom = document.getElementById('chart-ami');
         if (!chartDom) return;
         var myChart = echarts.init(chartDom);
-        var dates = ["03-30", "03-30", "03-31", "03-31", "04-01", "04-01", "04-02", "04-02", "04-03", "04-03", "04-04", "04-04", "04-05", "04-05", "04-07", "04-08", "04-08", "04-09", "04-09", "04-09", "04-10", "04-10", "04-11", "04-11", "04-12", "04-12", "04-13", "04-14", "04-15"];
-        var plays = [1183, 1139, 701, 939, 845, 1147, 863, 733, 684, 598, 466, 846, 1133, 845, 653, 625, 473, 286, 933, 692, 363, 746, 2089, 830, 863, 869, 1241, 111, 1207];
-        var chartData = [["03-30", 1183, "亚洲首杀 + 世界第二、第三！中国魔兽公"], ["03-30", 1139, "四月国内新游汇总，看看哪款是你的菜！"], ["03-31", 701, "归环新PV炸了！时间循环+骰子战斗，这开"], ["03-31", 939, "大司马杯欢乐整活，节目效果直接拉满"], ["04-01", 845, "泪痣御姐绯雪！这一刀下去！谁的DNA动了"], ["04-01", 1147, "顶级折磨！谁看了大司马的操作能不笑啊！"], ["04-02", 863, "暗区 S17 更新，诡雾山谷或将改变当前"], ["04-02", 733, "怪猎IP手游化！这是经典IP的革新还是妥"], ["04-03", 684, "今日炸场！《蓝色星原：旅谣》新 PV 流"], ["04-03", 598, "星布谷地新PV实测：星际旅行+地形改造，"], ["04-04", 466, "原神莉奈娅登场！新角色细节藏满惊喜，颜值"], ["04-04", 846, "同为洛克玩家，别人卷天梯，另类玩家却在玩"], ["04-05", 1133, "没想到这些游戏，竟然陪我们走过了十年以上"], ["04-05", 845, "国区运营都被裁了！没有免费游戏白嫖了"], ["04-07", 653, "都是腾讯的 “世界” 游戏，王者和洛克差"], ["04-08", 625, "原神莉奈娅前瞻炸锅！岩队迎来真神？"], ["04-08", 473, "千冶·刃定位与卡池前瞻：火系输出，4.3"], ["04-09", 286, "王者荣耀世界伽罗远程射手天花板"], ["04-09", 933, "聊聊三角洲行动游戏环境"], ["04-09", 692, "放耳机也算违规？宝可梦赛事判罚引玩家两极"], ["04-10", 363, "逆战未来 S2 把老玩家青春搬回来了！樱"], ["04-10", 746, "被 ELO 制裁到破防，律师玩家告腾讯，"], ["04-11", 2089, "洛克王国精灵竟和大博主撞脸？！"], ["04-11", 830, "爽玩2026第一友尽小游戏"], ["04-12", 863, "Epic裁员千人要断奶？虚惊一场依旧享有"], ["04-12", 869, "红色沙漠翻盘！玩法多到玩不过来！"], ["04-13", 1241, "洛克王国世界创新玩法大赏"], ["04-14", 111, "桃晚安会二次回应粉丝的期待吗？"], ["04-15", 1207, "最抽象联机游戏！6 个小地精偷家，死法比"]];
+        var dates = ["03-30", "03-30", "03-31", "03-31", "04-01", "04-01", "04-02", "04-02", "04-03", "04-03", "04-04", "04-04", "04-05", "04-05", "04-07", "04-08", "04-08", "04-09", "04-09", "04-09", "04-10", "04-10", "04-11", "04-11", "04-12", "04-12", "04-13", "04-14", "04-15", "04-16"];
+        var plays = [1183, 1139, 702, 939, 845, 1149, 865, 738, 693, 599, 476, 852, 1143, 849, 661, 633, 482, 296, 945, 701, 376, 757, 2125, 913, 882, 893, 1252, 120, 1397, 893];
+        var chartData = [["03-30", 1183, "亚洲首杀 + 世界第二、第三！中国魔兽公"], ["03-30", 1139, "四月国内新游汇总，看看哪款是你的菜！"], ["03-31", 702, "归环新PV炸了！时间循环+骰子战斗，这开"], ["03-31", 939, "大司马杯欢乐整活，节目效果直接拉满"], ["04-01", 845, "泪痣御姐绯雪！这一刀下去！谁的DNA动了"], ["04-01", 1149, "顶级折磨！谁看了大司马的操作能不笑啊！"], ["04-02", 865, "暗区 S17 更新，诡雾山谷或将改变当前"], ["04-02", 738, "怪猎IP手游化！这是经典IP的革新还是妥"], ["04-03", 693, "今日炸场！《蓝色星原：旅谣》新 PV 流"], ["04-03", 599, "星布谷地新PV实测：星际旅行+地形改造，"], ["04-04", 476, "原神莉奈娅登场！新角色细节藏满惊喜，颜值"], ["04-04", 852, "同为洛克玩家，别人卷天梯，另类玩家却在玩"], ["04-05", 1143, "没想到这些游戏，竟然陪我们走过了十年以上"], ["04-05", 849, "国区运营都被裁了！没有免费游戏白嫖了"], ["04-07", 661, "都是腾讯的 “世界” 游戏，王者和洛克差"], ["04-08", 633, "原神莉奈娅前瞻炸锅！岩队迎来真神？"], ["04-08", 482, "千冶·刃定位与卡池前瞻：火系输出，4.3"], ["04-09", 296, "王者荣耀世界伽罗远程射手天花板"], ["04-09", 945, "聊聊三角洲行动游戏环境"], ["04-09", 701, "放耳机也算违规？宝可梦赛事判罚引玩家两极"], ["04-10", 376, "逆战未来 S2 把老玩家青春搬回来了！樱"], ["04-10", 757, "被 ELO 制裁到破防，律师玩家告腾讯，"], ["04-11", 2125, "洛克王国精灵竟和大博主撞脸？！"], ["04-11", 913, "爽玩2026第一友尽小游戏"], ["04-12", 882, "Epic裁员千人要断奶？虚惊一场依旧享有"], ["04-12", 893, "红色沙漠翻盘！玩法多到玩不过来！"], ["04-13", 1252, "洛克王国世界创新玩法大赏"], ["04-14", 120, "桃晚安会二次回应粉丝的期待吗？"], ["04-15", 1397, "最抽象联机游戏！6 个小地精偷家，死法比"], ["04-16", 893, "拒绝歧视！第五选手Pit用实力封嘴，这才"]];
         var color = '#fb923c';
 
         var option = {
@@ -3383,9 +2788,9 @@ function switchTab(name) {
         var chartDom = document.getElementById('chart-hajimi');
         if (!chartDom) return;
         var myChart = echarts.init(chartDom);
-        var dates = ["03-23", "03-24", "03-25", "03-26", "03-26", "03-27", "03-27", "03-28", "03-28", "03-29", "03-29", "03-30", "03-30", "03-31", "03-31", "04-01", "04-01", "04-02", "04-02", "04-03", "04-03", "04-04", "04-04", "04-05", "04-05", "04-07", "04-08", "04-08", "04-09", "04-09", "04-10", "04-10", "04-11", "04-11", "04-11", "04-12", "04-12", "04-13", "04-14", "04-15"];
-        var plays = [6451, 335, 183, 266, 145, 188, 182, 381, 249, 169, 2352, 625, 121, 224, 493, 189, 440, 128, 159, 113, 160, 166, 162, 169, 714, 211, 178, 148, 202, 311, 2547, 108, 128, 124, 581, 253, 260, 1037, 203, 161];
-        var chartData = [["03-23", 6451, "今年真的有希望了！BLG 横扫先锋赛夺冠"], ["03-24", 335, "年度3A杀疯了！《死亡搁浅2》96%好评"], ["03-25", 183, "农批玩家狂喜！王者荣耀世界终于定档4/1"], ["03-26", 266, "从全网骂到疯狂道歉！红色沙漠这波口碑反转"], ["03-26", 145, "别等结束再后悔！春促史低游戏推荐，手慢无"], ["03-27", 188, "15年青春回归！首日1500 万小洛克重"], ["03-27", 182, "开服数据炸了！56% 玩家选火花，御三家"], ["03-28", 381, "以前 Epic 送游戏，现在 Epic "], ["03-28", 249, "小破站强势拿下授权，三国志：王道天下正式"], ["03-29", 169, "Steam 喜加一！《Lurkers》永"], ["03-29", 2352, "别再玩普通休闲游戏了，捣蛋蛙才是真上头"], ["03-30", 625, "魔兽这波杀疯了！中国俩公会包揽世界第二第"], ["03-30", 121, "4 月国产新游直接炸场！这才是真正的神仙"], ["03-31", 224, "归环实机PV曝光！骰子决定命运，这玩法我"], ["03-31", 493, "大司马杯欢乐不断，Uzi 杯竞争激烈看点"], ["04-01", 189, "世一冰换人！绯雪实机太帅，达妮娅直接萌出"], ["04-01", 440, "冠军待遇！小白夺冠第一天，就被大司马折磨"], ["04-02", 128, "暗区S17炸了！诡雾山谷+理智值+怪物，"], ["04-02", 159, "从PSP到手机！我的青春终于可以在掌上狩"], ["04-03", 113, "看完今日蓝色星原新 PV，我直接蹲测试资"], ["04-03", 160, "米哈游杀疯了！《星布谷地》新PV流出，治"], ["04-04", 166, "温柔又能打！原神莉奈娅，承包岩系队伍辅助"], ["04-04", 162, "-别再只肝主线了，洛克另类玩家的玩法，藏"], ["04-05", 169, "从网吧爆款到时代印记，存活十年以上的游戏"], ["04-05", 714, "一边捧上天一边踩到底？纳克园玩家评价，到"], ["04-07", 211, "腾讯半个月两款大世界！王者世界和洛克王国"], ["04-08", 178, "岩队终于有救了？莉奈娅减抗+回血双buf"], ["04-08", 148, "剧情升华+强度保障！千冶刃这波，厨党和强"], ["04-09", 202, "三角洲的环境怎么了？"], ["04-09", 311, "随手放耳机丢冠军？宝可梦赛事争议判罚引全"], ["04-10", 2547, "以为是卖萌？逆战新角色黑化变渊・黑蝶，剧"], ["04-10", 108, "王者排位机制将迎来转机？玩家的春天终于要"], ["04-11", 128, "王者荣耀世界拉完了？"], ["04-11", 124, "盘点那些游戏里的隐藏彩蛋"], ["04-11", 581, "洛克王国精灵撞脸大博主？"], ["04-12", 253, "纳克园测评，三角洲强劲对手真的要来了？"], ["04-12", 260, "舰长过期 = 毁号？三角洲主播彻底刷新底"], ["04-13", 1037, "4:0 被零封！狼队决赛失误不断，看得太"], ["04-14", 203, "BLG 连胜无人能破？LPL 谁能终结这"], ["04-15", 161, "VCT 全面改革！取消联赛、CN 赛区独"]];
+        var dates = ["03-23", "03-24", "03-25", "03-26", "03-26", "03-27", "03-27", "03-28", "03-28", "03-29", "03-29", "03-30", "03-30", "03-31", "03-31", "04-01", "04-01", "04-02", "04-02", "04-03", "04-03", "04-04", "04-04", "04-05", "04-05", "04-07", "04-08", "04-08", "04-09", "04-09", "04-10", "04-10", "04-11", "04-11", "04-11", "04-12", "04-12", "04-13", "04-14", "04-15", "04-16"];
+        var plays = [6459, 335, 183, 266, 145, 188, 182, 381, 249, 169, 2357, 625, 121, 224, 493, 189, 440, 128, 159, 114, 161, 167, 162, 169, 720, 212, 179, 153, 203, 319, 2758, 111, 132, 129, 603, 274, 264, 1042, 208, 208, 590];
+        var chartData = [["03-23", 6459, "今年真的有希望了！BLG 横扫先锋赛夺冠"], ["03-24", 335, "年度3A杀疯了！《死亡搁浅2》96%好评"], ["03-25", 183, "农批玩家狂喜！王者荣耀世界终于定档4/1"], ["03-26", 266, "从全网骂到疯狂道歉！红色沙漠这波口碑反转"], ["03-26", 145, "别等结束再后悔！春促史低游戏推荐，手慢无"], ["03-27", 188, "15年青春回归！首日1500 万小洛克重"], ["03-27", 182, "开服数据炸了！56% 玩家选火花，御三家"], ["03-28", 381, "以前 Epic 送游戏，现在 Epic "], ["03-28", 249, "小破站强势拿下授权，三国志：王道天下正式"], ["03-29", 169, "Steam 喜加一！《Lurkers》永"], ["03-29", 2357, "别再玩普通休闲游戏了，捣蛋蛙才是真上头"], ["03-30", 625, "魔兽这波杀疯了！中国俩公会包揽世界第二第"], ["03-30", 121, "4 月国产新游直接炸场！这才是真正的神仙"], ["03-31", 224, "归环实机PV曝光！骰子决定命运，这玩法我"], ["03-31", 493, "大司马杯欢乐不断，Uzi 杯竞争激烈看点"], ["04-01", 189, "世一冰换人！绯雪实机太帅，达妮娅直接萌出"], ["04-01", 440, "冠军待遇！小白夺冠第一天，就被大司马折磨"], ["04-02", 128, "暗区S17炸了！诡雾山谷+理智值+怪物，"], ["04-02", 159, "从PSP到手机！我的青春终于可以在掌上狩"], ["04-03", 114, "看完今日蓝色星原新 PV，我直接蹲测试资"], ["04-03", 161, "米哈游杀疯了！《星布谷地》新PV流出，治"], ["04-04", 167, "温柔又能打！原神莉奈娅，承包岩系队伍辅助"], ["04-04", 162, "-别再只肝主线了，洛克另类玩家的玩法，藏"], ["04-05", 169, "从网吧爆款到时代印记，存活十年以上的游戏"], ["04-05", 720, "一边捧上天一边踩到底？纳克园玩家评价，到"], ["04-07", 212, "腾讯半个月两款大世界！王者世界和洛克王国"], ["04-08", 179, "岩队终于有救了？莉奈娅减抗+回血双buf"], ["04-08", 153, "剧情升华+强度保障！千冶刃这波，厨党和强"], ["04-09", 203, "三角洲的环境怎么了？"], ["04-09", 319, "随手放耳机丢冠军？宝可梦赛事争议判罚引全"], ["04-10", 2758, "以为是卖萌？逆战新角色黑化变渊・黑蝶，剧"], ["04-10", 111, "王者排位机制将迎来转机？玩家的春天终于要"], ["04-11", 132, "王者荣耀世界拉完了？"], ["04-11", 129, "盘点那些游戏里的隐藏彩蛋"], ["04-11", 603, "洛克王国精灵撞脸大博主？"], ["04-12", 274, "纳克园测评，三角洲强劲对手真的要来了？"], ["04-12", 264, "舰长过期 = 毁号？三角洲主播彻底刷新底"], ["04-13", 1042, "4:0 被零封！狼队决赛失误不断，看得太"], ["04-14", 208, "BLG 连胜无人能破？LPL 谁能终结这"], ["04-15", 208, "VCT 全面改革！取消联赛、CN 赛区独"], ["04-16", 590, "场均3.67分的OMNI黑马，为何还要遭"]];
         var color = '#22c55e';
 
         var option = {
@@ -3458,9 +2863,9 @@ function switchTab(name) {
         var chartDom = document.getElementById('chart-youliao');
         if (!chartDom) return;
         var myChart = echarts.init(chartDom);
-        var dates = ["04-08", "04-08", "04-08", "04-09", "04-09", "04-10", "04-10", "04-11", "04-11", "04-12", "04-12", "04-13", "04-14", "04-15"];
-        var plays = [1105, 1122, 1739, 646, 655, 4295, 5803, 321, 690, 696, 561, 6527, 237, 1300];
-        var chartData = [["04-08", 1105, "这些“老登游戏”活了十几年，玩家忠诚度拉"], ["04-08", 1122, "从立绘到机制！原神6.5莉奈娅全方位拆解"], ["04-08", 1739, "星琼别乱花！千冶·刃锁定4.3，追击队核"], ["04-09", 646, "从峡谷到大陆！《王者荣耀世界》4月10日"], ["04-09", 655, "赢了比赛却丢冠军？宝可梦这场判罚让玩家看"], ["04-10", 4295, "生于深渊，却要做照亮一切的光！逆战新角色"], ["04-10", 5803, "盘点洛克王国那些神级撞脸"], ["04-11", 321, "终于有人来制裁逆天排位机制了吗"], ["04-11", 690, "洛克王国创新玩法！别有一番滋味"], ["04-12", 696, "2026友尽游戏，高低得尝尝"], ["04-12", 561, "就这个游戏彩蛋爽！"], ["04-13", 6527, "论整活还得看洛克王国玩家！"], ["04-14", 237, "头像投票闹乌龙，粉丝操作比游戏还魔幻"], ["04-15", 1300, "steam联机抽象游戏，最怕的不是死，是"]];
+        var dates = ["04-08", "04-08", "04-08", "04-09", "04-09", "04-10", "04-10", "04-11", "04-11", "04-12", "04-12", "04-13", "04-14", "04-15", "04-16"];
+        var plays = [1121, 1128, 1764, 651, 664, 4446, 5838, 334, 707, 739, 623, 6560, 279, 1408, 1979];
+        var chartData = [["04-08", 1121, "这些“老登游戏”活了十几年，玩家忠诚度拉"], ["04-08", 1128, "从立绘到机制！原神6.5莉奈娅全方位拆解"], ["04-08", 1764, "星琼别乱花！千冶·刃锁定4.3，追击队核"], ["04-09", 651, "从峡谷到大陆！《王者荣耀世界》4月10日"], ["04-09", 664, "赢了比赛却丢冠军？宝可梦这场判罚让玩家看"], ["04-10", 4446, "生于深渊，却要做照亮一切的光！逆战新角色"], ["04-10", 5838, "盘点洛克王国那些神级撞脸"], ["04-11", 334, "终于有人来制裁逆天排位机制了吗"], ["04-11", 707, "洛克王国创新玩法！别有一番滋味"], ["04-12", 739, "2026友尽游戏，高低得尝尝"], ["04-12", 623, "就这个游戏彩蛋爽！"], ["04-13", 6560, "论整活还得看洛克王国玩家！"], ["04-14", 279, "头像投票闹乌龙，粉丝操作比游戏还魔幻"], ["04-15", 1408, "steam联机抽象游戏，最怕的不是死，是"], ["04-16", 1979, "OMNI Pitstoper的逆袭，不该"]];
         var color = '#06b6d4';
 
         var option = {
@@ -3536,7 +2941,7 @@ function switchTab(name) {
         if (!chartDom) return;
         var myChart = echarts.init(chartDom);
         var names = ["鱿鱼说游", "牛马说游戏", "阿密说游戏", "哈吉米说游戏", "有料玩家"];
-        var plays = [7080, 1029, 831, 530, 1836];
+        var plays = [7018, 1052, 850, 541, 1883];
         var colors = ["#a78bfa", "#f472b6", "#fb923c", "#22c55e", "#06b6d4"];
         var target = 150000;
 
