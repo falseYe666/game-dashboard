@@ -265,6 +265,54 @@ body {
 .flex-1 { flex: 1 1 0%; }
 .shrink-0 { flex-shrink: 0; }
 
+/* ===== 战略规划面板专用样式 ===== */
+.card { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; }
+.card-static { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.06); border-radius: 10px; }
+.stat-number { font-size: 36px; font-weight: 800; background: linear-gradient(135deg, #a78bfa, #f472b6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.stat-number-sm { font-size: 24px; font-weight: 700; }
+.gradient-text { background: linear-gradient(135deg, #a78bfa, #f472b6, #fb923c); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.sub-title { font-size: 17px; font-weight: 700; color: #e0e0e0; margin-bottom: 12px; }
+.data-table { width: 100%; border-collapse: separate; border-spacing: 0 6px; }
+.data-table th { text-align: left; padding: 10px 14px; color: #888; font-size: 12px; }
+.data-table td { padding: 12px 14px; background: rgba(255,255,255,0.03); font-size: 13px; color: #ccc; }
+.data-table tr td:first-child { border-radius: 8px 0 0 8px; }
+.data-table tr td:last-child { border-radius: 0 8px 8px 0; }
+
+/* 账号等级卡片边框 */
+.account-card-s { border-color: rgba(34,197,94,0.25) !important; background: linear-gradient(135deg, rgba(34,197,94,0.06), rgba(34,197,94,0.02)) !important; }
+.account-card-a { border-color: rgba(6,182,212,0.25) !important; background: linear-gradient(135deg, rgba(6,182,212,0.06), rgba(6,182,212,0.02)) !important; }
+.account-card-b { border-color: rgba(244,114,182,0.25) !important; background: linear-gradient(135deg, rgba(244,114,182,0.06), rgba(244,114,182,0.02)) !important; }
+.account-card-c { border-color: rgba(251,146,60,0.25) !important; background: linear-gradient(135deg, rgba(251,146,60,0.06), rgba(251,146,60,0.02)) !important; }
+.account-card-d { border-color: rgba(239,68,68,0.25) !important; background: linear-gradient(135deg, rgba(239,68,68,0.06), rgba(239,68,68,0.02)) !important; }
+
+/* 等级标签 */
+.rank-s { background: rgba(34,197,94,0.2); color: #22c55e; }
+.rank-a { background: rgba(6,182,212,0.2); color: #22d3ee; }
+.rank-b { background: rgba(244,114,182,0.2); color: #f472b6; }
+.rank-c { background: rgba(251,146,60,0.2); color: #fb923c; }
+.rank-d { background: rgba(239,68,68,0.2); color: #ef4444; }
+
+/* 优先级标签 */
+.priority-p0 { background: rgba(239,68,68,0.15); color: #ef4444; }
+.priority-p1 { background: rgba(234,179,8,0.15); color: #eab308; }
+.priority-p2 { background: rgba(6,182,212,0.15); color: #22d3ee; }
+.priority-p3 { background: rgba(107,114,128,0.2); color: #9ca3af; }
+
+/* 高亮块 */
+.highlight-green { background: rgba(34,197,94,0.08); border-left: 3px solid #22c55e; }
+.highlight-yellow { background: rgba(234,179,8,0.08); border-left: 3px solid #eab308; }
+.highlight-red { background: rgba(239,68,68,0.08); border-left: 3px solid #ef4444; }
+.highlight-purple { background: rgba(167,139,250,0.08); border-left: 3px solid #a78bfa; }
+
+/* 入场动画 */
+.animate-in { animation: fadeInUp 0.5s ease-out both; }
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.2s; }
+.delay-3 { animation-delay: 0.3s; }
+.delay-4 { animation-delay: 0.4s; }
+.delay-5 { animation-delay: 0.5s; }
+@keyframes fadeInUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+
 </style>
 </head>
 <body>
@@ -280,7 +328,7 @@ body {
         <span>📊 数据来源：抖音创作者中心</span>
         <span>🎯 分析维度：播放趋势·完播率·互动数据·内容结构·优化建议</span>
     </div>
-    <div class="update-time">报告更新时间：2026-04-17 17:26 · 数据周期：2026-03-18 ~ 2026-04-16</div>
+    <div class="update-time">报告更新时间：2026-04-17 17:31 · 数据周期：2026-03-18 ~ 2026-04-16</div>
 </div>
 
 <!-- Tab Navigation -->
