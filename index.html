@@ -196,7 +196,7 @@ body {
 <!-- Tab Navigation -->
 <div class="tab-nav">
     <button class="tab-btn overview-btn active" onclick="switchTab('overview')">📊 总览</button>
-    <button class="tab-btn" onclick="location.href='strategy_report.html'">🚀 战略规划</button>
+    <button class="tab-btn" onclick="switchTab('strategy')">🚀 战略规划</button>
     <button class="tab-btn" onclick="switchTab('monetize')">💰 变现计划</button>
     <button class="tab-btn" onclick="switchTab('weekly')">📋 周报分析</button>
     <button class="tab-btn" onclick="switchTab('youyu')">🐙 鱿鱼说游 <span class="tab-fans">15.1万粉</span></button>
@@ -297,6 +297,513 @@ body {
         </div>
         <div style="background:linear-gradient(135deg,rgba(102,126,234,0.3),rgba(118,75,162,0.3));border-radius:12px;padding:20px;text-align:center;"><div style="color:#fff;font-size:15px;font-weight:500;">&#128161; 核心策略：先验证内容方向，再规模化放大投入</div></div>
     </div>
+</div>
+
+<div id="panel-strategy" class="account-panel">
+
+<!-- ==================== 第一章：战略目标金字塔 ==================== -->
+<section id="goals" class="animate-in">
+    <h2 class="section-title"><span>🏆</span> 第一章 · 战略目标金字塔</h2>
+
+    <!-- 金字塔可视化 -->
+    <div class="flex justify-center my-10">
+        <div class="w-full max-w-lg space-y-3">
+            <!-- 终极目标 -->
+            <div class="card p-6 text-center animate-in delay-1" style="background: linear-gradient(135deg, rgba(168,85,247,0.18), rgba(236,72,153,0.1)); border-color: rgba(168,85,247,0.35);">
+                <div class="text-xs font-semibold text-purple-300 tracking-widest mb-1">🏁 终极目标 — Q3~Q4</div>
+                <div class="stat-number gradient-text">150,000</div>
+                <div class="text-sm text-slate-400 mt-1">全矩阵平均播放量（含投流）</div>
+                <div class="mt-3 text-xs text-slate-400">全员投流 + 内容爆款双引擎</div>
+            </div>
+            <!-- 阶段二 -->
+            <div class="mx-auto w-11/12 card p-5 text-center animate-in delay-2" style="background: linear-gradient(135deg, rgba(245,158,11,0.12), rgba(239,68,68,0.06)); border-color: rgba(245,158,11,0.25);">
+                <div class="text-xs font-semibold text-orange-300 mb-1">🎯 阶段二 — Q2末</div>
+                <div class="stat-number text-yellow-400">50,000</div>
+                <div class="text-sm text-slate-400 mt-1">鱿鱼放量 + 其余破万</div>
+            </div>
+            <!-- 阶段一 -->
+            <div class="mx-auto w-9/12 card p-5 text-center animate-in delay-3" style="background: linear-gradient(135deg, rgba(6,182,212,0.12), rgba(34,197,94,0.06)); border-color: rgba(6,182,212,0.25);">
+                <div class="text-xs font-semibold text-cyan-300 mb-1">✅ 阶段一 — 2026年5月</div>
+                <div class="stat-number text-green-400">10,000</div>
+                <div class="text-sm text-slate-400 mt-1">鱿鱼先行投流 + 其余刷量达标</div>
+            </div>
+            <!-- 当前基线 -->
+            <div class="mx-auto w-7/12 card p-4 text-center animate-in delay-4" style="background: rgba(51,65,85,0.4); border-color: rgba(71,85,105,0.4);">
+                <div class="text-xs text-slate-400 mb-1">📍 当前基线 — 4.17</div>
+                <div class="stat-number-sm text-slate-300">1,669</div>
+                <div class="text-xs text-slate-500 mt-1">5号矩阵均值</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 差距分析表 -->
+    <div class="card p-6 mt-8 animate-in delay-5">
+        <h3 class="sub-title">各账号距阶段一目标（均播1万）的差距</h3>
+        <div class="overflow-x-auto">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>账号</th>
+                        <th>等级</th>
+                        <th>当前均播</th>
+                        <th>缺口倍数</th>
+                        <th>优先级</th>
+                        <th>核心策略</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="font-semibold">🐙 鱿鱼说游</span></td>
+                        <td><span class="px-2 py-0.5 rounded text-xs font-bold rank-s">S</span></td>
+                        <td class="font-bold text-green-400">2,836</td>
+                        <td><span class="text-yellow-400 font-semibold">2.5x</span></td>
+                        <td><span class="px-2 py-0.5 rounded text-xs font-bold priority-p0">P0 先行投流</span></td>
+                        <td class="text-slate-400 text-sm">本周启动Dou+测试</td>
+                    </tr>
+                    <tr>
+                        <td><span class="font-semibold">⚡ 有料玩家</span></td>
+                        <td><span class="px-2 py-0.5 rounded text-xs font-bold rank-a">A</span></td>
+                        <td class="font-bold text-green-400">2,291</td>
+                        <td><span class="text-yellow-400 font-semibold">3.4x</span></td>
+                        <td><span class="px-2 py-0.5 rounded text-xs font-bold priority-p0">P0 核心主攻</span></td>
+                        <td class="text-slate-400 text-sm">钩子重写+时长压缩</td>
+                    </tr>
+                    <tr>
+                        <td><span class="font-semibold">🐴 牛马说游戏</span></td>
+                        <td><span class="px-2 py-0.5 rounded text-xs font-bold rank-b">B+</span></td>
+                        <td class="font-bold text-yellow-400">1,683</td>
+                        <td><span class="text-orange-400 font-semibold">4.9x</span></td>
+                        <td><span class="px-2 py-0.5 rounded text-xs font-bold priority-p1">P1 重点提升</span></td>
+                        <td class="text-slate-400 text-sm">封面升级+刷量撬动</td>
+                    </tr>
+                    <tr>
+                        <td><span class="font-semibold">🔐 阿密说游戏</span></td>
+                        <td><span class="px-2 py-0.5 rounded text-xs font-bold rank-c">C</span></td>
+                        <td class="font-bold text-orange-400">961</td>
+                        <td><span class="text-red-400 font-semibold">9.4x</span></td>
+                        <td><span class="px-2 py-0.5 rounded text-xs font-bold priority-p2">P2 稳步跟进</span></td>
+                        <td class="text-slate-400 text-sm">解决标题党+干货盘点</td>
+                    </tr>
+                    <tr>
+                        <td><span class="font-semibold">❌ 哈吉米说游戏</span></td>
+                        <td><span class="px-2 py-0.5 rounded text-xs font-bold rank-d">D</span></td>
+                        <td class="font-bold text-red-400">574</td>
+                        <td><span class="text-red-400 font-bold">16.4x</span></td>
+                        <td><span class="px-2 py-0.5 rounded text-xs font-bold priority-p3">P3 整改观察</span></td>
+                        <td class="text-slate-400 text-sm">封面重建+减产保质量</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 关键洞察 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+            <div class="highlight-purple p-4 rounded-xl">
+                <p class="font-semibold text-white text-sm mb-2">💡 全矩阵均值仅1,669，距离10,000需要<strong class="text-yellow-400">6倍增长</strong></p>
+                <p class="text-xs text-slate-400 m-0">这不是靠内容自然增长能实现的，必须结合「内容优化 + 刷量/投流」组合拳。</p>
+            </div>
+            <div class="highlight-red p-4 rounded-xl">
+                <p class="font-semibold text-white text-sm mb-2">⚠️ 哈吉米缺口最大（16.4倍），在投流前必须先完成基础整改</p>
+                <p class="text-xs text-slate-400 m-0">否则投流等于烧钱——2s跳出率54%是致命伤。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ==================== 第二章：五账号深度诊断 ==================== -->
+<section id="diagnosis" class="mt-8">
+    <h2 class="section-title"><span>🔬</span> 第二章 · 五账号独立深度诊断</h2>
+
+    <div class="space-y-6">
+
+        <!-- === 2.1 鱿鱼说游 === -->
+        <div class="card account-card-s p-6">
+            <div class="flex flex-wrap items-center gap-3 mb-4">
+                <span class="text-2xl">🐙</span>
+                <h3 class="sub-title !mb-0 !mt-0">鱿鱼说游 — 投流先锋</h3>
+                <span class="px-3 py-1 rounded-full text-xs font-black rank-s">S级</span>
+                <span class="text-xs text-slate-400 ml-auto">均播 2,836 | 完播率 9.4% | 互动率 2.90%</span>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
+                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">近一周作品</div><div class="text-lg font-bold text-white">11部</div></div>
+                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">总播放</div><div class="text-lg font-bold text-green-400">31,196</div></div>
+                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">2s跳出率</div><div class="text-lg font-bold text-green-400">41.9% ⬇️最低</div></div>
+                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">分享占比</div><div class="text-lg font-bold text-purple-400">32% 🔥</div></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="highlight-green p-3 rounded-lg">
+                    <p class="font-semibold text-green-400 text-xs mb-1">✅ S 核心优势</p>
+                    <ul class="text-xs text-slate-300 space-y-1 m-0 pl-4">
+                        <li>多品类抗风险极强（覆盖6+IP赛道）</li>
+                        <li>2s跳出率41.9%最低，开头吸引力最强</li>
+                        <li>分享驱动型增长（294分享占32%）</li>
+                        <li>已具备投流条件（数据健康度最佳）</li>
+                    </ul>
+                </div>
+                <div class="highlight-yellow p-3 rounded-lg">
+                    <p class="font-semibold text-yellow-400 text-xs mb-1">⚠️ W 核心劣势</p>
+                    <ul class="text-xs text-slate-300 space-y-1 m-0 pl-4">
+                        <li>同题不同命差距极大（头像投票47 vs 4620）</li>
+                        <li>怀旧盘点遇冷（老游戏仅80播放）</li>
+                        <li>评论率偏低（2.2%）缺乏讨论设计</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-4 p-3 rounded-lg" style="background: rgba(167,139,250,0.08); border: 1px dashed rgba(167,139,250,0.3);">
+                <p class="text-sm m-0"><strong class="text-purple-300">诊断结论：</strong><span class="text-emerald-400 font-semibold">【投流就绪】</span> 数据健康度最优，多品类抗风险能力强。建议<span class="text-yellow-300 font-bold">本周内立即开启Dou+/千川测试</span>。</p>
+            </div>
+        </div>
+
+        <!-- === 2.2 有料玩家 === -->
+        <div class="card account-card-a p-6">
+            <div class="flex flex-wrap items-center gap-3 mb-4">
+                <span class="text-2xl">⚡</span>
+                <h3 class="sub-title !mb-0 !mt-0">有料玩家 — 核心主力</h3>
+                <span class="px-3 py-1 rounded-full text-xs font-black rank-a">A级</span>
+                <span class="text-xs text-slate-400 ml-auto">均播 2,291 | 完播率 7.2% | 互动率 1.986%</span>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
+                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">近一周作品</div><div class="text-lg font-bold text-white">10部</div></div>
+                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">总播放</div><div class="text-lg font-bold text-cyan-400">22,913</div></div>
+                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">评论率</div><div class="text-lg font-bold text-green-400">6.8% ⬆️最高</div></div>
+                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">2s跳出率</div><div class="text-lg font-bold text-yellow-400">46.2%</div></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="highlight-green p-3 rounded-lg">
+                    <p class="font-semibold text-green-400 text-xs mb-1">✅ S 核心优势</p>
+                    <ul class="text-xs text-slate-300 space-y-1 m-0 pl-4">
+                        <li>评论率6.8%全矩阵最高（内容能激发表达欲）</li>
+                        <li>逆战情感向内容有惊喜（17.96%完播率）</li>
+                        <li>洛克王国基本盘稳固（Top3占2席）</li>
+                    </ul>
+                </div>
+                <div class="highlight-yellow p-3 rounded-lg">
+                    <p class="font-semibold text-yellow-400 text-xs mb-1">⚠️ W 核心劣势</p>
+                    <ul class="text-xs text-slate-300 space-y-1 m-0 pl-4">
+                        <li>完播率仅7.2%（低于鱿油的9.4%）</li>
+                        <li>2s跳出率46.2%偏高（近半观众前2秒走）</li>
+                        <li>IP依赖度高（洛克王国占Top3的2/3）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-4 p-3 rounded-lg" style="background: rgba(6,182,212,0.08); border: 1px dashed rgba(6,182,212,0.3);">
+                <p class="text-sm m-0"><strong class="text-cyan-300">诊断结论：</strong><span class="text-blue-400 font-semibold">【内容为王】</span> 互动质量极高但留存需提升。应聚焦"优化内容结构+拓展选题品类"，待完播率和2s跳出改善后再考虑投流。</p>
+            </div>
+        </div>
+
+        <!-- === 2.3 牛马说游戏 === -->
+        <div class="card account-card-b p-6">
+            <div class="flex flex-wrap items-center gap-3 mb-4">
+                <span class="text-2xl">🐴</span>
+                <h3 class="sub-title !mb-0 !mt-0">牛马说游戏 — 潜力股</h3>
+                <span class="px-3 py-1 rounded-full text-xs font-black rank-b">B+级</span>
+                <span class="text-xs text-slate-400 ml-auto">均播 1,683 | 完播率 9.7% | 互动率 1.756%</span>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
+                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">近一周作品</div><div class="text-lg font-bold text-white">9部</div></div>
+                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">完播率</div><div class="text-lg font-bold text-green-400">9.7% 🏆最高</div></div>
+                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">2s跳出率</div><div class="text-lg font-bold text-green-400">40.2% 🏆最低</div></div>
+                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">数据方差</div><div class="text-lg font-bold text-cyan-400">最小 ✅</div></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="highlight-green p-3 rounded-lg">
+                    <p class="font-semibold text-green-400 text-xs mb-1">✅ S 核心优势</p>
+                    <ul class="text-xs text-slate-300 space-y-1 m-0 pl-4">
+                        <li>完播率9.7%全矩阵最高！内容粘性极强</li>
+                        <li>2s跳出率40.2%全矩阵最低！</li>
+                        <li>数据方差小，无极端扑街，风格稳健</li>
+                        <li>高完播率 = 投流后ROI保障</li>
+                    </ul>
+                </div>
+                <div class="highlight-yellow p-3 rounded-lg">
+                    <p class="font-semibold text-yellow-400 text-xs mb-1">⚠️ W 核心劣势</p>
+                    <ul class="text-xs text-slate-300 space-y-1 m-0 pl-4">
+                        <li>均播1683流量天花板低（好内容缺流量）</li>
+                        <li>评论极度稀缺（7条/9部 ≈ 零讨论）</li>
+                        <li>总互动266倒数第二</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-4 p-3 rounded-lg" style="background: rgba(244,114,182,0.08); border: 1px dashed rgba(244,114,182,0.3);">
+                <p class="text-sm m-0"><strong class="text-pink-300">诊断结论：</strong><span class="text-amber-400 font-semibold">【待价而沽】</span> 完播率和跳出率全矩阵最优，但流量天花板明显。适合用"<span class="text-green-300">刷量</span>"手段撬动初始推荐，再过渡到投流。</p>
+            </div>
+        </div>
+
+        <!-- === 2.4 阿密说游戏 === -->
+        <div class="card account-card-c p-6">
+            <div class="flex flex-wrap items-center gap-3 mb-4">
+                <span class="text-2xl">🔐</span>
+                <h3 class="sub-title !mb-0 !mt-0">阿密说游戏 — 待激活</h3>
+                <span class="px-3 py-1 rounded-full text-xs font-black rank-c">C级</span>
+                <span class="text-xs text-slate-400 ml-auto">均播 961 | 完播率 4.5% | 互动率 2.508%</span>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
+                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">近一周作品</div><div class="text-lg font-bold text-white">10部</div></div>
+                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">收藏率</div><div class="text-lg font-bold text-purple-400">24.5% 🏆最高</div></div>
+                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">完播率</div><div class="text-lg font-bold text-red-400">4.5% ⚠️最低</div></div>
+                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">互动率</div><div class="text-lg font-bold text-green-400">2.508%</div></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="highlight-green p-3 rounded-lg">
+                    <p class="font-semibold text-green-400 text-xs mb-1">✅ S 核心优势</p>
+                    <ul class="text-xs text-slate-300 space-y-1 m-0 pl-4">
+                        <li>收藏率24.5%全矩阵最高！（内容有工具属性/长尾价值）</li>
+                        <li>互动率2.508%全矩阵最高</li>
+                        <li>洛克王国撞脸爆款验证赛道可行性</li>
+                    </ul>
+                </div>
+                <div class="highlight-red p-3 rounded-lg">
+                    <p class="font-semibold text-red-400 text-xs mb-1">⛔ W 核心劣势</p>
+                    <ul class="text-xs text-slate-300 space-y-1 m-0 pl-4">
+                        <li>完播率4.5%全矩阵最低!!（95%中途流失）</li>
+                        <li>可能存在标题党问题（吸引进来但留不住）</li>
+                        <li>小众选题天花板有限</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-4 p-3 rounded-lg" style="background: rgba(251,146,60,0.08); border: 1px dashed rgba(251,146,60,0.3);">
+                <p class="text-sm m-0"><strong class="text-orange-300">诊断结论：</strong><span class="text-orange-400 font-semibold">【工具转型】</span> 收藏率极高说明内容有价值，但完播率崩塌。需解决"标题承诺vs内容交付"落差问题，同时强化干货盘点方向形成差异化。</p>
+            </div>
+        </div>
+
+        <!-- === 2.5 哈吉米说游戏 === -->
+        <div class="card account-card-d p-6">
+            <div class="flex flex-wrap items-center gap-3 mb-4">
+                <span class="text-2xl">❌</span>
+                <h3 class="sub-title !mb-0 !mt-0">哈吉米说游戏 — 整改对象</h3>
+                <span class="px-3 py-1 rounded-full text-xs font-black rank-d">D级</span>
+                <span class="text-xs text-slate-400 ml-auto">均播 574 | 完播率 7.7% | 互动率 1.219%</span>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
+                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">近一周作品</div><div class="text-lg font-bold text-white">11部</div></div>
+                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">2s跳出率</div><div class="text-lg font-bold text-red-400">54% 💀致命</div></div>
+                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">总互动</div><div class="text-lg font-bold text-red-400">77 垫底</div></div>
+                <div class="card-static p-3 text-center"><div class="text-xs text-slate-400">最低播放</div><div class="text-lg font-bold text-red-400">129 ❌新低</div></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="highlight-green p-3 rounded-lg">
+                    <p class="font-semibold text-green-400 text-xs mb-1">✅ S 少量亮点</p>
+                    <ul class="text-xs text-slate-300 space-y-1 m-0 pl-4">
+                        <li>电竞方向有一定受众（BLG 1042 / 逆战 2758）</li>
+                        <li>产量充足（11部/周），态度不摆烂</li>
+                        <li>电竞娱乐化包装后潜力大</li>
+                    </ul>
+                </div>
+                <div class="highlight-red p-3 rounded-lg">
+                    <p class="font-semibold text-red-400 text-xs mb-1">⛔ W 全面劣势</p>
+                    <ul class="text-xs text-slate-300 space-y-1 m-0 pl-4">
+                        <li>均播574全矩阵最低!!!</li>
+                        <li>2s跳出率54%致命伤（过半前2秒走人）</li>
+                        <li>电竞纯资讯表现差（BLG/VCT仅208）</li>
+                        <li>可能陷入恶性循环：越差→越少推→越差</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-4 p-3 rounded-lg" style="background: rgba(239,68,68,0.1); border: 1px solid rgba(239,68,68,0.3);">
+                <p class="text-sm m-0"><strong class="text-red-300">诊断结论：</strong><span class="text-red-400 font-bold">【紧急抢救】</span> 多项指标垫底，处于危险状态。<span class="text-yellow-300 font-bold">必须在投流/刷量前完成基础整改</span>（封面体系重建+钩子重写+选题转向），否则投入产出比极低。</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ==================== 第三章：核心问题推演 ==================== -->
+<section id="forecast" class="mt-8">
+    <h2 class="section-title"><span>⏰</span> 第三章 · 核心问题推演（如果不解决会怎样？）</h2>
+
+    <div class="overflow-x-auto">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>账号</th>
+                    <th>当前最大隐患</th>
+                    <th>30天不处理</th>
+                    <th>90天不处理</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="font-semibold">🐙 鱿鱼说游</span></td>
+                    <td>投流时机流失</td>
+                    <td class="text-yellow-400 text-sm">竞品追赶，红利期错过<br>均播停滞3000-4000</td>
+                    <td class="text-red-400 text-sm font-semibold">失去先发优势<br>投流成本涨30-50%</td>
+                </tr>
+                <tr>
+                    <td><span class="font-semibold">⚡ 有料玩家</span></td>
+                    <td>完播率持续低位</td>
+                    <td class="text-yellow-400 text-sm">平台判定"内容一般"<br>推荐池缩水20-30%</td>
+                    <td class="text-red-400 text-sm font-semibold">账号权重持续下降<br>后期投流ROI远低于预期</td>
+                </tr>
+                <tr>
+                    <td><span class="font-semibold">🐴 牛马说游戏</span></td>
+                    <td>流量天花板锁死</td>
+                    <td class="text-yellow-400 text-sm">好内容始终无匹配曝光<br>团队士气受挫</td>
+                    <td class="text-red-400 text-sm font-semibold">创作者等级下降<br>进入恶性循环</td>
+                </tr>
+                <tr>
+                    <td><span class="font-semibold">🔐 阿密说游戏</span></td>
+                    <td>标题党陷阱加深</td>
+                    <td class="text-yellow-400 text-sm">用户产生"被骗感"<br>取关+举报增加</td>
+                    <td class="text-red-400 text-sm font-semibold">被打上"标题党"标签<br>平台限流甚至封禁风险</td>
+                </tr>
+                <tr>
+                    <td><span class="font-semibold">❌ 哈吉米说游戏</span></td>
+                    <td class="text-red-400 font-semibold">全面崩溃边缘</td>
+                    <td class="text-red-400 text-sm font-semibold">2s跳出>50%，系统停止推荐<br>均播跌破400</td>
+                    <td class="text-red-400 text-sm font-bold">账号基本死亡<br>复活成本 > 开新号</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 推演核心结论 -->
+    <div class="mt-6 space-y-4">
+        <div class="highlight-red p-4 rounded-xl">
+            <p class="font-bold text-white text-sm mb-2">🔥 结论1：时间窗口紧迫</p>
+            <p class="text-sm m-0">鱿鱼的投流窗口期大约只有 <strong class="text-yellow-300">4-6周</strong>。过了这村没这店，建议<strong class="text-yellow-300 font-bold">本周内启动Dou+测试</strong>。</p>
+        </div>
+        <div class="highlight-yellow p-4 rounded-xl">
+            <p class="font-bold text-white text-sm mb-2">⚖️ 结论2：不进则退是铁律</p>
+            <p class="text-sm m-0">抖音推荐机制动态变化。你的数据不变 = 相对排名下降（因为别人在进步）。<strong>保持现状 = 在倒退。</strong></p>
+        </div>
+        <div class="highlight-purple p-4 rounded-xl">
+            <p class="font-bold text-white text-sm mb-2">💀 结论3：哈吉米的生死线</p>
+            <p class="text-sm m-0">如果哈吉米在<strong class="text-yellow-300">30天内不能将2s跳出降到45%以下</strong>，沉没成本会越来越高。不如考虑合并内容到其他账号或暂停更新整顿。</p>
+        </div>
+        <div class="highlight-green p-4 rounded-xl">
+            <p class="font-bold text-white text-sm mb-2">💰 结论4：投流的黄金法则</p>
+            <p class="text-sm m-0">只给"值得被更多人看到的内容"投流。目前<strong class="text-green-300">只有鱿鱼符合条件</strong>；有料还需1-2周优化；其他三个暂时不符合。</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- ==================== 第四章：优化执行方案 ==================== -->
+<section id="execution" class="mt-8">
+    <h2 class="section-title"><span>⚡</span> 第四章 · 优化执行方案</h2>
+
+    <div class="space-y-5">
+
+        <!-- 鱿鱼方案 -->
+        <div class="card p-5 account-card-s">
+            <div class="flex items-center gap-3 mb-3">
+                <span class="text-xl">🐙</span>
+                <h4 class="font-bold text-white text-base !mt-0 !mb-0">鱿鱼说游 → 投流先行</h4>
+                <span class="ml-auto px-2 py-0.5 rounded text-xs font-bold priority-p0">P0</span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2">
+                <div class="flex items-start gap-2 text-sm"><span class="text-purple-400 mt-0.5">▸</span><span>开启 Dou+ 测试（首周预算 <strong class="text-yellow-300">2000元</strong>）</span></div>
+                <div class="flex items-start gap-2 text-sm"><span class="text-purple-400 mt-0.5">▸</span><span>选3条历史爆款追加投放</span></div>
+                <div class="flex items-start gap-2 text-sm"><span class="text-purple-400 mt-0.5">▸</span><span>千川账户搭建 + 人群包测试</span></div>
+                <div class="flex items-start gap-2 text-sm"><span class="text-purple-400 mt-0.5">▸</span><span>保持日均1.5部发稿节奏</span></div>
+            </div>
+            <div class="mt-3 pt-3 border-t border-slate-700/50 flex flex-wrap gap-4 text-xs text-slate-400">
+                <span>预期30天：<strong class="text-green-400">均播6000+</strong></span>
+                <span>投流ROI：<strong class="text-green-400">≥1.5</strong></span>
+                <span>爆款率：<strong class="text-green-400">≥20%</strong></span>
+            </div>
+        </div>
+
+        <!-- 有料方案 -->
+        <div class="card p-5 account-card-a">
+            <div class="flex items-center gap-3 mb-3">
+                <span class="text-xl">⚡</span>
+                <h4 class="font-bold text-white text-base !mt-0 !mb-0">有料玩家 → 内容攻坚</h4>
+                <span class="ml-auto px-2 py-0.5 rounded text-xs font-bold priority-p0">P0</span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2">
+                <div class="flex items-start gap-2 text-sm"><span class="text-cyan-400 mt-0.5">▸</span><span>前3秒钩子全面重写（AB测试）</span></div>
+                <div class="flex items-start gap-2 text-sm"><span class="text-cyan-400 mt-0.5">▸</span><span>时长压缩至 <strong>55-70s</strong></span></div>
+                <div class="flex items-start gap-2 text-sm"><span class="text-cyan-400 mt-0.5">▸</span><span>拓展非洛克王国选题至40%</span></div>
+                <div class="flex items-start gap-2 text-sm"><span class="text-cyan-400 mt-0.5">▸</span><span>结尾统一改为讨论/悬念向</span></div>
+            </div>
+            <div class="mt-3 pt-3 border-t border-slate-700/50 flex flex-wrap gap-4 text-xs text-slate-400">
+                <span>预期30天：<strong class="text-cyan-400">均播3500+</strong></span>
+                <span>完播率：<strong class="text-cyan-400">≥10%</strong></span>
+                <span>2s跳出：<strong class="text-cyan-400">≤40%</strong></span>
+            </div>
+        </div>
+
+        <!-- 牛马方案 -->
+        <div class="card p-5 account-card-b">
+            <div class="flex items-center gap-3 mb-3">
+                <span class="text-xl">🐴</span>
+                <h4 class="font-bold text-white text-base !mt-0 !mb-0">牛马说游戏 → 刷量撬动</h4>
+                <span class="ml-auto px-2 py-0.5 rounded text-xs font-bold priority-p1">P1</span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2">
+                <div class="flex items-start gap-2 text-sm"><span class="text-pink-400 mt-0.5">▸</span><span>封面升级为黄字双段式</span></div>
+                <div class="flex items-start gap-2 text-sm"><span class="text-pink-400 mt-0.5">▸</span><span>植入争议话题点（<strong>目标评论翻倍</strong>）</span></div>
+                <div class="flex items-start gap-2 text-sm"><span class="text-pink-400 mt-0.5">▸</span><span>增加发稿频至12部/周</span></div>
+                <div class="flex items-start gap-2 text-sm"><span class="text-pink-400 mt-0.5">▸</span><span>测试不同发布时间段</span></div>
+            </div>
+            <div class="mt-3 pt-3 border-t border-slate-700/50 flex flex-wrap gap-4 text-xs text-slate-400">
+                <span>预期30天：<strong class="text-pink-400">均播3000+</strong></span>
+                <span>评论：<strong class="text-pink-400">≥20/周</strong></span>
+                <span>分享：<strong class="text-pink-400">≥80/周</strong></span>
+            </div>
+        </div>
+
+        <!-- 阿密方案 -->
+        <div class="card p-5 account-card-c">
+            <div class="flex items-center gap-3 mb-3">
+                <span class="text-xl">🔐</span>
+                <h4 class="font-bold text-white text-base !mt-0 !mb-0">阿密说游戏 → 存量优化</h4>
+                <span class="ml-auto px-2 py-0.5 rounded text-xs font-bold priority-p2">P2</span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2">
+                <div class="flex items-start gap-2 text-sm"><span class="text-orange-400 mt-0.5">▸</span><span>解决标题党问题（<strong>内容配得上标题</strong>）</span></div>
+                <div class="flex items-start gap-2 text-sm"><span class="text-orange-400 mt-0.5">▸</span><span>加码洛克王国赛道至50%</span></div>
+                <div class="flex items-start gap-2 text-sm"><span class="text-orange-400 mt-0.5">▸</span><span>强化干货盘点类（利用高收藏优势）</span></div>
+                <div class="flex items-start gap-2 text-sm"><span class="text-orange-400 mt-0.5">▸</span><span>每条视频加入1个实用信息点</span></div>
+            </div>
+            <div class="mt-3 pt-3 border-t border-slate-700/50 flex flex-wrap gap-4 text-xs text-slate-400">
+                <span>预期30天：<strong class="text-orange-400">均播2000+</strong></span>
+                <span>完播率：<strong class="text-orange-400">≥7%</strong></span>
+                <span>2s跳出：<strong class="text-orange-400">≤43%</strong></span>
+            </div>
+        </div>
+
+        <!-- 哈吉米方案 -->
+        <div class="card p-5 account-card-d">
+            <div class="flex items-center gap-3 mb-3">
+                <span class="text-xl">❌</span>
+                <h4 class="font-bold text-white text-base !mt-0 !mb-0">哈吉米说游戏 → 基础整改</h4>
+                <span class="ml-auto px-2 py-0.5 rounded text-xs font-bold priority-p3">P3</span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2">
+                <div class="flex items-start gap-2 text-sm"><span class="text-red-400 mt-0.5">▸</span><span><strong>封面体系完全重建</strong>（对标鱿鱼模板）</span></div>
+                <div class="flex items-start gap-2 text-sm"><span class="text-red-400 mt-0.5">▸</span><span>前3秒钩子强制评审制</span></div>
+                <div class="flex items-start gap-2 text-sm"><span class="text-red-400 mt-0.5">▸</span><span>砍掉纯电竞资讯（保留电竞+娱乐混合）</span></div>
+                <div class="flex items-start gap-2 text-sm"><span class="text-red-400 mt-0.5">▸</span><span>降低产量至 <strong>7-8部/周</strong> 保质量</span></div>
+            </div>
+            <div class="mt-3 pt-3 border-t border-slate-700/50 flex flex-wrap gap-4 text-xs text-slate-400">
+                <span>预期30天：<strong class="text-red-400">均播900+</strong></span>
+                <span>2s跳出：<strong class="text-red-400">≤48%</strong></span>
+                <span>不再出现 &lt;200播放的视频</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
 </div>
 
 <div id="panel-monetize" class="account-panel">
