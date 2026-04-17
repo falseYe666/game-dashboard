@@ -209,7 +209,99 @@ body {
 #panel-strategy h3.sub-title { color: #e2e8f0; font-size: 1.05rem; font-weight: 600; margin: 20px 0 10px; }
 #panel-strategy .stat-number { font-size: 2rem; font-weight: 800; line-height: 1.2; }
 #panel-strategy .stat-number-sm { font-size: 1.4rem; font-weight: 700; }
-@media (max-width: 768px) { .container { padding: 20px 16px; } .header h1 { font-size: 28px; } .account-card { grid-template-columns: 1fr 1fr; } .analysis-grid { grid-template-columns: 1fr; } .tab-nav { gap: 4px; } .tab-btn { padding: 10px 16px; font-size: 13px; } .video-table { font-size: 12px; } .video-table th, .video-table td { padding: 8px 10px; } .overview-grid { grid-template-columns: 1fr 1fr; } .brief-grid { grid-template-columns: 1fr; } .invest-phase-grid { grid-template-columns: 1fr; } }
+/* ===== Tailwind-compatible Utility Classes for Strategy Panel ===== */
+.flex { display: flex; }
+.flex-wrap { flex-wrap: wrap; }
+.items-center { align-items: center; }
+.items-start { align-items: flex-start; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.grid { display: grid; }
+.grid-cols-1 { grid-template-columns: repeat(1, 1fr); }
+.grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-cols-4 { grid-template-columns: repeat(4, 1fr); }
+.gap-2 { gap: 8px; }
+.gap-3 { gap: 12px; }
+.gap-4 { gap: 16px; }
+.gap-x-6 { column-gap: 24px; }
+.gap-y-2 { row-gap: 8px; }
+.space-y-3 > * + * { margin-top: 12px; }
+.space-y-4 > * + * { margin-top: 16px; }
+.space-y-5 > * + * { margin-top: 20px; }
+.space-y-6 > * + * { margin-top: 24px; }
+.w-full { width: 100%; }
+.w-7\/12 { width: 58.333%; }
+.w-9\/12 { width: 75%; }
+.w-11\/12 { width: 91.666%; }
+.max-w-lg { max-width: 512px; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.my-10 { margin-top: 40px; margin-bottom: 40px; }
+.mt-3 { margin-top: 12px; }
+.mt-4 { margin-top: 16px; }
+.mt-6 { margin-top: 24px; }
+.mt-8 { margin-top: 32px; }
+.mb-0 { margin-bottom: 0 !important; }
+.mb-1 { margin-bottom: 4px; }
+.mb-2 { margin-bottom: 8px; }
+.mb-4 { margin-bottom: 16px; }
+.ml-auto { margin-left: auto; }
+.p-3 { padding: 12px; }
+.p-4 { padding: 16px; }
+.p-5 { padding: 20px; }
+.p-6 { padding: 24px; }
+.px-2 { padding-left: 8px; padding-right: 8px; }
+.px-3 { padding-left: 12px; padding-right: 12px; }
+.py-0\.5 { padding-top: 2px; padding-bottom: 2px; }
+.py-1 { padding-top: 4px; padding-bottom: 4px; }
+.pt-3 { padding-top: 12px; }
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+.font-black { font-weight: 900; }
+.text-xs { font-size: 11px; }
+.text-sm { font-size: 13px; }
+.text-base { font-size: 15px; }
+.text-lg { font-size: 18px; }
+.tracking-widest { letter-spacing: 0.1em; }
+.rounded { border-radius: 6px; }
+.rounded-lg { border-radius: 8px; }
+.rounded-xl { border-radius: 12px; }
+.rounded-full { border-radius: 9999px; }
+.border-t { border-top-width: 1px; border-top-style: solid; }
+.border-slate-700\/50 { border-color: rgba(51,65,85,0.5); }
+.overflow-x-auto { overflow-x: auto; }
+.whitespace-nowrap { white-space: nowrap; }
+.inline-block { display: inline-block; }
+/* Text colors */
+.text-white { color: #fff !important; }
+.text-slate-300 { color: #cbd5e1 !important; }
+.text-slate-400 { color: #94a3b8 !important; }
+.text-slate-500 { color: #64748b !important; }
+.text-purple-300 { color: #d8b4fe !important; }
+.text-purple-400 { color: #c084fc !important; }
+.text-green-400 { color: #4ade80 !important; }
+.text-yellow-300 { color: #fcd34d !important; }
+.text-yellow-400 { color: #facc15 !important; }
+.text-orange-300 { color: #fdba74 !important; }
+.text-orange-400 { color: #fb923c !important; }
+.text-red-400 { color: #f87171 !important; }
+.text-cyan-300 { color: #67e8f9 !important; }
+.text-cyan-400 { color: #22d3ee !important; }
+.text-pink-300 { color: #f9a8d4 !important; }
+.text-pink-400 { color: #f472b6 !important; }
+.text-emerald-400 { color: #34d399 !important; }
+.text-blue-400 { color: #60a5fa !important; }
+.text-amber-400 { color: #fbbf24 !important; }
+/* Misc utility */
+.m-0 { margin: 0 !important; }
+.pl-4 { padding-left: 16px; }
+.self-start { align-self: flex-start; }
+.flex-1 { flex: 1 1 0%; }
+.shrink-0 { flex-shrink: 0; }
+
+@media (max-width: 768px) { .container { padding: 20px 16px; } .header h1 { font-size: 28px; } .account-card { grid-template-columns: 1fr 1fr; } .analysis-grid { grid-template-columns: 1fr; } .tab-nav { gap: 4px; } .tab-btn { padding: 10px 16px; font-size: 13px; } .video-table { font-size: 12px; } .video-table th, .video-table td { padding: 8px 10px; } .overview-grid { grid-template-columns: 1fr 1fr; } .brief-grid { grid-template-columns: 1fr; } .invest-phase-grid { grid-template-columns: 1fr; } .grid-cols-4 { grid-template-columns: repeat(2, 1fr); } .grid-cols-2 { grid-template-columns: 1fr; } }
 
 </style>
 </head>
@@ -229,7 +321,7 @@ body {
     <div class="update-time">报告更新时间：2026-04-16 20:04 · 数据周期：2026-03-18 ~ 2026-04-15</div>
 </div>
 
-<!-- Tab Navigation (v2026-04-17-1617) -->
+<!-- Tab Navigation (v2026-04-17-1623-fix) -->
 <div class="tab-nav">
     <button class="tab-btn overview-btn active" onclick="switchTab('overview')">📊 总览</button>
     <button class="tab-btn" onclick="switchTab('strategy')">🚀 战略规划</button>
