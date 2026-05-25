@@ -4673,1112 +4673,218 @@ body {
             </div>
         </div>
         <div style="max-width:100%;overflow-x:auto;">
-
 <style>
-/* 项目汇报面板增强样式 */
-#panel-project .section-title { margin-bottom: 20px; }
-#panel-project .data-table th {
-    text-align: left; padding: 10px 14px; color: #a78bfa;
-    font-size: 12px; font-weight: 600; text-transform: uppercase;
-    letter-spacing: 0.5px; border-bottom: 2px solid rgba(167,139,250,0.2);
-    white-space: nowrap;
-}
-#panel-project .data-table td {
-    padding: 11px 14px; background: rgba(255,255,255,0.02);
-    font-size: 13px; color: #ccc; white-space: nowrap;
-    border-bottom: 1px solid rgba(255,255,255,0.04);
-}
-#panel-project .data-table tbody tr:hover td {
-    background: rgba(167,139,250,0.06);
-}
-#panel-project .data-table tbody tr:last-child td {
-    border-bottom: none;
-}
-#panel-project .data-table .total-row td {
-    background: rgba(167,139,250,0.08); color: #a78bfa; font-weight: 600;
-}
+#panel-project .rp-section{margin-bottom:36px}
+#panel-project .rp-heading{font-size:20px;font-weight:700;color:#fff;padding-left:16px;border-left:4px solid #a78bfa;margin-bottom:20px;display:flex;align-items:center;gap:10px}
+#panel-project .rp-sub{font-size:15px;font-weight:600;color:#e0e0e0;padding-left:12px;border-left:3px solid #f472b6;margin:20px 0 12px}
+#panel-project .rp-text{color:#bbb;font-size:14px;line-height:1.8;margin:8px 0}
+#panel-project .rp-text strong{color:#e0e0e0}
+#panel-project .rp-tag{display:inline-block;padding:2px 10px;border-radius:10px;font-size:12px;background:rgba(167,139,250,0.12);color:#a78bfa;margin:2px}
+#panel-project .rp-divider{height:1px;background:rgba(255,255,255,0.06);margin:32px 0}
+#panel-project .rp-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:16px;margin:16px 0}
+#panel-project .rp-card{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:14px;padding:22px;transition:transform 0.2s}
+#panel-project .rp-card:hover{transform:translateY(-2px);border-color:rgba(167,139,250,0.25)}
+#panel-project .rp-card-title{font-size:14px;font-weight:700;color:#f472b6;margin-bottom:10px}
+#panel-project .rp-card-body{font-size:13px;color:#aaa;line-height:1.8}
+#panel-project .rp-card-body strong{color:#e0e0e0}
+#panel-project .data-table th{text-align:left;padding:10px 14px;color:#a78bfa;font-size:12px;font-weight:600;letter-spacing:0.5px;border-bottom:2px solid rgba(167,139,250,0.2);white-space:nowrap}
+#panel-project .data-table td{padding:11px 14px;background:rgba(255,255,255,0.02);font-size:13px;color:#ccc;border-bottom:1px solid rgba(255,255,255,0.04)}
+#panel-project .data-table tbody tr:hover td{background:rgba(167,139,250,0.06)}
+#panel-project .data-table .total-row td{background:rgba(167,139,250,0.08);color:#a78bfa;font-weight:600}
+#panel-project .rp-hl{padding:14px 18px;border-radius:10px;margin:14px 0;font-size:13px;line-height:1.8}
+#panel-project .rp-hl.good{background:rgba(34,197,94,0.08);border-left:3px solid #22c55e;color:#86efac}
+#panel-project .rp-hl.bad{background:rgba(239,68,68,0.08);border-left:3px solid #ef4444;color:#fca5a5}
+#panel-project .rp-hl.info{background:rgba(96,165,250,0.08);border-left:3px solid #60a5fa;color:#93c5fd}
+#panel-project .ovf{overflow-x:auto}
 </style>
 
-<p style="margin:10px 0;font-weight:600;color:#e0e0e0;">五账号矩阵·工作总结汇报</p>
-<p style="margin:6px 0;color:#bbb;line-height:1.8;font-size:14px;">数据采集日期2026.05.18</p>
-<div class="section"><div class="section-title"><span class="icon">📋</span> 一、项目整体概况</div>
-</div>
-<div style="height:8px;"></div>
-<div class="section"><div class="section-title"><span class="icon">📊</span> 二、账号矩阵现状</div>
-<p style="margin:6px 0;color:#bbb;line-height:1.8;font-size:14px;">数据更新时间：2026年5月18日</p>
-</div>
-<div style="height:8px;"></div>
-<div class="section"><div class="section-title"><span class="icon">🔥</span> 内容产出汇总</div>
-<h3 style="font-size:15px;font-weight:600;color:#e0e0e0;margin:20px 0 10px;padding-left:10px;border-left:3px solid #f472b6;">爆款视频TOP榜</h3>
-<h3 style="font-size:15px;font-weight:600;color:#e0e0e0;margin:20px 0 10px;padding-left:10px;border-left:3px solid #f472b6;">爆款选题方向归纳</h3>
-<p style="margin:6px 0;color:#bbb;line-height:1.8;font-size:14px;">爆款核心公式：争议 × 站队 × 博弈 × 时效</p>
-</div>
-<div style="height:8px;"></div>
-<div class="section"><div class="section-title"><span class="icon">💰</span> 四、投流策略执行</div>
-<h3 style="font-size:15px;font-weight:600;color:#e0e0e0;margin:20px 0 10px;padding-left:10px;border-left:3px solid #f472b6;">DOU+测投数据</h3>
-<h3 style="font-size:15px;font-weight:600;color:#e0e0e0;margin:20px 0 10px;padding-left:10px;border-left:3px solid #f472b6;">CPM分级追投标准</h3>
-<h3 style="font-size:15px;font-weight:600;color:#e0e0e0;margin:20px 0 10px;padding-left:10px;border-left:3px solid #f472b6;">核心规律发现</h3>
-<p style="margin:6px 0;color:#bbb;line-height:1.8;font-size:14px;">追投效应：单条追投超过2轮 = 边际效益崩溃</p>
-<p style="margin:6px 0;color:#bbb;line-height:1.8;font-size:14px;">完播率与CPM强相关：前3秒钩子决定完播率</p>
-<p style="margin:6px 0;color:#bbb;line-height:1.8;font-size:14px;">账号效应：同一题材不同账号效果差异高达10倍</p>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">投流结论：爆款素材 = 主播争议/热门事件话题，争议性选题是爆款前提</span></div>
-</div>
-<div style="height:8px;"></div>
-<div class="section"><div class="section-title"><span class="icon">👥</span> 五、团队执行情况</div>
-<h3 style="font-size:15px;font-weight:600;color:#e0e0e0;margin:20px 0 10px;padding-left:10px;border-left:3px solid #f472b6;">团队架构</h3>
-<h3 style="font-size:15px;font-weight:600;color:#e0e0e0;margin:20px 0 10px;padding-left:10px;border-left:3px solid #f472b6;">各岗位SOP</h3>
-<p style="margin:6px 0;color:#bbb;line-height:1.8;font-size:14px;">河南团队（执行层）：</p>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">鱿鱼说游负责人：选题2条 → 脚本2篇 → 剪辑2条</span></div>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">阿密说游戏负责人：选题2条 → 脚本2篇 → 剪辑2条</span></div>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">有料玩家负责人：选题2条 → 脚本2篇 → 剪辑2条</span></div>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">牛马说游戏负责人：选题2条 → 脚本2篇 → 剪辑2条</span></div>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">哈吉米说游戏负责人：选题2条 → 脚本2篇 → 剪辑2条 + 偶尔支援其他账号剪辑</span></div>
-<p style="margin:6px 0;color:#bbb;line-height:1.8;font-size:14px;">深圳编导·叶波：</p>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">每日选题提报+筛选</span></div>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">根据数据反馈优化内容方向</span></div>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">审核优化河南团队的脚本</span></div>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">投流计划+分析投流反馈进行优化</span></div>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">刷量计划</span></div>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">成片审核</span></div>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">内容分发计划</span></div>
-<p style="margin:6px 0;color:#bbb;line-height:1.8;font-size:14px;">深圳运营·走地鸡：</p>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">每日投流数据回收汇报</span></div>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">协同编导及河南团队参与选题工作</span></div>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">完成五账号脚本审核修订工作</span></div>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">完成五账号最终剪辑成片及封面审核修订工作</span></div>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">完成五账号日常内容分发，分配假期内容分发时间</span></div>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">完成每日账号数据日报汇报</span></div>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">整理数据辅助编导</span></div>
-<div style="display:flex;align-items:center;gap:8px;margin:4px 0;padding:4px 0;"><span style="color:#a78bfa;font-size:10px;">●</span><span style="color:#bbb;font-size:14px;line-height:1.6;">五一后一人一号制度：各账号由对应成员独立负责全链路</span></div>
-</div>
-<div style="height:8px;"></div>
-<div class="section"><div class="section-title"><span class="icon">⚠️</span> 六、问题与卡点</div>
-<h3 style="font-size:15px;font-weight:600;color:#e0e0e0;margin:20px 0 10px;padding-left:10px;border-left:3px solid #f472b6;">1. 选题质量参差不齐</h3>
-<p style="margin:6px 0;color:#bbb;line-height:1.8;font-size:14px;">问题：各编导对选题理解程度不同，给到的选题大纲直接喂给AI，缺乏独立思考和方向把控</p>
-<p style="margin:6px 0;color:#bbb;line-height:1.8;font-size:14px;">影响：选题角度单一、深度不足、爆款潜力受限</p>
-<h3 style="font-size:15px;font-weight:600;color:#e0e0e0;margin:20px 0 10px;padding-left:10px;border-left:3px solid #f472b6;">2. AI配音"活人感"不足</h3>
-<p style="margin:6px 0;color:#bbb;line-height:1.8;font-size:14px;">问题：剪映AI配音语调平、无起伏、缺乏语气词，听感假</p>
-<p style="margin:6px 0;color:#bbb;line-height:1.8;font-size:14px;">影响：用户跳出率高、完播率受损</p>
-</div>
-<div style="height:8px;"></div>
-<div class="section"><div class="section-title"><span class="icon">🚀</span> 七、未来商业计划</div>
-<h4 style="font-size:14px;font-weight:600;color:#ccc;margin:16px 0 8px;">一、商业化前准备成本</h4>
-<p style="margin:4px 0 10px;color:#888;font-size:13px;font-style:italic;">（把现有账号刷到各账号破15w≥5条的状态）</p>
-<h4 style="font-size:14px;font-weight:600;color:#ccc;margin:16px 0 8px;">二、启动商业化后每月收支预估</h4>
-<p style="margin:10px 0;font-weight:600;color:#e0e0e0;">（每账号每月发15条，3个账号共45条视频）</p>
-<div style="font-weight:700;color:#a78bfa;font-size:15px;margin:18px 0 8px;">💸 月支出明细</div>
-<div style="font-weight:700;color:#a78bfa;font-size:15px;margin:18px 0 8px;">💰 月收入明细</div>
-<div style="font-weight:700;color:#a78bfa;font-size:15px;margin:18px 0 8px;">📊 月净利润</div>
-<h4 style="font-size:14px;font-weight:600;color:#ccc;margin:16px 0 8px;">三、关键数据汇总</h4>
-<p style="margin:6px 0;color:#bbb;line-height:1.8;font-size:14px;">结论： 5条刚好打平，10条月赚¥4.4万。刷播放量¥29,250/月是最大成本项，建议优化刷量单价或提升星图报价来扩大利润空间。</p>
-<h3 style="font-size:15px;font-weight:600;color:#e0e0e0;margin:20px 0 10px;padding-left:10px;border-left:3px solid #f472b6;">下一步行动</h3>
-<p style="margin:6px 0;color:#bbb;line-height:1.8;font-size:14px;">6月启动商业化</p>
-<div style="overflow-x:auto;margin:20px 0;">
-    <table class="data-table">
-        <thead><tr><th>项目</th><th>内容</th></tr></thead><tr><td>启动时间</td><td>2026年3月18日</td></tr><tr><td>运营周期</td><td>2026.03.18 - 2026.05.18（近2个月）</td></tr><tr><td>矩阵账号</td><td>有料玩家、鱿鱼说游、阿密说游戏、牛马说游戏、哈吉米说游戏</td></tr><tr><td>总发布</td><td>391条视频</td></tr><tr><td>总播放量</td><td>7,770,061次（约777万）</td></tr><tr><td>累计净增粉丝</td><td>1,717</td></tr><tr><td>核心成绩</td><td>有料玩家单条爆款508万播放，全矩阵累计播放近800万</td></tr>
-    </table>
-</div>
-<div style="overflow-x:auto;margin:20px 0;">
-    <table class="data-table">
-        <thead><tr><th>账号</th><th>总视频</th><th>破15w</th><th>总播放量</th><th>完播率</th><th>爆款TOP1</th><th>播放量</th></tr></thead><tr><td>有料玩家</td><td>57条</td><td>4条</td><td>644万</td><td>6.59%</td><td>宗师碰瓷钟意</td><td>508万</td></tr><tr><td>鱿鱼说游</td><td>94条</td><td>3条</td><td>83.5万</td><td>10.83%</td><td>OWL战术震惊</td><td>18.9万</td></tr><tr><td>牛马说游戏</td><td>93条</td><td>2条</td><td>88万</td><td>8.16%</td><td>Faker牵手柳智敏</td><td>39.5万</td></tr><tr><td>哈吉米说游戏</td><td>79条</td><td>0条</td><td>22.2万</td><td>5.32%</td><td>S1Mon哽咽</td><td>12.5万</td></tr><tr><td>阿密说游戏</td><td>68条</td><td>0条</td><td>10.5万</td><td>4.27%</td><td>二游吉祥物</td><td>2.8万</td></tr>
-    </table>
-</div>
-<div style="overflow-x:auto;margin:20px 0;">
-    <table class="data-table">
-        <thead><tr><th>排名</th><th>账号</th><th>播放量</th><th>标题</th></tr></thead><tr><td>1</td><td>有料玩家</td><td>508万</td><td>宗师碰瓷钟意？自曝AG试训"不想抢饭碗"</td></tr><tr><td>2</td><td>有料玩家</td><td>49.6万</td><td>s1mple+Senzu合体，CSGO史上最豪阵容</td></tr><tr><td>3</td><td>有料玩家</td><td>34.3万</td><td>靠争议吃饭终被争议反噬，神枪小子结局早有预兆</td></tr><tr><td>4</td><td>牛马说游戏</td><td>39.5万</td><td>Faker牵手柳智敏告白！老李30年童子功要破了？</td></tr><tr><td>5</td><td>鱿鱼说游</td><td>18.9万</td><td>太讷了，OWL的职业战队居然使用这种战术？！</td></tr>
-    </table>
-</div>
-<div style="overflow-x:auto;margin:20px 0;">
-    <table class="data-table">
-        <thead><tr><th>类型</th><th>特点</th><th>案例</th></tr></thead><tr><td>主播争议/碰瓷</td><td>主播互撕、蹭热度、翻车</td><td>宗师碰瓷钟意、神枪小子</td></tr><tr><td>顶级选手/阵容</td><td>明星选手组队、转会、大事件</td><td>s1mple合体</td></tr><tr><td>跨界CP/感情八卦</td><td>电竞×娱乐圈 Kombō</td><td>Faker牵手柳智敏</td></tr><tr><td>赛事爆料/反差</td><td>内部消息、离谱操作、草台班子</td><td>OWL战术、地平线偷跑</td></tr>
-    </table>
-</div>
-<div style="overflow-x:auto;margin:20px 0;">
-    <table class="data-table">
-        <thead><tr><th>账号</th><th>投流条数</th><th>总消耗</th><th>总投流播放</th><th>CPM</th><th>排名</th><th>效率</th></tr></thead><tr><td>有料玩家</td><td>21条</td><td>3,800元</td><td>417,414</td><td>9.1</td><td>1</td><td>最优</td></tr><tr><td>鱿鱼说游</td><td>7条</td><td>1,400元</td><td>54,435</td><td>25.71</td><td>4</td><td>-</td></tr><tr><td>牛马说游戏</td><td>1条</td><td>100元</td><td>4,632</td><td>21.58</td><td>2</td><td>-</td></tr><tr><td>阿密说游戏</td><td>1条</td><td>100元</td><td>4,180</td><td>23.92</td><td>3</td><td>-</td></tr><tr><td>哈吉米说游戏</td><td>2条</td><td>200元</td><td>5,504</td><td>36.3</td><td>5</td><td>差</td></tr><tr class="total-row"><td>合计</td><td>32条</td><td>5,600元</td><td>486,165</td><td>11.52</td><td>-</td><td>-</td></tr>
-    </table>
-</div>
-<div style="overflow-x:auto;margin:20px 0;">
-    <table class="data-table">
-        <thead><tr><th>CPM区间</th><th>追投策略</th></tr></thead><tr><td>>30</td><td>直接放弃，不追投</td></tr><tr><td>20-30</td><td>需自然流≥5倍，追6h×200-400元</td></tr><tr><td>10-20</td><td>追12h×400元，CPM降则再追6h×300元</td></tr><tr><td><10</td><td>直接拉满12h×700元</td></tr>
-    </table>
-</div>
-<div style="overflow-x:auto;margin:20px 0;">
-    <table class="data-table">
-        <thead><tr><th>团队</th><th>成员</th><th>职责</th></tr></thead><tr><td>河南团队</td><td>5人（各负责1账号）</td><td>选题→脚本→剪辑</td></tr><tr><td>深圳编导</td><td>叶波</td><td>统筹方向、审核脚本、投流计划、成片审核</td></tr><tr><td>深圳运营</td><td>走地鸡</td><td>数据汇报、脚本审核、内容分发</td></tr>
-    </table>
-</div>
-<div style="overflow-x:auto;margin:20px 0;">
-    <table class="data-table">
-        <thead><tr><th>解决方案</th><th>成本</th><th>效果</th><th>推荐</th></tr></thead><tr><td>换更好的AI配音工具（11Labs/Azure）</td><td>低</td><td>高</td><td>立即做</td></tr><tr><td>脚本主动加语气词、气口</td><td>免费</td><td>高</td><td>必做</td></tr><tr><td>调语速+停顿时长</td><td>免费</td><td>中</td><td>辅助</td></tr><tr><td>关键句人工录音混音</td><td>中</td><td>中</td><td>爆款专用</td></tr><tr><td>培养固定兼职配音员</td><td>中</td><td>最高</td><td>长期最优</td></tr>
-    </table>
-</div>
-<div style="overflow-x:auto;margin:20px 0;">
-    <table class="data-table">
-        <thead><tr><th>账号</th><th>达标条数</th><th>破15w</th><th>10-15w</th><th>5-10w</th><th>播放刷量单价</th><th>点赞单价</th><th>点赞成本</th><th>评论单价</th><th>评论成本</th><th>播放刷量成本</th><th>总成本</th></tr></thead><tr><td>🎮 有料玩家</td><td>15</td><td>4</td><td>1</td><td>1</td><td>¥65/万</td><td>¥0.00392/个</td><td>¥196</td><td>¥0.65/条</td><td>¥650</td><td>¥9,750</td><td>¥10,596</td></tr><tr><td>🐙 鱿鱼说游</td><td>15</td><td>4</td><td>0</td><td>0</td><td>¥65/万</td><td>¥0.00392/个</td><td>¥216</td><td>¥0.65/条</td><td>¥715</td><td>¥10,725</td><td>¥11,656</td></tr><tr><td>🐴 牛马说游戏</td><td>15</td><td>2</td><td>0</td><td>1</td><td>¥65/万</td><td>¥0.00392/个</td><td>¥255</td><td>¥0.65/条</td><td>¥845</td><td>¥12,350</td><td>¥13,450</td></tr><tr class="total-row"><td>合计</td><td>45</td><td>10</td><td>1</td><td>2</td><td>¥65/万</td><td>¥0.00392/个</td><td>¥667</td><td>¥0.65/条</td><td>¥2,210</td><td>¥32,825</td><td>¥35,701</td></tr>
-    </table>
-</div>
-<div style="overflow-x:auto;margin:20px 0;">
-    <table class="data-table">
-        <thead><tr><th>账号</th><th>发布条数</th><th>需达标播放量</th><th>Dou+单条测投</th><th>Dou+追投上限</th><th>预估爆款数</th><th>Dou+测投成本</th><th>刷量单价</th><th>单条刷量价格</th><th>刷量总成本</th><th>点赞5000价格</th><th>点赞总成本</th><th>评论100价格</th><th>评论总成本</th><th>总成本</th></tr></thead><tr><td>🎮 有料玩家</td><td>15</td><td>15w</td><td>¥100</td><td>¥700</td><td>5</td><td>¥4,000</td><td>¥65/万</td><td>¥975</td><td>¥9,750</td><td>¥19.6</td><td>¥196</td><td>¥65</td><td>¥650</td><td>¥14,596</td></tr><tr><td>🐙 鱿鱼说游</td><td>15</td><td>15w</td><td>¥100</td><td>¥700</td><td>5</td><td>¥4,000</td><td>¥65/万</td><td>¥975</td><td>¥9,750</td><td>¥19.6</td><td>¥196</td><td>¥65</td><td>¥650</td><td>¥14,596</td></tr><tr><td>🐴 牛马说游戏</td><td>15</td><td>15w</td><td>¥100</td><td>¥700</td><td>5</td><td>¥4,000</td><td>¥65/万</td><td>¥975</td><td>¥9,750</td><td>¥19.6</td><td>¥196</td><td>¥65</td><td>¥650</td><td>¥14,596</td></tr><tr class="total-row"><td>合计</td><td>45</td><td>—</td><td>—</td><td>—</td><td>15</td><td>¥12,000</td><td>¥65/万</td><td>—</td><td>¥29,250</td><td>—</td><td>¥588</td><td>—</td><td>¥1,950</td><td>¥43,788</td></tr>
-    </table>
-</div>
-<div style="overflow-x:auto;margin:20px 0;">
-    <table class="data-table">
-        <thead><tr><th>账号</th><th>星图报价</th><th>实际到手65%</th><th>5条月收入</th><th>10条月收入</th><th>5条商单毛利</th><th>10条商单毛利</th></tr></thead><tr><td>🎮 有料玩家</td><td>¥4,500</td><td>¥2,925</td><td>¥14,625</td><td>¥29,250</td><td>¥29</td><td>¥14,654</td></tr><tr><td>🐙 鱿鱼说游</td><td>¥4,500</td><td>¥2,925</td><td>¥14,625</td><td>¥29,250</td><td>¥29</td><td>¥14,654</td></tr><tr><td>🐴 牛马说游戏</td><td>¥4,500</td><td>¥2,925</td><td>¥14,625</td><td>¥29,250</td><td>¥29</td><td>¥14,654</td></tr><tr class="total-row"><td>合计</td><td>—</td><td>—</td><td>¥43,875</td><td>¥87,750</td><td>¥87</td><td>¥43,962</td></tr>
-    </table>
-</div>
-<div style="overflow-x:auto;margin:20px 0;">
-    <table class="data-table">
-        <thead><tr><th>场景</th><th>月总收入</th><th>月总支出</th><th>月总利润</th></tr></thead><tr><td>每月接5条</td><td>¥43,875</td><td>¥43,788</td><td>+¥87</td></tr><tr><td>每月接10条</td><td>¥87,750</td><td>¥43,788</td><td>+¥43,962</td></tr>
-    </table>
-</div>
-<div style="overflow-x:auto;margin:20px 0;">
-    <table class="data-table">
-        <thead><tr><th>指标</th><th>数值</th></tr></thead><tr><td>🚧 商业化前一次性投入</td><td>¥35,701</td></tr><tr><td>📈 每月总支出</td><td>¥43,788</td></tr><tr><td>💰 星图报价</td><td>¥4,500/条</td></tr><tr><td>💰 实际到手（65%）</td><td>¥2,925/条</td></tr><tr><td>📈 每月总收入（5条）</td><td>¥43,875</td></tr><tr><td>📈 每月总收入（10条）</td><td>¥87,750</td></tr><tr class="total-row"><td>📈 每月总利润（5条）</td><td>+¥87</td></tr><tr class="total-row"><td>📈 每月总利润（10条）</td><td>+¥43,962</td></tr>
-    </table>
-</div>
-</div>
-        </div>
-    </div>
-
-
-
-
-<div id="panel-whitepaper" class="account-panel">
-
-<div class="section">
-    <div class="section-title"><span class="icon">📖</span> 游戏矩阵账号创作体系白皮书</div>
-    
-    <div class="summary-card" style="margin-bottom:32px;">
-        <div class="card-body">
-            <strong>核心定位：</strong>五大账号覆盖游戏圈全维度 —— 过去、现在、未来、省钱、赛事<br>
-            <strong>总产能：</strong>月更100条（5账号×20条）<br>
-            <strong>差异化原则：</strong>同一选题五种写法，绝不重复
-        </div>
-    </div>
+<div class="rp-section">
+    <div class="rp-heading"><span>📋</span> 一、项目整体概况</div>
+    <div class="ovf"><table class="data-table" style="width:100%"><tbody>
+        <tr><td style="width:160px;font-weight:600;color:#a78bfa;">启动时间</td><td>2026年3月18日</td></tr>
+        <tr><td style="font-weight:600;color:#a78bfa;">运营周期</td><td>2026.03.18 — 2026.05.18（近2个月）</td></tr>
+        <tr><td style="font-weight:600;color:#a78bfa;">矩阵账号</td><td><span class="rp-tag">🎮 有料玩家</span><span class="rp-tag">🐙 鱿鱼说游</span><span class="rp-tag">🔐 阿密说游戏</span><span class="rp-tag">🐴 牛马说游戏</span><span class="rp-tag">🐱 哈吉米说游戏</span></td></tr>
+        <tr><td style="font-weight:600;color:#a78bfa;">总发布</td><td>391 条视频</td></tr>
+        <tr><td style="font-weight:600;color:#a78bfa;">总播放量</td><td>7,770,061 次（约 <strong style="color:#eab308;">777万</strong>）</td></tr>
+        <tr><td style="font-weight:600;color:#a78bfa;">累计净增粉丝</td><td><strong style="color:#22c55e;">+1,717</strong></td></tr>
+        <tr><td style="font-weight:600;color:#a78bfa;">核心成绩</td><td>有料玩家单条爆款 <strong style="color:#f472b6;">508万</strong> 播放，全矩阵累计播放近800万</td></tr>
+    </tbody></table></div>
 </div>
 
-<div class="section">
-    <div class="section-title"><span class="icon">🎯</span> 五大账号定位总览</div>
-    
-    <div class="analysis-grid">
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(167,139,250,0.15);">🐙</div>
-                <div class="card-title">鱿鱼说游</div>
-            </div>
-            <div class="card-body">
-                <strong>定位：</strong>盘点回溯型 · 游戏圈故事会<br>
-                <strong>时间维度：</strong>看过去<br>
-                <strong>灵魂锚点：</strong>重新发现你以为知道的事<br>
-                <strong>Slogan：</strong>太有活了<br>
-                <strong>7大栏目：</strong>出圈角色、封神现场、游戏神曲、藏在代码里、厂商互怼、白嫖指南、叛逆玩法
-            </div>
-        </div>
-        
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(244,114,182,0.15);">🐴</div>
-                <div class="card-title">牛马说游戏</div>
-            </div>
-            <div class="card-body">
-                <strong>定位：</strong>热点追击型 · 游戏圈新闻台<br>
-                <strong>时间维度：</strong>看现在/未来<br>
-                <strong>灵魂锚点：</strong>刚刚发生的事<br>
-                <strong>Slogan：</strong>游戏圈的事，牛马第一个告诉你<br>
-                <strong>7大栏目：</strong>热报、版本速递、新角色登场、整活现场、联动情报、新游快报、回归指南
-            </div>
-        </div>
-        
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(251,146,60,0.15);">🔐</div>
-                <div class="card-title">阿密说游戏</div>
-            </div>
-            <div class="card-body">
-                <strong>定位：</strong>游戏福利官 · 全平台薅羊毛（v2.0）<br>
-                <strong>时间维度：</strong>看怎么省钱<br>
-                <strong>灵魂锚点：</strong>跟着阿密薅，游戏不花冤枉钱<br>
-                <strong>Slogan：</strong>游戏福利全掌握，阿密带你薅羊毛<br>
-                <strong>6大栏目：</strong>手游福利攻略、Steam史低追踪、免费游戏挖掘、购买渠道对比、平台会员对比、硬件省钱指南
-            </div>
-        </div>
-        
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(34,197,94,0.15);">🐱</div>
-                <div class="card-title">哈吉米说游戏</div>
-            </div>
-            <div class="card-body">
-                <strong>定位：</strong>电竞快讯 · 电竞赛事台<br>
-                <strong>时间维度：</strong>看现在<br>
-                <strong>灵魂锚点：</strong>每一场赛事都不缺席<br>
-                <strong>Slogan：</strong>解锁电竞全资讯<br>
-                <strong>7大栏目：</strong>当日战报、名场面盘点、转会大瓜、战队节奏、BP/套路分析、数据对比/梗盘点、赛事前瞻
-            </div>
-        </div>
-        
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(6,182,212,0.15);">🎮</div>
-                <div class="card-title">有料玩家</div>
-            </div>
-            <div class="card-body">
-                <strong>定位：</strong>游戏推荐官 · 新游望远镜（扩展版）<br>
-                <strong>时间维度：</strong>看未来<br>
-                <strong>灵魂锚点：</strong>快人一步get好游<br>
-                <strong>Slogan：</strong>新游情报抢先看，测试资格、实机解析，快人一步get未来好游<br>
-                <strong>内容配比：</strong>新游资讯40%、联机整活30%、冷门神作20%、类型专题10%
-            </div>
-        </div>
-    </div>
-</div>
+<div class="rp-divider"></div>
 
-<div class="section">
-    <div class="section-title"><span class="icon">⚔️</span> 账号分工与边界</div>
-    
-    <table class="video-table" style="margin-bottom:24px;">
-        <thead>
-            <tr>
-                <th>时间维度</th>
-                <th>负责账号</th>
-                <th>内容方向</th>
-                <th>不碰的红线</th>
-            </tr>
-        </thead>
+<div class="rp-section">
+    <div class="rp-heading"><span>📊</span> 二、账号矩阵现状</div>
+    <p class="rp-text">数据更新时间：2026年5月18日</p>
+    <div class="ovf"><table class="data-table" style="width:100%">
+        <thead><tr><th>账号</th><th>总视频</th><th>破15w</th><th>总播放量</th><th>完播率</th><th>爆款TOP1</th><th>播放量</th></tr></thead>
         <tbody>
-            <tr>
-                <td><strong>过去</strong></td>
-                <td>🐙 鱿鱼说游</td>
-                <td>盘点/回溯/故事</td>
-                <td>热点速报、赛事战报</td>
-            </tr>
-            <tr>
-                <td><strong>现在</strong></td>
-                <td>🐴 牛马说游戏 / 🐱 哈吉米说游戏</td>
-                <td>热点速报 / 电竞赛事</td>
-                <td>历史盘点、新游推荐</td>
-            </tr>
-            <tr>
-                <td><strong>未来</strong></td>
-                <td>🎮 有料玩家</td>
-                <td>新游/测试/推荐</td>
-                <td>已上线很久的老游戏</td>
-            </tr>
-            <tr>
-                <td><strong>省钱</strong></td>
-                <td>🔐 阿密说游戏</td>
-                <td>福利/攻略/白嫖</td>
-                <td>纯剧情/纯测评</td>
-            </tr>
+        <tr><td>🎮 有料玩家</td><td>57条</td><td style="color:#22c55e;font-weight:700;">4条</td><td>644万</td><td>6.59%</td><td>宗师碰瓷钟意</td><td style="color:#f472b6;font-weight:700;">508万</td></tr>
+        <tr><td>🐙 鱿鱼说游</td><td>94条</td><td style="color:#22c55e;font-weight:700;">3条</td><td>83.5万</td><td>10.83%</td><td>OWL战术震惊</td><td style="color:#eab308;">18.9万</td></tr>
+        <tr><td>🐴 牛马说游戏</td><td>93条</td><td style="color:#22c55e;font-weight:700;">2条</td><td>88万</td><td>8.16%</td><td>Faker牵手柳智敏</td><td style="color:#eab308;">39.5万</td></tr>
+        <tr><td>🐱 哈吉米说游戏</td><td>79条</td><td style="color:#ef4444;">0条</td><td>22.2万</td><td>5.32%</td><td>S1Mon哽咽</td><td>12.5万</td></tr>
+        <tr><td>🔐 阿密说游戏</td><td>68条</td><td style="color:#ef4444;">0条</td><td>10.5万</td><td>4.27%</td><td>二游吉祥物</td><td>2.8万</td></tr>
         </tbody>
-    </table>
-    
-    <div class="highlight warn" style="margin-bottom:24px;">
-        <strong>互换检测原则：</strong>这条内容换成其他账号能发吗？能 → 打回重想；不能 → 说明差异化足够，可以发
-    </div>
+    </table></div>
 </div>
 
-<div class="section">
-    <div class="section-title"><span class="icon">💰</span> 变现路径规划</div>
-    
-    <div class="analysis-grid">
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(167,139,250,0.15);">🐙</div>
-                <div class="card-title">鱿鱼说游</div>
-            </div>
-            <div class="card-body">
-                <strong>主要变现：</strong>游戏厂商品牌合作、新游推广<br>
-                <strong>内容优势：</strong>盘点类内容易爆、长尾流量好<br>
-                <strong>适合客户：</strong>需要品牌曝光的游戏厂商
-            </div>
-        </div>
-        
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(244,114,182,0.15);">🐴</div>
-                <div class="card-title">牛马说游戏</div>
-            </div>
-            <div class="card-body">
-                <strong>主要变现：</strong>热点游戏推广、版本合作<br>
-                <strong>内容优势：</strong>时效性强、追热点快<br>
-                <strong>适合客户：</strong>需要快速曝光的新游/新版本
-            </div>
-        </div>
-        
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(251,146,60,0.15);">🔐</div>
-                <div class="card-title">阿密说游戏</div>
-            </div>
-            <div class="card-body">
-                <strong>主要变现：</strong>手游厂商推广、平台合作、硬件厂商<br>
-                <strong>内容优势：</strong>实用性强、转化率高<br>
-                <strong>适合客户：</strong>需要精准转化的手游/硬件品牌
-            </div>
-        </div>
-        
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(34,197,94,0.15);">🐱</div>
-                <div class="card-title">哈吉米说游戏</div>
-            </div>
-            <div class="card-body">
-                <strong>主要变现：</strong>电竞赛事合作、战队推广<br>
-                <strong>内容优势：</strong>电竞粉精准、互动率高<br>
-                <strong>适合客户：</strong>电竞赛事、战队、电竞周边
-            </div>
-        </div>
-        
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(6,182,212,0.15);">🎮</div>
-                <div class="card-title">有料玩家</div>
-            </div>
-            <div class="card-body">
-                <strong>主要变现：</strong>新游预约推广、测试资格合作<br>
-                <strong>内容优势：</strong>新游垂直、用户意向强<br>
-                <strong>适合客户：</strong>未上线新游、需要预约量/测试用户
-            </div>
-        </div>
-    </div>
-</div>
+<div class="rp-divider"></div>
 
-<div class="section">
-    <div class="section-title"><span class="icon">📋</span> 内容生产规范</div>
-    
-    <table class="video-table">
-        <thead>
-            <tr>
-                <th>规范项</th>
-                <th>统一标准</th>
-                <th>说明</th>
-            </tr>
-        </thead>
+<div class="rp-section">
+    <div class="rp-heading"><span>🔥</span> 三、内容产出汇总</div>
+    <div class="rp-sub">🏆 爆款视频 TOP 5</div>
+    <div class="ovf"><table class="data-table" style="width:100%">
+        <thead><tr><th>#</th><th>账号</th><th>播放量</th><th>标题</th></tr></thead>
         <tbody>
-            <tr>
-                <td>视频时长</td>
-                <td>约1分钟</td>
-                <td>完播率最优区间</td>
-            </tr>
-            <tr>
-                <td>目标字数</td>
-                <td>300-350字</td>
-                <td>配合1分钟时长</td>
-            </tr>
-            <tr>
-                <td>更新频率</td>
-                <td>月更20条/账号</td>
-                <td>5账号总计100条/月</td>
-            </tr>
-            <tr>
-                <td>钩子要求</td>
-                <td>开头3秒必须抓人</td>
-                <td>"你敢信吗？""这游戏居然..."</td>
-            </tr>
-            <tr>
-                <td>结尾CTA</td>
-                <td>固定引导关注</td>
-                <td>各账号有专属结尾语</td>
-            </tr>
+        <tr><td style="font-weight:700;color:#f472b6;">1</td><td>有料玩家</td><td style="font-weight:700;color:#f472b6;">508万</td><td>宗师碰瓷钟意？自曝AG试训"不想抢饭碗"</td></tr>
+        <tr><td style="font-weight:700;color:#f472b6;">2</td><td>有料玩家</td><td style="font-weight:700;">49.6万</td><td>s1mple+Senzu合体，CSGO史上最豪阵容</td></tr>
+        <tr><td style="font-weight:700;color:#eab308;">3</td><td>有料玩家</td><td style="font-weight:700;">34.3万</td><td>靠争议吃饭终被争议反噬，神枪小子结局早有预兆</td></tr>
+        <tr><td style="font-weight:700;color:#eab308;">4</td><td>牛马说游戏</td><td style="font-weight:700;">39.5万</td><td>Faker牵手柳智敏告白！老李30年童子功要破了？</td></tr>
+        <tr><td style="font-weight:700;color:#60a5fa;">5</td><td>鱿鱼说游</td><td style="font-weight:700;">18.9万</td><td>太讷了，OWL的职业战队居然使用这种战术？！</td></tr>
         </tbody>
-    </table>
-</div>
-
-<div class="section">
-    <div class="section-title"><span class="icon">📝</span> 选题协同示例</div>
-    
-    <div class="summary-card">
-        <div class="card-body">
-            <strong>以《黑神话：悟空》为例，五个账号五种写法：</strong><br><br>
-            🐙 <strong>鱿鱼说游</strong> → 黑神话开发历程盘点（看过去）<br>
-            🐴 <strong>牛马说游戏</strong> → 黑神话上线首日战报（看现在）<br>
-            🔐 <strong>阿密说游戏</strong> → 黑神话哪里买最便宜（省钱）<br>
-            🎮 <strong>有料玩家</strong> → 黑神话测试资格获取（看未来）<br>
-            🐱 <strong>哈吉米说游戏</strong> → 不涉及（非电竞赛事）<br><br>
-            <em>同一热点，不同角度，覆盖不同受众，互不抢流量</em>
-        </div>
-    </div>
-</div>
-
-</div>
-
-<!-- ===================== 数据分析报告 ===================== -->
-<div id="panel-analysis" class="account-panel">
-
-<div class="section">
-    <div class="section-title"><span class="icon">📈</span> 矩阵数据分析报告</div>
-    <div class="summary-card" style="margin-bottom:32px;">
-        <div class="card-body">
-            <strong>统计周期：2026.04.25 — 2026.05.05（11天）</strong><br>
-            <strong>统计账号：</strong>鱿鱼说游 / 阿密说游戏 / 牛马说游戏 / 有料玩家 / 哈吉米说游戏<br>
-            <strong>全矩阵合计：</strong>438条内容 / 总播放946.9万 / 条均播放2.2万
-        </div>
-    </div>
-</div>
-
-<div class="section">
-    <div class="section-title"><span class="icon">📊</span> 五账号数据总览</div>
-    <table class="video-table" style="margin-bottom:24px;">
-        <thead>
-            <tr>
-                <th>账号</th>
-                <th>发布条数</th>
-                <th>总播放</th>
-                <th>平均播放</th>
-                <th>最高播放</th>
-                <th>最低播放</th>
-                <th>互动率</th>
-                <th>粉丝增量</th>
-            </tr>
-        </thead>
+    </table></div>
+    <div class="rp-sub">📌 爆款选题方向归纳</div>
+    <div class="ovf"><table class="data-table" style="width:100%">
+        <thead><tr><th>类型</th><th>特点</th><th>案例</th></tr></thead>
         <tbody>
-<tr>
-            <td>🐙 鱿鱼说游</td>
-            <td>104</td>
-            <td>105.6万</td>
-            <td>1.0万</td>
-            <td class="likes high">19.1万</td>
-            <td class="likes low">0</td>
-            <td style="color:#eab308;font-weight:600;">1.98%</td>
-            <td>121</td>
-        </tr>
-<tr>
-            <td>🐴 牛马说游戏</td>
-            <td>103</td>
-            <td>108.0万</td>
-            <td>1.0万</td>
-            <td class="likes high">39.5万</td>
-            <td class="likes low">0</td>
-            <td style="color:#eab308;font-weight:600;">1.5%</td>
-            <td>228</td>
-        </tr>
-<tr>
-            <td>🔐 阿密说游戏</td>
-            <td>78</td>
-            <td>12.4万</td>
-            <td>1592</td>
-            <td class="likes high">2.9万</td>
-            <td class="likes low">189</td>
-            <td style="color:#eab308;font-weight:600;">2.25%</td>
-            <td>26</td>
-        </tr>
-<tr>
-            <td>🐱 哈吉米说游戏</td>
-            <td>86</td>
-            <td>24.9万</td>
-            <td>2895</td>
-            <td class="likes high">13.4万</td>
-            <td class="likes low">108</td>
-            <td style="color:#ef4444;font-weight:600;">1.26%</td>
-            <td>38</td>
-        </tr>
-<tr>
-            <td>🎮 有料玩家</td>
-            <td>67</td>
-            <td>696.0万</td>
-            <td>10.4万</td>
-            <td class="likes high">530.0万</td>
-            <td class="likes low">411</td>
-            <td style="color:#eab308;font-weight:600;">2.98%</td>
-            <td>1456</td>
-        </tr>
-
+        <tr><td><span style="color:#ef4444;">🔥 主播争议/碰瓷</span></td><td>主播互撕、蹭热度、翻车</td><td>宗师碰瓷钟意、神枪小子</td></tr>
+        <tr><td><span style="color:#eab308;">⭐ 顶级选手/阵容</span></td><td>明星选手组队、转会、大事件</td><td>s1mple合体</td></tr>
+        <tr><td><span style="color:#f472b6;">💕 跨界CP/感情八卦</span></td><td>电竞×娱乐圈</td><td>Faker牵手柳智敏</td></tr>
+        <tr><td><span style="color:#60a5fa;">🎮 赛事爆料/反差</span></td><td>内部消息、离谱操作</td><td>OWL战术、地平线偷跑</td></tr>
         </tbody>
-    </table>
+    </table></div>
+    <div class="rp-hl info">爆款核心公式：<strong>争议 × 站队 × 博弈 × 时效</strong></div>
 </div>
 
-<div class="section">
-    <div class="section-title"><span class="icon">🔍</span> 各账号详细分析</div>
-    <div class="analysis-grid">
+<div class="rp-divider"></div>
 
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(a7,8b,fa,0.15);">🐙</div>
-                <div class="card-title">鱿鱼说游</div>
-            </div>
-            <div class="card-body">
-                <strong>发布：</strong>104条 · <strong>平均播放：</strong>1.0万 · <strong>互动率：</strong>1.98% · <strong>粉丝增量：</strong>121<br>
-                <strong>最高：</strong>19.1万（太讷了，OWL的职业战队居然使用这种战术？！）<br>
-                <strong>最低：</strong>0（小时候的回忆！这可是承载着00后的童年青春呀！）<br>
-                <strong>互动：</strong>👍17047 💬791 🔄2426 ⭐666
-            </div>
-            <div class="highlight good">💡 互动率1.98%表现最好，说明观众粘性强。但爆款阈值偏低（19.1万即最高），缺大爆款。盘点类内容表现稳定。</div>
-        </div>
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(f4,72,b6,0.15);">🐴</div>
-                <div class="card-title">牛马说游戏</div>
-            </div>
-            <div class="card-body">
-                <strong>发布：</strong>103条 · <strong>平均播放：</strong>1.0万 · <strong>互动率：</strong>1.5% · <strong>粉丝增量：</strong>228<br>
-                <strong>最高：</strong>39.5万（Faker 牵手柳智敏告白！老李30 年童子功要破了？）<br>
-                <strong>最低：</strong>0（从 FPS 到 MOBA，保时捷被腾讯包了）<br>
-                <strong>互动：</strong>👍11042 💬651 🔄3844 ⭐696
-            </div>
-            <div class="highlight bad">💡 互动率1.5%垫底。观众看完就走，不点赞不评论不分享。内容"有信息但没情绪"——信息通报型看完即走。</div>
-        </div>
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(fb,92,3c,0.15);">🔐</div>
-                <div class="card-title">阿密说游戏</div>
-            </div>
-            <div class="card-body">
-                <strong>发布：</strong>78条 · <strong>平均播放：</strong>1592 · <strong>互动率：</strong>2.25% · <strong>粉丝增量：</strong>26<br>
-                <strong>最高：</strong>2.9万（二游吉祥物两极分化！有人成电子家人，有人被全网嫌弃）<br>
-                <strong>最低：</strong>189（桃晚安会二次回应粉丝的期待吗？）<br>
-                <strong>互动：</strong>👍1891 💬253 🔄176 ⭐470
-            </div>
-            <div class="highlight warn">💡 发布量最少，内容密度不足。爆款依赖和鱿鱼撞题（二游吉祥物），自身手游垂直特色没发挥出来。</div>
-        </div>
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(22,c5,5e,0.15);">🐱</div>
-                <div class="card-title">哈吉米说游戏</div>
-            </div>
-            <div class="card-body">
-                <strong>发布：</strong>86条 · <strong>平均播放：</strong>2895 · <strong>互动率：</strong>1.26% · <strong>粉丝增量：</strong>38<br>
-                <strong>最高：</strong>13.4万（时隔一年终于释怀！团子北京站哽咽祝福S1Mon）<br>
-                <strong>最低：</strong>108（电竞圈颜值内卷拉满！现在观赛技术颜值双双拿捏？！）<br>
-                <strong>互动：</strong>👍2708 💬102 🔄159 ⭐169
-            </div>
-            <div class="highlight bad">💡 全矩阵流量最低，平均不到800播放。粉丝增量几乎为零。账号还没找到自己的人设和定位，需要尽快建立创作体系。</div>
-        </div>
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(06,b6,d4,0.15);">🎮</div>
-                <div class="card-title">有料玩家</div>
-            </div>
-            <div class="card-body">
-                <strong>发布：</strong>67条 · <strong>平均播放：</strong>10.4万 · <strong>互动率：</strong>2.98% · <strong>粉丝增量：</strong>1456<br>
-                <strong>最高：</strong>530.0万（宗师碰瓷钟意？自曝 AG 试训 “不想抢饭碗”）<br>
-                <strong>最低：</strong>411（终于有人来制裁逆天排位机制了吗）<br>
-                <strong>互动：</strong>👍150693 💬9477 🔄42133 ⭐4791
-            </div>
-            <div class="highlight warn">💡 爆款极度依赖"争议事件+人物冲突"（BCG/神枪小子/Rookie），占比超过90%流量。两极分化严重——要么爆，要么凉。</div>
-        </div>
-    </div>
-</div>
-
-<div class="section">
-    <div class="section-title"><span class="icon">🚫</span> 全矩阵共性问题</div>
-    <div class="analysis-grid">
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(239,68,68,0.15);">🚫</div>
-                <div class="card-title">"死亡迪斯科"全军覆没</div>
-            </div>
-            <div class="card-body">
-                5个号都做了Dead as Disco新游内容，<strong>全部垫底</strong>（49-414播放）。新游推广内容在这个矩阵完全不吃香，建议砍掉或只在特定号做。
-            </div>
-            <div class="highlight bad">🔴 新游推广类内容数据地板级，浪费创作资源</div>
-        </div>
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(34,197,94,0.15);">⚡</div>
-                <div class="card-title">爆款公式已被验证</div>
-            </div>
-            <div class="card-body">
-                有料玩家两条超级爆款（BCG 48.8万 + 神枪小子 34.1万）贡献了全矩阵<strong>84%的播放量</strong>。公式清晰：<strong>争议事件 + 人物冲突 + 站队情绪</strong>。
-            </div>
-            <div class="highlight good">💡 争议+人物冲突=流量密码，跑到底</div>
-        </div>
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(234,179,8,0.15);">📉</div>
-                <div class="card-title">互动率两极分化</div>
-            </div>
-            <div class="card-body">
-                鱿鱼互动率3.7% vs 牛马0.83%——差4倍。牛马和哈吉米的观众看完就溜，需要加互动钩子（提问/投票/争议观点）。
-            </div>
-            <div class="highlight warn">⚠️ 互动率低=看完即走，算法不给二次推荐</div>
-        </div>
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(168,85,247,0.15);">🔄</div>
-                <div class="card-title">同题撞车严重</div>
-            </div>
-            <div class="card-body">
-                "二游吉祥物"鱿鱼和阿密都做了，"神枪小子"4个号都做了，"死亡迪斯科"5个号全做了。各号角度区分不够明显，互相抢流量。
-            </div>
-            <div class="highlight warn">⚠️ 同选题必须差异化角度，五号五写法</div>
-        </div>
-    </div>
-</div>
-
-<div class="section">
-    <div class="section-title"><span class="icon">🎯</span> 优化建议</div>
-    <ul class="opt-list">
-        <li>
-            <div class="priority p0">P0</div>
-            <div class="opt-content">
-                <h3>🚫 砍掉新游推广类内容</h3>
-                <p>Dead as Disco类新游推广内容全矩阵数据都是地板，浪费时间。立即砍掉，节省创作资源聚焦热点。</p>
-                <div class="action">→ 本周停止新游推广类选题</div>
-            </div>
-        </li>
-        <li>
-            <div class="priority p0">P0</div>
-            <div class="opt-content">
-                <h3>🔥 有料玩家全力追争议热点</h3>
-                <p>BCG 48.8万+神枪小子 34.1万已验证路径。日更1-2条争议/荒诞事件，跑到底。</p>
-                <div class="action">→ 有料玩家本周10条争议/荒诞事件选题</div>
-            </div>
-        </li>
-        <li>
-            <div class="priority p0">P0</div>
-            <div class="opt-content">
-                <h3>💬 牛马每条结尾加互动钩子</h3>
-                <p>互动率0.83%垫底。"你们怎么看？评论区吵起来" / "你觉得该不该封？"——拉互动率。</p>
-                <div class="action">→ 牛马每条脚本必须有互动问题</div>
-            </div>
-        </li>
-        <li>
-            <div class="priority p1">P1</div>
-            <div class="opt-content">
-                <h3>🐱 哈吉米说游戏建立创作体系</h3>
-                <p>平均播放788，11天涨3个粉，全矩阵最差。定位模糊、数据最差，需要尽快建立自己的创作体系。</p>
-                <div class="action">→ 2周内完成哈吉米创作体系白皮书</div>
-            </div>
-        </li>
-        <li>
-            <div class="priority p1">P1</div>
-            <div class="opt-content">
-                <h3>🔐 阿密说游戏回归手游垂直</h3>
-                <p>阿密发布量最少（14条），爆款依赖和鱿鱼撞题。应回归手游垂直——王者荣耀/吃鸡攻略测评，别和鱿鱼抢盘点选题。</p>
-                <div class="action">→ 阿密本周8条手游攻略/测评类选题</div>
-            </div>
-        </li>
-        <li>
-            <div class="priority p1">P1</div>
-            <div class="opt-content">
-                <h3>🔀 同选题必须差异化角度</h3>
-                <p>鱿鱼→盘点过去 / 牛马→追踪现在 / 阿密→手上怎么用 / 有料→这事离不离谱 / 哈吉米→电竞选手故事线</p>
-                <div class="action">→ 每个热点选题必须按五号五写法分工</div>
-            </div>
-        </li>
-        <li>
-            <div class="priority p2">P2</div>
-            <div class="opt-content">
-                <h3>🐙 鱿鱼说游尝试长视频</h3>
-                <p>互动率3.7%说明观众粘性高，可以试1-3分钟深度内容，拉高单条播放量。</p>
-                <div class="action">→ 本周试1条1-3分钟深度盘点</div>
-            </div>
-        </li>
-        <li>
-            <div class="priority p2">P2</div>
-            <div class="opt-content">
-                <h3>🔁 有料玩家的爆款做系列化</h3>
-                <p>BCG后续/神枪小子后续，吃透一个事件。爆款事件的生命周期远比想象中长。</p>
-                <div class="action">→ 对完播率>15%的视频做系列跟进</div>
-            </div>
-        </li>
-    </ul>
-</div>
-
-</div>
-
-<div id="panel-adflow" class="account-panel">
-
-<div class="section" style="margin-bottom:28px;">
-    <div style="text-align:center;padding:20px 0 12px;">
-        <h2 style="font-size:24px;color:#f97316;margin:0 0 6px;">🚀 投流数据汇总分析报告</h2>
-        <p style="color:#94a3b8;margin:0;">分析周期：2026.04.24 - 2026.05.04 &nbsp;|&nbsp; 报告日期：2026-05-06</p>
-    </div>
-</div>
-
-<div class="section">
-    <div class="section-title"><span class="icon">📊</span> 一、数据概览</div>
-    <div class="highlight good" style="margin-bottom:16px;">
-        本次分析涵盖2026年4月24日至5月4日期间，5个抖音游戏账号的Dou+投放数据，共计<strong>14条投放记录</strong>，总投放金额约<strong>2,012元</strong>。
-    </div>
-    <div class="analysis-grid">
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(34,197,94,0.15);">🏆</div>
-                <div class="card-title">有料玩家 CPM 最低</div>
-            </div>
-            <div class="card-body">
-                2条400元大金额投放CPM低至<strong>4.84-6.47</strong>，自然溢出率313%-690%，效果极佳
-            </div>
-        </div>
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(59,130,246,0.15);">🔥</div>
-                <div class="card-title">电竞/争议类 ROI 最高</div>
-            </div>
-            <div class="card-body">
-                电竞/争议类内容投流ROI最高赛道，自然溢出率普遍在<strong>300%以上</strong>
-            </div>
-        </div>
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(239,68,68,0.15);">❌</div>
-                <div class="card-title">逆战未来 全军覆没</div>
-            </div>
-            <div class="card-body">
-                逆战未来题材在多个账号上表现不佳，CPM普遍<strong>&gt;30</strong>，应立即停止
-            </div>
-        </div>
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(168,85,247,0.15);">🎀</div>
-                <div class="card-title">二游萌系 有潜力</div>
-            </div>
-            <div class="card-body">
-                二游吉祥物题材验证有效，自然溢出350%-450%，但CPM仍在<strong>15-30</strong>区间，需优化
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="section">
-    <div class="section-title"><span class="icon">📋</span> 二、逐条投流效果分析</div>
-    <table class="video-table" style="font-size:13px;">
-        <thead>
-            <tr>
-                <th style="width:30px;">#</th>
-                <th>日期</th>
-                <th>账号</th>
-                <th>选题</th>
-                <th>预算</th>
-                <th>投流播放</th>
-                <th>总播放</th>
-                <th>自然溢出</th>
-                <th>CPM</th>
-                <th>互动成本</th>
-                <th>效果</th>
-            </tr>
-        </thead>
+<div class="rp-section">
+    <div class="rp-heading"><span>💰</span> 四、投流策略执行</div>
+    <div class="rp-sub">📈 DOU+ 测投数据</div>
+    <div class="ovf"><table class="data-table" style="width:100%">
+        <thead><tr><th>账号</th><th>投流条数</th><th>总消耗</th><th>总投流播放</th><th>CPM</th><th>排名</th><th>效率</th></tr></thead>
         <tbody>
-            <tr>
-                <td>1</td><td>4.24</td><td>有料玩家</td><td>川传五赋能</td><td>100元</td>
-                <td>2,963</td><td>63,000</td><td style="color:#22c55e;">2026%</td><td style="color:#ef4444;">33.7</td><td>6.25</td>
-                <td><span style="background:#ef4444;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px;">差</span></td>
-            </tr>
-            <tr>
-                <td>2</td><td>4.24</td><td>哈吉米</td><td>川传五赋能</td><td>100元</td>
-                <td>3,131</td><td>17,000</td><td style="color:#22c55e;">443%</td><td style="color:#ef4444;">31.9</td><td>11.1</td>
-                <td><span style="background:#ef4444;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px;">差</span></td>
-            </tr>
-            <tr>
-                <td>3</td><td>4.28</td><td>鱿鱼说游</td><td>决定改变游戏结局</td><td>100元</td>
-                <td>2,205</td><td>5,269</td><td style="color:#eab308;">139%</td><td style="color:#ef4444;">45.3</td><td>0.37</td>
-                <td><span style="background:#ef4444;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px;">差</span></td>
-            </tr>
-            <tr>
-                <td>4</td><td>4.28</td><td>哈吉米</td><td>faker三连翻</td><td>100元</td>
-                <td>2,373</td><td>3,315</td><td style="color:#eab308;">39.7%</td><td style="color:#ef4444;">42.1</td><td>0.46</td>
-                <td><span style="background:#ef4444;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px;">差</span></td>
-            </tr>
-            <tr style="background:rgba(34,197,94,0.08);">
-                <td>5</td><td>4.28</td><td style="color:#06b6d4;font-weight:600;">有料玩家</td><td style="font-weight:600;">神枪小子</td><td style="font-weight:600;">400元</td>
-                <td style="font-weight:600;">82,521</td><td style="font-weight:600;color:#22c55e;">341,000</td><td style="color:#22c55e;font-weight:600;">313%</td><td style="color:#22c55e;font-weight:600;">4.84</td><td style="font-weight:600;">0.18</td>
-                <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px;">好</span></td>
-            </tr>
-            <tr style="background:rgba(34,197,94,0.08);">
-                <td>6</td><td>4.29</td><td style="color:#06b6d4;font-weight:600;">有料玩家</td><td style="font-weight:600;">双森组合</td><td style="font-weight:600;">400元</td>
-                <td style="font-weight:600;">61,785</td><td style="font-weight:600;color:#22c55e;">488,000</td><td style="color:#22c55e;font-weight:600;">690%</td><td style="color:#22c55e;font-weight:600;">6.47</td><td style="font-weight:600;">0.20</td>
-                <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px;">好</span></td>
-            </tr>
-            <tr>
-                <td>7</td><td>4.29</td><td>鱿鱼说游</td><td>电竞新星</td><td>100元</td>
-                <td>2,887</td><td>5,546</td><td style="color:#eab308;">92%</td><td style="color:#ef4444;">34.6</td><td>0.33</td>
-                <td><span style="background:#ef4444;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px;">差</span></td>
-            </tr>
-            <tr style="background:rgba(234,179,8,0.06);">
-                <td>8</td><td>4.29</td><td>有料玩家</td><td>rookie分手瓜</td><td>100元</td>
-                <td>5,133</td><td>6,621</td><td style="color:#eab308;">29%</td><td style="color:#eab308;">19.4</td><td>0.35</td>
-                <td><span style="background:#eab308;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px;">一般</span></td>
-            </tr>
-            <tr>
-                <td>9</td><td>4.30</td><td>鱿鱼说游</td><td>逆战未来老ip延续</td><td>100元</td>
-                <td>2,389</td><td>2,389</td><td style="color:#ef4444;">0%</td><td style="color:#ef4444;">41.8</td><td>1.16</td>
-                <td><span style="background:#ef4444;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px;">差</span></td>
-            </tr>
-            <tr>
-                <td>10</td><td>4.30</td><td>有料玩家</td><td>逆战未来发枪杰</td><td>100元</td>
-                <td>2,212</td><td>2,487</td><td style="color:#ef4444;">12%</td><td style="color:#ef4444;">45.2</td><td>0.59</td>
-                <td><span style="background:#ef4444;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px;">差</span></td>
-            </tr>
-            <tr>
-                <td>11</td><td>5.1</td><td>有料玩家</td><td>游戏彩蛋</td><td>100元</td>
-                <td>2,380</td><td>4,283</td><td style="color:#eab308;">80%</td><td style="color:#ef4444;">42.0</td><td>0.21</td>
-                <td><span style="background:#ef4444;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px;">差</span></td>
-            </tr>
-            <tr style="background:rgba(234,179,8,0.06);">
-                <td>12</td><td>5.3</td><td>阿密说游戏</td><td>二游吉祥物</td><td>100元</td>
-                <td>4,180</td><td>23,000</td><td style="color:#22c55e;">450%</td><td style="color:#eab308;">23.9</td><td>0.31</td>
-                <td><span style="background:#eab308;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px;">一般</span></td>
-            </tr>
-            <tr>
-                <td>13</td><td>5.3</td><td>鱿鱼说游</td><td>bug变机制</td><td>100元</td>
-                <td>2,177</td><td>2,219</td><td style="color:#ef4444;">1.9%</td><td style="color:#ef4444;">45.9</td><td>0.47</td>
-                <td><span style="background:#ef4444;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px;">差</span></td>
-            </tr>
-            <tr style="background:rgba(234,179,8,0.06);">
-                <td>14</td><td>5.4</td><td>鱿鱼说游</td><td>二游吉祥物</td><td>100元</td>
-                <td>4,297</td><td>20,000</td><td style="color:#22c55e;">365%</td><td style="color:#eab308;">23.2</td><td>0.28</td>
-                <td><span style="background:#eab308;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px;">一般</span></td>
-            </tr>
+        <tr><td>有料玩家</td><td>21条</td><td>¥3,800</td><td>417,414</td><td style="color:#22c55e;font-weight:700;">9.1</td><td>1</td><td style="color:#22c55e;">最优</td></tr>
+        <tr><td>牛马说游戏</td><td>1条</td><td>¥100</td><td>4,632</td><td>21.58</td><td>2</td><td>—</td></tr>
+        <tr><td>阿密说游戏</td><td>1条</td><td>¥100</td><td>4,180</td><td>23.92</td><td>3</td><td>—</td></tr>
+        <tr><td>鱿鱼说游</td><td>7条</td><td>¥1,400</td><td>54,435</td><td>25.71</td><td>4</td><td>—</td></tr>
+        <tr><td>哈吉米说游戏</td><td>2条</td><td>¥200</td><td>5,504</td><td style="color:#ef4444;">36.3</td><td>5</td><td style="color:#ef4444;">差</td></tr>
+        <tr class="total-row"><td>合计</td><td>32条</td><td>¥5,600</td><td>486,165</td><td>11.52</td><td>—</td><td>—</td></tr>
         </tbody>
-    </table>
-</div>
-
-<div class="section">
-    <div class="section-title"><span class="icon">👤</span> 三、账号维度分析</div>
-    <div class="analysis-grid">
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(6,182,212,0.15);">🎮</div>
-                <div class="card-title">有料玩家（5条投放，1,100元）</div>
-            </div>
-            <div class="card-body">
-                <strong>表现：</strong>2条400元大金额投放CPM分别为4.84和6.47，自然溢出率分别为313%和690%，效果极佳。<br>
-                <strong>问题：</strong>3条100元小金额投放效果参差不齐，逆战未来CPM高达45.2，川传五赋能CPM 33.7。<br>
-                <strong>结论：</strong>大金额投放有显著规模效应，电竞/争议类内容投流ROI最高。
-            </div>
-            <div class="highlight good">💡 大金额+优质内容=CPM暴降，应聚焦电竞/争议赛道</div>
-        </div>
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(167,139,250,0.15);">🐙</div>
-                <div class="card-title">鱿鱼说游（5条投放，500元）</div>
-            </div>
-            <div class="card-body">
-                <strong>表现：</strong>无一条CPM&lt;15，最低为二游吉祥物23.2，最高达45.9。<br>
-                <strong>问题：</strong>电竞新星、逆战未来、bug变机制等选题与账号调性不匹配。<br>
-                <strong>结论：</strong>鱿鱼擅长盘点类、反常识内容，投流选题应聚焦于此，避免单游戏深度分析。
-            </div>
-            <div class="highlight warn">⚠️ 选题与调性不匹配是鱿鱼投流效果差的根本原因</div>
-        </div>
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(34,197,94,0.15);">🐱</div>
-                <div class="card-title">哈吉米说游戏（2条投放，200元）</div>
-            </div>
-            <div class="card-body">
-                <strong>表现：</strong>两条CPM分别为31.9和42.1，自然溢出率低。<br>
-                <strong>结论：</strong>账号整体流量基础薄弱，建议先优化内容质量提升自然流量，再考虑投流。
-            </div>
-            <div class="highlight bad">🔴 先做好内容，再谈投流——基础流量池太小</div>
-        </div>
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(251,146,60,0.15);">🔐</div>
-                <div class="card-title">阿密说游戏（1条投放，100元）</div>
-            </div>
-            <div class="card-body">
-                <strong>表现：</strong>二游吉祥物CPM 23.9，自然溢出率450%，内容有自传播潜力。<br>
-                <strong>结论：</strong>二游萌系选题与阿密调性匹配，建议再测试1-2条，优化封面/标题降低CPM。
-            </div>
-            <div class="highlight good">💡 自然溢出450%说明内容有自传播力，降低CPM空间大</div>
-        </div>
-    </div>
-</div>
-
-<div class="section">
-    <div class="section-title"><span class="icon">🎯</span> 四、选题维度分析</div>
-    <table class="video-table">
-        <thead>
-            <tr>
-                <th>选题赛道</th>
-                <th>代表内容</th>
-                <th>CPM区间</th>
-                <th>自然溢出率</th>
-                <th>投流评级</th>
-            </tr>
-        </thead>
+    </table></div>
+    <div class="rp-sub">📏 CPM 分级追投标准</div>
+    <div class="ovf"><table class="data-table" style="width:100%">
+        <thead><tr><th>CPM区间</th><th>追投策略</th></tr></thead>
         <tbody>
-            <tr style="background:rgba(34,197,94,0.08);">
-                <td style="font-weight:600;color:#22c55e;">🏆 电竞/争议类</td>
-                <td>神枪小子、双森组合、rookie分手瓜</td>
-                <td style="color:#22c55e;font-weight:600;">4.84 - 19.4</td>
-                <td style="color:#22c55e;">30% - 690%</td>
-                <td><span style="background:#22c55e;color:#fff;padding:2px 10px;border-radius:4px;font-size:12px;">S级</span></td>
-            </tr>
-            <tr style="background:rgba(59,130,246,0.06);">
-                <td style="font-weight:600;color:#3b82f6;">🎀 二游萌系</td>
-                <td>二游吉祥物 ×2</td>
-                <td style="color:#eab308;font-weight:600;">23.2 - 23.9</td>
-                <td style="color:#22c55e;">350% - 450%</td>
-                <td><span style="background:#3b82f6;color:#fff;padding:2px 10px;border-radius:4px;font-size:12px;">A级</span></td>
-            </tr>
-            <tr>
-                <td style="font-weight:600;color:#94a3b8;">🔍 游戏机制/彩蛋</td>
-                <td>决定改变游戏结局、bug变机制、游戏彩蛋</td>
-                <td style="color:#ef4444;font-weight:600;">34.6 - 45.9</td>
-                <td style="color:#ef4444;">0% - 140%</td>
-                <td><span style="background:#64748b;color:#fff;padding:2px 10px;border-radius:4px;font-size:12px;">C级</span></td>
-            </tr>
-            <tr style="background:rgba(239,68,68,0.06);">
-                <td style="font-weight:600;color:#ef4444;">❌ 逆战未来</td>
-                <td>老ip延续、发枪杰</td>
-                <td style="color:#ef4444;font-weight:600;">41.8 - 45.2</td>
-                <td style="color:#ef4444;">0% - 12%</td>
-                <td><span style="background:#ef4444;color:#fff;padding:2px 10px;border-radius:4px;font-size:12px;">停止</span></td>
-            </tr>
+        <tr><td><span style="color:#ef4444;font-weight:700;">&gt; 30</span></td><td>直接放弃，不追投</td></tr>
+        <tr><td><span style="color:#eab308;font-weight:700;">20 — 30</span></td><td>需自然流 ≥ 5倍，追 6h × ¥200-400</td></tr>
+        <tr><td><span style="color:#60a5fa;font-weight:700;">10 — 20</span></td><td>追 12h × ¥400，CPM降则再追 6h × ¥300</td></tr>
+        <tr><td><span style="color:#22c55e;font-weight:700;">&lt; 10</span></td><td>直接拉满 12h × ¥700</td></tr>
         </tbody>
-    </table>
-    <div style="margin-top:16px;padding:16px;background:rgba(249,115,22,0.06);border-radius:12px;border-left:4px solid #f97316;">
-        <strong style="color:#f97316;">📌 选题建议：</strong><br>
-        <span style="color:#22c55e;">✅ 有料玩家</span>持续投入电竞/争议 · <span style="color:#3b82f6;">✅ 阿密/鱿鱼</span>测试二游萌系优化封面 · <span style="color:#ef4444;">🚫 全矩阵停止</span>逆战未来+单游戏机制分析
+    </table></div>
+    <div class="rp-sub">⚡ 核心规律发现</div>
+    <div class="rp-grid">
+        <div class="rp-card"><div class="rp-card-title">📉 追投效应</div><div class="rp-card-body">单条追投超过 <strong>2轮</strong> = 边际效益崩溃</div></div>
+        <div class="rp-card"><div class="rp-card-title">🎯 完播率与CPM</div><div class="rp-card-body">前 <strong>3秒钩子</strong> 决定完播率，完播率与CPM强相关</div></div>
+        <div class="rp-card"><div class="rp-card-title">🔀 账号效应</div><div class="rp-card-body">同一题材不同账号效果差异高达 <strong>10倍</strong></div></div>
     </div>
+    <div class="rp-hl good">投流结论：爆款素材 = 主播争议 / 热门事件话题，<strong>争议性选题是爆款前提</strong></div>
 </div>
 
-<div class="section">
-    <div class="section-title"><span class="icon">📈</span> 五、趋势分析</div>
-    <div class="analysis-grid">
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(59,130,246,0.15);">📉</div>
-                <div class="card-title">CPM变化趋势</div>
-            </div>
-            <div class="card-body" style="font-size:13px;line-height:1.8;">
-                <strong>4.24</strong> 川传五赋能两号测试，CPM 31.9-33.7 → 效果一般<br>
-                <strong>4.28-29</strong> 有料玩家加至400元，CPM骤降至<strong style="color:#22c55e;">4.84-6.47</strong> → 规模效应验证<br>
-                <strong>4.30-5.1</strong> 逆战未来+游戏彩蛋，CPM回升至<strong style="color:#ef4444;">41.8-45.2</strong> → 题材问题暴露<br>
-                <strong>5.3-4</strong> 二游吉祥物测试，CPM 23.2-23.9 → 潜力显现但成本偏高
-            </div>
-        </div>
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(34,197,94,0.15);">🌊</div>
-                <div class="card-title">自然溢出率趋势</div>
-            </div>
-            <div class="card-body" style="font-size:13px;line-height:1.8;">
-                <strong>电竞/争议类：</strong><span style="color:#22c55e;">30%-690%</span>，波动大但上限极高<br>
-                <strong>二游萌系：</strong><span style="color:#3b82f6;">350%-450%</span>，稳定且可持续<br>
-                <strong>其他题材：</strong><span style="color:#ef4444;">0%-140%</span>，普遍偏低
-            </div>
-        </div>
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(249,115,22,0.15);">💰</div>
-                <div class="card-title">金额与效果关系</div>
-            </div>
-            <div class="card-body" style="font-size:13px;line-height:1.8;">
-                <strong>100元档：</strong>CPM普遍&gt;30，仅二游吉祥物勉强及格<br>
-                <strong>400元档：</strong>CPM 4.84-6.47，效果显著优于小金额<br>
-                <strong style="color:#f97316;">结论：</strong>对优质内容加大预算能显著降低CPM；对劣质内容，加钱只是浪费。
-            </div>
-        </div>
+<div class="rp-divider"></div>
+
+<div class="rp-section">
+    <div class="rp-heading"><span>👥</span> 五、团队执行情况</div>
+    <div class="rp-sub">🏗️ 团队架构</div>
+    <div class="ovf"><table class="data-table" style="width:100%">
+        <thead><tr><th>团队</th><th>成员</th><th>职责</th></tr></thead>
+        <tbody>
+        <tr><td>河南团队</td><td>5人（各负责1账号）</td><td>选题 → 脚本 → 剪辑</td></tr>
+        <tr><td>深圳编导</td><td>叶波</td><td>统筹方向、审核脚本、投流计划、成片审核</td></tr>
+        <tr><td>深圳运营</td><td>走地鸡</td><td>数据汇报、脚本审核、内容分发</td></tr>
+        </tbody>
+    </table></div>
+    <div class="rp-sub">📋 各岗位 SOP</div>
+    <div class="rp-grid">
+        <div class="rp-card"><div class="rp-card-title">🔴 河南团队（执行层）</div><div class="rp-card-body">每人负责1个账号全链路<br><strong>每日SOP：</strong>选题2条 → 脚本2篇 → 剪辑2条<br>哈吉米负责人偶尔支援其他账号剪辑</div></div>
+        <div class="rp-card"><div class="rp-card-title">🔵 深圳编导 · 叶波</div><div class="rp-card-body">每日选题提报+筛选<br>根据数据反馈优化内容方向<br>审核河南团队脚本、投流计划、成片审核<br>刷量计划、内容分发计划</div></div>
+        <div class="rp-card"><div class="rp-card-title">🟢 深圳运营 · 走地鸡</div><div class="rp-card-body">每日投流数据回收汇报<br>协同编导及河南团队参与选题<br>五账号脚本/剪辑/封面审核<br>日常内容分发+每日数据日报</div></div>
     </div>
+    <div class="rp-hl info">五一后实行 <strong>一人一号制度</strong>：各账号由对应成员独立负责全链路</div>
 </div>
 
-<div class="section">
-    <div class="section-title"><span class="icon">🎯</span> 六、解决方案与优化建议</div>
-    <ul class="opt-list">
-        <li>
-            <div class="priority p0">P0</div>
-            <div class="opt-content">
-                <h3>🎮 有料玩家：加大电竞/争议类投流</h3>
-                <p>预算提升至500-800元/条，停止小众题材投流，测试600元档位验证规模效应上限</p>
-                <div class="action">→ 有料玩家本周再出1-2条电竞/争议类，预算500-800元</div>
-            </div>
-        </li>
-        <li>
-            <div class="priority p0">P0</div>
-            <div class="opt-content">
-                <h3>🚫 全矩阵停止逆战未来投流</h3>
-                <p>逆战未来CPM 41.8-45.2，自然溢出接近0%，纯粹浪费预算</p>
-                <div class="action">→ 立即停止逆战未来相关内容投流</div>
-            </div>
-        </li>
-        <li>
-            <div class="priority p1">P1</div>
-            <div class="opt-content">
-                <h3>🔐 阿密说游戏：继续测试二游萌系</h3>
-                <p>优化封面降低CPM至15以下，如成功加大预算至200-300元</p>
-                <div class="action">→ 阿密再测试1条二游萌系，优化封面后预算150-200元</div>
-            </div>
-        </li>
-        <li>
-            <div class="priority p1">P1</div>
-            <div class="opt-content">
-                <h3>🐙 鱿鱼说游：聚焦盘点+反常识类</h3>
-                <p>停止单游戏机制分析、逆战未来等低效选题，测试二游吉祥物同类选题</p>
-                <div class="action">→ 鱿鱼测试1条盘点类投流，预算100元</div>
-            </div>
-        </li>
-        <li>
-            <div class="priority p2">P2</div>
-            <div class="opt-content">
-                <h3>🐱 哈吉米：暂停投流，专注内容</h3>
-                <p>账号基础流量薄弱，先优化内容质量，目标自然播放量稳定&gt;1000后再考虑投流</p>
-                <div class="action">→ 哈吉米暂停投流，专注内容优化</div>
-            </div>
-        </li>
-    </ul>
+<div class="rp-divider"></div>
+
+<div class="rp-section">
+    <div class="rp-heading"><span>⚠️</span> 六、问题与卡点</div>
+    <div class="rp-sub">1. 选题质量参差不齐</div>
+    <div class="rp-hl bad"><strong>问题：</strong>各编导对选题理解程度不同，选题大纲直接喂给AI，缺乏独立思考和方向把控</div>
+    <p class="rp-text"><strong>影响：</strong>选题角度单一、深度不足、爆款潜力受限</p>
+    <div class="rp-sub">2. AI配音"活人感"不足</div>
+    <div class="rp-hl bad"><strong>问题：</strong>剪映AI配音语调平、无起伏、缺乏语气词，听感假</div>
+    <p class="rp-text"><strong>影响：</strong>用户跳出率高、完播率受损</p>
+    <div class="rp-sub">🔧 解决方案</div>
+    <div class="ovf"><table class="data-table" style="width:100%">
+        <thead><tr><th>解决方案</th><th>成本</th><th>效果</th><th>推荐</th></tr></thead>
+        <tbody>
+        <tr><td>换更好的AI配音工具（11Labs/Azure）</td><td>低</td><td style="color:#22c55e;">高</td><td style="color:#22c55e;font-weight:700;">立即做</td></tr>
+        <tr><td>脚本主动加语气词、气口</td><td>免费</td><td style="color:#22c55e;">高</td><td style="color:#22c55e;font-weight:700;">必做</td></tr>
+        <tr><td>调语速+停顿时长</td><td>免费</td><td style="color:#eab308;">中</td><td>辅助</td></tr>
+        <tr><td>关键句人工录音混音</td><td>中</td><td style="color:#eab308;">中</td><td>爆款专用</td></tr>
+        <tr><td>培养固定兼职配音员</td><td>中</td><td style="color:#22c55e;">最高</td><td style="color:#60a5fa;">长期最优</td></tr>
+        </tbody>
+    </table></div>
 </div>
 
-<div class="section">
-    <div class="section-title"><span class="icon">💰</span> 月度预算分配建议（2,000-3,000元）</div>
-    <div class="analysis-grid">
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(6,182,212,0.15);">🎮</div>
-                <div class="card-title">有料玩家 60%</div>
-            </div>
-            <div class="card-body">
-                <strong>1,200-1,800元/月</strong><br>专注电竞/争议类，CPM最低4.84，ROI最高
-            </div>
-            <div class="highlight good">💡 矩阵投流核心阵地</div>
-        </div>
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(251,146,60,0.15);">🔐</div>
-                <div class="card-title">阿密说游戏 20%</div>
-            </div>
-            <div class="card-body">
-                <strong>400-600元/月</strong><br>测试二游萌系，优化封面后可加码
-            </div>
-            <div class="highlight warn">⚠️ 需先验证CPM能降至15以下</div>
-        </div>
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(167,139,250,0.15);">🐙</div>
-                <div class="card-title">鱿鱼说游 15%</div>
-            </div>
-            <div class="card-body">
-                <strong>300-450元/月</strong><br>测试盘点类，探索鱿鱼最佳投流选题
-            </div>
-            <div class="highlight warn">⚠️ 选题调性匹配是关键</div>
-        </div>
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(34,197,94,0.15);">🐱</div>
-                <div class="card-title">哈吉米 5%</div>
-            </div>
-            <div class="card-body">
-                <strong>100-150元/月</strong><br>账号优化期，仅做最低限度的投流测试
-            </div>
-            <div class="highlight bad">🔴 先做内容，再谈投流</div>
+<div class="rp-divider"></div>
+
+<div class="rp-section">
+    <div class="rp-heading"><span>🚀</span> 七、未来商业计划</div>
+
+    <div class="rp-sub">一、商业化前准备成本</div>
+    <p class="rp-text" style="color:#888;font-style:italic;">把现有账号刷到各账号破15w ≥ 5条的状态</p>
+    <div class="ovf"><table class="data-table" style="width:100%">
+        <thead><tr><th>账号</th><th>达标条数</th><th>破15w</th><th>10-15w</th><th>5-10w</th><th>点赞成本</th><th>评论成本</th><th>播放刷量</th><th>总成本</th></tr></thead>
+        <tbody>
+        <tr><td>🎮 有料玩家</td><td>15</td><td>4</td><td>1</td><td>1</td><td>¥196</td><td>¥650</td><td>¥9,750</td><td>¥10,596</td></tr>
+        <tr><td>🐙 鱿鱼说游</td><td>15</td><td>4</td><td>0</td><td>0</td><td>¥216</td><td>¥715</td><td>¥10,725</td><td>¥11,656</td></tr>
+        <tr><td>🐴 牛马说游戏</td><td>15</td><td>2</td><td>0</td><td>1</td><td>¥255</td><td>¥845</td><td>¥12,350</td><td>¥13,450</td></tr>
+        <tr class="total-row"><td>合计</td><td>45</td><td>10</td><td>1</td><td>2</td><td>¥667</td><td>¥2,210</td><td>¥32,825</td><td style="color:#f472b6;font-weight:700;">¥35,701</td></tr>
+        </tbody>
+    </table></div>
+    <div class="rp-hl info">互动成本明细：点赞 ¥0.00392/个（5000赞/条）、评论 ¥0.65/条（100评/条）</div>
+
+    <div class="rp-sub">二、启动商业化后每月收支预估</div>
+    <p class="rp-text">每账号每月发15条，3个账号共45条视频</p>
+    <div class="rp-grid">
+        <div class="rp-card" style="border-color:rgba(239,68,68,0.2)"><div class="rp-card-title" style="color:#ef4444;">💸 月支出明细</div><div class="rp-card-body"><div class="ovf"><table class="data-table" style="width:100%"><thead><tr><th>账号</th><th>DOU+</th><th>刷量</th><th>点赞</th><th>评论</th><th>总成本</th></tr></thead><tbody><tr><td>有料玩家</td><td>¥4,000</td><td>¥9,750</td><td>¥196</td><td>¥650</td><td>¥14,596</td></tr><tr><td>鱿鱼说游</td><td>¥4,000</td><td>¥9,750</td><td>¥196</td><td>¥650</td><td>¥14,596</td></tr><tr><td>牛马说游戏</td><td>¥4,000</td><td>¥9,750</td><td>¥196</td><td>¥650</td><td>¥14,596</td></tr><tr class="total-row"><td>合计</td><td>¥12,000</td><td>¥29,250</td><td>¥588</td><td>¥1,950</td><td style="color:#ef4444;font-weight:700;">¥43,788</td></tr></tbody></table></div></div></div>
+        <div class="rp-card" style="border-color:rgba(34,197,94,0.2)"><div class="rp-card-title" style="color:#22c55e;">💰 月收入明细</div><div class="rp-card-body"><div class="ovf"><table class="data-table" style="width:100%"><thead><tr><th>账号</th><th>星图报价</th><th>到手65%</th><th>5条收入</th><th>10条收入</th></tr></thead><tbody><tr><td>有料玩家</td><td>¥4,500</td><td>¥2,925</td><td>¥14,625</td><td>¥29,250</td></tr><tr><td>鱿鱼说游</td><td>¥4,500</td><td>¥2,925</td><td>¥14,625</td><td>¥29,250</td></tr><tr><td>牛马说游戏</td><td>¥4,500</td><td>¥2,925</td><td>¥14,625</td><td>¥29,250</td></tr><tr class="total-row"><td>合计</td><td>—</td><td>—</td><td>¥43,875</td><td style="color:#22c55e;font-weight:700;">¥87,750</td></tr></tbody></table></div></div></div>
+    </div>
+
+    <div class="rp-sub">📊 月净利润</div>
+    <div class="ovf"><table class="data-table" style="width:100%">
+        <thead><tr><th>场景</th><th>月总收入</th><th>月总支出</th><th>月净利润</th></tr></thead>
+        <tbody>
+        <tr><td>每月接 <strong>5条</strong></td><td>¥43,875</td><td>¥43,788</td><td style="color:#eab308;">+¥87（打平）</td></tr>
+        <tr><td>每月接 <strong>10条</strong></td><td>¥87,750</td><td>¥43,788</td><td style="color:#22c55e;font-weight:700;">+¥43,962</td></tr>
+        </tbody>
+    </table></div>
+    <div class="rp-hl good">结论：<strong>5条刚好打平，10条月赚 ¥4.4万</strong>。刷播放量 ¥29,250/月是最大成本项，建议优化刷量单价或提升星图报价来扩大利润空间。</div>
+
+    <div class="rp-sub">🔑 关键数据汇总</div>
+    <div class="ovf"><table class="data-table" style="width:100%"><tbody>
+        <tr><td style="width:240px;font-weight:600;color:#a78bfa;">🚧 商业化前一次性投入</td><td style="font-weight:700;">¥35,701</td></tr>
+        <tr><td style="font-weight:600;color:#a78bfa;">📈 每月总支出</td><td>¥43,788</td></tr>
+        <tr><td style="font-weight:600;color:#a78bfa;">💰 星图报价</td><td>¥4,500 / 条</td></tr>
+        <tr><td style="font-weight:600;color:#a78bfa;">💰 实际到手（65%）</td><td>¥2,925 / 条</td></tr>
+        <tr><td style="font-weight:600;color:#a78bfa;">📈 每月总利润（10条）</td><td style="color:#22c55e;font-weight:700;">+¥43,962</td></tr>
+        <tr><td style="font-weight:600;color:#a78bfa;">📅 启动商业化时间</td><td>2026年6月</td></tr>
+    </tbody></table></div>
+</div>
+
         </div>
     </div>
-</div>
 
-<div class="section">
-    <div class="section-title"><span class="icon">📌</span> 七、核心结论</div>
-    <div style="padding:16px;background:rgba(249,115,22,0.06);border-radius:12px;line-height:2;font-size:14px;">
-        <div style="margin-bottom:8px;"><span style="color:#22c55e;font-weight:bold;">1.</span> 有料玩家是当前矩阵投流ROI最高的账号，大金额投放电竞/争议类CPM可低至<strong>4.84</strong>，应作为投流核心阵地</div>
-        <div style="margin-bottom:8px;"><span style="color:#3b82f6;font-weight:bold;">2.</span> 二游萌系是潜力赛道，自然溢出率350%-450%，但CPM仍在20+，需优化封面和钩子</div>
-        <div style="margin-bottom:8px;"><span style="color:#ef4444;font-weight:bold;">3.</span> 逆战未来、单游戏机制分析等题材<strong>全部扑街</strong>，应立即停止相关投流</div>
-        <div style="margin-bottom:8px;"><span style="color:#f97316;font-weight:bold;">4.</span> 大金额投放（400元+）对优质内容有显著规模效应，CPM可比100元档降低<strong>80%以上</strong></div>
-        <div><span style="color:#94a3b8;font-weight:bold;">5.</span> 哈吉米账号基础流量薄弱，应先优化内容再考虑投流</div>
-    </div>
-</div>
-
-</div>
-
-<div class="footer">
-    <p>本报告基于抖音创作者中心数据导出 · 数据周期：2026-03-18 ~ 2026-05-24</p>
-    <p style="margin-top:8px;">波儿组合 · 2026年05月25日</p>
-</div>
-
-</div>
 
 
 <script>
