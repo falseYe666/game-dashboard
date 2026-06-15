@@ -324,11 +324,11 @@ body {
     <h1>🎮 游戏矩阵 · 内容优化分析</h1>
     <div class="subtitle">基于抖音创作者中心数据导出 · 2026年3月至今至今</div>
     <div class="meta">
-        <span>📅 账号数量：5个</span>
+        <span>📅 账号数量：4个</span>
         <span>📊 数据来源：抖音创作者中心</span>
         <span>🎯 分析维度：播放趋势·完播率·互动数据·内容结构·优化建议</span>
     </div>
-    <div class="update-time">报告更新时间：2026-06-15 17:16 · 数据周期：2026-03-21 ~ 2026-06-07</div>
+    <div class="update-time">报告更新时间：2026-06-15 17:17 · 数据周期：2026-03-21 ~ 2026-06-14</div>
 </div>
 
 <!-- Tab Navigation -->
@@ -340,7 +340,6 @@ body {
     <button class="tab-btn" onclick="switchTab('youyu')">🐙 鱿鱼说游 <span class="tab-fans">15.1万粉</span></button>
     <button class="tab-btn" onclick="switchTab('niuma')">🐴 牛马说游戏 <span class="tab-fans">10.5万粉</span></button>
     <button class="tab-btn" onclick="switchTab('ami')">🔐 阿密说游戏 <span class="tab-fans">12.4万粉</span></button>
-    <button class="tab-btn" onclick="switchTab('hajimi')">🐱 哈吉米说游戏 <span class="tab-fans">14.0万粉</span></button>
     <button class="tab-btn" onclick="switchTab('youliao')">🎮 有料玩家 <span class="tab-fans">13.1万粉</span></button>
     <button class="tab-btn" onclick="switchTab('whitepaper')" style="background:linear-gradient(135deg,rgba(251,146,60,0.15),rgba(251,146,60,0.08));border-color:rgba(251,146,60,0.3);color:#fb923c;">📖 账号白皮书</button>
     <button class="tab-btn" onclick="switchTab('analysis')" style="background:linear-gradient(135deg,rgba(6,182,212,0.15),rgba(59,130,246,0.08));border-color:rgba(6,182,212,0.3);color:#06b6d4;">📈 数据分析</button>
@@ -353,38 +352,263 @@ body {
 <div id="panel-weekly" class="account-panel">
     
     <div class="overview-grid" style="margin-bottom:40px;">
-        <div class="overview-stat"><div class="ov-value">0</div><div class="ov-label">本周总发布</div></div>
-        <div class="overview-stat"><div class="ov-value" style="color:#22c55e;">0</div><div class="ov-label">总播放量</div></div>
-        <div class="overview-stat"><div class="ov-value" style="color:#60a5fa;">0</div><div class="ov-label">矩阵平均播放</div></div>
-        <div class="overview-stat"><div class="ov-value" style="color:#f472b6;">0</div><div class="ov-label">总涨粉</div></div>
+        <div class="overview-stat"><div class="ov-value">13</div><div class="ov-label">本周总发布</div></div>
+        <div class="overview-stat"><div class="ov-value" style="color:#22c55e;">126.6万</div><div class="ov-label">总播放量</div></div>
+        <div class="overview-stat"><div class="ov-value" style="color:#60a5fa;">9.7万</div><div class="ov-label">矩阵平均播放</div></div>
+        <div class="overview-stat"><div class="ov-value" style="color:#f472b6;">92</div><div class="ov-label">总涨粉</div></div>
     </div>
     
     <div class="section">
         <div class="section-title"><span class="icon">&#128202;</span> 一、各账号发布概况 <span style="font-size:12px;color:#64748b;font-weight:400;">（5/4 - 5/10）</span></div>
         <table class="gap-table">
             <tr><th>账号</th><th>发布</th><th>总播放</th><th>平均播放</th><th>去极值均值</th><th>最高</th><th>最低</th><th>点赞</th><th>涨粉</th></tr>
-            <tr><td>🐙 鱿鱼说游</td><td style="color:#ef4444;">未发布</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-<tr><td>🐴 牛马说游戏</td><td style="color:#ef4444;">未发布</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-<tr><td>🔐 阿密说游戏</td><td style="color:#ef4444;">未发布</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr>
+            <td>🐙 鱿鱼说游</td>
+            <td style="font-weight:700;color:#fff;">3</td>
+            <td>48.7万</td>
+            <td style="color:#22c55e;font-weight:700;">16.2万</td>
+            <td style="color:#a78bfa;font-weight:600;">16.3万</td>
+            <td style="color:#22c55e;" class="likes high">16.5万</td>
+            <td style="color:#ef4444;" class="likes low">15.9万</td>
+            <td>10373</td>
+            <td>1</td>
+        </tr>
+<tr>
+            <td>🐴 牛马说游戏</td>
+            <td style="font-weight:700;color:#fff;">1</td>
+            <td>15.1万</td>
+            <td style="color:#22c55e;font-weight:700;">15.1万</td>
+            <td style="color:#a78bfa;font-weight:600;">15.1万</td>
+            <td style="color:#22c55e;" class="likes high">15.1万</td>
+            <td style="color:#ef4444;" class="likes low">15.1万</td>
+            <td>5017</td>
+            <td>0</td>
+        </tr>
+<tr>
+            <td>🔐 阿密说游戏</td>
+            <td style="font-weight:700;color:#fff;">6</td>
+            <td>2.1万</td>
+            <td style="color:#eab308;font-weight:700;">3537</td>
+            <td style="color:#a78bfa;font-weight:600;">3401</td>
+            <td style="color:#22c55e;" class="likes high">6405</td>
+            <td style="color:#ef4444;" class="likes low">1212</td>
+            <td>372</td>
+            <td>11</td>
+        </tr>
 <tr><td>🐱 哈吉米说游戏</td><td style="color:#ef4444;">未发布</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-<tr><td>🎮 有料玩家</td><td style="color:#ef4444;">未发布</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+<tr>
+            <td>🎮 有料玩家</td>
+            <td style="font-weight:700;color:#fff;">3</td>
+            <td>60.6万</td>
+            <td style="color:#22c55e;font-weight:700;">20.2万</td>
+            <td style="color:#a78bfa;font-weight:600;">18.1万</td>
+            <td style="color:#22c55e;" class="likes high">25.4万</td>
+            <td style="color:#ef4444;" class="likes low">17.2万</td>
+            <td>19968</td>
+            <td>80</td>
+        </tr>
 
-        </table></div>
+        </table>
+        <div style="margin-top:28px;">
+            <div style="font-weight:600;color:#a78bfa;font-size:15px;margin-bottom:10px;">🐙 鱿鱼说游 · 逐条数据</div>
+            <table class="video-table" style="font-size:12px;">
+                <tr><th>时间</th><th>内容</th><th>播放</th><th>完播率</th><th>点赞</th><th>评论</th><th>分享</th><th>涨粉</th></tr>
+                <tbody><tr>
+                <td style="color:#94a3b8;font-size:12px;">06-13 17:48:47</td>
+                <td class="title" style="max-width:360px;">蛋仔这么有活！白蛇变蛋仔，至臻白素美哭！ #蛋仔派对 #蛋仔派对四周年 #蛋仔派对西湖寻缘...</td>
+                <td class="likes high">16.3万</td>
+                <td style="color:#eab308;">15.3%</td>
+                <td>5000</td>
+                <td>4</td>
+                <td>131</td>
+                <td>0</td>
+            </tr>
+<tr>
+                <td style="color:#94a3b8;font-size:12px;">06-13 17:30:21</td>
+                <td class="title" style="max-width:360px;">蛋仔农场杀疯了！吞吞鱼躺赚农场币 #蛋仔派对 #蛋仔派对四周年 #蛋仔农场</td>
+                <td class="likes high">15.9万</td>
+                <td style="color:#ef4444;">8.6%</td>
+                <td>5031</td>
+                <td>4</td>
+                <td>125</td>
+                <td>1</td>
+            </tr>
+<tr>
+                <td style="color:#94a3b8;font-size:12px;">06-10 18:02:06</td>
+                <td class="title" style="max-width:360px;">不是正史，胜似正史！鸣潮联动，把遗憾变成圆满！ #鸣潮  #鸣潮边缘行者联动 #鸣潮赛博朋...</td>
+                <td class="likes high">16.5万</td>
+                <td style="color:#ef4444;">7.4%</td>
+                <td>342</td>
+                <td>8</td>
+                <td>5</td>
+                <td>0</td>
+            </tr>
+</tbody>
+            </table>
+        </div>
+        <div style="margin-top:28px;">
+            <div style="font-weight:600;color:#f472b6;font-size:15px;margin-bottom:10px;">🐴 牛马说游戏 · 逐条数据</div>
+            <table class="video-table" style="font-size:12px;">
+                <tr><th>时间</th><th>内容</th><th>播放</th><th>完播率</th><th>点赞</th><th>评论</th><th>分享</th><th>涨粉</th></tr>
+                <tbody><tr>
+                <td style="color:#94a3b8;font-size:12px;">06-13 17:25:05</td>
+                <td class="title" style="max-width:360px;">蛋仔真开鱼塘了！新宠吞吞鱼，躺平赚资源！ #蛋仔派对 #蛋仔派对四周年 #蛋仔农场</td>
+                <td class="likes high">15.1万</td>
+                <td style="color:#eab308;">19.0%</td>
+                <td>5017</td>
+                <td>15</td>
+                <td>140</td>
+                <td>0</td>
+            </tr>
+</tbody>
+            </table>
+        </div>
+        <div style="margin-top:28px;">
+            <div style="font-weight:600;color:#fb923c;font-size:15px;margin-bottom:10px;">🔐 阿密说游戏 · 逐条数据</div>
+            <table class="video-table" style="font-size:12px;">
+                <tr><th>时间</th><th>内容</th><th>播放</th><th>完播率</th><th>点赞</th><th>评论</th><th>分享</th><th>涨粉</th></tr>
+                <tbody><tr>
+                <td style="color:#94a3b8;font-size:12px;">06-14 12:00:00</td>
+                <td class="title" style="max-width:360px;">从二创梗到全球顶流！细数三位现象级游戏角色！ #Dora #最终幻想7 #胜利女神妮姬 #...</td>
+                <td class="likes low">1212</td>
+                <td style="color:#ef4444;">2.2%</td>
+                <td>42</td>
+                <td>1</td>
+                <td>0</td>
+                <td>6</td>
+            </tr>
+<tr>
+                <td style="color:#94a3b8;font-size:12px;">06-13 12:00:00</td>
+                <td class="title" style="max-width:360px;">二游男角色沦为陪衬？问题根本不在玩家，而是角色没灵魂! #游戏杂谈 #崩坏星穹铁道 #千冶...</td>
+                <td class="likes mid">6405</td>
+                <td style="color:#ef4444;">6.2%</td>
+                <td>111</td>
+                <td>63</td>
+                <td>4</td>
+                <td>1</td>
+            </tr>
+<tr>
+                <td style="color:#94a3b8;font-size:12px;">06-12 18:12:32</td>
+                <td class="title" style="max-width:360px;">比起单薄穿搭，鲜活人设与剧情，才是留住玩家的核心！ #原神 #游戏杂谈 #尘白禁区</td>
+                <td class="likes low">1343</td>
+                <td style="color:#ef4444;">2.2%</td>
+                <td>32</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+<tr>
+                <td style="color:#94a3b8;font-size:12px;">06-11 17:49:42</td>
+                <td class="title" style="max-width:360px;">实机封神！异人之下能翻盘吗？ #异人之下 #异人之下游戏 #游戏杂谈</td>
+                <td class="likes mid">4719</td>
+                <td style="color:#ef4444;">8.3%</td>
+                <td>110</td>
+                <td>18</td>
+                <td>18</td>
+                <td>1</td>
+            </tr>
+<tr>
+                <td style="color:#94a3b8;font-size:12px;">06-10 18:11:22</td>
+                <td class="title" style="max-width:360px;">捉宠赛道变天：帕鲁终版杀来，伊莫三测爆火，第二把交椅抢疯了！ #洛克王国世界 #幻兽帕鲁 ...</td>
+                <td class="likes mid">5434</td>
+                <td style="color:#ef4444;">3.1%</td>
+                <td>59</td>
+                <td>14</td>
+                <td>19</td>
+                <td>3</td>
+            </tr>
+<tr>
+                <td style="color:#94a3b8;font-size:12px;">06-08 18:23:42</td>
+                <td class="title" style="max-width:360px;">弟弟登山失踪，只剩一张符咒餐巾纸？ARG 神作细思极恐！ #游戏推荐 #恐怖游戏 #大学生...</td>
+                <td class="likes low">2109</td>
+                <td style="color:#ef4444;">3.0%</td>
+                <td>18</td>
+                <td>3</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+</tbody>
+            </table>
+        </div>
+        <div style="margin-top:28px;">
+            <div style="font-weight:600;color:#06b6d4;font-size:15px;margin-bottom:10px;">🎮 有料玩家 · 逐条数据</div>
+            <table class="video-table" style="font-size:12px;">
+                <tr><th>时间</th><th>内容</th><th>播放</th><th>完播率</th><th>点赞</th><th>评论</th><th>分享</th><th>涨粉</th></tr>
+                <tbody><tr>
+                <td style="color:#94a3b8;font-size:12px;">06-13 19:52:03</td>
+                <td class="title" style="max-width:360px;">千年白蛇变蛋仔！这也太会整了吧 #蛋仔派对 #蛋仔派对四周年 #蛋仔派对西湖寻缘季</td>
+                <td class="likes high">18.1万</td>
+                <td style="color:#eab308;">12.0%</td>
+                <td>5003</td>
+                <td>4</td>
+                <td>153</td>
+                <td>0</td>
+            </tr>
+<tr>
+                <td style="color:#94a3b8;font-size:12px;">06-13 17:47:46</td>
+                <td class="title" style="max-width:360px;">蛋仔太会了！吞吞鱼把养成玩出新高度！ #蛋仔派对 #蛋仔派对四周年 #蛋仔农场</td>
+                <td class="likes high">17.2万</td>
+                <td style="color:#eab308;">10.3%</td>
+                <td>5016</td>
+                <td>19</td>
+                <td>139</td>
+                <td>0</td>
+            </tr>
+<tr>
+                <td style="color:#94a3b8;font-size:12px;">06-10 18:19:46</td>
+                <td class="title" style="max-width:360px;">二游联动天花板！鸣潮凭什么让全球玩家认它是 “真续作”？ #鸣潮  #鸣潮边缘行者联动 #...</td>
+                <td class="likes high">25.4万</td>
+                <td style="color:#eab308;">14.5%</td>
+                <td>9949</td>
+                <td>1098</td>
+                <td>1434</td>
+                <td>80</td>
+            </tr>
+</tbody>
+            </table>
+        </div></div>
     
     
     <div class="section">
         <div class="section-title"><span class="icon">&#128176;</span> 三、DOU+ 投流分析 <span style="font-size:12px;color:#64748b;font-weight:400;">（近七天）</span></div>
         <div class="overview-grid" style="margin-bottom:24px;">
-            <div class="overview-stat"><div class="ov-value" style="color:#eab308;">0元</div><div class="ov-label">总投流消耗</div></div>
-            <div class="overview-stat"><div class="ov-value">0</div><div class="ov-label">投流总播放</div></div>
-            <div class="overview-stat"><div class="ov-value" style="color:#22c55e;">0.0元</div><div class="ov-label">整体CPM</div></div>
-            <div class="overview-stat"><div class="ov-value" style="color:#f472b6;">0</div><div class="ov-label">投流涨粉</div></div>
+            <div class="overview-stat"><div class="ov-value" style="color:#eab308;">3001元</div><div class="ov-label">总投流消耗</div></div>
+            <div class="overview-stat"><div class="ov-value">27.8万</div><div class="ov-label">投流总播放</div></div>
+            <div class="overview-stat"><div class="ov-value" style="color:#eab308;">10.8元</div><div class="ov-label">整体CPM</div></div>
+            <div class="overview-stat"><div class="ov-value" style="color:#f472b6;">28</div><div class="ov-label">投流涨粉</div></div>
         </div>
         <table class="gap-table">
             <tr><th>账号</th><th>投流条数</th><th>总消耗</th><th>总播放</th><th>CPM</th><th>点赞成本</th><th>涨粉</th><th>涨粉成本</th></tr>
-            <tr><td>🐙 鱿鱼说游</td><td style="color:#64748b;">未投流</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-<tr><td>🐴 牛马说游戏</td><td style="color:#64748b;">未投流</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-<tr><td>🔐 阿密说游戏</td><td style="color:#64748b;">未投流</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr>
+            <td>🐙 鱿鱼说游</td>
+            <td style="font-weight:600;">12</td>
+            <td style="color:#eab308;font-weight:600;">2201元</td>
+            <td>20.3万</td>
+            <td style="color:#eab308;">10.8元</td>
+            <td style="color:#22c55e;">0.37元</td>
+            <td>22</td>
+            <td style="color:#ef4444;">100.0元</td>
+        </tr><tr><td colspan="8" style="padding:0;"><div style="margin-top:8px;padding:8px 12px;background:rgba(255,255,255,0.02);border-radius:6px;"><div style="font-size:11px;color:#94a3b8;margin-bottom:4px;">· 硬核变兽人狂欢？暗区突围福瑞时装引不满！？ #暗区突围 #魔方工作室  | 消耗101元 | 播放4357 | CPM 23.1元 | 点赞31</div><div style="font-size:11px;color:#94a3b8;margin-bottom:4px;">· 从取消资格到双料直通！小孩用冠军证明：强者不靠馈赠！ #小孩曾卓君 # | 消耗400元 | 播放10.7万 | CPM 3.7元 | 点赞2169</div><div style="font-size:11px;color:#94a3b8;margin-bottom:4px;">· 悬崖绝境让三追四！狼队上演电竞顶级爽文翻盘！ #重庆狼队 #2026王 | 消耗100元 | 播放3863 | CPM 25.9元 | 点赞280</div><div style="font-size:11px;color:#94a3b8;margin-bottom:4px;">· 别家联动双厨狂喜，方舟怪猎二期联动全员破防？！ #明日方舟 #明日方舟 | 消耗100元 | 播放5482 | CPM 18.2元 | 点赞134</div><div style="font-size:11px;color:#94a3b8;margin-bottom:4px;">· 纯天然抽象没有剧本，Coke 天生综艺天赋拉满！ #coke #ok了 | 消耗100元 | 播放2.8万 | CPM 3.6元 | 点赞638</div><div style="font-size:11px;color:#94a3b8;margin-bottom:4px;">· 镇江一把刀 Smoggy，把黑称硬生生打成传奇封号 #smoggy # | 消耗100元 | 播放3200 | CPM 31.2元 | 点赞267</div><div style="font-size:11px;color:#94a3b8;margin-bottom:4px;">· 草台班子实锤！《地平线 6》偷跑，付费玩家被当猴耍？！ #地平线6 # | 消耗800元 | 播放3.7万 | CPM 21.5元 | 点赞1226</div><div style="font-size:11px;color:#94a3b8;margin-bottom:4px;">· 甩掉 “氪金原罪”，逆战未来给老 IP 续命打了样 #逆战未来 #逆战 | 消耗100元 | 播放2389 | CPM 41.9元 | 点赞85</div><div style="font-size:11px;color:#94a3b8;margin-bottom:4px;">· 从工具人到电子家人，二游吉祥物为何能拿捏玩家真情？ #异环  #绝区零 | 消耗100元 | 播放4297 | CPM 23.3元 | 点赞327</div><div style="font-size:11px;color:#94a3b8;margin-bottom:4px;">· 新老交替加速！盘点电竞潜力新人，未来的传奇从这里诞生 #LOL #CS | 消耗100元 | 播放2887 | CPM 34.6元 | 点赞303</div><div style="font-size:11px;color:#94a3b8;margin-bottom:4px;">· 游戏史上那些极端反差：一个决定，指引游戏走向不同结局 #赛博朋克207 | 消耗100元 | 播放2205 | CPM 45.4元 | 点赞269</div><div style="font-size:11px;color:#94a3b8;margin-bottom:4px;">· 原本都是致命bug，官方反手保留，直接玩出全新玩法 #GTA#宝可梦  | 消耗100元 | 播放2177 | CPM 45.9元 | 点赞212</div></div></td></tr>
+<tr>
+            <td>🐴 牛马说游戏</td>
+            <td style="font-weight:600;">5</td>
+            <td style="color:#eab308;font-weight:600;">700元</td>
+            <td>7.1万</td>
+            <td style="color:#22c55e;">9.9元</td>
+            <td style="color:#22c55e;">0.39元</td>
+            <td>5</td>
+            <td style="color:#ef4444;">140.0元</td>
+        </tr><tr><td colspan="8" style="padding:0;"><div style="margin-top:8px;padding:8px 12px;background:rgba(255,255,255,0.02);border-radius:6px;"><div style="font-size:11px;color:#94a3b8;margin-bottom:4px;">· 法尔孔孩神！小孩一月双冠，败者组一穿四全斩日本高手！ #小孩曾卓君 # | 消耗200元 | 播放5.0万 | CPM 4.0元 | 点赞539</div><div style="font-size:11px;color:#94a3b8;margin-bottom:4px;">· 洛克王国事变终极反转！道歉长文立正挨打，这波能翻盘吗？ #洛克王国 # | 消耗100元 | 播放2957 | CPM 33.8元 | 点赞351</div><div style="font-size:11px;color:#94a3b8;margin-bottom:4px;">· 从好评满满，到如今操作离谱暗改喷，洛克王国还有希望吗？ #洛克王国世界 | 消耗100元 | 播放4803 | CPM 20.8元 | 点赞72</div><div style="font-size:11px;color:#94a3b8;margin-bottom:4px;">· 洛克王国世界疯狂听劝，火影手游全程摆烂？！爱与不爱太明显！ #魔方工作 | 消耗200元 | 播放7875 | CPM 25.4元 | 点赞616</div><div style="font-size:11px;color:#94a3b8;margin-bottom:4px;">· 碰瓷暖阳又碰瓷钟意！宗师这波试训，把我看笑了 #宗师 #kpl #ag | 消耗100元 | 播放4632 | CPM 21.6元 | 点赞227</div></div></td></tr>
+<tr>
+            <td>🔐 阿密说游戏</td>
+            <td style="font-weight:600;">1</td>
+            <td style="color:#eab308;font-weight:600;">100元</td>
+            <td>4180</td>
+            <td style="color:#eab308;">23.9元</td>
+            <td style="color:#22c55e;">0.32元</td>
+            <td>1</td>
+            <td style="color:#ef4444;">100.0元</td>
+        </tr><tr><td colspan="8" style="padding:0;"><div style="margin-top:8px;padding:8px 12px;background:rgba(255,255,255,0.02);border-radius:6px;"><div style="font-size:11px;color:#94a3b8;margin-bottom:4px;">· 二游吉祥物两极分化！有人成电子家人，有人被全网嫌弃 #异环  #原神  | 消耗100元 | 播放4180 | CPM 23.9元 | 点赞309</div></div></td></tr>
 <tr><td>🐱 哈吉米说游戏</td><td style="color:#64748b;">未投流</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>🎮 有料玩家</td><td style="color:#64748b;">未投流</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 
@@ -403,7 +627,79 @@ body {
             </ul>
         </div>
     </div>
-    <div class="section"><div class="section-title"><span class="icon">&#128293;</span> 五、本周爆款分析</div></div>
+    <div class="section"><div class="section-title"><span class="icon">&#128293;</span> 五、本周爆款分析</div>
+        <div style="background:linear-gradient(135deg,rgba(239,68,68,0.08),rgba(251,146,60,0.06));border:1px solid rgba(239,68,68,0.2);border-radius:16px;padding:24px;margin-bottom:20px;">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;">
+                <span style="font-size:24px;">&#127942;</span>
+                <div>
+                    <div style="font-size:11px;color:#64748b;">最高播放</div>
+                    <div style="font-size:28px;font-weight:800;background:linear-gradient(135deg,#ef4444,#f59e0b);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">25.4万</div>
+                </div>
+                <div style="margin-left:auto;text-align:right;">
+                    <div style="font-size:12px;color:#94a3b8;">🎮 有料玩家</div>
+                    <div style="font-size:11px;color:#64748b;">06-10 18:19:46</div>
+                </div>
+            </div>
+            <div style="font-weight:600;color:#fff;font-size:16px;margin-bottom:16px;line-height:1.6;">二游联动天花板！鸣潮凭什么让全球玩家认它是 “真续作”？ #鸣潮  #鸣潮边缘行者联动 #鸣潮赛博朋克联动上线</div>
+            <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;">
+                <div style="text-align:center;background:rgba(0,0,0,0.2);border-radius:10px;padding:12px;">
+                    <div style="color:#64748b;font-size:11px;">完播率</div>
+                    <div style="font-size:20px;font-weight:700;color:#eab308;">14.5%</div>
+                </div>
+                <div style="text-align:center;background:rgba(0,0,0,0.2);border-radius:10px;padding:12px;">
+                    <div style="color:#64748b;font-size:11px;">互动率</div>
+                    <div style="font-size:20px;font-weight:700;color:#22c55e;">5.2%</div>
+                </div>
+                <div style="text-align:center;background:rgba(0,0,0,0.2);border-radius:10px;padding:12px;">
+                    <div style="color:#64748b;font-size:11px;">点赞 / 评论 / 分享</div>
+                    <div style="font-size:16px;font-weight:700;color:#fff;">9949 / 1098 / 1434</div>
+                </div>
+                <div style="text-align:center;background:rgba(0,0,0,0.2);border-radius:10px;padding:12px;">
+                    <div style="color:#64748b;font-size:11px;">涨粉</div>
+                    <div style="font-size:20px;font-weight:700;color:#f472b6;">80</div>
+                </div>
+            </div>
+        </div><div style="font-weight:600;color:#94a3b8;font-size:14px;margin-bottom:10px;">本周播放 TOP 5</div><table class="video-table"><tr><th>排名</th><th>账号</th><th>内容</th><th>播放</th><th>完播率</th><th>互动</th></tr><tbody><tr>
+                <td style="text-align:center;font-size:16px;">&#129351;</td>
+                <td>🎮 有料玩家</td>
+                <td class="title" style="max-width:360px;">二游联动天花板！鸣潮凭什么让全球玩家认它是 “真续作”？ #鸣潮  #鸣潮边缘行...</td>
+                <td class="likes high">25.4万</td>
+                <td>14.5%</td>
+                <td>12481</td>
+            </tr>
+<tr>
+                <td style="text-align:center;font-size:16px;">&#129352;</td>
+                <td>🎮 有料玩家</td>
+                <td class="title" style="max-width:360px;">千年白蛇变蛋仔！这也太会整了吧 #蛋仔派对 #蛋仔派对四周年 #蛋仔派对西湖寻缘...</td>
+                <td class="likes high">18.1万</td>
+                <td>12.0%</td>
+                <td>5160</td>
+            </tr>
+<tr>
+                <td style="text-align:center;font-size:16px;">&#129353;</td>
+                <td>🎮 有料玩家</td>
+                <td class="title" style="max-width:360px;">蛋仔太会了！吞吞鱼把养成玩出新高度！ #蛋仔派对 #蛋仔派对四周年 #蛋仔农场</td>
+                <td class="likes high">17.2万</td>
+                <td>10.3%</td>
+                <td>5174</td>
+            </tr>
+<tr>
+                <td style="text-align:center;font-size:16px;">4</td>
+                <td>🐙 鱿鱼说游</td>
+                <td class="title" style="max-width:360px;">不是正史，胜似正史！鸣潮联动，把遗憾变成圆满！ #鸣潮  #鸣潮边缘行者联动 #...</td>
+                <td class="likes high">16.5万</td>
+                <td>7.4%</td>
+                <td>355</td>
+            </tr>
+<tr>
+                <td style="text-align:center;font-size:16px;">5</td>
+                <td>🐙 鱿鱼说游</td>
+                <td class="title" style="max-width:360px;">蛋仔这么有活！白蛇变蛋仔，至臻白素美哭！ #蛋仔派对 #蛋仔派对四周年 #蛋仔派...</td>
+                <td class="likes high">16.3万</td>
+                <td>15.3%</td>
+                <td>5135</td>
+            </tr>
+</tbody></table></div>
 </div>
 <div id="panel-monetize" class="account-panel">
 
@@ -671,28 +967,28 @@ body {
     <div class="section-title"><span class="icon">📊</span> 矩阵总览</div>
     
 <div class="overview-grid">
-    <div class="overview-stat"><div class="ov-value">5</div><div class="ov-label">矩阵账号</div></div>
-    <div class="overview-stat"><div class="ov-value">244</div><div class="ov-label">发布视频数</div></div>
-    <div class="overview-stat"><div class="ov-value">1512.6万</div><div class="ov-label">总播放量</div></div>
-    <div class="overview-stat"><div class="ov-value">6.2万</div><div class="ov-label">条均播放量</div></div>
-    <div class="overview-stat"><div class="ov-value" style="color:#ef4444;">59%</div><div class="ov-label">距15万目标差距</div></div>
-    <div class="overview-stat"><div class="ov-value">2167</div><div class="ov-label">总粉丝增量</div></div>
+    <div class="overview-stat"><div class="ov-value">4</div><div class="ov-label">矩阵账号</div></div>
+    <div class="overview-stat"><div class="ov-value">157</div><div class="ov-label">发布视频数</div></div>
+    <div class="overview-stat"><div class="ov-value">1599.3万</div><div class="ov-label">总播放量</div></div>
+    <div class="overview-stat"><div class="ov-value">10.2万</div><div class="ov-label">条均播放量</div></div>
+    <div class="overview-stat"><div class="ov-value" style="color:#ef4444;">32%</div><div class="ov-label">距15万目标差距</div></div>
+    <div class="overview-stat"><div class="ov-value">2221</div><div class="ov-label">总粉丝增量</div></div>
 </div>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:20px 0;">
     <div class="summary-card" style="text-align:center;padding:16px 12px;border-left:3px solid #22c55e;">
-        <div style="font-size:22px;font-weight:800;color:#22c55e;">43</div>
+        <div style="font-size:22px;font-weight:800;color:#22c55e;">50</div>
         <div style="font-size:12px;color:#888;">15万+ 达标</div>
     </div>
     <div class="summary-card" style="text-align:center;padding:16px 12px;border-left:3px solid #60a5fa;">
-        <div style="font-size:22px;font-weight:800;color:#60a5fa;">4</div>
+        <div style="font-size:22px;font-weight:800;color:#60a5fa;">3</div>
         <div style="font-size:12px;color:#888;">10-15万</div>
     </div>
     <div class="summary-card" style="text-align:center;padding:16px 12px;border-left:3px solid #eab308;">
-        <div style="font-size:22px;font-weight:800;color:#eab308;">3</div>
+        <div style="font-size:22px;font-weight:800;color:#eab308;">0</div>
         <div style="font-size:12px;color:#888;">5-10万</div>
     </div>
     <div class="summary-card" style="text-align:center;padding:16px 12px;border-left:3px solid #a78bfa;">
-        <div style="font-size:22px;font-weight:800;color:#a78bfa;">50</div>
+        <div style="font-size:22px;font-weight:800;color:#a78bfa;">53</div>
         <div style="font-size:12px;color:#888;">5万以上合计</div>
     </div>
 </div>
@@ -713,12 +1009,12 @@ body {
             <span class="brief-fans">15.1万粉</span>
         </div>
         <div class="brief-stats">
-            <div class="bs-item"><div class="bs-val">260.4万</div><div class="bs-label">总播放</div></div>
-            <div class="bs-item"><div class="bs-val" style="color:#22c55e">15.3万</div><div class="bs-label">条均播放</div></div>
-            <div class="bs-item"><div class="bs-val">17</div><div class="bs-label">发布数</div></div>
+            <div class="bs-item"><div class="bs-val">299.3万</div><div class="bs-label">总播放</div></div>
+            <div class="bs-item"><div class="bs-val" style="color:#22c55e">16.6万</div><div class="bs-label">条均播放</div></div>
+            <div class="bs-item"><div class="bs-val">18</div><div class="bs-label">发布数</div></div>
         </div>
         <div class="brief-bar"><div class="brief-bar-fill" style="width:100%;background:#22c55e;"></div></div>
-        <div class="brief-top">🎯 目标进度 100% · 最高：<strong>24.9万</strong></div>
+        <div class="brief-top">🎯 目标进度 100% · 最高：<strong>25.4万</strong></div>
         <div class="brief-top">🔥 最佳：「从取消资格到双料直通！小孩用冠军证明：强者不靠馈赠！」</div>
     </div>
     <div class="brief-card">
@@ -728,9 +1024,9 @@ body {
             <span class="brief-fans">10.5万粉</span>
         </div>
         <div class="brief-stats">
-            <div class="bs-item"><div class="bs-val">281.1万</div><div class="bs-label">总播放</div></div>
-            <div class="bs-item"><div class="bs-val" style="color:#22c55e">17.6万</div><div class="bs-label">条均播放</div></div>
-            <div class="bs-item"><div class="bs-val">16</div><div class="bs-label">发布数</div></div>
+            <div class="bs-item"><div class="bs-val">291.5万</div><div class="bs-label">总播放</div></div>
+            <div class="bs-item"><div class="bs-val" style="color:#22c55e">15.3万</div><div class="bs-label">条均播放</div></div>
+            <div class="bs-item"><div class="bs-val">19</div><div class="bs-label">发布数</div></div>
         </div>
         <div class="brief-bar"><div class="brief-bar-fill" style="width:100%;background:#22c55e;"></div></div>
         <div class="brief-top">🎯 目标进度 100% · 最高：<strong>39.5万</strong></div>
@@ -743,28 +1039,13 @@ body {
             <span class="brief-fans">12.4万粉</span>
         </div>
         <div class="brief-stats">
-            <div class="bs-item"><div class="bs-val">17.6万</div><div class="bs-label">总播放</div></div>
-            <div class="bs-item"><div class="bs-val" style="color:#ef4444">1876</div><div class="bs-label">条均播放</div></div>
-            <div class="bs-item"><div class="bs-val">94</div><div class="bs-label">发布数</div></div>
+            <div class="bs-item"><div class="bs-val">21.2万</div><div class="bs-label">总播放</div></div>
+            <div class="bs-item"><div class="bs-val" style="color:#ef4444">2161</div><div class="bs-label">条均播放</div></div>
+            <div class="bs-item"><div class="bs-val">98</div><div class="bs-label">发布数</div></div>
         </div>
         <div class="brief-bar"><div class="brief-bar-fill" style="width:1%;background:#ef4444;"></div></div>
         <div class="brief-top">🎯 目标进度 1% · 最高：<strong>3.0万</strong></div>
         <div class="brief-top">🔥 最佳：「二游吉祥物两极分化！有人成电子家人，有人被全网嫌弃」</div>
-    </div>
-    <div class="brief-card">
-        <div class="brief-header">
-            <span class="brief-emoji">🐱</span>
-            <span class="brief-name">哈吉米说游戏</span>
-            <span class="brief-fans">14.0万粉</span>
-        </div>
-        <div class="brief-stats">
-            <div class="bs-item"><div class="bs-val">28.5万</div><div class="bs-label">总播放</div></div>
-            <div class="bs-item"><div class="bs-val" style="color:#ef4444">2846</div><div class="bs-label">条均播放</div></div>
-            <div class="bs-item"><div class="bs-val">100</div><div class="bs-label">发布数</div></div>
-        </div>
-        <div class="brief-bar"><div class="brief-bar-fill" style="width:2%;background:#ef4444;"></div></div>
-        <div class="brief-top">🎯 目标进度 2% · 最高：<strong>13.9万</strong></div>
-        <div class="brief-top">🔥 最佳：「时隔一年终于释怀！团子北京站哽咽祝福S1Mon」</div>
     </div>
     <div class="brief-card">
         <div class="brief-header">
@@ -773,12 +1054,12 @@ body {
             <span class="brief-fans">13.1万粉</span>
         </div>
         <div class="brief-stats">
-            <div class="bs-item"><div class="bs-val">925.0万</div><div class="bs-label">总播放</div></div>
-            <div class="bs-item"><div class="bs-val" style="color:#22c55e">54.4万</div><div class="bs-label">条均播放</div></div>
-            <div class="bs-item"><div class="bs-val">17</div><div class="bs-label">发布数</div></div>
+            <div class="bs-item"><div class="bs-val">987.3万</div><div class="bs-label">总播放</div></div>
+            <div class="bs-item"><div class="bs-val" style="color:#22c55e">44.9万</div><div class="bs-label">条均播放</div></div>
+            <div class="bs-item"><div class="bs-val">22</div><div class="bs-label">发布数</div></div>
         </div>
         <div class="brief-bar"><div class="brief-bar-fill" style="width:100%;background:#22c55e;"></div></div>
-        <div class="brief-top">🎯 目标进度 100% · 最高：<strong>533.3万</strong></div>
+        <div class="brief-top">🎯 目标进度 100% · 最高：<strong>533.5万</strong></div>
         <div class="brief-top">🔥 最佳：「宗师碰瓷钟意？自曝 AG 试训 “不想抢饭碗”」</div>
     </div></div>
 </div>
@@ -792,38 +1073,31 @@ body {
         <tbody><tr>
             <td>🐙 鱿鱼说游</td>
             <td>15.1万</td>
-            <td>17</td>
+            <td>18</td>
+            <td class="gap-current">16.6万</td>
+            <td class="gap-target">15万</td>
+            <td class="gap-ratio" style="color:#22c55e">111%</td>
+        </tr><tr>
+            <td>🐴 牛马说游戏</td>
+            <td>10.5万</td>
+            <td>19</td>
             <td class="gap-current">15.3万</td>
             <td class="gap-target">15万</td>
             <td class="gap-ratio" style="color:#22c55e">102%</td>
         </tr><tr>
-            <td>🐴 牛马说游戏</td>
-            <td>10.5万</td>
-            <td>16</td>
-            <td class="gap-current">17.6万</td>
-            <td class="gap-target">15万</td>
-            <td class="gap-ratio" style="color:#22c55e">117%</td>
-        </tr><tr>
             <td>🔐 阿密说游戏</td>
             <td>12.4万</td>
-            <td>94</td>
-            <td class="gap-current">1876</td>
+            <td>98</td>
+            <td class="gap-current">2161</td>
             <td class="gap-target">15万</td>
             <td class="gap-ratio" style="color:#ef4444">1%</td>
         </tr><tr>
-            <td>🐱 哈吉米说游戏</td>
-            <td>14.0万</td>
-            <td>100</td>
-            <td class="gap-current">2846</td>
-            <td class="gap-target">15万</td>
-            <td class="gap-ratio" style="color:#ef4444">2%</td>
-        </tr><tr>
             <td>🎮 有料玩家</td>
             <td>13.1万</td>
-            <td>17</td>
-            <td class="gap-current">54.4万</td>
+            <td>22</td>
+            <td class="gap-current">44.9万</td>
             <td class="gap-target">15万</td>
-            <td class="gap-ratio" style="color:#22c55e">363%</td>
+            <td class="gap-ratio" style="color:#22c55e">299%</td>
         </tr></tbody>
     </table>
     </div></div>
@@ -833,7 +1107,7 @@ body {
 <div class="section">
     <div class="section-title"><span class="icon">🎯</span> 条均播放15万 · 投放优化计划</div>
     <div class="summary-card"><div class="card-body" style="margin-bottom:24px;">
-        当前矩阵条均播放 <strong style="color:#ef4444;">6.2万</strong>，目标 <strong style="color:#22c55e;">15万</strong>，差距 <strong>59%</strong>。<br>
+        当前矩阵条均播放 <strong style="color:#ef4444;">10.2万</strong>，目标 <strong style="color:#22c55e;">15万</strong>，差距 <strong>32%</strong>。<br>
         达成路径不是靠运气爆一条，而是<strong>系统性提升每条视频的初始推荐量</strong>。核心逻辑：抖音算法先给200-500播放测试，根据完播率、互动率决定是否推入下一级流量池。我们的目标是让每条视频都能通过第一轮测试，进入万级流量池。
     </div></div>
 
@@ -1053,15 +1327,15 @@ body {
 <div class="account-card">
     <div class="name"><span>🐙 鱿鱼说游</span></div>
     <div class="douyin-id">抖音号：520panchun</div>
-    <div class="extra-info">IP属地：广东 · 分析周期：2026-03-21 — 2026-06-02 · 本周期发布17条视频</div>
+    <div class="extra-info">IP属地：广东 · 分析周期：2026-03-21 — 2026-06-13 · 本周期发布18条视频</div>
     <div class="stat-item"><div class="value">15.1万</div><div class="label">粉丝数</div></div>
-    <div class="stat-item"><div class="value">260.4万</div><div class="label">总播放量</div></div>
-    <div class="stat-item"><div class="value">15.3万</div><div class="label">平均播放</div></div>
-    <div class="stat-item"><div class="value">24.9万</div><div class="label">最高播放</div></div>
+    <div class="stat-item"><div class="value">299.3万</div><div class="label">总播放量</div></div>
+    <div class="stat-item"><div class="value">16.6万</div><div class="label">平均播放</div></div>
+    <div class="stat-item"><div class="value">25.4万</div><div class="label">最高播放</div></div>
 </div>
 <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:0 0 24px 0;">
     <div class="summary-card" style="text-align:center;padding:14px 8px;border-left:3px solid #22c55e;">
-        <div style="font-size:20px;font-weight:800;color:#22c55e;">15</div>
+        <div style="font-size:20px;font-weight:800;color:#22c55e;">18</div>
         <div style="font-size:11px;color:#888;">15万+ 达标</div>
     </div>
     <div class="summary-card" style="text-align:center;padding:14px 8px;border-left:3px solid #60a5fa;">
@@ -1069,11 +1343,11 @@ body {
         <div style="font-size:11px;color:#888;">10-15万</div>
     </div>
     <div class="summary-card" style="text-align:center;padding:14px 8px;border-left:3px solid #eab308;">
-        <div style="font-size:20px;font-weight:800;color:#eab308;">1</div>
+        <div style="font-size:20px;font-weight:800;color:#eab308;">0</div>
         <div style="font-size:11px;color:#888;">5-10万</div>
     </div>
     <div class="summary-card" style="text-align:center;padding:14px 8px;border-left:3px solid #a78bfa;">
-        <div style="font-size:20px;font-weight:800;color:#a78bfa;">16</div>
+        <div style="font-size:20px;font-weight:800;color:#a78bfa;">18</div>
         <div style="font-size:11px;color:#888;">5万+ 合计</div>
     </div>
 </div>
@@ -1090,170 +1364,177 @@ body {
     <table class="video-table">
         <thead><tr><th>视频标题</th><th>涉及内容</th><th>播放量</th><th>互动数据</th></tr></thead>
         <tbody><tr>
-            <td class="title">燕云新剧情疑似夹带私货？！</td>
-            <td class="tags"><span>燕云十六声</span><span>游戏吃瓜</span><span>游戏杂谈</span></td>
-            <td class="likes high">6.2万</td>
-            <td class="engagement">👍666 💬226 🔄388 ⭐33</td>
+            <td class="title">蛋仔这么有活！白蛇变蛋仔，至臻白素美哭！</td>
+            <td class="tags"><span>蛋仔派对</span><span>蛋仔派对四周年</span><span>蛋仔派对西湖寻缘季</span></td>
+            <td class="likes high">16.3万</td>
+            <td class="engagement">👍5000 💬4 🔄131 ⭐5</td>
+        </tr>
+<tr>
+            <td class="title">蛋仔农场杀疯了！吞吞鱼躺赚农场币</td>
+            <td class="tags"><span>蛋仔派对</span><span>蛋仔派对四周年</span><span>蛋仔农场</span></td>
+            <td class="likes high">15.9万</td>
+            <td class="engagement">👍5031 💬4 🔄125 ⭐17</td>
+        </tr>
+<tr>
+            <td class="title">不是正史，胜似正史！鸣潮联动，把遗憾变成圆满！</td>
+            <td class="tags"><span>鸣潮</span><span>鸣潮边缘行者联动</span><span>鸣潮赛博朋克联动上线</span></td>
+            <td class="likes high">16.5万</td>
+            <td class="engagement">👍342 💬8 🔄5 ⭐4</td>
         </tr>
 <tr>
             <td class="title">硬核变兽人狂欢？暗区突围福瑞时装引不满！？</td>
             <td class="tags"><span>暗区突围</span><span>魔方工作室</span><span>游戏杂谈</span></td>
             <td class="likes high">16.4万</td>
-            <td class="engagement">👍5130 💬56 🔄11 ⭐15</td>
+            <td class="engagement">👍5122 💬56 🔄12 ⭐16</td>
         </tr>
 <tr>
             <td class="title">抽象神曲变赛场曲目，Danking直呼太尴尬！</td>
             <td class="tags"><span>dank1ng</span><span>上海cac</span><span>Falcons</span></td>
             <td class="likes high">15.6万</td>
-            <td class="engagement">👍5309 💬29 🔄37 ⭐4</td>
+            <td class="engagement">👍319 💬29 🔄37 ⭐4</td>
         </tr>
 <tr>
             <td class="title">从取消资格到双料直通！小孩用冠军证明：强者不靠馈赠！</td>
             <td class="tags"><span>小孩曾卓君</span><span>街霸6</span><span>EWC</span></td>
-            <td class="likes high">24.9万</td>
-            <td class="engagement">👍3559 💬410 🔄86 ⭐97</td>
+            <td class="likes high">25.4万</td>
+            <td class="engagement">👍3603 💬413 🔄86 ⭐96</td>
         </tr>
 <tr>
             <td class="title">悬崖绝境让三追四！狼队上演电竞顶级爽文翻盘！</td>
             <td class="tags"><span>重庆狼队</span><span>2026王者荣耀挑战者杯</span><span>红狼大战</span></td>
             <td class="likes high">16.1万</td>
-            <td class="engagement">👍5643 💬66 🔄15 ⭐23</td>
+            <td class="engagement">👍5642 💬66 🔄15 ⭐23</td>
         </tr>
 <tr>
             <td class="title">抽象之神王浩宇跨界带货，画风依旧离谱毫无收敛！</td>
             <td class="tags"><span>王浩宇</span><span>三角洲行动</span><span>林树</span></td>
-            <td class="likes high">16.2万</td>
-            <td class="engagement">👍5133 💬22 🔄4 ⭐8</td>
+            <td class="likes high">16.3万</td>
+            <td class="engagement">👍604 💬22 🔄5 ⭐8</td>
         </tr>
 <tr>
             <td class="title">别家联动双厨狂喜，方舟怪猎二期联动全员破防？！</td>
             <td class="tags"><span>明日方舟</span><span>明日方舟七周年</span><span>怪物猎人</span></td>
             <td class="likes high">15.9万</td>
-            <td class="engagement">👍5450 💬81 🔄66 ⭐27</td>
+            <td class="engagement">👍5440 💬81 🔄66 ⭐27</td>
         </tr>
 <tr>
             <td class="title">纯天然抽象没有剧本，Coke 天生综艺天赋拉满！</td>
             <td class="tags"><span>coke</span><span>ok了老铁们</span><span>陈泽</span></td>
             <td class="likes high">15.6万</td>
-            <td class="engagement">👍1389 💬7 🔄165 ⭐53</td>
+            <td class="engagement">👍1390 💬7 🔄165 ⭐54</td>
         </tr>
 <tr>
             <td class="title">镇江一把刀 Smoggy，把黑称硬生生打成传奇封号</td>
             <td class="tags"><span>smoggy</span><span>EDG</span><span>张钊</span></td>
             <td class="likes high">15.8万</td>
-            <td class="engagement">👍5432 💬21 🔄34 ⭐9</td>
+            <td class="engagement">👍5464 💬20 🔄41 ⭐12</td>
         </tr>
 <tr>
             <td class="title">塔二回旋镖砸穿！老外当初嘲讽国服差评，如今自己疯狂刷差评？！</td>
             <td class="tags"><span>杀戮尖塔2</span><span>steam游戏</span><span>单机游戏</span></td>
             <td class="likes high">15.2万</td>
-            <td class="engagement">👍5118 💬10 🔄1 ⭐4</td>
+            <td class="engagement">👍123 💬10 🔄1 ⭐4</td>
         </tr>
 <tr>
             <td class="title">草台班子实锤！《地平线 6》偷跑，付费玩家被当猴耍？！</td>
             <td class="tags"><span>地平线6</span><span>steam游戏</span><span>单机游戏</span><span>新游鉴赏</span></td>
-            <td class="likes high">15.1万</td>
+            <td class="likes high">15.2万</td>
             <td class="engagement">👍2003 💬107 🔄853 ⭐84</td>
         </tr>
 <tr>
             <td class="title">LPL 最有希望的一年？Faker 童子功真要没了？</td>
             <td class="tags"><span>Faker</span><span>LPL</span><span>柳智敏</span></td>
             <td class="likes high">15.2万</td>
-            <td class="engagement">👍5199 💬20 🔄28 ⭐3</td>
+            <td class="engagement">👍521 💬20 🔄28 ⭐3</td>
         </tr>
 <tr>
             <td class="title">从工具人到电子家人，二游吉祥物为何能拿捏玩家真情？</td>
             <td class="tags"><span>异环</span><span>绝区零</span><span>原神</span><span>派蒙</span></td>
             <td class="likes high">17.7万</td>
-            <td class="engagement">👍5760 💬132 🔄45 ⭐52</td>
+            <td class="engagement">👍5762 💬132 🔄45 ⭐51</td>
         </tr>
 <tr>
             <td class="title">联机开黑新神作！躲抽屉聚众抽烟，被房主一脚踩截肢</td>
             <td class="tags"><span>steam游戏</span><span>steam喜加一</span><span>免费游戏</span><span>steam</span></td>
             <td class="likes high">15.4万</td>
-            <td class="engagement">👍5108 💬21 🔄150 ⭐17</td>
+            <td class="engagement">👍525 💬20 🔄150 ⭐17</td>
         </tr>
 <tr>
             <td class="title">洛克王国世界玩家整活另类玩法</td>
             <td class="tags"><span>洛克王国世界</span><span>洛克创作激励计划</span><span>洛克王国</span></td>
             <td class="likes high">15.3万</td>
-            <td class="engagement">👍5247 💬14 🔄100 ⭐12</td>
-        </tr>
-<tr>
-            <td class="title">神人主角之亨利的诡辩！这游戏还是太抽象了</td>
-            <td class="tags"><span>天国拯救2</span><span>亨利</span><span>游戏</span></td>
-            <td class="likes high">4.5万</td>
-            <td class="engagement">👍662 💬69 🔄248 ⭐50</td>
+            <td class="engagement">👍443 💬14 🔄100 ⭐12</td>
         </tr>
 <tr>
             <td class="title">太讷了，OWL的职业战队居然使用这种战术？！</td>
             <td class="tags"><span>守望先锋</span><span>OW</span><span>游戏</span></td>
-            <td class="likes high">19.3万</td>
-            <td class="engagement">👍1515 💬124 🔄444 ⭐41</td>
+            <td class="likes high">19.4万</td>
+            <td class="engagement">👍1527 💬125 🔄445 ⭐41</td>
         </tr>
 </tbody>
     </table>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">📊</span> 内容品类分布</div>
-    <div class="dist-bar"><div style="width:30%;background:#a78bfa;">steam游 30%</div><div style="width:20%;background:#f472b6;">游戏 20%</div><div style="width:20%;background:#fb923c;">游戏杂谈 20%</div><div style="width:20%;background:#22c55e;">单机游戏 20%</div><div style="width:10%;background:#06b6d4;">小孩曾卓君 10%</div></div><div class="legend"><span><span class="dot" style="background:#a78bfa;"></span>steam游戏（3条）</span><span><span class="dot" style="background:#f472b6;"></span>游戏（2条）</span><span><span class="dot" style="background:#fb923c;"></span>游戏杂谈（2条）</span><span><span class="dot" style="background:#22c55e;"></span>单机游戏（2条）</span><span><span class="dot" style="background:#06b6d4;"></span>小孩曾卓君（1条）</span></div>
+    <div class="dist-bar"><div style="width:30%;background:#a78bfa;">steam游 30%</div><div style="width:20%;background:#f472b6;">蛋仔派对 20%</div><div style="width:20%;background:#fb923c;">蛋仔派对四周 20%</div><div style="width:20%;background:#22c55e;">单机游戏 20%</div><div style="width:10%;background:#06b6d4;">蛋仔派对西湖 10%</div></div><div class="legend"><span><span class="dot" style="background:#a78bfa;"></span>steam游戏（3条）</span><span><span class="dot" style="background:#f472b6;"></span>蛋仔派对（2条）</span><span><span class="dot" style="background:#fb923c;"></span>蛋仔派对四周年（2条）</span><span><span class="dot" style="background:#22c55e;"></span>单机游戏（2条）</span><span><span class="dot" style="background:#06b6d4;"></span>蛋仔派对西湖寻缘季（1条）</span></div>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">⭐</span> 综合评分</div>
     <div class="score-section">
-        <div class="score-card"><div class="score-value score-red">19</div><div class="score-label">更新频率</div></div>
+        <div class="score-card"><div class="score-value score-red">17</div><div class="score-label">更新频率</div></div>
         <div class="score-card"><div class="score-value score-green">100</div><div class="score-label">热点覆盖</div></div>
-        <div class="score-card"><div class="score-value score-green">96</div><div class="score-label">完播表现</div></div>
-        <div class="score-card"><div class="score-value score-red">41</div><div class="score-label">互动数据</div></div>
-        <div class="score-card"><div class="score-value score-red">9</div><div class="score-label">传播力</div></div>
-        <div class="score-card"><div class="score-value score-red">53</div><div class="score-label">综合</div></div>
+        <div class="score-card"><div class="score-value score-green">89</div><div class="score-label">完播表现</div></div>
+        <div class="score-card"><div class="score-value score-red">26</div><div class="score-label">互动数据</div></div>
+        <div class="score-card"><div class="score-value score-red">7</div><div class="score-label">传播力</div></div>
+        <div class="score-card"><div class="score-value score-red">47</div><div class="score-label">综合</div></div>
     </div>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">🔍</span> 深度分析</div>
     <div class="analysis-grid"><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">🔥</div><div class="card-title">最佳表现视频</div></div>
-        <div class="card-body">「从取消资格到双料直通！小孩用冠军证明：强者不靠馈赠！」获得 <strong>24.9万</strong> 播放，点赞 <strong>3559</strong>，评论 <strong>410</strong>，分享 <strong>86</strong>。完播率 <strong>22.6%</strong>，是本周期表现最好的内容。</div>
+        <div class="card-body">「从取消资格到双料直通！小孩用冠军证明：强者不靠馈赠！」获得 <strong>25.4万</strong> 播放，点赞 <strong>3603</strong>，评论 <strong>413</strong>，分享 <strong>86</strong>。完播率 <strong>22.5%</strong>，是本周期表现最好的内容。</div>
         <div class="highlight good">💡 分析这条视频的成功要素（选题、标题、发布时间），在后续内容中复制。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(239,68,68,0.15);">📉</div><div class="card-title">最差表现视频</div></div>
-        <div class="card-body">「神人主角之亨利的诡辩！这游戏还是太抽象了」仅获得 <strong>4.5万</strong> 播放，2s跳出率 <strong>27.8%</strong>。需要分析是否为选题冷门、标题不吸引人或发布时间不当。</div>
+        <div class="card-body">「草台班子实锤！《地平线 6》偷跑，付费玩家被当猴耍？！」仅获得 <strong>15.2万</strong> 播放，2s跳出率 <strong>29.2%</strong>。需要分析是否为选题冷门、标题不吸引人或发布时间不当。</div>
         <div class="highlight bad">🔴 低播放意味着内容未能进入推荐池，需复盘原因。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(167,139,250,0.15);">📊</div><div class="card-title">完播率分析 · 良好</div></div>
-        <div class="card-body">平均完播率 <strong>19.4%</strong>，5s留存 <strong>19.4%</strong>，2s跳出率 <strong>26.0%</strong>。内容的前几秒能留住观众，整体节奏控制不错。</div>
+        <div class="card-body">平均完播率 <strong>17.8%</strong>，5s留存 <strong>17.8%</strong>，2s跳出率 <strong>25.5%</strong>。内容的前几秒能留住观众，整体节奏控制不错。</div>
         <div class="highlight good">💡 完播率是算法推荐的核心指标，直接影响后续流量分配。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">💬</div><div class="card-title">互动数据</div></div>
-        <div class="card-body">本周期共 <strong>17</strong> 条视频，总播放 <strong>260.4万</strong>。<br>
-        点赞率 <strong>2.62%</strong> · 评论率 <strong>0.05%</strong> · 分享率 <strong>0.10%</strong> · 收藏率 <strong>0.02%</strong><br>
-        粉丝增量：<strong>145</strong></div>
+        <div class="card-body">本周期共 <strong>18</strong> 条视频，总播放 <strong>299.3万</strong>。<br>
+        点赞率 <strong>1.63%</strong> · 评论率 <strong>0.04%</strong> · 分享率 <strong>0.08%</strong> · 收藏率 <strong>0.02%</strong><br>
+        粉丝增量：<strong>133</strong></div>
         <div class="highlight good">💡 点赞和评论是核心互动指标，分享和收藏是扩散指标。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(234,179,8,0.15);">🎯</div><div class="card-title">内容品类分布</div></div>
-        <div class="card-body">高频话题：steam游戏(3)、游戏(2)、游戏杂谈(2)、单机游戏(2)、小孩曾卓君(1)。覆盖 <strong>49</strong> 个不同话题标签。<br>
+        <div class="card-body">高频话题：steam游戏(3)、蛋仔派对(2)、蛋仔派对四周年(2)、单机游戏(2)、蛋仔派对西湖寻缘季(1)。覆盖 <strong>52</strong> 个不同话题标签。<br>
         建议聚焦<strong>3-5个核心品类</strong>，避免品类过于分散导致账号标签模糊。</div>
         <div class="highlight warn">⚠️ 品类过多会稀释账号标签，影响算法对目标人群的精准推荐。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">⏱️</div><div class="card-title">播放时长分析</div></div>
-        <div class="card-body">平均播放时长 <strong>16.9秒</strong>。结合完播率来看，观众有耐心看完大部分内容。<br>
+        <div class="card-body">平均播放时长 <strong>17.6秒</strong>。结合完播率来看，观众有耐心看完大部分内容。<br>
         建议控制视频时长在<strong>30-90秒</strong>之间，前5秒必须有强力钩子。</div>
         <div class="highlight good">💡 短视频时代，前5秒决定60%的去留。</div>
     </div></div>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">🚀</span> 优化建议</div>
-    <ul class="opt-list"><li><div class="priority p0">P0</div><div class="opt-content"><h3>💡 复制最佳视频的成功模式</h3><p>「从取消资格到双料直通！小孩用冠军证明：强者不靠馈赠！」获得 24.9万 播放，远超平均水平。分析这条视频的选题角度、标题措辞、发布时间和内容结构，提炼可复制的爆款公式。</p><div class="action">→ 本周复盘最佳视频的全部指标，总结成功要素</div></div></li>
-<li><div class="priority p1">P1</div><div class="opt-content"><h3>📌 聚焦核心品类</h3><p>当前覆盖 <strong>49</strong> 个不同话题，品类过于分散。建议聚焦3-5个核心游戏/IP，建立"想看XX就来这里"的用户心智。</p><div class="action">→ 每周选题控制在3个核心品类内</div></div></li>
+    <ul class="opt-list"><li><div class="priority p0">P0</div><div class="opt-content"><h3>💡 复制最佳视频的成功模式</h3><p>「从取消资格到双料直通！小孩用冠军证明：强者不靠馈赠！」获得 25.4万 播放，远超平均水平。分析这条视频的选题角度、标题措辞、发布时间和内容结构，提炼可复制的爆款公式。</p><div class="action">→ 本周复盘最佳视频的全部指标，总结成功要素</div></div></li>
+<li><div class="priority p1">P1</div><div class="opt-content"><h3>💬 增强互动引导</h3><p>评论率仅 <strong>0.04%</strong>，互动意愿偏低。建议在视频结尾加入明确的互动引导："你觉得呢？""评论区告诉我"，并在发布后30分钟内积极回复前排评论。</p><div class="action">→ 每条视频至少1个互动问题 + 发布后30分钟内回复前10条评论</div></div></li>
+<li><div class="priority p1">P1</div><div class="opt-content"><h3>📌 聚焦核心品类</h3><p>当前覆盖 <strong>52</strong> 个不同话题，品类过于分散。建议聚焦3-5个核心游戏/IP，建立"想看XX就来这里"的用户心智。</p><div class="action">→ 每周选题控制在3个核心品类内</div></div></li>
 <li><div class="priority p2">P2</div><div class="opt-content"><h3>⏰ 发布时间优化</h3><p>建议固定在 <strong>12:00-13:00 或 20:00-22:00</strong> 发布，并连续2周测试记录数据。建立粉丝的观看预期。</p><div class="action">→ 固定发布时间，建立粉丝预期</div></div></li>
 </ul>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">📋</span> 总结</div>
     <div class="summary-card"><div class="card-body">
-        <strong style="color:#a78bfa;">鱿鱼说游</strong> 本周期共发布 <strong>17</strong> 条视频，总播放 <strong>260.4万</strong>，平均播放 <strong>15.3万</strong>。<br><br>
-        最佳表现：「从取消资格到双料直通！小孩用冠军证明：强者不靠馈赠！」— <strong style="color:#22c55e;">24.9万播放</strong><br>
-        平均完播率 <strong>19.4%</strong>，5s留存 <strong>19.4%</strong>，2s跳出率 <strong>26.0%</strong><br><br>
+        <strong style="color:#a78bfa;">鱿鱼说游</strong> 本周期共发布 <strong>18</strong> 条视频，总播放 <strong>299.3万</strong>，平均播放 <strong>16.6万</strong>。<br><br>
+        最佳表现：「从取消资格到双料直通！小孩用冠军证明：强者不靠馈赠！」— <strong style="color:#22c55e;">25.4万播放</strong><br>
+        平均完播率 <strong>17.8%</strong>，5s留存 <strong>17.8%</strong>，2s跳出率 <strong>25.5%</strong><br><br>
         <strong style="color:#22c55e;">核心方向：优化完播率 + 复制爆款模式 + 增强互动引导。</strong>
     </div></div>
 </div>
@@ -1264,15 +1545,15 @@ body {
 <div class="account-card">
     <div class="name"><span>🐴 牛马说游戏</span></div>
     <div class="douyin-id">抖音号：TikTokxy123</div>
-    <div class="extra-info">IP属地：广东 · 分析周期：2026-04-29 — 2026-06-03 · 本周期发布16条视频</div>
+    <div class="extra-info">IP属地：广东 · 分析周期：2026-03-21 — 2026-06-13 · 本周期发布19条视频</div>
     <div class="stat-item"><div class="value">10.5万</div><div class="label">粉丝数</div></div>
-    <div class="stat-item"><div class="value">281.1万</div><div class="label">总播放量</div></div>
-    <div class="stat-item"><div class="value">17.6万</div><div class="label">平均播放</div></div>
+    <div class="stat-item"><div class="value">291.5万</div><div class="label">总播放量</div></div>
+    <div class="stat-item"><div class="value">15.3万</div><div class="label">平均播放</div></div>
     <div class="stat-item"><div class="value">39.5万</div><div class="label">最高播放</div></div>
 </div>
 <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:0 0 24px 0;">
     <div class="summary-card" style="text-align:center;padding:14px 8px;border-left:3px solid #22c55e;">
-        <div style="font-size:20px;font-weight:800;color:#22c55e;">14</div>
+        <div style="font-size:20px;font-weight:800;color:#22c55e;">15</div>
         <div style="font-size:11px;color:#888;">15万+ 达标</div>
     </div>
     <div class="summary-card" style="text-align:center;padding:14px 8px;border-left:3px solid #60a5fa;">
@@ -1280,7 +1561,7 @@ body {
         <div style="font-size:11px;color:#888;">10-15万</div>
     </div>
     <div class="summary-card" style="text-align:center;padding:14px 8px;border-left:3px solid #eab308;">
-        <div style="font-size:20px;font-weight:800;color:#eab308;">1</div>
+        <div style="font-size:20px;font-weight:800;color:#eab308;">0</div>
         <div style="font-size:11px;color:#888;">5-10万</div>
     </div>
     <div class="summary-card" style="text-align:center;padding:14px 8px;border-left:3px solid #a78bfa;">
@@ -1301,147 +1582,165 @@ body {
     <table class="video-table">
         <thead><tr><th>视频标题</th><th>涉及内容</th><th>播放量</th><th>互动数据</th></tr></thead>
         <tbody><tr>
+            <td class="title">蛋仔真开鱼塘了！新宠吞吞鱼，躺平赚资源！</td>
+            <td class="tags"><span>蛋仔派对</span><span>蛋仔派对四周年</span><span>蛋仔农场</span></td>
+            <td class="likes high">15.1万</td>
+            <td class="engagement">👍5017 💬15 🔄140 ⭐5</td>
+        </tr>
+<tr>
             <td class="title">燕云新剧情偷偷藏不住？</td>
             <td class="tags"><span>燕云十六声</span><span>游戏杂谈</span><span>游戏吃瓜</span></td>
-            <td class="likes high">12.1万</td>
-            <td class="engagement">👍2152 💬127 🔄542 ⭐78</td>
+            <td class="likes high">12.9万</td>
+            <td class="engagement">👍2347 💬106 🔄578 ⭐89</td>
         </tr>
 <tr>
             <td class="title">防住千万外挂破不了白名单，如今外挂靠常用软件借尸还魂？！</td>
             <td class="tags"><span>三角洲行动</span><span>三角洲吸附</span><span>ace反作弊</span></td>
             <td class="likes high">16.2万</td>
-            <td class="engagement">👍5070 💬19 🔄8 ⭐9</td>
-        </tr>
-<tr>
-            <td class="title">史上最扎心观赛！看着队友夺冠，自己却成了多余的人？！</td>
-            <td class="tags"><span>pero吃鸡</span><span>pubg夯爆了</span><span>pero</span></td>
-            <td class="likes high">7.8万</td>
-            <td class="engagement">👍285 💬13 🔄23 ⭐8</td>
+            <td class="engagement">👍1774 💬20 🔄8 ⭐11</td>
         </tr>
 <tr>
             <td class="title">法尔孔孩神！小孩一月双冠，败者组一穿四全斩日本高手！</td>
             <td class="tags"><span>小孩曾卓君</span><span>街霸6</span><span>EWC</span></td>
-            <td class="likes high">19.2万</td>
-            <td class="engagement">👍1789 💬40 🔄129 ⭐45</td>
+            <td class="likes high">19.5万</td>
+            <td class="engagement">👍1829 💬40 🔄130 ⭐47</td>
         </tr>
 <tr>
             <td class="title">巴黎集结！CN 瓦三强锁定EWC，EDG领衔、AG绝境杀进！</td>
             <td class="tags"><span>EDG</span><span>AG</span><span>XLG</span><span>无畏契约</span></td>
             <td class="likes high">15.9万</td>
-            <td class="engagement">👍5127 💬13 🔄8 ⭐12</td>
+            <td class="engagement">👍177 💬18 🔄9 ⭐14</td>
         </tr>
 <tr>
             <td class="title">洛克王国事变终极反转！道歉长文立正挨打，这波能翻盘吗？</td>
             <td class="tags"><span>洛克王国</span><span>洛克王国世界</span><span>洛克王国S2狂欢怪谈新赛季</span></td>
             <td class="likes high">16.0万</td>
-            <td class="engagement">👍5740 💬76 🔄110 ⭐50</td>
+            <td class="engagement">👍5770 💬78 🔄118 ⭐53</td>
         </tr>
 <tr>
             <td class="title">自带名梗出圈，王浩宇带货画风依旧放飞离谱！</td>
             <td class="tags"><span>王浩宇</span><span>三角洲行动</span><span>王浩宇whys</span></td>
             <td class="likes high">16.2万</td>
-            <td class="engagement">👍5087 💬11 🔄3 ⭐15</td>
+            <td class="engagement">👍101 💬11 🔄5 ⭐16</td>
         </tr>
 <tr>
             <td class="title">从威风的龙到病床躺平！林树减肥脱肛全程高能！</td>
             <td class="tags"><span>林树</span><span>三角洲行动</span><span>林树三角洲行动</span></td>
-            <td class="likes high">16.1万</td>
-            <td class="engagement">👍5070 💬12 🔄15 ⭐12</td>
+            <td class="likes high">16.4万</td>
+            <td class="engagement">👍430 💬12 🔄23 ⭐14</td>
         </tr>
 <tr>
             <td class="title">洛克王国世界疯狂听劝，火影手游全程摆烂？！爱与不爱太明显！</td>
             <td class="tags"><span>魔方工作室</span><span>火影忍者手游</span><span>洛克王国世界手游</span><span>洛克王国世界</span></td>
             <td class="likes high">17.1万</td>
-            <td class="engagement">👍6328 💬151 🔄225 ⭐65</td>
+            <td class="engagement">👍6328 💬151 🔄228 ⭐66</td>
         </tr>
 <tr>
             <td class="title">嘴上为国出征实则自娱自乐，0 比 6 惨败颜面尽失</td>
             <td class="tags"><span>战地6</span><span>嘉豪</span><span>steam游戏</span></td>
             <td class="likes high">16.0万</td>
-            <td class="engagement">👍5019 💬8 🔄1 ⭐1</td>
+            <td class="engagement">👍349 💬8 🔄1 ⭐1</td>
         </tr>
 <tr>
             <td class="title">异环流水破亿时夸超预期，翻车时打脸比谁都快？！</td>
             <td class="tags"><span>异环</span><span>异环bug</span><span>游戏杂谈</span></td>
             <td class="likes high">15.9万</td>
-            <td class="engagement">👍5047 💬16 🔄5 ⭐6</td>
+            <td class="engagement">👍500 💬16 🔄5 ⭐6</td>
         </tr>
 <tr>
             <td class="title">项目组大砍？尘白禁区回归后还会有以后吗？！</td>
             <td class="tags"><span>尘白禁区</span><span>游戏杂谈</span><span>西山居</span></td>
             <td class="likes high">15.7万</td>
-            <td class="engagement">👍5049 💬12 🔄2 ⭐7</td>
+            <td class="engagement">👍379 💬12 🔄2 ⭐7</td>
         </tr>
 <tr>
             <td class="title">Faker 牵手柳智敏告白！老李30 年童子功要破了？</td>
             <td class="tags"><span>Faker</span><span>lpl</span><span>柳智敏</span></td>
             <td class="likes high">39.5万</td>
-            <td class="engagement">👍3677 💬114 🔄689 ⭐205</td>
+            <td class="engagement">👍3675 💬114 🔄689 ⭐205</td>
         </tr>
 <tr>
             <td class="title">CS2全网洗脑！Dank1ing一句 “您吉祥” 彻底封神！</td>
             <td class="tags"><span>Dank1ng</span><span>dank1ng名场面</span><span>CS2</span></td>
             <td class="likes high">15.1万</td>
-            <td class="engagement">👍5876 💬25 🔄703 ⭐34</td>
+            <td class="engagement">👍877 💬25 🔄703 ⭐34</td>
         </tr>
 <tr>
             <td class="title">碰瓷暖阳又碰瓷钟意！宗师这波试训，把我看笑了</td>
             <td class="tags"><span>宗师</span><span>kpl</span><span>ag超玩会</span></td>
             <td class="likes high">26.4万</td>
-            <td class="engagement">👍2283 💬160 🔄1645 ⭐101</td>
+            <td class="engagement">👍2286 💬159 🔄1645 ⭐100</td>
         </tr>
 <tr>
             <td class="title">泪洒直播间也没用！神枪小子这波翻车，评论区毫不留情</td>
             <td class="tags"><span>无畏契约</span><span>神枪小子</span><span>神枪哭了</span><span>edg</span></td>
-            <td class="likes high">16.0万</td>
-            <td class="engagement">👍5063 💬13 🔄2 ⭐0</td>
+            <td class="likes high">16.1万</td>
+            <td class="engagement">👍71 💬14 🔄2 ⭐0</td>
+        </tr>
+<tr>
+            <td class="title">你刷到过这个道歉的小女孩吗？原来是卡普空新游角色</td>
+            <td class="tags"><span>卡普空</span><span>pragmata</span><span>识质存在</span><span>新游推荐</span></td>
+            <td class="likes mid">4334</td>
+            <td class="engagement">👍119 💬2 🔄11 ⭐38</td>
+        </tr>
+<tr>
+            <td class="title">全网都在玩的捣蛋蛙到底有多魔性？</td>
+            <td class="tags"><span>捣蛋蛙</span><span>双人游戏</span><span>情侣游戏</span></td>
+            <td class="likes mid">4907</td>
+            <td class="engagement">👍5 💬1 🔄7 ⭐2</td>
+        </tr>
+<tr>
+            <td class="title">简直阴到没边，阴间梗的由来原来是这样</td>
+            <td class="tags"><span>阴间</span><span>火影忍者手游</span><span>游戏</span></td>
+            <td class="likes mid">6579</td>
+            <td class="engagement">👍67 💬6 🔄80 ⭐19</td>
         </tr>
 </tbody>
     </table>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">📊</span> 内容品类分布</div>
-    <div class="dist-bar"><div style="width:27%;background:#a78bfa;">三角洲行动 27%</div><div style="width:27%;background:#f472b6;">游戏杂谈 27%</div><div style="width:18%;background:#fb923c;">洛克王国世界 18%</div><div style="width:18%;background:#22c55e;">无畏契约 18%</div><div style="width:9%;background:#06b6d4;">Faker 9%</div></div><div class="legend"><span><span class="dot" style="background:#a78bfa;"></span>三角洲行动（3条）</span><span><span class="dot" style="background:#f472b6;"></span>游戏杂谈（3条）</span><span><span class="dot" style="background:#fb923c;"></span>洛克王国世界（2条）</span><span><span class="dot" style="background:#22c55e;"></span>无畏契约（2条）</span><span><span class="dot" style="background:#06b6d4;"></span>Faker（1条）</span></div>
+    <div class="dist-bar"><div style="width:25%;background:#a78bfa;">游戏杂谈 25%</div><div style="width:25%;background:#f472b6;">三角洲行动 25%</div><div style="width:17%;background:#fb923c;">无畏契约 17%</div><div style="width:17%;background:#22c55e;">洛克王国世界 17%</div><div style="width:17%;background:#06b6d4;">火影忍者手游 17%</div></div><div class="legend"><span><span class="dot" style="background:#a78bfa;"></span>游戏杂谈（3条）</span><span><span class="dot" style="background:#f472b6;"></span>三角洲行动（3条）</span><span><span class="dot" style="background:#fb923c;"></span>无畏契约（2条）</span><span><span class="dot" style="background:#22c55e;"></span>洛克王国世界（2条）</span><span><span class="dot" style="background:#06b6d4;"></span>火影忍者手游（2条）</span></div>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">⭐</span> 综合评分</div>
     <div class="score-section">
-        <div class="score-card"><div class="score-value score-red">37</div><div class="score-label">更新频率</div></div>
+        <div class="score-card"><div class="score-value score-red">18</div><div class="score-label">更新频率</div></div>
         <div class="score-card"><div class="score-value score-green">100</div><div class="score-label">热点覆盖</div></div>
-        <div class="score-card"><div class="score-value score-green">99</div><div class="score-label">完播表现</div></div>
-        <div class="score-card"><div class="score-value score-red">38</div><div class="score-label">互动数据</div></div>
+        <div class="score-card"><div class="score-value score-green">85</div><div class="score-label">完播表现</div></div>
+        <div class="score-card"><div class="score-value score-red">18</div><div class="score-label">互动数据</div></div>
         <div class="score-card"><div class="score-value score-red">13</div><div class="score-label">传播力</div></div>
-        <div class="score-card"><div class="score-value score-red">57</div><div class="score-label">综合</div></div>
+        <div class="score-card"><div class="score-value score-red">46</div><div class="score-label">综合</div></div>
     </div>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">🔍</span> 深度分析</div>
     <div class="analysis-grid"><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">🔥</div><div class="card-title">最佳表现视频</div></div>
-        <div class="card-body">「Faker 牵手柳智敏告白！老李30 年童子功要破了？」获得 <strong>39.5万</strong> 播放，点赞 <strong>3677</strong>，评论 <strong>114</strong>，分享 <strong>689</strong>。完播率 <strong>25.4%</strong>，是本周期表现最好的内容。</div>
+        <div class="card-body">「Faker 牵手柳智敏告白！老李30 年童子功要破了？」获得 <strong>39.5万</strong> 播放，点赞 <strong>3675</strong>，评论 <strong>114</strong>，分享 <strong>689</strong>。完播率 <strong>25.4%</strong>，是本周期表现最好的内容。</div>
         <div class="highlight good">💡 分析这条视频的成功要素（选题、标题、发布时间），在后续内容中复制。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(239,68,68,0.15);">📉</div><div class="card-title">最差表现视频</div></div>
-        <div class="card-body">「史上最扎心观赛！看着队友夺冠，自己却成了多余的人？！」仅获得 <strong>7.8万</strong> 播放，2s跳出率 <strong>21.6%</strong>。需要分析是否为选题冷门、标题不吸引人或发布时间不当。</div>
+        <div class="card-body">「你刷到过这个道歉的小女孩吗？原来是卡普空新游角色」仅获得 <strong>4334</strong> 播放，2s跳出率 <strong>35.5%</strong>。需要分析是否为选题冷门、标题不吸引人或发布时间不当。</div>
         <div class="highlight bad">🔴 低播放意味着内容未能进入推荐池，需复盘原因。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(167,139,250,0.15);">📊</div><div class="card-title">完播率分析 · 良好</div></div>
-        <div class="card-body">平均完播率 <strong>20.0%</strong>，5s留存 <strong>20.0%</strong>，2s跳出率 <strong>28.6%</strong>。内容的前几秒能留住观众，整体节奏控制不错。</div>
+        <div class="card-body">平均完播率 <strong>17.2%</strong>，5s留存 <strong>17.2%</strong>，2s跳出率 <strong>31.7%</strong>。内容的前几秒能留住观众，整体节奏控制不错。</div>
         <div class="highlight good">💡 完播率是算法推荐的核心指标，直接影响后续流量分配。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">💬</div><div class="card-title">互动数据</div></div>
-        <div class="card-body">本周期共 <strong>16</strong> 条视频，总播放 <strong>281.1万</strong>。<br>
-        点赞率 <strong>2.44%</strong> · 评论率 <strong>0.03%</strong> · 分享率 <strong>0.15%</strong> · 收藏率 <strong>0.02%</strong><br>
-        粉丝增量：<strong>213</strong></div>
+        <div class="card-body">本周期共 <strong>19</strong> 条视频，总播放 <strong>291.5万</strong>。<br>
+        点赞率 <strong>1.10%</strong> · 评论率 <strong>0.03%</strong> · 分享率 <strong>0.15%</strong> · 收藏率 <strong>0.02%</strong><br>
+        粉丝增量：<strong>232</strong></div>
         <div class="highlight good">💡 点赞和评论是核心互动指标，分享和收藏是扩散指标。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(234,179,8,0.15);">🎯</div><div class="card-title">内容品类分布</div></div>
-        <div class="card-body">高频话题：三角洲行动(3)、游戏杂谈(3)、洛克王国世界(2)、无畏契约(2)、Faker(1)。覆盖 <strong>45</strong> 个不同话题标签。<br>
+        <div class="card-body">高频话题：游戏杂谈(3)、三角洲行动(3)、无畏契约(2)、洛克王国世界(2)、火影忍者手游(2)。覆盖 <strong>54</strong> 个不同话题标签。<br>
         建议聚焦<strong>3-5个核心品类</strong>，避免品类过于分散导致账号标签模糊。</div>
         <div class="highlight warn">⚠️ 品类过多会稀释账号标签，影响算法对目标人群的精准推荐。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">⏱️</div><div class="card-title">播放时长分析</div></div>
-        <div class="card-body">平均播放时长 <strong>16.5秒</strong>。结合完播率来看，观众有耐心看完大部分内容。<br>
+        <div class="card-body">平均播放时长 <strong>15.6秒</strong>。结合完播率来看，观众有耐心看完大部分内容。<br>
         建议控制视频时长在<strong>30-90秒</strong>之间，前5秒必须有强力钩子。</div>
         <div class="highlight good">💡 短视频时代，前5秒决定60%的去留。</div>
     </div></div>
@@ -1450,16 +1749,16 @@ body {
     <div class="section-title"><span class="icon">🚀</span> 优化建议</div>
     <ul class="opt-list"><li><div class="priority p0">P0</div><div class="opt-content"><h3>💡 复制最佳视频的成功模式</h3><p>「Faker 牵手柳智敏告白！老李30 年童子功要破了？」获得 39.5万 播放，远超平均水平。分析这条视频的选题角度、标题措辞、发布时间和内容结构，提炼可复制的爆款公式。</p><div class="action">→ 本周复盘最佳视频的全部指标，总结成功要素</div></div></li>
 <li><div class="priority p1">P1</div><div class="opt-content"><h3>💬 增强互动引导</h3><p>评论率仅 <strong>0.03%</strong>，互动意愿偏低。建议在视频结尾加入明确的互动引导："你觉得呢？""评论区告诉我"，并在发布后30分钟内积极回复前排评论。</p><div class="action">→ 每条视频至少1个互动问题 + 发布后30分钟内回复前10条评论</div></div></li>
-<li><div class="priority p1">P1</div><div class="opt-content"><h3>📌 聚焦核心品类</h3><p>当前覆盖 <strong>45</strong> 个不同话题，品类过于分散。建议聚焦3-5个核心游戏/IP，建立"想看XX就来这里"的用户心智。</p><div class="action">→ 每周选题控制在3个核心品类内</div></div></li>
+<li><div class="priority p1">P1</div><div class="opt-content"><h3>📌 聚焦核心品类</h3><p>当前覆盖 <strong>54</strong> 个不同话题，品类过于分散。建议聚焦3-5个核心游戏/IP，建立"想看XX就来这里"的用户心智。</p><div class="action">→ 每周选题控制在3个核心品类内</div></div></li>
 <li><div class="priority p2">P2</div><div class="opt-content"><h3>⏰ 发布时间优化</h3><p>建议固定在 <strong>12:00-13:00 或 20:00-22:00</strong> 发布，并连续2周测试记录数据。建立粉丝的观看预期。</p><div class="action">→ 固定发布时间，建立粉丝预期</div></div></li>
 </ul>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">📋</span> 总结</div>
     <div class="summary-card"><div class="card-body">
-        <strong style="color:#a78bfa;">牛马说游戏</strong> 本周期共发布 <strong>16</strong> 条视频，总播放 <strong>281.1万</strong>，平均播放 <strong>17.6万</strong>。<br><br>
+        <strong style="color:#a78bfa;">牛马说游戏</strong> 本周期共发布 <strong>19</strong> 条视频，总播放 <strong>291.5万</strong>，平均播放 <strong>15.3万</strong>。<br><br>
         最佳表现：「Faker 牵手柳智敏告白！老李30 年童子功要破了？」— <strong style="color:#22c55e;">39.5万播放</strong><br>
-        平均完播率 <strong>20.0%</strong>，5s留存 <strong>20.0%</strong>，2s跳出率 <strong>28.6%</strong><br><br>
+        平均完播率 <strong>17.2%</strong>，5s留存 <strong>17.2%</strong>，2s跳出率 <strong>31.7%</strong><br><br>
         <strong style="color:#22c55e;">核心方向：优化完播率 + 复制爆款模式 + 增强互动引导。</strong>
     </div></div>
 </div>
@@ -1470,10 +1769,10 @@ body {
 <div class="account-card">
     <div class="name"><span>🔐 阿密说游戏</span></div>
     <div class="douyin-id">抖音号：58501769370</div>
-    <div class="extra-info">IP属地：广东 · 分析周期：2026-03-30 — 2026-06-07 · 本周期发布94条视频</div>
+    <div class="extra-info">IP属地：广东 · 分析周期：2026-03-30 — 2026-06-14 · 本周期发布98条视频</div>
     <div class="stat-item"><div class="value">12.4万</div><div class="label">粉丝数</div></div>
-    <div class="stat-item"><div class="value">17.6万</div><div class="label">总播放量</div></div>
-    <div class="stat-item"><div class="value">1876</div><div class="label">平均播放</div></div>
+    <div class="stat-item"><div class="value">21.2万</div><div class="label">总播放量</div></div>
+    <div class="stat-item"><div class="value">2161</div><div class="label">平均播放</div></div>
     <div class="stat-item"><div class="value">3.0万</div><div class="label">最高播放</div></div>
 </div>
 <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:0 0 24px 0;">
@@ -1507,129 +1806,153 @@ body {
     <table class="video-table">
         <thead><tr><th>视频标题</th><th>涉及内容</th><th>播放量</th><th>互动数据</th></tr></thead>
         <tbody><tr>
+            <td class="title">从二创梗到全球顶流！细数三位现象级游戏角色！</td>
+            <td class="tags"><span>Dora</span><span>最终幻想7</span><span>胜利女神妮姬</span><span>游戏杂谈</span></td>
+            <td class="likes low">1212</td>
+            <td class="engagement">👍42 💬1 🔄0 ⭐33</td>
+        </tr>
+<tr>
+            <td class="title">二游男角色沦为陪衬？问题根本不在玩家，而是角色没灵魂!</td>
+            <td class="tags"><span>游戏杂谈</span><span>崩坏星穹铁道</span><span>千冶刃</span></td>
+            <td class="likes mid">6405</td>
+            <td class="engagement">👍111 💬63 🔄4 ⭐13</td>
+        </tr>
+<tr>
+            <td class="title">比起单薄穿搭，鲜活人设与剧情，才是留住玩家的核心！</td>
+            <td class="tags"><span>原神</span><span>游戏杂谈</span><span>尘白禁区</span></td>
+            <td class="likes low">1343</td>
+            <td class="engagement">👍32 💬2 🔄0 ⭐11</td>
+        </tr>
+<tr>
+            <td class="title">实机封神！异人之下能翻盘吗？</td>
+            <td class="tags"><span>异人之下</span><span>异人之下游戏</span><span>游戏杂谈</span></td>
+            <td class="likes mid">4719</td>
+            <td class="engagement">👍110 💬18 🔄18 ⭐9</td>
+        </tr>
+<tr>
+            <td class="title">捉宠赛道变天：帕鲁终版杀来，伊莫三测爆火，第二把交椅抢疯了！</td>
+            <td class="tags"><span>洛克王国世界</span><span>幻兽帕鲁</span><span>伊莫</span></td>
+            <td class="likes mid">5434</td>
+            <td class="engagement">👍59 💬14 🔄19 ⭐14</td>
+        </tr>
+<tr>
+            <td class="title">弟弟登山失踪，只剩一张符咒餐巾纸？ARG 神作细思极恐！</td>
+            <td class="tags"><span>游戏推荐</span><span>恐怖游戏</span><span>大学生登山失踪事件</span><span>银河电灯</span></td>
+            <td class="likes low">2109</td>
+            <td class="engagement">👍18 💬3 🔄1 ⭐16</td>
+        </tr>
+<tr>
             <td class="title">高考完三个月，三款消磨时光放松爽玩神作！</td>
             <td class="tags"><span>steam游戏</span><span>泰拉瑞亚</span><span>游戏推荐</span></td>
-            <td class="likes low">993</td>
-            <td class="engagement">👍15 💬0 🔄0 ⭐11</td>
+            <td class="likes low">1380</td>
+            <td class="engagement">👍20 💬0 🔄0 ⭐11</td>
         </tr>
 <tr>
             <td class="title">点一则老旧广告开启探案，这款 ARG 游戏细思极恐？</td>
             <td class="tags"><span>菁英会客厅</span><span>游戏推荐</span><span>恐怖游戏</span></td>
-            <td class="likes high">1.8万</td>
-            <td class="engagement">👍180 💬0 🔄25 ⭐52</td>
+            <td class="likes high">2.9万</td>
+            <td class="engagement">👍304 💬0 🔄46 ⭐74</td>
         </tr>
 <tr>
             <td class="title">发售倒计时半年，R 星员工集体罢工建工会，GTA6 要延期？</td>
             <td class="tags"><span>R星</span><span>GTA6</span><span>游戏杂谈</span></td>
-            <td class="likes low">2363</td>
-            <td class="engagement">👍22 💬5 🔄2 ⭐4</td>
+            <td class="likes low">2761</td>
+            <td class="engagement">👍23 💬5 🔄2 ⭐4</td>
         </tr>
 <tr>
             <td class="title">MMO 大乱斗！逆水寒、燕云、诡秘三大重磅更新精准撞车？！</td>
             <td class="tags"><span>逆水寒新世界</span><span>燕云十六声</span><span>诡秘之主</span></td>
-            <td class="likes low">582</td>
-            <td class="engagement">👍11 💬1 🔄0 ⭐5</td>
+            <td class="likes low">636</td>
+            <td class="engagement">👍11 💬1 🔄1 ⭐5</td>
         </tr>
 <tr>
             <td class="title">熬过永世轮回，应星落幕，千冶・刃浴火新生！</td>
             <td class="tags"><span>崩坏星穹铁道</span><span>千冶刃</span><span>千冶成刃</span></td>
-            <td class="likes low">1040</td>
+            <td class="likes low">1099</td>
             <td class="engagement">👍32 💬1 🔄0 ⭐7</td>
-        </tr>
-<tr>
-            <td class="title">追击塔菲喵，FPS 离谱联动？！</td>
-            <td class="tags"><span>永雏塔菲</span><span>生死狙击2</span><span>生死狙击2塔菲来袭</span></td>
-            <td class="likes low">0</td>
-            <td class="engagement">👍6 💬1 🔄0 ⭐4</td>
         </tr>
 <tr>
             <td class="title">玩家整活算啥？官方抽象起来才是降维打击！</td>
             <td class="tags"><span>明日方舟</span><span>永劫无间</span><span>鸣潮</span></td>
-            <td class="likes low">683</td>
+            <td class="likes low">719</td>
             <td class="engagement">👍5 💬0 🔄0 ⭐1</td>
         </tr>
 <tr>
             <td class="title">任天堂扔出核弹！星际火狐归来，老玩家直接泪目!</td>
             <td class="tags"><span>任天堂游戏</span><span>星际火狐</span><span>塞尔达传说</span></td>
-            <td class="likes low">686</td>
+            <td class="likes low">710</td>
             <td class="engagement">👍4 💬3 🔄2 ⭐2</td>
         </tr>
 <tr>
             <td class="title">一手好牌打得稀烂！盘点那些高开低走的游戏</td>
             <td class="tags"><span>天启行动</span><span>逆水寒</span><span>逆水寒手游</span></td>
-            <td class="likes low">1627</td>
+            <td class="likes low">1651</td>
             <td class="engagement">👍20 💬2 🔄1 ⭐8</td>
         </tr>
 <tr>
             <td class="title">三角洲把御窑镇馆之宝做成顶级大红！</td>
             <td class="tags"><span>三角洲行动</span><span>三角洲新大红岁岁鸭</span><span>三角洲联动御窑博物院</span></td>
-            <td class="likes low">631</td>
+            <td class="likes low">664</td>
             <td class="engagement">👍6 💬0 🔄0 ⭐6</td>
         </tr>
 <tr>
             <td class="title">拿玩家共创当挡箭牌？暗区福瑞时装翻车现场</td>
             <td class="tags"><span>暗区突围</span><span>魔方工作室</span><span>游戏杂谈</span></td>
-            <td class="likes low">1893</td>
-            <td class="engagement">👍37 💬3 🔄3 ⭐6</td>
+            <td class="likes low">2210</td>
+            <td class="engagement">👍41 💬3 🔄3 ⭐9</td>
         </tr>
 <tr>
             <td class="title">腾讯发布会杀疯了，彩六首测、黑旗中文、AI 队友齐上阵？！</td>
             <td class="tags"><span>腾讯游戏发布会2026</span><span>腾讯游戏</span><span>彩虹六号国服</span><span>刺客信条黑旗记忆重置</span></td>
-            <td class="likes low">342</td>
+            <td class="likes low">357</td>
             <td class="engagement">👍4 💬0 🔄0 ⭐2</td>
-        </tr>
-<tr>
-            <td class="title">DNF 手游二周年杀疯了！2 套天空白送，直接毕业？！</td>
-            <td class="tags"><span>DNF</span><span>dnf手游</span><span>dnf手游二周年庆</span></td>
-            <td class="likes low">0</td>
-            <td class="engagement">👍0 💬0 🔄0 ⭐1</td>
         </tr>
 <tr>
             <td class="title">一月双冠 + 败者组一穿四！孩神37 岁真抗日封神！</td>
             <td class="tags"><span>小孩曾卓君</span><span>EWC</span><span>街霸6</span></td>
             <td class="likes high">1.3万</td>
-            <td class="engagement">👍323 💬43 🔄4 ⭐12</td>
+            <td class="engagement">👍322 💬43 🔄4 ⭐12</td>
         </tr>
 <tr>
             <td class="title">豪掷7.5 万美金办 AI 大赛，猛兽派对这波口碑彻底翻车！</td>
             <td class="tags"><span>猛兽派对</span><span>steam游戏</span><span>猛兽派对ai视频创作大赛</span></td>
-            <td class="likes low">825</td>
+            <td class="likes low">838</td>
             <td class="engagement">👍14 💬0 🔄0 ⭐7</td>
         </tr>
 <tr>
             <td class="title">全程不甩锅直面错误，洛克王国这次道歉你会选择原谅回归吗？</td>
             <td class="tags"><span>洛克王国</span><span>洛克王国手游</span><span>洛克王国世界</span></td>
-            <td class="likes low">255</td>
+            <td class="likes low">285</td>
             <td class="engagement">👍4 💬0 🔄0 ⭐0</td>
         </tr>
 <tr>
             <td class="title">IGN 仅评 7 分遭打脸，深海迷航 2 销量热度双双爆火！</td>
             <td class="tags"><span>IGN</span><span>深海迷航2</span><span>steam游戏</span></td>
-            <td class="likes low">831</td>
+            <td class="likes low">838</td>
             <td class="engagement">👍16 💬1 🔄0 ⭐9</td>
         </tr>
 <tr>
             <td class="title">腾讯三箭齐发 VS 网易雪藏大作，《无限大》在憋什么？</td>
             <td class="tags"><span>网易游戏</span><span>无限大</span><span>好游推荐</span></td>
-            <td class="likes low">887</td>
+            <td class="likes low">903</td>
             <td class="engagement">👍13 💬0 🔄0 ⭐3</td>
         </tr>
 <tr>
             <td class="title">守望先锋十周年变 “杀猪盘”，一场内定福利寒了十年玩家心？！</td>
             <td class="tags"><span>守望先锋</span><span>守望先锋十周年</span><span>游戏杂谈</span></td>
-            <td class="likes low">1958</td>
+            <td class="likes low">1963</td>
             <td class="engagement">👍27 💬8 🔄14 ⭐0</td>
         </tr>
 <tr>
             <td class="title">异环又翻车？冲着女角色入坑，如今新增男性同居引不满？！</td>
             <td class="tags"><span>异环</span><span>异环公测</span><span>光速玩转异环</span></td>
-            <td class="likes mid">7885</td>
-            <td class="engagement">👍77 💬83 🔄25 ⭐10</td>
+            <td class="likes mid">8000</td>
+            <td class="engagement">👍78 💬82 🔄25 ⭐10</td>
         </tr>
 <tr>
             <td class="title">洛克王国世界获腾讯财报点名，比起隔壁火影，妥妥魔方亲爹！</td>
             <td class="tags"><span>洛克王国世界</span><span>火影忍者手游</span><span>魔方工作室</span></td>
-            <td class="likes low">499</td>
+            <td class="likes low">503</td>
             <td class="engagement">👍5 💬1 🔄1 ⭐0</td>
         </tr>
 <tr>
@@ -1641,37 +1964,37 @@ body {
 <tr>
             <td class="title">火影顶流跨界综艺！Coke 清奇脑回路直接控场！</td>
             <td class="tags"><span>coke</span><span>陈泽</span><span>ok了老铁们</span></td>
-            <td class="likes mid">8145</td>
+            <td class="likes mid">8581</td>
             <td class="engagement">👍12 💬1 🔄0 ⭐4</td>
         </tr>
 <tr>
             <td class="title">鸣潮抄袭风波致多方轮番下场对线，真相越扒越扑朔迷离！</td>
             <td class="tags"><span>鸣潮</span><span>音游</span><span>游戏杂谈</span></td>
-            <td class="likes low">757</td>
+            <td class="likes low">765</td>
             <td class="engagement">👍10 💬0 🔄0 ⭐2</td>
         </tr>
 <tr>
             <td class="title">Coke 离谱答题封神，红焖肉体积最小气疯陈泽、笑喷全场！</td>
             <td class="tags"><span>coke</span><span>陈泽</span><span>ok了老铁们</span></td>
-            <td class="likes low">528</td>
+            <td class="likes low">536</td>
             <td class="engagement">👍6 💬0 🔄0 ⭐2</td>
         </tr>
 <tr>
             <td class="title">新世纪难题出现！选Faker还是柳智敏？！</td>
             <td class="tags"><span>Faker</span><span>Faker柳智敏</span><span>LOL</span></td>
-            <td class="likes low">1072</td>
+            <td class="likes low">1073</td>
             <td class="engagement">👍9 💬0 🔄0 ⭐4</td>
         </tr>
 <tr>
             <td class="title">时隔 13 年终于等来 GTA6，PC 玩家太难了</td>
             <td class="tags"><span>GTA6</span><span>R星</span><span>steam游戏</span></td>
-            <td class="likes low">798</td>
-            <td class="engagement">👍11 💬0 🔄1 ⭐4</td>
+            <td class="likes low">799</td>
+            <td class="engagement">👍12 💬0 🔄1 ⭐5</td>
         </tr>
 <tr>
             <td class="title">盘点那些被运营拖垮的好游戏，属实太可惜！</td>
             <td class="tags"><span>守望先锋</span><span>黑色沙漠</span><span>游戏杂谈</span></td>
-            <td class="likes low">746</td>
+            <td class="likes low">786</td>
             <td class="engagement">👍7 💬0 🔄0 ⭐3</td>
         </tr>
 <tr>
@@ -1689,37 +2012,37 @@ body {
 <tr>
             <td class="title">星露谷要出出轨模式？种田游戏差点变成伦理模拟器？！</td>
             <td class="tags"><span>星露谷物语</span><span>星露谷物语mod</span><span>steam游戏</span></td>
-            <td class="likes low">1655</td>
+            <td class="likes low">1687</td>
             <td class="engagement">👍12 💬1 🔄3 ⭐3</td>
         </tr>
 <tr>
             <td class="title">末世废墟搬砖致富，随机地图 + 奇葩怪物，越玩越上头</td>
             <td class="tags"><span>repo</span><span>steam游戏</span><span>多人游戏</span><span>游戏推荐</span></td>
-            <td class="likes low">1220</td>
+            <td class="likes low">1223</td>
             <td class="engagement">👍17 💬0 🔄1 ⭐11</td>
         </tr>
 <tr>
             <td class="title">拿命拍灵异素材升级装备！这款联机恐怖新游太上头</td>
             <td class="tags"><span>contentwarning</span><span>内容警告</span><span>联机游戏</span><span>联机游戏恐怖游戏</span></td>
-            <td class="likes low">801</td>
+            <td class="likes low">815</td>
             <td class="engagement">👍10 💬1 🔄3 ⭐7</td>
         </tr>
 <tr>
             <td class="title">射击游戏卷出新高度！撤离肉鸽构筑三合一太上瘾</td>
             <td class="tags"><span>steam游戏</span><span>遥遥西土</span><span>联机游戏</span><span>游戏推荐</span></td>
-            <td class="likes low">1284</td>
+            <td class="likes low">1288</td>
             <td class="engagement">👍19 💬1 🔄4 ⭐11</td>
         </tr>
 <tr>
             <td class="title">满分神作续作！深海迷航2，这次不再孤身一人</td>
             <td class="tags"><span>深海迷航2</span><span>新游上线</span><span>steam游戏</span></td>
-            <td class="likes low">1134</td>
+            <td class="likes low">1136</td>
             <td class="engagement">👍7 💬1 🔄0 ⭐4</td>
         </tr>
 <tr>
             <td class="title">讽刺拉满！杀戮尖塔 2 从国服差评到全球翻车！</td>
             <td class="tags"><span>杀戮尖塔2</span><span>游戏杂谈</span><span>steam游戏</span><span>单机游戏</span></td>
-            <td class="likes low">1568</td>
+            <td class="likes low">1571</td>
             <td class="engagement">👍23 💬1 🔄3 ⭐2</td>
         </tr>
 <tr>
@@ -1737,13 +2060,13 @@ body {
 <tr>
             <td class="title">散爆硬刚腾讯网易！宣战射击赛道！</td>
             <td class="tags"><span>少女前线</span><span>新游上线</span><span>游戏圈大事件</span><span>少女前线十周年</span></td>
-            <td class="likes low">585</td>
-            <td class="engagement">👍5 💬0 🔄2 ⭐3</td>
+            <td class="likes low">602</td>
+            <td class="engagement">👍5 💬0 🔄2 ⭐4</td>
         </tr>
 <tr>
             <td class="title">限时白嫖！国产顶流魂 Like 入库 PS+，错过等一年</td>
             <td class="tags"><span>明末渊虚之羽</span><span>ps5</span><span>游戏福利</span></td>
-            <td class="likes low">1009</td>
+            <td class="likes low">1031</td>
             <td class="engagement">👍1 💬0 🔄0 ⭐0</td>
         </tr>
 <tr>
@@ -1755,14 +2078,14 @@ body {
 <tr>
             <td class="title">把歌单变格斗场，Dead as Disco 的自由度直接拉满</td>
             <td class="tags"><span>死亡迪斯科</span><span>deadasdisco</span><span>新游上线</span></td>
-            <td class="likes low">479</td>
+            <td class="likes low">480</td>
             <td class="engagement">👍5 💬0 🔄0 ⭐2</td>
         </tr>
 <tr>
             <td class="title">二游吉祥物两极分化！有人成电子家人，有人被全网嫌弃</td>
             <td class="tags"><span>异环</span><span>原神</span><span>派蒙</span><span>鸣潮</span></td>
             <td class="likes high">3.0万</td>
-            <td class="engagement">👍761 💬100 🔄36 ⭐106</td>
+            <td class="engagement">👍766 💬102 🔄37 ⭐106</td>
         </tr>
 <tr>
             <td class="title">90% 玩家都不知道的神级彩蛋，小岛秀夫颠覆游戏认知</td>
@@ -1773,55 +2096,55 @@ body {
 <tr>
             <td class="title">腾讯从 FPS 卷到 MOBA，卡莎直接开911GT3进峡谷</td>
             <td class="tags"><span>英雄联盟手游</span><span>英雄联盟手游保时捷联动</span><span>moba</span></td>
-            <td class="likes low">1038</td>
+            <td class="likes low">1050</td>
             <td class="engagement">👍8 💬0 🔄2 ⭐3</td>
         </tr>
 <tr>
             <td class="title">盘点那些开服翻车后期口碑直接逆袭的游戏——燕云十六声</td>
             <td class="tags"><span>燕云十六声</span><span>燕云十六声国产端游</span><span>好游推荐</span></td>
-            <td class="likes low">824</td>
+            <td class="likes low">825</td>
             <td class="engagement">👍10 💬1 🔄1 ⭐3</td>
         </tr>
 <tr>
             <td class="title">道歉信成新游标配？玩家要的从来不是客套话</td>
             <td class="tags"><span>王者荣耀世界</span><span>异环</span><span>鸣潮</span></td>
-            <td class="likes low">907</td>
+            <td class="likes low">911</td>
             <td class="engagement">👍14 💬0 🔄0 ⭐4</td>
         </tr>
 <tr>
             <td class="title">被骂崩盘后紧急救场！终末地 1.2 版本到底改了什么</td>
             <td class="tags"><span>终末地</span><span>终末地新版本</span><span>明日方舟终末地</span></td>
-            <td class="likes low">1620</td>
+            <td class="likes low">1621</td>
             <td class="engagement">👍25 💬6 🔄0 ⭐10</td>
         </tr>
 <tr>
             <td class="title">靠锐评玩梗爆火，如今被群嘲，神枪小子太真实</td>
             <td class="tags"><span>神枪小子</span><span>EDG</span><span>神枪哭了</span><span>瓦</span></td>
-            <td class="likes mid">4026</td>
-            <td class="engagement">👍34 💬9 🔄4 ⭐1</td>
+            <td class="likes mid">4441</td>
+            <td class="engagement">👍37 💬9 🔄8 ⭐1</td>
         </tr>
 <tr>
             <td class="title">从夯到拉：谁是竞拍之王最顶的主播？谁又是纯纯的冤种？</td>
             <td class="tags"><span>竞拍之王</span><span>谁是竞拍之王</span><span>steam游戏</span></td>
-            <td class="likes low">572</td>
+            <td class="likes low">574</td>
             <td class="engagement">👍5 💬0 🔄0 ⭐3</td>
         </tr>
 <tr>
             <td class="title">血赚！steam一折游戏上新！暗黑 4 本体 0 元白送！</td>
             <td class="tags"><span>steam</span><span>steam喜加一</span><span>steam游戏</span><span>暗黑4</span></td>
-            <td class="likes low">1218</td>
+            <td class="likes low">1219</td>
             <td class="engagement">👍13 💬1 🔄1 ⭐5</td>
         </tr>
 <tr>
             <td class="title">屠龙者终将成恶龙！无畏契约反炸鱼，才是低端局最大噩梦</td>
             <td class="tags"><span>无畏契约</span><span>无畏契约反炸鱼</span><span>无畏契约新赛季</span></td>
-            <td class="likes low">1881</td>
+            <td class="likes low">1889</td>
             <td class="engagement">👍20 💬2 🔄12 ⭐0</td>
         </tr>
 <tr>
             <td class="title">重生之我在洛克王国世界摆烂赚大钱</td>
             <td class="tags"><span>洛克王国</span><span>洛克王国世界</span><span>洛克创作激励计划</span></td>
-            <td class="likes low">988</td>
+            <td class="likes low">989</td>
             <td class="engagement">👍12 💬0 🔄0 ⭐5</td>
         </tr>
 <tr>
@@ -1833,13 +2156,13 @@ body {
 <tr>
             <td class="title">电竞圈ctbz实锤：KPL 官方致歉，选手手势引众怒</td>
             <td class="tags"><span>kpl</span><span>kpl挑战者杯</span><span>kpl挑战者杯定妆照</span></td>
-            <td class="likes mid">3784</td>
+            <td class="likes mid">3790</td>
             <td class="engagement">👍30 💬0 🔄5 ⭐2</td>
         </tr>
 <tr>
             <td class="title">王者最新功能：东皇一键踢全服下线，官方连夜把英雄屏蔽了</td>
             <td class="tags"><span>王者荣耀</span><span>王者bug</span><span>东皇太一</span></td>
-            <td class="likes mid">3273</td>
+            <td class="likes mid">3278</td>
             <td class="engagement">👍39 💬3 🔄1 ⭐12</td>
         </tr>
 <tr>
@@ -1851,13 +2174,13 @@ body {
 <tr>
             <td class="title">看懂六大异能内核，才算真正玩明白异环</td>
             <td class="tags"><span>异环</span><span>异环手游</span><span>异环公测</span></td>
-            <td class="likes low">544</td>
+            <td class="likes low">546</td>
             <td class="engagement">👍10 💬0 🔄0 ⭐3</td>
         </tr>
 <tr>
             <td class="title">重生之我在星露谷玩搜打撤</td>
             <td class="tags"><span>星露谷物语</span><span>星露谷物语mod</span><span>搜打撤</span></td>
-            <td class="likes low">1279</td>
+            <td class="likes low">1294</td>
             <td class="engagement">👍12 💬0 🔄2 ⭐8</td>
         </tr>
 <tr>
@@ -1875,31 +2198,31 @@ body {
 <tr>
             <td class="title">一眼沦陷的蛇系天才，希希芙的角色塑造也太绝了</td>
             <td class="tags"><span>绝区零</span><span>希希芙</span><span>绝区零希希芙</span></td>
-            <td class="likes low">2616</td>
-            <td class="engagement">👍62 💬4 🔄5 ⭐33</td>
+            <td class="likes low">2673</td>
+            <td class="engagement">👍64 💬4 🔄5 ⭐32</td>
         </tr>
 <tr>
             <td class="title">那些让人看了就想入坑的角色，绯雪直接杀疯了</td>
             <td class="tags"><span>鸣潮</span><span>绯雪</span><span>鸣潮绯雪</span></td>
-            <td class="likes low">1231</td>
+            <td class="likes low">1233</td>
             <td class="engagement">👍21 💬5 🔄0 ⭐9</td>
         </tr>
 <tr>
             <td class="title">全网都在等的戴安娜终于来了！4.17 上线玩法超有趣</td>
             <td class="tags"><span>卡普空</span><span>识质存在</span><span>新游推荐</span><span>戴安娜</span></td>
-            <td class="likes low">1431</td>
+            <td class="likes low">1439</td>
             <td class="engagement">👍9 💬0 🔄2 ⭐3</td>
         </tr>
 <tr>
             <td class="title">拒绝歧视！第五选手Pit用实力封嘴，这才是电竞精神！</td>
             <td class="tags"><span>第五人格</span><span>第五人格深渊</span><span>omni</span><span>第五人格赛事</span></td>
-            <td class="likes low">2768</td>
+            <td class="likes low">2773</td>
             <td class="engagement">👍48 💬6 🔄2 ⭐8</td>
         </tr>
 <tr>
             <td class="title">最抽象联机游戏！6 个小地精偷家，死法比整活还离谱</td>
             <td class="tags"><span>多人游戏</span><span>steam游戏</span><span>steam喜加一</span><span>免费游戏</span></td>
-            <td class="likes low">2046</td>
+            <td class="likes low">2047</td>
             <td class="engagement">👍35 💬1 🔄4 ⭐18</td>
         </tr>
 <tr>
@@ -1917,31 +2240,31 @@ body {
 <tr>
             <td class="title">红色沙漠翻盘！玩法多到玩不过来！</td>
             <td class="tags"><span>红色沙漠</span><span>红色沙漠风景</span><span>动作冒险</span><span>开放世界</span></td>
-            <td class="likes low">1027</td>
+            <td class="likes low">1031</td>
             <td class="engagement">👍7 💬1 🔄0 ⭐1</td>
         </tr>
 <tr>
             <td class="title">Epic裁员千人要断奶？虚惊一场依旧享有白嫖福利</td>
             <td class="tags"><span>epic</span><span>epic喜加一</span><span>steam</span></td>
-            <td class="likes low">975</td>
+            <td class="likes low">976</td>
             <td class="engagement">👍13 💬0 🔄0 ⭐4</td>
         </tr>
 <tr>
             <td class="title">爽玩2026第一友尽小游戏</td>
             <td class="tags"><span>捣蛋蛙</span><span>休闲小游戏</span><span>双人游戏</span></td>
-            <td class="likes low">2283</td>
+            <td class="likes low">2289</td>
             <td class="engagement">👍18 💬1 🔄5 ⭐10</td>
         </tr>
 <tr>
             <td class="title">洛克王国精灵竟和大博主撞脸？！</td>
             <td class="tags"><span>洛克王国</span><span>洛克王国世界</span><span>洛克创作激励计划</span></td>
-            <td class="likes low">2464</td>
+            <td class="likes low">2467</td>
             <td class="engagement">👍32 💬1 🔄11 ⭐12</td>
         </tr>
 <tr>
             <td class="title">被 ELO 制裁到破防，律师玩家告腾讯，结果还是驳回</td>
             <td class="tags"><span>王者</span><span>王者荣耀</span><span>王者荣耀排位机制</span></td>
-            <td class="likes low">841</td>
+            <td class="likes low">843</td>
             <td class="engagement">👍11 💬2 🔄0 ⭐3</td>
         </tr>
 <tr>
@@ -1959,7 +2282,7 @@ body {
 <tr>
             <td class="title">聊聊三角洲行动游戏环境</td>
             <td class="tags"><span>三角洲行动</span><span>三角洲行动手游</span><span>三角洲新赛季</span><span>三角洲s8蝶变时刻新赛季</span></td>
-            <td class="likes low">1055</td>
+            <td class="likes low">1056</td>
             <td class="engagement">👍9 💬2 🔄3 ⭐11</td>
         </tr>
 <tr>
@@ -1971,7 +2294,7 @@ body {
 <tr>
             <td class="title">千冶·刃定位与卡池前瞻：火系输出，4.3上半UP预定？</td>
             <td class="tags"><span>崩坏星穹铁道</span><span>崩铁</span><span>崩坏星穹铁道创作者激励计划</span></td>
-            <td class="likes low">543</td>
+            <td class="likes low">544</td>
             <td class="engagement">👍5 💬0 🔄0 ⭐2</td>
         </tr>
 <tr>
@@ -1983,13 +2306,13 @@ body {
 <tr>
             <td class="title">都是腾讯的 “世界” 游戏，王者和洛克差别居然这么大！</td>
             <td class="tags"><span>洛克王国世界</span><span>王者荣耀世界</span><span>洛克创作激励计划</span></td>
-            <td class="likes low">764</td>
+            <td class="likes low">767</td>
             <td class="engagement">👍7 💬1 🔄0 ⭐3</td>
         </tr>
 <tr>
             <td class="title">国区运营都被裁了！没有免费游戏白嫖了</td>
             <td class="tags"><span>epic</span><span>epic裁员</span><span>epic喜加一</span></td>
-            <td class="likes low">876</td>
+            <td class="likes low">877</td>
             <td class="engagement">👍7 💬2 🔄0 ⭐4</td>
         </tr>
 <tr>
@@ -2001,7 +2324,7 @@ body {
 <tr>
             <td class="title">同为洛克玩家，别人卷天梯，另类玩家却在玩点不一样的</td>
             <td class="tags"><span>洛克王国世界</span><span>洛克创作激励计划</span><span>游戏</span></td>
-            <td class="likes low">874</td>
+            <td class="likes low">875</td>
             <td class="engagement">👍11 💬0 🔄0 ⭐3</td>
         </tr>
 <tr>
@@ -2043,7 +2366,7 @@ body {
 <tr>
             <td class="title">泪痣御姐绯雪！这一刀下去！谁的DNA动了！</td>
             <td class="tags"><span>鸣潮</span><span>鸣潮绯雪达妮娅实机演示</span><span>鸣潮绯雪</span></td>
-            <td class="likes low">847</td>
+            <td class="likes low">848</td>
             <td class="engagement">👍6 💬0 🔄0 ⭐1</td>
         </tr>
 <tr>
@@ -2055,7 +2378,7 @@ body {
 <tr>
             <td class="title">归环新PV炸了！时间循环+骰子战斗，这开放世界有点东西！</td>
             <td class="tags"><span>归环</span><span>归环一周目测试</span><span>游戏</span></td>
-            <td class="likes low">748</td>
+            <td class="likes low">749</td>
             <td class="engagement">👍3 💬1 🔄2 ⭐3</td>
         </tr>
 <tr>
@@ -2075,16 +2398,16 @@ body {
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">📊</span> 内容品类分布</div>
-    <div class="dist-bar"><div style="width:35%;background:#a78bfa;">steam游 35%</div><div style="width:19%;background:#f472b6;">游戏杂谈 19%</div><div style="width:16%;background:#fb923c;">洛克王国世界 16%</div><div style="width:16%;background:#22c55e;">游戏 16%</div><div style="width:14%;background:#06b6d4;">鸣潮 14%</div></div><div class="legend"><span><span class="dot" style="background:#a78bfa;"></span>steam游戏（15条）</span><span><span class="dot" style="background:#f472b6;"></span>游戏杂谈（8条）</span><span><span class="dot" style="background:#fb923c;"></span>洛克王国世界（7条）</span><span><span class="dot" style="background:#22c55e;"></span>游戏（7条）</span><span><span class="dot" style="background:#06b6d4;"></span>鸣潮（6条）</span></div>
+    <div class="dist-bar"><div style="width:31%;background:#a78bfa;">steam游 31%</div><div style="width:25%;background:#f472b6;">游戏杂谈 25%</div><div style="width:17%;background:#fb923c;">洛克王国世界 17%</div><div style="width:15%;background:#22c55e;">游戏 15%</div><div style="width:12%;background:#06b6d4;">鸣潮 12%</div></div><div class="legend"><span><span class="dot" style="background:#a78bfa;"></span>steam游戏（15条）</span><span><span class="dot" style="background:#f472b6;"></span>游戏杂谈（12条）</span><span><span class="dot" style="background:#fb923c;"></span>洛克王国世界（8条）</span><span><span class="dot" style="background:#22c55e;"></span>游戏（7条）</span><span><span class="dot" style="background:#06b6d4;"></span>鸣潮（6条）</span></div>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">⭐</span> 综合评分</div>
     <div class="score-section">
         <div class="score-card"><div class="score-value score-green">100</div><div class="score-label">更新频率</div></div>
         <div class="score-card"><div class="score-value score-green">100</div><div class="score-label">热点覆盖</div></div>
-        <div class="score-card"><div class="score-value score-red">25</div><div class="score-label">完播表现</div></div>
-        <div class="score-card"><div class="score-value score-red">31</div><div class="score-label">互动数据</div></div>
-        <div class="score-card"><div class="score-value score-red">30</div><div class="score-label">传播力</div></div>
+        <div class="score-card"><div class="score-value score-red">24</div><div class="score-label">完播表现</div></div>
+        <div class="score-card"><div class="score-value score-red">32</div><div class="score-label">互动数据</div></div>
+        <div class="score-card"><div class="score-value score-red">31</div><div class="score-label">传播力</div></div>
         <div class="score-card"><div class="score-value score-red">57</div><div class="score-label">综合</div></div>
     </div>
 </div>
@@ -2092,733 +2415,25 @@ body {
     <div class="section-title"><span class="icon">🔍</span> 深度分析</div>
     <div class="analysis-grid"><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">🔥</div><div class="card-title">最佳表现视频</div></div>
-        <div class="card-body">「二游吉祥物两极分化！有人成电子家人，有人被全网嫌弃」获得 <strong>3.0万</strong> 播放，点赞 <strong>761</strong>，评论 <strong>100</strong>，分享 <strong>36</strong>。完播率 <strong>18.2%</strong>，是本周期表现最好的内容。</div>
+        <div class="card-body">「二游吉祥物两极分化！有人成电子家人，有人被全网嫌弃」获得 <strong>3.0万</strong> 播放，点赞 <strong>766</strong>，评论 <strong>102</strong>，分享 <strong>37</strong>。完播率 <strong>18.2%</strong>，是本周期表现最好的内容。</div>
         <div class="highlight good">💡 分析这条视频的成功要素（选题、标题、发布时间），在后续内容中复制。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(239,68,68,0.15);">📉</div><div class="card-title">最差表现视频</div></div>
-        <div class="card-body">「追击塔菲喵，FPS 离谱联动？！」仅获得 <strong>0</strong> 播放，2s跳出率 <strong>54.2%</strong>。需要分析是否为选题冷门、标题不吸引人或发布时间不当。</div>
+        <div class="card-body">「桃晚安会二次回应粉丝的期待吗？」仅获得 <strong>189</strong> 播放，2s跳出率 <strong>72.8%</strong>。需要分析是否为选题冷门、标题不吸引人或发布时间不当。</div>
         <div class="highlight bad">🔴 低播放意味着内容未能进入推荐池，需复盘原因。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(167,139,250,0.15);">📊</div><div class="card-title">完播率分析 · 较差</div></div>
-        <div class="card-body">平均完播率 <strong>5.1%</strong>，严重偏低。5s留存 <strong>5.1%</strong>，2s跳出率 <strong>49.3%</strong>。观众在前几秒就大量流失，需要重点优化开场钩子和视频前5秒的内容吸引力。</div>
+        <div class="card-body">平均完播率 <strong>5.0%</strong>，严重偏低。5s留存 <strong>5.0%</strong>，2s跳出率 <strong>48.2%</strong>。观众在前几秒就大量流失，需要重点优化开场钩子和视频前5秒的内容吸引力。</div>
         <div class="highlight bad">🔴 完播率是算法推荐的核心指标，直接影响后续流量分配。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">💬</div><div class="card-title">互动数据</div></div>
-        <div class="card-body">本周期共 <strong>94</strong> 条视频，总播放 <strong>17.6万</strong>。<br>
-        点赞率 <strong>1.47%</strong> · 评论率 <strong>0.18%</strong> · 分享率 <strong>0.12%</strong> · 收藏率 <strong>0.35%</strong><br>
-        粉丝增量：<strong>36</strong></div>
+        <div class="card-body">本周期共 <strong>98</strong> 条视频，总播放 <strong>21.2万</strong>。<br>
+        点赞率 <strong>1.47%</strong> · 评论率 <strong>0.20%</strong> · 分享率 <strong>0.14%</strong> · 收藏率 <strong>0.34%</strong><br>
+        粉丝增量：<strong>50</strong></div>
         <div class="highlight good">💡 点赞和评论是核心互动指标，分享和收藏是扩散指标。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(234,179,8,0.15);">🎯</div><div class="card-title">内容品类分布</div></div>
-        <div class="card-body">高频话题：steam游戏(15)、游戏杂谈(8)、洛克王国世界(7)、游戏(7)、鸣潮(6)。覆盖 <strong>200</strong> 个不同话题标签。<br>
-        建议聚焦<strong>3-5个核心品类</strong>，避免品类过于分散导致账号标签模糊。</div>
-        <div class="highlight warn">⚠️ 品类过多会稀释账号标签，影响算法对目标人群的精准推荐。</div>
-    </div><div class="analysis-card">
-        <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">⏱️</div><div class="card-title">播放时长分析</div></div>
-        <div class="card-body">平均播放时长 <strong>7.4秒</strong>。结合完播率来看，观众可能在10秒后就流失了。<br>
-        建议控制视频时长在<strong>30-90秒</strong>之间，前5秒必须有强力钩子。</div>
-        <div class="highlight good">💡 短视频时代，前5秒决定60%的去留。</div>
-    </div></div>
-</div>
-<div class="section">
-    <div class="section-title"><span class="icon">🚀</span> 优化建议</div>
-    <ul class="opt-list"><li><div class="priority p0">P0</div><div class="opt-content"><h3>🎯 优化前5秒开场钩子</h3><p>2s跳出率高达 <strong>49.3%</strong>，说明大量观众在前2秒就划走了。建议：①开场3秒内给出核心信息或悬念 ②使用情绪化的开场白 ③避免冗长的前奏和自我介绍。</p><div class="action">→ 每条视频准备至少2个开场方案，A/B测试选择跳出率最低的</div></div></li>
-<li><div class="priority p0">P0</div><div class="opt-content"><h3>📈 提升完播率</h3><p>平均完播率仅 <strong>5.1%</strong>，严重影响算法推荐。建议：①视频控制在60秒内 ②每15秒设置一个小高潮 ③结尾加入互动引导（"你怎么看？"）</p><div class="action">→ 目标完播率提升至15%以上</div></div></li>
-<li><div class="priority p0">P0</div><div class="opt-content"><h3>💡 复制最佳视频的成功模式</h3><p>「二游吉祥物两极分化！有人成电子家人，有人被全网嫌弃」获得 3.0万 播放，远超平均水平。分析这条视频的选题角度、标题措辞、发布时间和内容结构，提炼可复制的爆款公式。</p><div class="action">→ 本周复盘最佳视频的全部指标，总结成功要素</div></div></li>
-<li><div class="priority p1">P1</div><div class="opt-content"><h3>📌 聚焦核心品类</h3><p>当前覆盖 <strong>200</strong> 个不同话题，品类过于分散。建议聚焦3-5个核心游戏/IP，建立"想看XX就来这里"的用户心智。</p><div class="action">→ 每周选题控制在3个核心品类内</div></div></li>
-<li><div class="priority p2">P2</div><div class="opt-content"><h3>⏰ 发布时间优化</h3><p>建议固定在 <strong>12:00-13:00 或 20:00-22:00</strong> 发布，并连续2周测试记录数据。建立粉丝的观看预期。</p><div class="action">→ 固定发布时间，建立粉丝预期</div></div></li>
-</ul>
-</div>
-<div class="section">
-    <div class="section-title"><span class="icon">📋</span> 总结</div>
-    <div class="summary-card"><div class="card-body">
-        <strong style="color:#a78bfa;">阿密说游戏</strong> 本周期共发布 <strong>94</strong> 条视频，总播放 <strong>17.6万</strong>，平均播放 <strong>1876</strong>。<br><br>
-        最佳表现：「二游吉祥物两极分化！有人成电子家人，有人被全网嫌弃」— <strong style="color:#22c55e;">3.0万播放</strong><br>
-        平均完播率 <strong>5.1%</strong>，5s留存 <strong>5.1%</strong>，2s跳出率 <strong>49.3%</strong><br><br>
-        <strong style="color:#22c55e;">核心方向：优化完播率 + 复制爆款模式 + 增强互动引导。</strong>
-    </div></div>
-</div>
-</div>
-
-<!-- ===================== 哈吉米说游戏 ===================== -->
-<div id="panel-hajimi" class="account-panel">
-<div class="account-card">
-    <div class="name"><span>🐱 哈吉米说游戏</span></div>
-    <div class="douyin-id">抖音号：ming99888899</div>
-    <div class="extra-info">IP属地：广东 · 分析周期：2026-03-23 — 2026-06-07 · 本周期发布100条视频</div>
-    <div class="stat-item"><div class="value">14.0万</div><div class="label">粉丝数</div></div>
-    <div class="stat-item"><div class="value">28.5万</div><div class="label">总播放量</div></div>
-    <div class="stat-item"><div class="value">2846</div><div class="label">平均播放</div></div>
-    <div class="stat-item"><div class="value">13.9万</div><div class="label">最高播放</div></div>
-</div>
-<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:0 0 24px 0;">
-    <div class="summary-card" style="text-align:center;padding:14px 8px;border-left:3px solid #22c55e;">
-        <div style="font-size:20px;font-weight:800;color:#22c55e;">0</div>
-        <div style="font-size:11px;color:#888;">15万+ 达标</div>
-    </div>
-    <div class="summary-card" style="text-align:center;padding:14px 8px;border-left:3px solid #60a5fa;">
-        <div style="font-size:20px;font-weight:800;color:#60a5fa;">1</div>
-        <div style="font-size:11px;color:#888;">10-15万</div>
-    </div>
-    <div class="summary-card" style="text-align:center;padding:14px 8px;border-left:3px solid #eab308;">
-        <div style="font-size:20px;font-weight:800;color:#eab308;">0</div>
-        <div style="font-size:11px;color:#888;">5-10万</div>
-    </div>
-    <div class="summary-card" style="text-align:center;padding:14px 8px;border-left:3px solid #a78bfa;">
-        <div style="font-size:20px;font-weight:800;color:#a78bfa;">1</div>
-        <div style="font-size:11px;color:#888;">5万+ 合计</div>
-    </div>
-</div>
-<div class="section">
-    <div class="section-title"><span class="icon">📈</span> 播放量趋势</div>
-    <div id="chart-hajimi" style="width:100%;height:320px;"></div>
-</div>
-
-<div class="section">
-    <div class="section-title"><span class="icon">📹</span> 近期发布视频（按播放量排序）</div>
-    <table class="video-table">
-        <thead><tr><th>视频标题</th><th>涉及内容</th><th>播放量</th><th>互动数据</th></tr></thead>
-        <tbody><tr>
-            <td class="title">别人等放假，电竞人天天熬夜追比赛！</td>
-            <td class="tags"><span>科隆major</span><span>世界杯</span><span>kpl夏季赛</span></td>
-            <td class="likes low">80</td>
-            <td class="engagement">👍1 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">全星铁第一人！刃涅槃变身千冶刃？！</td>
-            <td class="tags"><span>千冶刃</span><span>崩坏星穹铁道</span><span>千冶成刃</span></td>
-            <td class="likes low">130</td>
-            <td class="engagement">👍1 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">先下饭再封神，Jee 算不算天禄的双刃剑？</td>
-            <td class="tags"><span>Jee</span><span>科隆major</span><span>天禄</span></td>
-            <td class="likes low">512</td>
-            <td class="engagement">👍3 💬0 🔄1 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">Bin哥依旧钢背，全程黑脸，无视粉丝拒击掌？！</td>
-            <td class="tags"><span>Bin</span><span>blg</span><span>lpl</span></td>
-            <td class="likes mid">5193</td>
-            <td class="engagement">👍10 💬0 🔄7 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">外挂住进反作弊白名单，FPS 正式进入吸附乱世！？</td>
-            <td class="tags"><span>三角洲行动</span><span>三角洲吸附</span><span>obs吸附</span></td>
-            <td class="likes low">524</td>
-            <td class="engagement">👍4 💬0 🔄0 ⭐2</td>
-        </tr>
-<tr>
-            <td class="title">pero26坐在直播间，目送没有自己的战队捧起冠军奖杯</td>
-            <td class="tags"><span>pero</span><span>pero吃鸡</span><span>pubg夯爆了</span></td>
-            <td class="likes low">724</td>
-            <td class="engagement">👍4 💬1 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">从倒数第一到掀翻银河战舰，WE 这波以下克上燃炸！</td>
-            <td class="tags"><span>WE</span><span>BLG</span><span>2026LPL</span></td>
-            <td class="likes low">1411</td>
-            <td class="engagement">👍10 💬3 🔄1 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">从判死刑到五棵松满座！三角洲 79 天救活搜打撤电竞！</td>
-            <td class="tags"><span>三角洲行动</span><span>搜打撤</span><span>搜打撤游戏</span><span>游戏杂谈</span></td>
-            <td class="likes low">257</td>
-            <td class="engagement">👍3 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">三冲 Major 皆遗憾，蛋神没拿到贴纸，却火了一首战歌！</td>
-            <td class="tags"><span>dank1ng</span><span>dank1ng名场面</span><span>Falcons</span></td>
-            <td class="likes low">404</td>
-            <td class="engagement">👍5 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">Faker 领衔六冠班底！中国队缺席传闻疯传，到底派不派？</td>
-            <td class="tags"><span>Faker</span><span>T1</span><span>LPL</span></td>
-            <td class="likes low">2780</td>
-            <td class="engagement">👍5 💬7 🔄1 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">从世界冠军到次级联赛，Simon 的跌落太让人唏嘘！</td>
-            <td class="tags"><span>Simon</span><span>无畏契约</span><span>EDG</span></td>
-            <td class="likes low">664</td>
-            <td class="engagement">👍5 💬1 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">EWC 取消直通又怎样？小孩用冠军硬拿双门票！</td>
-            <td class="tags"><span>小孩曾卓君</span><span>街霸6</span><span>EWC</span></td>
-            <td class="likes low">319</td>
-            <td class="engagement">👍3 💬0 🔄0 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">从1-3到5-3！KPL史诗级逆转，狼队终结 AG 王朝！</td>
-            <td class="tags"><span>KPL</span><span>重庆狼队</span><span>2026王者荣耀挑战者杯</span></td>
-            <td class="likes low">262</td>
-            <td class="engagement">👍1 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">NiKo 决赛又拉胯！背身空枪改写战局</td>
-            <td class="tags"><span>Falcons</span><span>csgo</span><span>Niko</span></td>
-            <td class="likes low">2873</td>
-            <td class="engagement">👍13 💬0 🔄2 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">电竞圈颜值内卷拉满！现在观赛技术颜值双双拿捏？！</td>
-            <td class="tags"><span>KPL</span><span>永劫无间</span><span>无畏契约</span><span>LPL</span></td>
-            <td class="likes low">256</td>
-            <td class="engagement">👍4 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">专属电竞出圈 BGM，旋律一响瞬间梦回名场面！</td>
-            <td class="tags"><span>梦泪</span><span>康康</span><span>KPL</span></td>
-            <td class="likes low">195</td>
-            <td class="engagement">👍6 💬0 🔄0 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">从任性翻车到主动自律，桃黑黑这番转变你如何看待？</td>
-            <td class="tags"><span>桃黑黑</span><span>桃黑黑王者文明欢乐节</span><span>王者荣耀</span></td>
-            <td class="likes low">184</td>
-            <td class="engagement">👍2 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">武将杯最大对手竟是括约肌，林树赛前直接惨遭炸肛？！</td>
-            <td class="tags"><span>林树</span><span>林树三角洲行动</span><span>三角洲行动</span></td>
-            <td class="likes mid">3351</td>
-            <td class="engagement">👍38 💬1 🔄4 ⭐2</td>
-        </tr>
-<tr>
-            <td class="title">零剧本纯天然抽象，coke这脑回路正常人根本想不到！</td>
-            <td class="tags"><span>coke</span><span>陈泽</span><span>ok了老铁们</span></td>
-            <td class="likes mid">6817</td>
-            <td class="engagement">👍127 💬0 🔄3 ⭐4</td>
-        </tr>
-<tr>
-            <td class="title">格斗之神横扫全球，居然忘了赛事报名？！</td>
-            <td class="tags"><span>拳皇</span><span>曾卓君</span><span>小孩</span><span>格斗游戏</span></td>
-            <td class="likes low">1860</td>
-            <td class="engagement">👍28 💬0 🔄0 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">弃我者必败！Taeyoon一战封神，复仇剧本拉满！</td>
-            <td class="tags"><span>Taeyoon</span><span>LOL</span><span>BFX战胜NS</span><span>LCK</span></td>
-            <td class="likes low">1345</td>
-            <td class="engagement">👍21 💬0 🔄0 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">一封 AI 假举报信，差点带崩整个 LPL 电竞圈！？</td>
-            <td class="tags"><span>LPL</span><span>LOL</span><span>游戏杂谈</span></td>
-            <td class="likes low">352</td>
-            <td class="engagement">👍4 💬1 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">地平线 6、深海迷航 2 扎堆偷跑，厂商保密形同虚设？！</td>
-            <td class="tags"><span>深海迷航2</span><span>地平线6</span><span>steam游戏</span></td>
-            <td class="likes low">142</td>
-            <td class="engagement">👍2 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">Faker 和柳智敏完整广告终于出炉，全程绷不住笑疯了！</td>
-            <td class="tags"><span>Faker</span><span>柳智敏</span><span>T1</span><span>LPL</span></td>
-            <td class="likes low">2095</td>
-            <td class="engagement">👍43 💬1 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">欠选手七位数不还，RNG 转头祝福 IG刷存在感？！</td>
-            <td class="tags"><span>RNG</span><span>LPL</span><span>IG</span></td>
-            <td class="likes mid">3339</td>
-            <td class="engagement">👍20 💬1 🔄5 ⭐2</td>
-        </tr>
-<tr>
-            <td class="title">玩家撕碎官方悲情结局，逆水寒上演真正的全员逆天改命</td>
-            <td class="tags"><span>逆水寒手游</span><span>逆水寒魔主归来</span><span>碧血营大捷</span></td>
-            <td class="likes low">407</td>
-            <td class="engagement">👍3 💬1 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">KPL 九支王朝战队封神史，每一座奖杯都是血泪铺垫</td>
-            <td class="tags"><span>KPL</span><span>ksg</span><span>kpl狼队</span></td>
-            <td class="likes low">513</td>
-            <td class="engagement">👍10 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">低谷重建再登顶！EDG九冠功勋全员在线！</td>
-            <td class="tags"><span>EDG</span><span>edg夺冠</span><span>无畏契约</span></td>
-            <td class="likes low">1427</td>
-            <td class="engagement">👍47 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">时隔一年终于释怀！团子北京站哽咽祝福S1Mon</td>
-            <td class="tags"><span>S1Mon</span><span>EDG</span><span>无畏契约</span></td>
-            <td class="likes high">13.9万</td>
-            <td class="engagement">👍1363 💬66 🔄94 ⭐62</td>
-        </tr>
-<tr>
-            <td class="title">早点恩怨复刻！去年劝他退役，今年坐他旁边解说</td>
-            <td class="tags"><span>早点</span><span>猪哼</span><span>kpl挑战杯</span></td>
-            <td class="likes low">377</td>
-            <td class="engagement">👍4 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">电竞圈饭圈双炸！Faker 表白 aespa 柳智敏</td>
-            <td class="tags"><span>Faker</span><span>柳智敏</span><span>LOL</span></td>
-            <td class="likes mid">3070</td>
-            <td class="engagement">👍33 💬0 🔄4 ⭐2</td>
-        </tr>
-<tr>
-            <td class="title">付出所有应援，最后只剩失望，电竞饭圈该醒醒了</td>
-            <td class="tags"><span>一笙</span><span>ksg一笙</span><span>KPL</span><span>一笙私联</span></td>
-            <td class="likes low">1836</td>
-            <td class="engagement">👍29 💬2 🔄2 ⭐2</td>
-        </tr>
-<tr>
-            <td class="title">盘点 Dank1ng 传世名梗，老 CS 玩家都懂</td>
-            <td class="tags"><span>dank1ng</span><span>cs2</span><span>dank1ng名场面</span></td>
-            <td class="likes high">2.6万</td>
-            <td class="engagement">👍197 💬3 🔄16 ⭐3</td>
-        </tr>
-<tr>
-            <td class="title">4 比 0 横扫狼队！第九支冠军战队，流浪熬出属于自己的时代</td>
-            <td class="tags"><span>流浪</span><span>KPL</span><span>流浪FMVP</span><span>KSG4比0狼队</span></td>
-            <td class="likes low">1537</td>
-            <td class="engagement">👍32 💬0 🔄0 ⭐3</td>
-        </tr>
-<tr>
-            <td class="title">CN瓦双零封，第一之争燃炸！</td>
-            <td class="tags"><span>xlg</span><span>edg</span><span>无畏契约</span></td>
-            <td class="likes mid">8971</td>
-            <td class="engagement">👍33 💬2 🔄5 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">Dead as Disco 卡点暴打，蹦迪格斗！快乐翻倍</td>
-            <td class="tags"><span>死亡迪斯科</span><span>deadasdisco</span><span>新游推荐</span></td>
-            <td class="likes low">180</td>
-            <td class="engagement">👍3 💬0 🔄3 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">千寺狐：一位中国玩家，留在夜之城的最后浪漫</td>
-            <td class="tags"><span>赛博朋克2077</span><span>千寺狐</span><span>游戏彩蛋</span></td>
-            <td class="likes low">390</td>
-            <td class="engagement">👍4 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">游戏指引让往东偏要往西！叛逆玩家，专治各种游戏旁白</td>
-            <td class="tags"><span>艾希</span><span>史丹利的寓言</span><span>传说之下</span><span>游戏彩蛋</span></td>
-            <td class="likes low">2207</td>
-            <td class="engagement">👍39 💬1 🔄4 ⭐18</td>
-        </tr>
-<tr>
-            <td class="title">三大顶级电竞狠话！每一句嚣张，最后都用实力完美兑现</td>
-            <td class="tags"><span>LPL</span><span>CS2</span><span>Donk</span><span>Bin</span></td>
-            <td class="likes low">384</td>
-            <td class="engagement">👍3 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">亚运金牌只是开始，花花凭一己之力，书写 PEL 全新传奇</td>
-            <td class="tags"><span>AG春季赛总冠军</span><span>AG花花</span><span>成都AG</span></td>
-            <td class="likes mid">3231</td>
-            <td class="engagement">👍96 💬1 🔄3 ⭐5</td>
-        </tr>
-<tr>
-            <td class="title">一场意外黑屏bug，铸就赛博朋克最经典的沉浸式名场面</td>
-            <td class="tags"><span>赛博朋克2077</span><span>游戏bug</span><span>游戏精彩时刻</span></td>
-            <td class="likes low">962</td>
-            <td class="engagement">👍7 💬0 🔄3 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">昔日赛场战神褪去队服，FPS 选手的后职业人生，太真实了</td>
-            <td class="tags"><span>fps</span><span>伟神</span><span>茄子</span><span>电竞日常</span></td>
-            <td class="likes low">241</td>
-            <td class="engagement">👍2 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">沙特壕掷 7500 万，把电竞世界杯焊死在全球顶流</td>
-            <td class="tags"><span>沙特电竞世界杯</span><span>电竞世界杯</span><span>沙特杯</span></td>
-            <td class="likes low">644</td>
-            <td class="engagement">👍3 💬0 🔄0 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">从三连冠到续约 2029，Keria 的赛场统治力有多恐怖？</td>
-            <td class="tags"><span>T1官宣Keria续约</span><span>Keria续约T1三年</span><span>Keria</span></td>
-            <td class="likes low">221</td>
-            <td class="engagement">👍1 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">万字长文控诉→深夜反转，rookie这瓜比电视剧离谱</td>
-            <td class="tags"><span>rookie</span><span>rookie小钰</span><span>LPL</span></td>
-            <td class="likes low">612</td>
-            <td class="engagement">👍4 💬0 🔄0 ⭐2</td>
-        </tr>
-<tr>
-            <td class="title">偷暖阳签名、割粉丝韭菜，被 Hero 打穿，宗师这波太讽刺</td>
-            <td class="tags"><span>宗师</span><span>等我刷把宗师</span><span>2026王者荣耀挑战者杯</span><span>KPL</span></td>
-            <td class="likes low">693</td>
-            <td class="engagement">👍16 💬0 🔄1 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">竞拍之王主播操作盘点，谁夯谁拉一目了然！</td>
-            <td class="tags"><span>竞拍之王</span><span>谁是竞拍之王</span><span>steam游戏</span></td>
-            <td class="likes low">139</td>
-            <td class="engagement">👍1 💬1 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">Faker 主场三连翻，复刻 S5 经典名场面！</td>
-            <td class="tags"><span>Faker</span><span>lol</span><span>T1</span></td>
-            <td class="likes mid">3509</td>
-            <td class="engagement">👍229 💬0 🔄1 ⭐2</td>
-        </tr>
-<tr>
-            <td class="title">陈伯五排狙击赛：85万已有得主！120万奖池究竟花落谁家</td>
-            <td class="tags"><span>王者荣耀</span><span>陈伯全能王</span><span>陈伯百万二创激励计划</span><span>陈伯王者荣耀狙击赛</span></td>
-            <td class="likes low">283</td>
-            <td class="engagement">👍2 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">不止是选手冒犯，麻木的审核，才是电竞最大的悲哀</td>
-            <td class="tags"><span>kpl</span><span>kpl挑战杯</span><span>王者荣耀挑战杯</span></td>
-            <td class="likes low">392</td>
-            <td class="engagement">👍3 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">不看背景，只看枪法，这才是最纯粹的电竞天才之战</td>
-            <td class="tags"><span>CF</span><span>CF百城联赛</span><span>穿越火线</span></td>
-            <td class="likes low">2236</td>
-            <td class="engagement">👍13 💬2 🔄3 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">线下五赋能，川传这波这么狠？！</td>
-            <td class="tags"><span>TPL四川高校电竞超级联赛</span><span>无畏契约</span><span>赋能哥</span></td>
-            <td class="likes high">1.8万</td>
-            <td class="engagement">👍49 💬0 🔄1 ⭐5</td>
-        </tr>
-<tr>
-            <td class="title">游戏里最意难平的角色之死，这才是最狠的刀</td>
-            <td class="tags"><span>荒野大镖客2</span><span>泰坦陨落</span><span>使命召唤</span></td>
-            <td class="likes low">173</td>
-            <td class="engagement">👍2 💬1 🔄0 ⭐2</td>
-        </tr>
-<tr>
-            <td class="title">重启作里藏着原版游戏！这是制作组写给老玩家的一封情书</td>
-            <td class="tags"><span>毁灭战士</span><span>游戏彩蛋</span><span>游戏冷知识</span></td>
-            <td class="likes low">176</td>
-            <td class="engagement">👍1 💬0 🔄0 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">ESL 科隆名场面：致命失误后，1v3 封神</td>
-            <td class="tags"><span>s1mple</span><span>esl</span><span>csgo</span></td>
-            <td class="likes low">1776</td>
-            <td class="engagement">👍17 💬0 🔄0 ⭐2</td>
-        </tr>
-<tr>
-            <td class="title">洛克王国大型反内卷现场：躺平才是版本答案</td>
-            <td class="tags"><span>洛克王国世界</span><span>洛克创作激励计划</span><span>洛克王国世界正式上线</span></td>
-            <td class="likes low">1466</td>
-            <td class="engagement">👍15 💬3 🔄2 ⭐2</td>
-        </tr>
-<tr>
-            <td class="title">老 LPL 人测试：这些梗你能认出一半吗？</td>
-            <td class="tags"><span>LPL</span><span>2026LPL</span><span>2026lpl第二赛段</span></td>
-            <td class="likes low">189</td>
-            <td class="engagement">👍4 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">从 0-22 到暴打 BLG，TES 这场打得太解气</td>
-            <td class="tags"><span>lpl</span><span>2026lpl第二赛段</span><span>TES</span><span>BLG</span></td>
-            <td class="likes low">1620</td>
-            <td class="engagement">👍19 💬4 🔄1 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">靠跳票道歉火遍全网的游戏角色，4.17 终于上线</td>
-            <td class="tags"><span>识质存在</span><span>卡普空</span><span>pragmata</span><span>新游推荐</span></td>
-            <td class="likes low">518</td>
-            <td class="engagement">👍2 💬0 🔄1 ⭐2</td>
-        </tr>
-<tr>
-            <td class="title">场均3.67分的OMNI黑马，为何还要遭受歧视？</td>
-            <td class="tags"><span>第五人格</span><span>第五人格赛事</span><span>omni</span><span>第五人格深渊</span></td>
-            <td class="likes low">1448</td>
-            <td class="engagement">👍52 💬1 🔄1 ⭐3</td>
-        </tr>
-<tr>
-            <td class="title">VCT 全面改革！取消联赛、CN 赛区独立，网吧队的春天来了</td>
-            <td class="tags"><span>无畏契约</span><span>无畏契约赛事</span><span>无畏契约电竞</span></td>
-            <td class="likes low">368</td>
-            <td class="engagement">👍3 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">BLG 连胜无人能破？LPL 谁能终结这支完全体战队</td>
-            <td class="tags"><span>2026LPL</span><span>2026LPL第二赛段</span><span>LOL</span></td>
-            <td class="likes low">244</td>
-            <td class="engagement">👍1 💬1 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">4:0 被零封！狼队决赛失误不断，看得太揪心</td>
-            <td class="tags"><span>kpl</span><span>2026KPL春季赛</span><span>kpl新星计划</span></td>
-            <td class="likes low">1083</td>
-            <td class="engagement">👍11 💬1 🔄0 ⭐2</td>
-        </tr>
-<tr>
-            <td class="title">舰长过期 = 毁号？三角洲主播彻底刷新底线</td>
-            <td class="tags"><span>三角洲行动</span><span>三角洲s8赛季</span><span>三角洲s8蝶变时刻新赛季</span></td>
-            <td class="likes low">295</td>
-            <td class="engagement">👍0 💬0 🔄1 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">纳克园测评，三角洲强劲对手真的要来了？</td>
-            <td class="tags"><span>纳克园最后的乐园</span><span>纳克园</span><span>三角洲行动</span></td>
-            <td class="likes low">390</td>
-            <td class="engagement">👍1 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">洛克王国精灵撞脸大博主？</td>
-            <td class="tags"><span>洛克王国</span><span>洛克王国世界</span><span>洛克创作激励计划</span></td>
-            <td class="likes low">719</td>
-            <td class="engagement">👍4 💬1 🔄2 ⭐3</td>
-        </tr>
-<tr>
-            <td class="title">盘点那些游戏里的隐藏彩蛋</td>
-            <td class="tags"><span>王者荣耀</span><span>LOL</span><span>塞尔达传说</span><span>csgo</span></td>
-            <td class="likes low">152</td>
-            <td class="engagement">👍1 💬0 🔄0 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">王者荣耀世界拉完了？</td>
-            <td class="tags"><span>王者荣耀世界</span><span>王者荣耀世界实机演示</span><span>新游推荐</span></td>
-            <td class="likes low">142</td>
-            <td class="engagement">👍1 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">王者排位机制将迎来转机？玩家的春天终于要来了吗</td>
-            <td class="tags"><span>王者荣耀</span><span>王者</span><span>王者荣耀匹配机制</span></td>
-            <td class="likes low">121</td>
-            <td class="engagement">👍3 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">以为是卖萌？逆战新角色黑化变渊・黑蝶，剧情直接刀麻了！</td>
-            <td class="tags"><span>逆战未来</span><span>逆战未来s2</span><span>逆战s2</span></td>
-            <td class="likes mid">4767</td>
-            <td class="engagement">👍21 💬2 🔄1 ⭐6</td>
-        </tr>
-<tr>
-            <td class="title">随手放耳机丢冠军？宝可梦赛事争议判罚引全网热议</td>
-            <td class="tags"><span>宝可梦</span><span>宝可梦go</span><span>Firestar</span></td>
-            <td class="likes low">362</td>
-            <td class="engagement">👍1 💬0 🔄0 ⭐2</td>
-        </tr>
-<tr>
-            <td class="title">三角洲的环境怎么了？</td>
-            <td class="tags"><span>三角洲行动</span><span>三角洲行动手游</span><span>三角洲新赛季</span><span>三角洲s8蝶变时刻新赛季</span></td>
-            <td class="likes low">211</td>
-            <td class="engagement">👍1 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">剧情升华+强度保障！千冶刃这波，厨党和强度党都得冲！</td>
-            <td class="tags"><span>崩铁</span><span>崩坏星穹铁道</span><span>崩坏星穹铁道创作者激励计划</span></td>
-            <td class="likes low">213</td>
-            <td class="engagement">👍3 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">岩队终于有救了？莉奈娅减抗+回血双buff，深渊满星稳了！</td>
-            <td class="tags"><span>原神</span><span>莉奈娅</span><span>原神创作者激励计划</span></td>
-            <td class="likes low">196</td>
-            <td class="engagement">👍3 💬0 🔄0 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">腾讯半个月两款大世界！王者世界和洛克王国世界到底有啥不一样？</td>
-            <td class="tags"><span>洛克创作激励计划</span><span>洛克王国世界</span><span>王者荣耀世界</span><span>洛克王国</span></td>
-            <td class="likes low">251</td>
-            <td class="engagement">👍3 💬1 🔄1 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">一边捧上天一边踩到底？纳克园玩家评价，到底是真香还是真翻车？</td>
-            <td class="tags"><span>纳克园最后的乐园</span><span>游戏</span><span>三角洲</span></td>
-            <td class="likes low">747</td>
-            <td class="engagement">👍2 💬0 🔄0 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">从网吧爆款到时代印记，存活十年以上的游戏，每一款都值得被铭记</td>
-            <td class="tags"><span>老游戏</span><span>游戏</span><span>回忆</span></td>
-            <td class="likes low">174</td>
-            <td class="engagement">👍2 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">-别再只肝主线了，洛克另类玩家的玩法，藏着太多惊喜</td>
-            <td class="tags"><span>洛克王国世界</span><span>洛克创作激励计划</span><span>游戏</span></td>
-            <td class="likes low">162</td>
-            <td class="engagement">👍1 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">温柔又能打！原神莉奈娅，承包岩系队伍辅助天花板</td>
-            <td class="tags"><span>原神</span><span>莉奈娅</span><span>米哈游</span></td>
-            <td class="likes low">169</td>
-            <td class="engagement">👍3 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">米哈游杀疯了！《星布谷地》新PV流出，治愈系星球种田太绝了！</td>
-            <td class="tags"><span>星布谷地</span><span>米哈游</span><span>游戏</span></td>
-            <td class="likes low">0</td>
-            <td class="engagement">👍1 💬0 🔄0 ⭐2</td>
-        </tr>
-<tr>
-            <td class="title">看完今日蓝色星原新 PV，我直接蹲测试资格</td>
-            <td class="tags"><span>蓝色星原旅谣</span><span>二次元</span><span>游戏</span></td>
-            <td class="likes low">0</td>
-            <td class="engagement">👍2 💬0 🔄0 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">从PSP到手机！我的青春终于可以在掌上狩猎了！</td>
-            <td class="tags"><span>怪物猎人旅人</span><span>怪物猎人</span><span>怪物猎人手游</span></td>
-            <td class="likes low">177</td>
-            <td class="engagement">👍1 💬0 🔄0 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">暗区S17炸了！诡雾山谷+理智值+怪物，这才是真正的突围</td>
-            <td class="tags"><span>暗区突围</span><span>暗区突围s17</span><span>暗区突围手游</span></td>
-            <td class="likes low">129</td>
-            <td class="engagement">👍1 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">冠军待遇！小白夺冠第一天，就被大司马折磨笑到破防！</td>
-            <td class="tags"><span>大司马杯</span><span>大司马</span><span>PUBG</span></td>
-            <td class="likes low">444</td>
-            <td class="engagement">👍1 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">世一冰换人！绯雪实机太帅，达妮娅直接萌出血！</td>
-            <td class="tags"><span>鸣潮</span><span>鸣潮绯雪</span><span>鸣潮绯雪达妮娅实机演示</span></td>
-            <td class="likes low">189</td>
-            <td class="engagement">👍2 💬0 🔄0 ⭐0</td>
-        </tr>
-<tr>
-            <td class="title">大司马杯欢乐不断，Uzi 杯竞争激烈看点多</td>
-            <td class="tags"><span>大司马杯</span><span>uzi杯</span><span>游戏</span></td>
-            <td class="likes low">495</td>
-            <td class="engagement">👍4 💬1 🔄0 ⭐2</td>
-        </tr>
-<tr>
-            <td class="title">归环实机PV曝光！骰子决定命运，这玩法我直接爱了</td>
-            <td class="tags"><span>归环</span><span>归环一周目测试</span><span>游戏</span></td>
-            <td class="likes low">228</td>
-            <td class="engagement">👍3 💬0 🔄1 ⭐2</td>
-        </tr>
-<tr>
-            <td class="title">4 月国产新游直接炸场！这才是真正的神仙打架！</td>
-            <td class="tags"><span>新游鉴赏家</span><span>游戏</span><span>新游推荐</span></td>
-            <td class="likes low">124</td>
-            <td class="engagement">👍2 💬0 🔄0 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">魔兽这波杀疯了！中国俩公会包揽世界第二第三，奖金直接百万！</td>
-            <td class="tags"><span>魔兽世界</span><span>魔兽世界至暗之夜上线</span><span>玩魔兽真的可以日入50万</span></td>
-            <td class="likes low">629</td>
-            <td class="engagement">👍3 💬0 🔄0 ⭐2</td>
-        </tr>
-<tr>
-            <td class="title">别再玩普通休闲游戏了，捣蛋蛙才是真上头</td>
-            <td class="tags"><span>捣蛋蛙</span><span>双人游戏</span><span>情侣游戏</span></td>
-            <td class="likes low">2501</td>
-            <td class="engagement">👍4 💬0 🔄6 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">Steam 喜加一！《Lurkers》永久免费</td>
-            <td class="tags"><span>steam游戏</span><span>新游推荐</span><span>喜加一</span></td>
-            <td class="likes low">176</td>
-            <td class="engagement">👍2 💬0 🔄0 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">小破站强势拿下授权，三国志：王道天下正式开测！+-</td>
-            <td class="tags"><span>三国志王道天下</span><span>三国志</span><span>新游推荐</span></td>
-            <td class="likes low">250</td>
-            <td class="engagement">👍2 💬0 🔄0 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">以前 Epic 送游戏，现在 Epic 送裁员通知</td>
-            <td class="tags"><span>epic喜加一</span><span>epic</span><span>游戏</span></td>
-            <td class="likes low">382</td>
-            <td class="engagement">👍3 💬0 🔄0 ⭐2</td>
-        </tr>
-<tr>
-            <td class="title">开服数据炸了！56% 玩家选火花，御三家彻底一边倒</td>
-            <td class="tags"><span>洛克王国世界</span><span>洛克王国世界3月26日上线</span><span>洛克创作激励计划</span></td>
-            <td class="likes low">184</td>
-            <td class="engagement">👍4 💬0 🔄0 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">15年青春回归！首日1500 万小洛克重返魔法学院</td>
-            <td class="tags"><span>洛克创作激励计划</span><span>洛克王国世界3月26日上线</span><span>洛克王国世界</span></td>
-            <td class="likes low">192</td>
-            <td class="engagement">👍4 💬0 🔄0 ⭐2</td>
-        </tr>
-<tr>
-            <td class="title">别等结束再后悔！春促史低游戏推荐，手慢无</td>
-            <td class="tags"><span>steam春促</span><span>steam游戏</span><span>游戏</span></td>
-            <td class="likes low">145</td>
-            <td class="engagement">👍2 💬0 🔄0 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">从全网骂到疯狂道歉！红色沙漠这波口碑反转太绝了</td>
-            <td class="tags"><span>红色沙漠</span><span>反转</span><span>游戏</span></td>
-            <td class="likes low">266</td>
-            <td class="engagement">👍6 💬0 🔄0 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">农批玩家狂喜！王者荣耀世界终于定档4/10日！</td>
-            <td class="tags"><span>王者荣耀世界</span><span>王者</span><span>新游推荐</span></td>
-            <td class="likes low">183</td>
-            <td class="engagement">👍3 💬0 🔄0 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">年度3A杀疯了！《死亡搁浅2》96%好评如潮太顶了！</td>
-            <td class="tags"><span>死亡搁浅2</span><span>steam游戏</span><span>新游推荐</span></td>
-            <td class="likes low">338</td>
-            <td class="engagement">👍3 💬0 🔄0 ⭐1</td>
-        </tr>
-<tr>
-            <td class="title">今年真的有希望了！BLG 横扫先锋赛夺冠！</td>
-            <td class="tags"><span>BLG</span><span>blg</span><span>英雄联盟</span></td>
-            <td class="likes mid">6491</td>
-            <td class="engagement">👍70 💬2 🔄4 ⭐2</td>
-        </tr>
-</tbody>
-    </table>
-</div>
-<div class="section">
-    <div class="section-title"><span class="icon">📊</span> 内容品类分布</div>
-    <div class="dist-bar"><div style="width:27%;background:#a78bfa;">游戏 27%</div><div style="width:20%;background:#f472b6;">LPL 20%</div><div style="width:20%;background:#fb923c;">新游推荐 20%</div><div style="width:17%;background:#22c55e;">无畏契约 17%</div><div style="width:17%;background:#06b6d4;">KPL 17%</div></div><div class="legend"><span><span class="dot" style="background:#a78bfa;"></span>游戏（11条）</span><span><span class="dot" style="background:#f472b6;"></span>LPL（8条）</span><span><span class="dot" style="background:#fb923c;"></span>新游推荐（8条）</span><span><span class="dot" style="background:#22c55e;"></span>无畏契约（7条）</span><span><span class="dot" style="background:#06b6d4;"></span>KPL（7条）</span></div>
-</div>
-<div class="section">
-    <div class="section-title"><span class="icon">⭐</span> 综合评分</div>
-    <div class="score-section">
-        <div class="score-card"><div class="score-value score-green">100</div><div class="score-label">更新频率</div></div>
-        <div class="score-card"><div class="score-value score-green">100</div><div class="score-label">热点覆盖</div></div>
-        <div class="score-card"><div class="score-value score-red">30</div><div class="score-label">完播表现</div></div>
-        <div class="score-card"><div class="score-value score-red">17</div><div class="score-label">互动数据</div></div>
-        <div class="score-card"><div class="score-value score-red">9</div><div class="score-label">传播力</div></div>
-        <div class="score-card"><div class="score-value score-red">51</div><div class="score-label">综合</div></div>
-    </div>
-</div>
-<div class="section">
-    <div class="section-title"><span class="icon">🔍</span> 深度分析</div>
-    <div class="analysis-grid"><div class="analysis-card">
-        <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">🔥</div><div class="card-title">最佳表现视频</div></div>
-        <div class="card-body">「时隔一年终于释怀！团子北京站哽咽祝福S1Mon」获得 <strong>13.9万</strong> 播放，点赞 <strong>1363</strong>，评论 <strong>66</strong>，分享 <strong>94</strong>。完播率 <strong>33.0%</strong>，是本周期表现最好的内容。</div>
-        <div class="highlight good">💡 分析这条视频的成功要素（选题、标题、发布时间），在后续内容中复制。</div>
-    </div><div class="analysis-card">
-        <div class="card-header"><div class="card-icon" style="background:rgba(239,68,68,0.15);">📉</div><div class="card-title">最差表现视频</div></div>
-        <div class="card-body">「米哈游杀疯了！《星布谷地》新PV流出，治愈系星球种田太绝了！」仅获得 <strong>0</strong> 播放，2s跳出率 <strong>72.7%</strong>。需要分析是否为选题冷门、标题不吸引人或发布时间不当。</div>
-        <div class="highlight bad">🔴 低播放意味着内容未能进入推荐池，需复盘原因。</div>
-    </div><div class="analysis-card">
-        <div class="card-header"><div class="card-icon" style="background:rgba(167,139,250,0.15);">📊</div><div class="card-title">完播率分析 · 较差</div></div>
-        <div class="card-body">平均完播率 <strong>6.1%</strong>，严重偏低。5s留存 <strong>6.1%</strong>，2s跳出率 <strong>52.0%</strong>。观众在前几秒就大量流失，需要重点优化开场钩子和视频前5秒的内容吸引力。</div>
-        <div class="highlight bad">🔴 完播率是算法推荐的核心指标，直接影响后续流量分配。</div>
-    </div><div class="analysis-card">
-        <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">💬</div><div class="card-title">互动数据</div></div>
-        <div class="card-body">本周期共 <strong>100</strong> 条视频，总播放 <strong>28.5万</strong>。<br>
-        点赞率 <strong>1.02%</strong> · 评论率 <strong>0.04%</strong> · 分享率 <strong>0.07%</strong> · 收藏率 <strong>0.06%</strong><br>
-        粉丝增量：<strong>48</strong></div>
-        <div class="highlight good">💡 点赞和评论是核心互动指标，分享和收藏是扩散指标。</div>
-    </div><div class="analysis-card">
-        <div class="card-header"><div class="card-icon" style="background:rgba(234,179,8,0.15);">🎯</div><div class="card-title">内容品类分布</div></div>
-        <div class="card-body">高频话题：游戏(11)、LPL(8)、新游推荐(8)、无畏契约(7)、KPL(7)。覆盖 <strong>215</strong> 个不同话题标签。<br>
+        <div class="card-body">高频话题：steam游戏(15)、游戏杂谈(12)、洛克王国世界(8)、游戏(7)、鸣潮(6)。覆盖 <strong>203</strong> 个不同话题标签。<br>
         建议聚焦<strong>3-5个核心品类</strong>，避免品类过于分散导致账号标签模糊。</div>
         <div class="highlight warn">⚠️ 品类过多会稀释账号标签，影响算法对目标人群的精准推荐。</div>
     </div><div class="analysis-card">
@@ -2830,20 +2445,19 @@ body {
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">🚀</span> 优化建议</div>
-    <ul class="opt-list"><li><div class="priority p0">P0</div><div class="opt-content"><h3>🎯 优化前5秒开场钩子</h3><p>2s跳出率高达 <strong>52.0%</strong>，说明大量观众在前2秒就划走了。建议：①开场3秒内给出核心信息或悬念 ②使用情绪化的开场白 ③避免冗长的前奏和自我介绍。</p><div class="action">→ 每条视频准备至少2个开场方案，A/B测试选择跳出率最低的</div></div></li>
-<li><div class="priority p0">P0</div><div class="opt-content"><h3>📈 提升完播率</h3><p>平均完播率仅 <strong>6.1%</strong>，严重影响算法推荐。建议：①视频控制在60秒内 ②每15秒设置一个小高潮 ③结尾加入互动引导（"你怎么看？"）</p><div class="action">→ 目标完播率提升至15%以上</div></div></li>
-<li><div class="priority p0">P0</div><div class="opt-content"><h3>💡 复制最佳视频的成功模式</h3><p>「时隔一年终于释怀！团子北京站哽咽祝福S1Mon」获得 13.9万 播放，远超平均水平。分析这条视频的选题角度、标题措辞、发布时间和内容结构，提炼可复制的爆款公式。</p><div class="action">→ 本周复盘最佳视频的全部指标，总结成功要素</div></div></li>
-<li><div class="priority p1">P1</div><div class="opt-content"><h3>💬 增强互动引导</h3><p>评论率仅 <strong>0.04%</strong>，互动意愿偏低。建议在视频结尾加入明确的互动引导："你觉得呢？""评论区告诉我"，并在发布后30分钟内积极回复前排评论。</p><div class="action">→ 每条视频至少1个互动问题 + 发布后30分钟内回复前10条评论</div></div></li>
-<li><div class="priority p1">P1</div><div class="opt-content"><h3>📌 聚焦核心品类</h3><p>当前覆盖 <strong>215</strong> 个不同话题，品类过于分散。建议聚焦3-5个核心游戏/IP，建立"想看XX就来这里"的用户心智。</p><div class="action">→ 每周选题控制在3个核心品类内</div></div></li>
+    <ul class="opt-list"><li><div class="priority p0">P0</div><div class="opt-content"><h3>🎯 优化前5秒开场钩子</h3><p>2s跳出率高达 <strong>48.2%</strong>，说明大量观众在前2秒就划走了。建议：①开场3秒内给出核心信息或悬念 ②使用情绪化的开场白 ③避免冗长的前奏和自我介绍。</p><div class="action">→ 每条视频准备至少2个开场方案，A/B测试选择跳出率最低的</div></div></li>
+<li><div class="priority p0">P0</div><div class="opt-content"><h3>📈 提升完播率</h3><p>平均完播率仅 <strong>5.0%</strong>，严重影响算法推荐。建议：①视频控制在60秒内 ②每15秒设置一个小高潮 ③结尾加入互动引导（"你怎么看？"）</p><div class="action">→ 目标完播率提升至15%以上</div></div></li>
+<li><div class="priority p0">P0</div><div class="opt-content"><h3>💡 复制最佳视频的成功模式</h3><p>「二游吉祥物两极分化！有人成电子家人，有人被全网嫌弃」获得 3.0万 播放，远超平均水平。分析这条视频的选题角度、标题措辞、发布时间和内容结构，提炼可复制的爆款公式。</p><div class="action">→ 本周复盘最佳视频的全部指标，总结成功要素</div></div></li>
+<li><div class="priority p1">P1</div><div class="opt-content"><h3>📌 聚焦核心品类</h3><p>当前覆盖 <strong>203</strong> 个不同话题，品类过于分散。建议聚焦3-5个核心游戏/IP，建立"想看XX就来这里"的用户心智。</p><div class="action">→ 每周选题控制在3个核心品类内</div></div></li>
 <li><div class="priority p2">P2</div><div class="opt-content"><h3>⏰ 发布时间优化</h3><p>建议固定在 <strong>12:00-13:00 或 20:00-22:00</strong> 发布，并连续2周测试记录数据。建立粉丝的观看预期。</p><div class="action">→ 固定发布时间，建立粉丝预期</div></div></li>
 </ul>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">📋</span> 总结</div>
     <div class="summary-card"><div class="card-body">
-        <strong style="color:#a78bfa;">哈吉米说游戏</strong> 本周期共发布 <strong>100</strong> 条视频，总播放 <strong>28.5万</strong>，平均播放 <strong>2846</strong>。<br><br>
-        最佳表现：「时隔一年终于释怀！团子北京站哽咽祝福S1Mon」— <strong style="color:#22c55e;">13.9万播放</strong><br>
-        平均完播率 <strong>6.1%</strong>，5s留存 <strong>6.1%</strong>，2s跳出率 <strong>52.0%</strong><br><br>
+        <strong style="color:#a78bfa;">阿密说游戏</strong> 本周期共发布 <strong>98</strong> 条视频，总播放 <strong>21.2万</strong>，平均播放 <strong>2161</strong>。<br><br>
+        最佳表现：「二游吉祥物两极分化！有人成电子家人，有人被全网嫌弃」— <strong style="color:#22c55e;">3.0万播放</strong><br>
+        平均完播率 <strong>5.0%</strong>，5s留存 <strong>5.0%</strong>，2s跳出率 <strong>48.2%</strong><br><br>
         <strong style="color:#22c55e;">核心方向：优化完播率 + 复制爆款模式 + 增强互动引导。</strong>
     </div></div>
 </div>
@@ -2854,15 +2468,15 @@ body {
 <div class="account-card">
     <div class="name"><span>🎮 有料玩家</span></div>
     <div class="douyin-id">抖音号：71214210408</div>
-    <div class="extra-info">IP属地：广东 · 分析周期：2026-04-24 — 2026-06-05 · 本周期发布17条视频</div>
+    <div class="extra-info">IP属地：广东 · 分析周期：2026-04-10 — 2026-06-13 · 本周期发布22条视频</div>
     <div class="stat-item"><div class="value">13.1万</div><div class="label">粉丝数</div></div>
-    <div class="stat-item"><div class="value">925.0万</div><div class="label">总播放量</div></div>
-    <div class="stat-item"><div class="value">54.4万</div><div class="label">平均播放</div></div>
-    <div class="stat-item"><div class="value">533.3万</div><div class="label">最高播放</div></div>
+    <div class="stat-item"><div class="value">987.3万</div><div class="label">总播放量</div></div>
+    <div class="stat-item"><div class="value">44.9万</div><div class="label">平均播放</div></div>
+    <div class="stat-item"><div class="value">533.5万</div><div class="label">最高播放</div></div>
 </div>
 <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:0 0 24px 0;">
     <div class="summary-card" style="text-align:center;padding:14px 8px;border-left:3px solid #22c55e;">
-        <div style="font-size:20px;font-weight:800;color:#22c55e;">14</div>
+        <div style="font-size:20px;font-weight:800;color:#22c55e;">17</div>
         <div style="font-size:11px;color:#888;">15万+ 达标</div>
     </div>
     <div class="summary-card" style="text-align:center;padding:14px 8px;border-left:3px solid #60a5fa;">
@@ -2870,11 +2484,11 @@ body {
         <div style="font-size:11px;color:#888;">10-15万</div>
     </div>
     <div class="summary-card" style="text-align:center;padding:14px 8px;border-left:3px solid #eab308;">
-        <div style="font-size:20px;font-weight:800;color:#eab308;">1</div>
+        <div style="font-size:20px;font-weight:800;color:#eab308;">0</div>
         <div style="font-size:11px;color:#888;">5-10万</div>
     </div>
     <div class="summary-card" style="text-align:center;padding:14px 8px;border-left:3px solid #a78bfa;">
-        <div style="font-size:20px;font-weight:800;color:#a78bfa;">17</div>
+        <div style="font-size:20px;font-weight:800;color:#a78bfa;">19</div>
         <div style="font-size:11px;color:#888;">5万+ 合计</div>
     </div>
 </div>
@@ -2891,170 +2505,200 @@ body {
     <table class="video-table">
         <thead><tr><th>视频标题</th><th>涉及内容</th><th>播放量</th><th>互动数据</th></tr></thead>
         <tbody><tr>
-            <td class="title">16 万绝版账号一键作废，主播开挂被封还拒不认错？！</td>
-            <td class="tags"><span>淋雨</span><span>pubg赏金行动</span><span>PUBG</span></td>
-            <td class="likes high">11.4万</td>
-            <td class="engagement">👍647 💬145 🔄110 ⭐49</td>
+            <td class="title">千年白蛇变蛋仔！这也太会整了吧</td>
+            <td class="tags"><span>蛋仔派对</span><span>蛋仔派对四周年</span><span>蛋仔派对西湖寻缘季</span></td>
+            <td class="likes high">18.1万</td>
+            <td class="engagement">👍5003 💬4 🔄153 ⭐2</td>
         </tr>
 <tr>
-            <td class="title">j神枪法烂到被蛋神吐槽，转头精准狙击拿下胜利！</td>
-            <td class="tags"><span>Jee</span><span>科隆major</span><span>TYLOO</span></td>
-            <td class="likes high">5.3万</td>
-            <td class="engagement">👍469 💬9 🔄83 ⭐20</td>
+            <td class="title">蛋仔太会了！吞吞鱼把养成玩出新高度！</td>
+            <td class="tags"><span>蛋仔派对</span><span>蛋仔派对四周年</span><span>蛋仔农场</span></td>
+            <td class="likes high">17.2万</td>
+            <td class="engagement">👍5016 💬19 🔄139 ⭐8</td>
+        </tr>
+<tr>
+            <td class="title">二游联动天花板！鸣潮凭什么让全球玩家认它是 “真续作”？</td>
+            <td class="tags"><span>鸣潮</span><span>鸣潮边缘行者联动</span><span>鸣潮赛博朋克联动上线</span></td>
+            <td class="likes high">25.4万</td>
+            <td class="engagement">👍9949 💬1098 🔄1434 ⭐739</td>
+        </tr>
+<tr>
+            <td class="title">16 万绝版账号一键作废，主播开挂被封还拒不认错？！</td>
+            <td class="tags"><span>淋雨</span><span>pubg赏金行动</span><span>PUBG</span></td>
+            <td class="likes high">12.2万</td>
+            <td class="engagement">👍675 💬150 🔄130 ⭐47</td>
         </tr>
 <tr>
             <td class="title">燕云新剧情引争议，文化工作者需有文化的含金量还在上升</td>
             <td class="tags"><span>燕云十六声</span><span>游戏吃瓜</span><span>游戏杂谈</span></td>
-            <td class="likes high">23.4万</td>
-            <td class="engagement">👍4769 💬448 🔄717 ⭐204</td>
+            <td class="likes high">25.7万</td>
+            <td class="engagement">👍5418 💬498 🔄813 ⭐230</td>
         </tr>
 <tr>
             <td class="title">ACE 防遍外敌，栽在自家安全软件手里？！</td>
             <td class="tags"><span>ACE反作弊</span><span>三角洲行动</span><span>三角洲吸附</span></td>
-            <td class="likes high">13.8万</td>
-            <td class="engagement">👍3999 💬697 🔄1307 ⭐214</td>
+            <td class="likes high">13.9万</td>
+            <td class="engagement">👍4005 💬699 🔄1315 ⭐220</td>
         </tr>
 <tr>
             <td class="title">从亚一狙到抽象主播：Dank1ng 传奇与遗憾！</td>
             <td class="tags"><span>dank1ng</span><span>Falcons</span><span>dank1ng名场面</span></td>
             <td class="likes high">15.3万</td>
-            <td class="engagement">👍5696 💬15 🔄30 ⭐11</td>
+            <td class="engagement">👍5694 💬15 🔄30 ⭐12</td>
         </tr>
 <tr>
             <td class="title">被取消直通又如何？小孩败者组一穿四，凭实力拿下双赛事门票！</td>
             <td class="tags"><span>小孩曾卓君</span><span>EWC</span><span>街霸6</span></td>
-            <td class="likes high">101.0万</td>
-            <td class="engagement">👍16178 💬1558 🔄1020 ⭐446</td>
+            <td class="likes high">101.1万</td>
+            <td class="engagement">👍16176 💬1556 🔄1020 ⭐443</td>
         </tr>
 <tr>
             <td class="title">13个月七进决赛七连亚，Falcons沦为顶级 “大满亚”？</td>
             <td class="tags"><span>Falcons</span><span>Niko</span><span>CSGO</span></td>
-            <td class="likes high">15.7万</td>
-            <td class="engagement">👍5133 💬73 🔄4 ⭐5</td>
+            <td class="likes high">15.8万</td>
+            <td class="engagement">👍530 💬115 🔄4 ⭐5</td>
         </tr>
 <tr>
             <td class="title">赛场大杀四方，场外忘报名！格斗之神小孩反差感直接拉满！</td>
             <td class="tags"><span>小孩</span><span>拳皇15</span><span>曾卓君</span></td>
             <td class="likes high">16.2万</td>
-            <td class="engagement">👍5129 💬38 🔄4 ⭐12</td>
+            <td class="engagement">👍566 💬38 🔄4 ⭐13</td>
         </tr>
 <tr>
             <td class="title">几个嘉豪私自代表全体玩家出征，纯纯自作自受闹大笑话？！</td>
             <td class="tags"><span>战地6</span><span>steam游戏</span><span>游戏杂谈</span></td>
-            <td class="likes high">16.0万</td>
-            <td class="engagement">👍5660 💬114 🔄121 ⭐35</td>
+            <td class="likes high">16.2万</td>
+            <td class="engagement">👍5671 💬113 🔄121 ⭐33</td>
         </tr>
 <tr>
             <td class="title">脱离游戏本色出镜，Coke 脑回路直接颠覆常人认知！</td>
             <td class="tags"><span>coke</span><span>陈泽</span><span>ok了老铁们</span></td>
-            <td class="likes high">16.4万</td>
-            <td class="engagement">👍3527 💬20 🔄125 ⭐109</td>
+            <td class="likes high">16.7万</td>
+            <td class="engagement">👍3535 💬20 🔄125 ⭐108</td>
         </tr>
 <tr>
             <td class="title">再无跳票可能！GTA6 彻底锁死档期！</td>
             <td class="tags"><span>GTA6</span><span>R星</span><span>steam游戏</span></td>
             <td class="likes high">16.4万</td>
-            <td class="engagement">👍5153 💬17 🔄27 ⭐10</td>
+            <td class="engagement">👍5147 💬17 🔄27 ⭐10</td>
         </tr>
 <tr>
             <td class="title">复刻康康名梗 + 极限四杀！王俊凯这波杀疯了！</td>
             <td class="tags"><span>王俊凯</span><span>2026无畏巡回北京站</span><span>康康</span><span>无畏契约</span></td>
-            <td class="likes high">25.3万</td>
-            <td class="engagement">👍7169 💬678 🔄1792 ⭐141</td>
+            <td class="likes high">25.4万</td>
+            <td class="engagement">👍7175 💬684 🔄1799 ⭐141</td>
         </tr>
 <tr>
             <td class="title">回旋镖扎满！团子首次公开回应S1mon离队风波</td>
             <td class="tags"><span>s1mon</span><span>EDG</span><span>无畏契约</span><span>团子首次回应s1mon离队风波</span></td>
-            <td class="likes high">15.6万</td>
-            <td class="engagement">👍5566 💬10 🔄44 ⭐19</td>
+            <td class="likes high">16.1万</td>
+            <td class="engagement">👍5596 💬21 🔄48 ⭐21</td>
         </tr>
 <tr>
             <td class="title">宗师碰瓷钟意？自曝 AG 试训 “不想抢饭碗”</td>
             <td class="tags"><span>宗师</span><span>kpl</span><span>AG超玩会</span></td>
-            <td class="likes high">533.3万</td>
-            <td class="engagement">👍121905 💬7332 🔄37247 ⭐3809</td>
+            <td class="likes high">533.5万</td>
+            <td class="engagement">👍121905 💬7332 🔄37257 ⭐3796</td>
         </tr>
 <tr>
             <td class="title">s1mple+Senzu 合体，CSGO 史上最豪阵容</td>
             <td class="tags"><span>S1mple</span><span>Senzu</span><span>BCG</span><span>csgo</span></td>
             <td class="likes high">49.8万</td>
-            <td class="engagement">👍7218 💬649 🔄2153 ⭐170</td>
+            <td class="engagement">👍7216 💬648 🔄2153 ⭐170</td>
         </tr>
 <tr>
             <td class="title">靠争议吃饭，终被争议反噬，神枪小子结局早有预兆</td>
             <td class="tags"><span>神枪小子</span><span>无畏契约</span><span>神枪哭了</span><span>瓦</span><span>edg</span></td>
-            <td class="likes high">34.4万</td>
-            <td class="engagement">👍4114 💬385 🔄384 ⭐89</td>
+            <td class="likes high">34.5万</td>
+            <td class="engagement">👍4118 💬385 🔄384 ⭐90</td>
         </tr>
 <tr>
             <td class="title">全队赋能，川传一句话薄纱全场，用战绩实现降维打击</td>
             <td class="tags"><span>TPL四川高校电竞超级联赛</span><span>无畏契约</span><span>四川传媒学院</span></td>
             <td class="likes high">15.7万</td>
-            <td class="engagement">👍5233 💬29 🔄12 ⭐10</td>
+            <td class="engagement">👍586 💬29 🔄12 ⭐10</td>
+        </tr>
+<tr>
+            <td class="title">封神！电竞史上最伟大的两大残局，看完浑身起鸡皮疙瘩</td>
+            <td class="tags"><span>cs</span><span>esl</span><span>点子哥</span></td>
+            <td class="likes mid">9543</td>
+            <td class="engagement">👍95 💬7 🔄0 ⭐7</td>
+        </tr>
+<tr>
+            <td class="title">盘点洛克王国那些神级撞脸</td>
+            <td class="tags"><span>洛克王国</span><span>洛克王国世界</span><span>洛克创作激励计划</span></td>
+            <td class="likes mid">6169</td>
+            <td class="engagement">👍35 💬1 🔄19 ⭐1</td>
+        </tr>
+<tr>
+            <td class="title">生于深渊，却要做照亮一切的光！逆战新角色悦・无垢之春太好哭了</td>
+            <td class="tags"><span>逆战未来</span><span>逆战s2</span><span>逆战未来s2</span></td>
+            <td class="likes mid">7101</td>
+            <td class="engagement">👍51 💬13 🔄13 ⭐14</td>
         </tr>
 </tbody>
     </table>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">📊</span> 内容品类分布</div>
-    <div class="dist-bar"><div style="width:36%;background:#a78bfa;">无畏契约 36%</div><div style="width:18%;background:#f472b6;">游戏杂谈 18%</div><div style="width:18%;background:#fb923c;">steam游 18%</div><div style="width:18%;background:#22c55e;">Falcon 18%</div><div style="width:9%;background:#06b6d4;">宗师 9%</div></div><div class="legend"><span><span class="dot" style="background:#a78bfa;"></span>无畏契约（4条）</span><span><span class="dot" style="background:#f472b6;"></span>游戏杂谈（2条）</span><span><span class="dot" style="background:#fb923c;"></span>steam游戏（2条）</span><span><span class="dot" style="background:#22c55e;"></span>Falcons（2条）</span><span><span class="dot" style="background:#06b6d4;"></span>宗师（1条）</span></div>
+    <div class="dist-bar"><div style="width:33%;background:#a78bfa;">无畏契约 33%</div><div style="width:17%;background:#f472b6;">蛋仔派对 17%</div><div style="width:17%;background:#fb923c;">蛋仔派对四周 17%</div><div style="width:17%;background:#22c55e;">游戏杂谈 17%</div><div style="width:17%;background:#06b6d4;">Falcon 17%</div></div><div class="legend"><span><span class="dot" style="background:#a78bfa;"></span>无畏契约（4条）</span><span><span class="dot" style="background:#f472b6;"></span>蛋仔派对（2条）</span><span><span class="dot" style="background:#fb923c;"></span>蛋仔派对四周年（2条）</span><span><span class="dot" style="background:#22c55e;"></span>游戏杂谈（2条）</span><span><span class="dot" style="background:#06b6d4;"></span>Falcons（2条）</span></div>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">⭐</span> 综合评分</div>
     <div class="score-section">
-        <div class="score-card"><div class="score-value score-red">33</div><div class="score-label">更新频率</div></div>
+        <div class="score-card"><div class="score-value score-red">28</div><div class="score-label">更新频率</div></div>
         <div class="score-card"><div class="score-value score-green">100</div><div class="score-label">热点覆盖</div></div>
-        <div class="score-card"><div class="score-value score-green">82</div><div class="score-label">完播表现</div></div>
-        <div class="score-card"><div class="score-value score-red">40</div><div class="score-label">互动数据</div></div>
+        <div class="score-card"><div class="score-value score-green">76</div><div class="score-label">完播表现</div></div>
+        <div class="score-card"><div class="score-value score-red">39</div><div class="score-label">互动数据</div></div>
         <div class="score-card"><div class="score-value score-red">42</div><div class="score-label">传播力</div></div>
-        <div class="score-card"><div class="score-value score-red">59</div><div class="score-label">综合</div></div>
+        <div class="score-card"><div class="score-value score-red">57</div><div class="score-label">综合</div></div>
     </div>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">🔍</span> 深度分析</div>
     <div class="analysis-grid"><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">🔥</div><div class="card-title">最佳表现视频</div></div>
-        <div class="card-body">「宗师碰瓷钟意？自曝 AG 试训 “不想抢饭碗”」获得 <strong>533.3万</strong> 播放，点赞 <strong>121905</strong>，评论 <strong>7332</strong>，分享 <strong>37247</strong>。完播率 <strong>23.1%</strong>，是本周期表现最好的内容。</div>
+        <div class="card-body">「宗师碰瓷钟意？自曝 AG 试训 “不想抢饭碗”」获得 <strong>533.5万</strong> 播放，点赞 <strong>121905</strong>，评论 <strong>7332</strong>，分享 <strong>37257</strong>。完播率 <strong>23.1%</strong>，是本周期表现最好的内容。</div>
         <div class="highlight good">💡 分析这条视频的成功要素（选题、标题、发布时间），在后续内容中复制。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(239,68,68,0.15);">📉</div><div class="card-title">最差表现视频</div></div>
-        <div class="card-body">「j神枪法烂到被蛋神吐槽，转头精准狙击拿下胜利！」仅获得 <strong>5.3万</strong> 播放，2s跳出率 <strong>25.8%</strong>。需要分析是否为选题冷门、标题不吸引人或发布时间不当。</div>
+        <div class="card-body">「盘点洛克王国那些神级撞脸」仅获得 <strong>6169</strong> 播放，2s跳出率 <strong>40.7%</strong>。需要分析是否为选题冷门、标题不吸引人或发布时间不当。</div>
         <div class="highlight bad">🔴 低播放意味着内容未能进入推荐池，需复盘原因。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(167,139,250,0.15);">📊</div><div class="card-title">完播率分析 · 良好</div></div>
-        <div class="card-body">平均完播率 <strong>16.4%</strong>，5s留存 <strong>16.4%</strong>，2s跳出率 <strong>27.6%</strong>。内容的前几秒能留住观众，整体节奏控制不错。</div>
+        <div class="card-body">平均完播率 <strong>15.3%</strong>，5s留存 <strong>15.3%</strong>，2s跳出率 <strong>29.2%</strong>。内容的前几秒能留住观众，整体节奏控制不错。</div>
         <div class="highlight good">💡 完播率是算法推荐的核心指标，直接影响后续流量分配。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">💬</div><div class="card-title">互动数据</div></div>
-        <div class="card-body">本周期共 <strong>17</strong> 条视频，总播放 <strong>925.0万</strong>。<br>
-        点赞率 <strong>2.24%</strong> · 评论率 <strong>0.13%</strong> · 分享率 <strong>0.49%</strong> · 收藏率 <strong>0.06%</strong><br>
-        粉丝增量：<strong>1725</strong></div>
+        <div class="card-body">本周期共 <strong>22</strong> 条视频，总播放 <strong>987.3万</strong>。<br>
+        点赞率 <strong>2.17%</strong> · 评论率 <strong>0.14%</strong> · 分享率 <strong>0.48%</strong> · 收藏率 <strong>0.06%</strong><br>
+        粉丝增量：<strong>1806</strong></div>
         <div class="highlight good">💡 点赞和评论是核心互动指标，分享和收藏是扩散指标。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(234,179,8,0.15);">🎯</div><div class="card-title">内容品类分布</div></div>
-        <div class="card-body">高频话题：无畏契约(4)、游戏杂谈(2)、steam游戏(2)、Falcons(2)、宗师(1)。覆盖 <strong>50</strong> 个不同话题标签。<br>
+        <div class="card-body">高频话题：无畏契约(4)、蛋仔派对(2)、蛋仔派对四周年(2)、游戏杂谈(2)、Falcons(2)。覆盖 <strong>63</strong> 个不同话题标签。<br>
         建议聚焦<strong>3-5个核心品类</strong>，避免品类过于分散导致账号标签模糊。</div>
         <div class="highlight warn">⚠️ 品类过多会稀释账号标签，影响算法对目标人群的精准推荐。</div>
     </div><div class="analysis-card">
         <div class="card-header"><div class="card-icon" style="background:rgba(34,197,94,0.15);">⏱️</div><div class="card-title">播放时长分析</div></div>
-        <div class="card-body">平均播放时长 <strong>19.4秒</strong>。结合完播率来看，观众有耐心看完大部分内容。<br>
+        <div class="card-body">平均播放时长 <strong>19.1秒</strong>。结合完播率来看，观众有耐心看完大部分内容。<br>
         建议控制视频时长在<strong>30-90秒</strong>之间，前5秒必须有强力钩子。</div>
         <div class="highlight good">💡 短视频时代，前5秒决定60%的去留。</div>
     </div></div>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">🚀</span> 优化建议</div>
-    <ul class="opt-list"><li><div class="priority p0">P0</div><div class="opt-content"><h3>💡 复制最佳视频的成功模式</h3><p>「宗师碰瓷钟意？自曝 AG 试训 “不想抢饭碗”」获得 533.3万 播放，远超平均水平。分析这条视频的选题角度、标题措辞、发布时间和内容结构，提炼可复制的爆款公式。</p><div class="action">→ 本周复盘最佳视频的全部指标，总结成功要素</div></div></li>
-<li><div class="priority p1">P1</div><div class="opt-content"><h3>📌 聚焦核心品类</h3><p>当前覆盖 <strong>50</strong> 个不同话题，品类过于分散。建议聚焦3-5个核心游戏/IP，建立"想看XX就来这里"的用户心智。</p><div class="action">→ 每周选题控制在3个核心品类内</div></div></li>
+    <ul class="opt-list"><li><div class="priority p0">P0</div><div class="opt-content"><h3>💡 复制最佳视频的成功模式</h3><p>「宗师碰瓷钟意？自曝 AG 试训 “不想抢饭碗”」获得 533.5万 播放，远超平均水平。分析这条视频的选题角度、标题措辞、发布时间和内容结构，提炼可复制的爆款公式。</p><div class="action">→ 本周复盘最佳视频的全部指标，总结成功要素</div></div></li>
+<li><div class="priority p1">P1</div><div class="opt-content"><h3>📌 聚焦核心品类</h3><p>当前覆盖 <strong>63</strong> 个不同话题，品类过于分散。建议聚焦3-5个核心游戏/IP，建立"想看XX就来这里"的用户心智。</p><div class="action">→ 每周选题控制在3个核心品类内</div></div></li>
 <li><div class="priority p2">P2</div><div class="opt-content"><h3>⏰ 发布时间优化</h3><p>建议固定在 <strong>12:00-13:00 或 20:00-22:00</strong> 发布，并连续2周测试记录数据。建立粉丝的观看预期。</p><div class="action">→ 固定发布时间，建立粉丝预期</div></div></li>
 </ul>
 </div>
 <div class="section">
     <div class="section-title"><span class="icon">📋</span> 总结</div>
     <div class="summary-card"><div class="card-body">
-        <strong style="color:#a78bfa;">有料玩家</strong> 本周期共发布 <strong>17</strong> 条视频，总播放 <strong>925.0万</strong>，平均播放 <strong>54.4万</strong>。<br><br>
-        最佳表现：「宗师碰瓷钟意？自曝 AG 试训 “不想抢饭碗”」— <strong style="color:#22c55e;">533.3万播放</strong><br>
-        平均完播率 <strong>16.4%</strong>，5s留存 <strong>16.4%</strong>，2s跳出率 <strong>27.6%</strong><br><br>
+        <strong style="color:#a78bfa;">有料玩家</strong> 本周期共发布 <strong>22</strong> 条视频，总播放 <strong>987.3万</strong>，平均播放 <strong>44.9万</strong>。<br><br>
+        最佳表现：「宗师碰瓷钟意？自曝 AG 试训 “不想抢饭碗”」— <strong style="color:#22c55e;">533.5万播放</strong><br>
+        平均完播率 <strong>15.3%</strong>，5s留存 <strong>15.3%</strong>，2s跳出率 <strong>29.2%</strong><br><br>
         <strong style="color:#22c55e;">核心方向：优化完播率 + 复制爆款模式 + 增强互动引导。</strong>
     </div></div>
 </div>
@@ -3075,7 +2719,7 @@ body {
         </div>
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:28px;">
             <div style="background:rgba(167,139,250,0.08);border:1px solid rgba(167,139,250,0.15);border-radius:12px;padding:16px;text-align:center;">
-                <div style=T4</div>
+                <div style=M7</div>
                 <div style="font-size:12px;color:#666;margin-top:2px;">总发布视频</div>
             </div>
             <div style="background:rgba(234,179,8,0.08);border:1px solid rgba(234,179,8,0.15);border-radius:12px;padding:16px;text-align:center;">
@@ -3131,7 +2775,7 @@ body {
         <tr><td style="width:160px;font-weight:600;color:#a78bfa;">启动时间</td><td>2026年3月18日</td></tr>
         <tr><td style="font-weight:600;color:#a78bfa;">运营周期</td><td>2026.03.18 — 2026.05.25（近2.5个月）</td></tr>
         <tr><td style="font-weight:600;color:#a78bfa;">矩阵账号</td><td><span class="rp-tag">🎮 有料玩家</span><span class="rp-tag">🐙 鱿鱼说游</span><span class="rp-tag">🔐 阿密说游戏</span><span class="rp-tag">🐴 牛马说游戏</span><span class="rp-tag">🐱 哈吉米说游戏</span></td></tr>
-        <tr><td style="font-weight:600;color:#a78bfa;">总发布</td><td>244 条视频</td></tr>
+        <tr><td style="font-weight:600;color:#a78bfa;">总发布</td><td>157 条视频</td></tr>
         <tr><td style="font-weight:600;color:#a78bfa;">总播放量</td><td>9,469,105 次（约 <strong style="color:#eab308;">947万</strong>）</td></tr>
         <tr><td style="font-weight:600;color:#a78bfa;">累计净增粉丝</td><td><strong style="color:#22c55e;">+1,717</strong></td></tr>
         <tr><td style="font-weight:600;color:#a78bfa;">核心成绩</td><td>有料玩家单条爆款 <strong style="color:#f472b6;">530万</strong> 播放，全矩阵累计播放近950万，<strong style="color:#22c55e;">11条</strong>视频破15w</td></tr>
@@ -4091,7 +3735,7 @@ body {
         <div class="card-body">
             <strong>统计周期：2026.04.25 — 2026.05.05（11天）</strong><br>
             <strong>统计账号：</strong>鱿鱼说游 / 阿密说游戏 / 牛马说游戏 / 有料玩家 / 哈吉米说游戏<br>
-            <strong>全矩阵合计：</strong>244条内容 / 总播放1512.6万 / 条均播放6.2万
+            <strong>全矩阵合计：</strong>157条内容 / 总播放1599.3万 / 条均播放10.2万
         </div>
     </div>
 </div>
@@ -4114,53 +3758,43 @@ body {
         <tbody>
 <tr>
             <td>🐙 鱿鱼说游</td>
-            <td>17</td>
-            <td>260.4万</td>
-            <td>15.3万</td>
-            <td class="likes high">24.9万</td>
-            <td class="likes low">4.5万</td>
-            <td style="color:#eab308;font-weight:600;">2.8%</td>
-            <td>145</td>
+            <td>18</td>
+            <td>299.3万</td>
+            <td>16.6万</td>
+            <td class="likes high">25.4万</td>
+            <td class="likes low">15.2万</td>
+            <td style="color:#eab308;font-weight:600;">1.76%</td>
+            <td>133</td>
         </tr>
 <tr>
             <td>🐴 牛马说游戏</td>
-            <td>16</td>
-            <td>281.1万</td>
-            <td>17.6万</td>
+            <td>19</td>
+            <td>291.5万</td>
+            <td>15.3万</td>
             <td class="likes high">39.5万</td>
-            <td class="likes low">7.8万</td>
-            <td style="color:#eab308;font-weight:600;">2.64%</td>
-            <td>213</td>
+            <td class="likes low">4334</td>
+            <td style="color:#ef4444;font-weight:600;">1.3%</td>
+            <td>232</td>
         </tr>
 <tr>
             <td>🔐 阿密说游戏</td>
-            <td>94</td>
-            <td>17.6万</td>
-            <td>1876</td>
+            <td>98</td>
+            <td>21.2万</td>
+            <td>2161</td>
             <td class="likes high">3.0万</td>
-            <td class="likes low">0</td>
-            <td style="color:#eab308;font-weight:600;">2.13%</td>
-            <td>36</td>
-        </tr>
-<tr>
-            <td>🐱 哈吉米说游戏</td>
-            <td>100</td>
-            <td>28.5万</td>
-            <td>2846</td>
-            <td class="likes high">13.9万</td>
-            <td class="likes low">0</td>
-            <td style="color:#ef4444;font-weight:600;">1.18%</td>
-            <td>48</td>
+            <td class="likes low">189</td>
+            <td style="color:#eab308;font-weight:600;">2.15%</td>
+            <td>50</td>
         </tr>
 <tr>
             <td>🎮 有料玩家</td>
-            <td>17</td>
-            <td>925.0万</td>
-            <td>54.4万</td>
-            <td class="likes high">533.3万</td>
-            <td class="likes low">5.3万</td>
-            <td style="color:#eab308;font-weight:600;">2.92%</td>
-            <td>1725</td>
+            <td>22</td>
+            <td>987.3万</td>
+            <td>44.9万</td>
+            <td class="likes high">533.5万</td>
+            <td class="likes low">6169</td>
+            <td style="color:#eab308;font-weight:600;">2.84%</td>
+            <td>1806</td>
         </tr>
 
         </tbody>
@@ -4177,12 +3811,12 @@ body {
                 <div class="card-title">鱿鱼说游</div>
             </div>
             <div class="card-body">
-                <strong>发布：</strong>17条 · <strong>平均播放：</strong>15.3万 · <strong>互动率：</strong>2.8% · <strong>粉丝增量：</strong>145<br>
-                <strong>最高：</strong>24.9万（从取消资格到双料直通！小孩用冠军证明：强者不靠馈赠！）<br>
-                <strong>最低：</strong>4.5万（神人主角之亨利的诡辩！这游戏还是太抽象了）<br>
-                <strong>互动：</strong>👍68323 💬1415 🔄2675 ⭐532
+                <strong>发布：</strong>18条 · <strong>平均播放：</strong>16.6万 · <strong>互动率：</strong>1.76% · <strong>粉丝增量：</strong>133<br>
+                <strong>最高：</strong>25.4万（从取消资格到双料直通！小孩用冠军证明：强者不靠馈赠！）<br>
+                <strong>最低：</strong>15.2万（草台班子实锤！《地平线 6》偷跑，付费玩家被当猴耍？！）<br>
+                <strong>互动：</strong>👍48861 💬1138 🔄2310 ⭐478
             </div>
-            <div class="highlight good">💡 互动率2.8%表现最好，说明观众粘性强。但爆款阈值偏低（24.9万即最高），缺大爆款。盘点类内容表现稳定。</div>
+            <div class="highlight good">💡 互动率1.76%表现最好，说明观众粘性强。但爆款阈值偏低（25.4万即最高），缺大爆款。盘点类内容表现稳定。</div>
         </div>
         <div class="analysis-card">
             <div class="card-header">
@@ -4190,12 +3824,12 @@ body {
                 <div class="card-title">牛马说游戏</div>
             </div>
             <div class="card-body">
-                <strong>发布：</strong>16条 · <strong>平均播放：</strong>17.6万 · <strong>互动率：</strong>2.64% · <strong>粉丝增量：</strong>213<br>
+                <strong>发布：</strong>19条 · <strong>平均播放：</strong>15.3万 · <strong>互动率：</strong>1.3% · <strong>粉丝增量：</strong>232<br>
                 <strong>最高：</strong>39.5万（Faker 牵手柳智敏告白！老李30 年童子功要破了？）<br>
-                <strong>最低：</strong>7.8万（史上最扎心观赛！看着队友夺冠，自己却成了多余的人？！）<br>
-                <strong>互动：</strong>👍68662 💬810 🔄4110 ⭐648
+                <strong>最低：</strong>4334（你刷到过这个道歉的小女孩吗？原来是卡普空新游角色）<br>
+                <strong>互动：</strong>👍32101 💬808 🔄4384 ⭐727
             </div>
-            <div class="highlight bad">💡 互动率2.64%垫底。观众看完就走，不点赞不评论不分享。内容"有信息但没情绪"——信息通报型看完即走。</div>
+            <div class="highlight bad">💡 互动率1.3%垫底。观众看完就走，不点赞不评论不分享。内容"有信息但没情绪"——信息通报型看完即走。</div>
         </div>
         <div class="analysis-card">
             <div class="card-header">
@@ -4203,25 +3837,12 @@ body {
                 <div class="card-title">阿密说游戏</div>
             </div>
             <div class="card-body">
-                <strong>发布：</strong>94条 · <strong>平均播放：</strong>1876 · <strong>互动率：</strong>2.13% · <strong>粉丝增量：</strong>36<br>
+                <strong>发布：</strong>98条 · <strong>平均播放：</strong>2161 · <strong>互动率：</strong>2.15% · <strong>粉丝增量：</strong>50<br>
                 <strong>最高：</strong>3.0万（二游吉祥物两极分化！有人成电子家人，有人被全网嫌弃）<br>
-                <strong>最低：</strong>0（追击塔菲喵，FPS 离谱联动？！）<br>
-                <strong>互动：</strong>👍2599 💬323 🔄218 ⭐610
+                <strong>最低：</strong>189（桃晚安会二次回应粉丝的期待吗？）<br>
+                <strong>互动：</strong>👍3110 💬424 🔄287 ⭐727
             </div>
             <div class="highlight warn">💡 发布量最少，内容密度不足。爆款依赖和鱿鱼撞题（二游吉祥物），自身手游垂直特色没发挥出来。</div>
-        </div>
-        <div class="analysis-card">
-            <div class="card-header">
-                <div class="card-icon" style="background:rgba(22,c5,5e,0.15);">🐱</div>
-                <div class="card-title">哈吉米说游戏</div>
-            </div>
-            <div class="card-body">
-                <strong>发布：</strong>100条 · <strong>平均播放：</strong>2846 · <strong>互动率：</strong>1.18% · <strong>粉丝增量：</strong>48<br>
-                <strong>最高：</strong>13.9万（时隔一年终于释怀！团子北京站哽咽祝福S1Mon）<br>
-                <strong>最低：</strong>0（米哈游杀疯了！《星布谷地》新PV流出，治愈系星球种田太绝了！）<br>
-                <strong>互动：</strong>👍2889 💬113 🔄185 ⭐180
-            </div>
-            <div class="highlight bad">💡 全矩阵流量最低，平均不到800播放。粉丝增量几乎为零。账号还没找到自己的人设和定位，需要尽快建立创作体系。</div>
         </div>
         <div class="analysis-card">
             <div class="card-header">
@@ -4229,10 +3850,10 @@ body {
                 <div class="card-title">有料玩家</div>
             </div>
             <div class="card-body">
-                <strong>发布：</strong>17条 · <strong>平均播放：</strong>54.4万 · <strong>互动率：</strong>2.92% · <strong>粉丝增量：</strong>1725<br>
-                <strong>最高：</strong>533.3万（宗师碰瓷钟意？自曝 AG 试训 “不想抢饭碗”）<br>
-                <strong>最低：</strong>5.3万（j神枪法烂到被蛋神吐槽，转头精准狙击拿下胜利！）<br>
-                <strong>互动：</strong>👍207565 💬12217 🔄45180 ⭐5353
+                <strong>发布：</strong>22条 · <strong>平均播放：</strong>44.9万 · <strong>互动率：</strong>2.84% · <strong>粉丝增量：</strong>1806<br>
+                <strong>最高：</strong>533.5万（宗师碰瓷钟意？自曝 AG 试训 “不想抢饭碗”）<br>
+                <strong>最低：</strong>6169（盘点洛克王国那些神级撞脸）<br>
+                <strong>互动：</strong>👍214162 💬13462 🔄47000 ⭐6120
             </div>
             <div class="highlight warn">💡 爆款极度依赖"争议事件+人物冲突"（BCG/神枪小子/Rookie），占比超过90%流量。两极分化严重——要么爆，要么凉。</div>
         </div>
@@ -4751,7 +4372,7 @@ body {
 </div>
 
 <div class="footer">
-    <p>本报告基于抖音创作者中心数据导出 · 数据周期：2026-03-21 ~ 2026-06-07</p>
+    <p>本报告基于抖音创作者中心数据导出 · 数据周期：2026-03-21 ~ 2026-06-14</p>
     <p style="margin-top:8px;">波儿组合 · 2026年06月15日</p>
 </div>
 
@@ -4775,9 +4396,9 @@ function switchTab(name) {
         var chartDom = document.getElementById('chart-youyu');
         if (!chartDom) return;
         var myChart = echarts.init(chartDom);
-        var dates = ["03-21", "03-22", "04-13", "04-15", "05-04", "05-09", "05-12", "05-13", "05-17", "05-19", "05-22", "05-24", "05-25", "05-26", "05-27", "05-28", "06-02"];
-        var plays = [193177, 44804, 153130, 154459, 177145, 152435, 151499, 151727, 157930, 155739, 159075, 161606, 160677, 248723, 155780, 164215, 61842];
-        var chartData = [["03-21", 193177, "太讷了，OWL的职业战队居然使用这种战术"], ["03-22", 44804, "神人主角之亨利的诡辩！这游戏还是太抽象了"], ["04-13", 153130, "洛克王国世界玩家整活另类玩法"], ["04-15", 154459, "联机开黑新神作！躲抽屉聚众抽烟，被房主一"], ["05-04", 177145, "从工具人到电子家人，二游吉祥物为何能拿捏"], ["05-09", 152435, "LPL 最有希望的一年？Faker 童子"], ["05-12", 151499, "草台班子实锤！《地平线 6》偷跑，付费玩"], ["05-13", 151727, "塔二回旋镖砸穿！老外当初嘲讽国服差评，如"], ["05-17", 157930, "镇江一把刀 Smoggy，把黑称硬生生打"], ["05-19", 155739, "纯天然抽象没有剧本，Coke 天生综艺天"], ["05-22", 159075, "别家联动双厨狂喜，方舟怪猎二期联动全员破"], ["05-24", 161606, "抽象之神王浩宇跨界带货，画风依旧离谱毫无"], ["05-25", 160677, "悬崖绝境让三追四！狼队上演电竞顶级爽文翻"], ["05-26", 248723, "从取消资格到双料直通！小孩用冠军证明：强"], ["05-27", 155780, "抽象神曲变赛场曲目，Danking直呼太"], ["05-28", 164215, "硬核变兽人狂欢？暗区突围福瑞时装引不满！"], ["06-02", 61842, "燕云新剧情疑似夹带私货？！"]];
+        var dates = ["06-10", "06-13", "06-13"];
+        var plays = [165376, 158961, 162883];
+        var chartData = [["06-10", 165376, "不是正史，胜似正史！鸣潮联动，把遗憾变成"], ["06-13", 158961, "蛋仔农场杀疯了！吞吞鱼躺赚农场币"], ["06-13", 162883, "蛋仔这么有活！白蛇变蛋仔，至臻白素美哭！"]];
         var color = '#a78bfa';
 
         var option = {
@@ -4844,15 +4465,62 @@ function switchTab(name) {
         myChart.setOption(option);
         window.addEventListener('resize', function() { myChart.resize(); });
     })();
-    // 牛马说游戏 chart
+    // 鱿鱼说游 weekly trend (no extremes)
+
+    (function() {
+        var chartDom = document.getElementById('chart-weekly-youyu');
+        if (!chartDom) return;
+        var myChart = echarts.init(chartDom);
+        var option = {
+            backgroundColor: 'transparent',
+            tooltip: {
+                trigger: 'axis',
+                backgroundColor: '#1a1d28',
+                borderColor: '#2a2d3a',
+                textStyle: { color: '#e4e4e7', fontSize: 12 },
+                formatter: function(params) {
+                    var idx = params[0].dataIndex;
+                    var item = ["蛋仔这么有活！白蛇变蛋仔，至臻白素美哭！ #蛋仔派"][idx];
+                    return '<b>' + item + '</b><br/>' +
+                           '播放量: <b>' + params[0].value.toLocaleString() + '</b>';
+                }
+            },
+            grid: { left: '2%', right: '4%', bottom: '3%', top: '8%', containLabel: false },
+            xAxis: {
+                type: 'category',
+                data: ["06-13"],
+                axisLine: { lineStyle: { color: '#2a2d3a' } },
+                axisLabel: { color: '#9ca3af', fontSize: 10, rotate: 45 },
+                axisTick: { show: false }
+            },
+            yAxis: {
+                type: 'value',
+                show: false,
+                splitLine: { show: false }
+            },
+            series: [{
+                type: 'bar',
+                data: [162883],
+                itemStyle: { color: '#a78bfa', borderRadius: [4,4,0,0] },
+                emphasis: { itemStyle: { shadowBlur: 10, shadowColor: '#a78bfa80' } },
+                markLine: {
+                    data: [{ type: 'average', name: '均值' }],
+                    lineStyle: { color: '#6366f180', type: 'dashed' },
+                    label: { color: '#9ca3af', fontSize: 10, formatter: '均值: {c}' }
+                }
+            }]
+        };
+        myChart.setOption(option);
+        window.addEventListener('resize', function() { myChart.resize(); });
+    })();    // 牛马说游戏 chart
 
     (function() {
         var chartDom = document.getElementById('chart-niuma');
         if (!chartDom) return;
         var myChart = echarts.init(chartDom);
-        var dates = ["04-29", "05-06", "05-09", "05-10", "05-14", "05-16", "05-18", "05-20", "05-20", "05-24", "05-25", "05-26", "05-27", "05-29", "06-02", "06-03"];
-        var plays = [160325, 264275, 151392, 395176, 156927, 158735, 159672, 170558, 161198, 161736, 160059, 158977, 191869, 77684, 161714, 120804];
-        var chartData = [["04-29", 160325, "泪洒直播间也没用！神枪小子这波翻车，评论"], ["05-06", 264275, "碰瓷暖阳又碰瓷钟意！宗师这波试训，把我看"], ["05-09", 151392, "CS2全网洗脑！Dank1ing一句 “"], ["05-10", 395176, "Faker 牵手柳智敏告白！老李30 年"], ["05-14", 156927, "项目组大砍？尘白禁区回归后还会有以后吗？"], ["05-16", 158735, "异环流水破亿时夸超预期，翻车时打脸比谁都"], ["05-18", 159672, "嘴上为国出征实则自娱自乐，0 比 6 惨"], ["05-20", 170558, "洛克王国世界疯狂听劝，火影手游全程摆烂？"], ["05-20", 161198, "从威风的龙到病床躺平！林树减肥脱肛全程高"], ["05-24", 161736, "自带名梗出圈，王浩宇带货画风依旧放飞离谱"], ["05-25", 160059, "洛克王国事变终极反转！道歉长文立正挨打，"], ["05-26", 158977, "巴黎集结！CN 瓦三强锁定EWC，EDG"], ["05-27", 191869, "法尔孔孩神！小孩一月双冠，败者组一穿四全"], ["05-29", 77684, "史上最扎心观赛！看着队友夺冠，自己却成了"], ["06-02", 161714, "防住千万外挂破不了白名单，如今外挂靠常用"], ["06-03", 120804, "燕云新剧情偷偷藏不住？"]];
+        var dates = ["06-13"];
+        var plays = [151245];
+        var chartData = [["06-13", 151245, "蛋仔真开鱼塘了！新宠吞吞鱼，躺平赚资源！"]];
         var color = '#f472b6';
 
         var option = {
@@ -4919,15 +4587,62 @@ function switchTab(name) {
         myChart.setOption(option);
         window.addEventListener('resize', function() { myChart.resize(); });
     })();
-    // 阿密说游戏 chart
+    // 牛马说游戏 weekly trend (no extremes)
+
+    (function() {
+        var chartDom = document.getElementById('chart-weekly-niuma');
+        if (!chartDom) return;
+        var myChart = echarts.init(chartDom);
+        var option = {
+            backgroundColor: 'transparent',
+            tooltip: {
+                trigger: 'axis',
+                backgroundColor: '#1a1d28',
+                borderColor: '#2a2d3a',
+                textStyle: { color: '#e4e4e7', fontSize: 12 },
+                formatter: function(params) {
+                    var idx = params[0].dataIndex;
+                    var item = ["蛋仔真开鱼塘了！新宠吞吞鱼，躺平赚资源！ #蛋仔派"][idx];
+                    return '<b>' + item + '</b><br/>' +
+                           '播放量: <b>' + params[0].value.toLocaleString() + '</b>';
+                }
+            },
+            grid: { left: '2%', right: '4%', bottom: '3%', top: '8%', containLabel: false },
+            xAxis: {
+                type: 'category',
+                data: ["06-13"],
+                axisLine: { lineStyle: { color: '#2a2d3a' } },
+                axisLabel: { color: '#9ca3af', fontSize: 10, rotate: 45 },
+                axisTick: { show: false }
+            },
+            yAxis: {
+                type: 'value',
+                show: false,
+                splitLine: { show: false }
+            },
+            series: [{
+                type: 'bar',
+                data: [151245],
+                itemStyle: { color: '#f472b6', borderRadius: [4,4,0,0] },
+                emphasis: { itemStyle: { shadowBlur: 10, shadowColor: '#f472b680' } },
+                markLine: {
+                    data: [{ type: 'average', name: '均值' }],
+                    lineStyle: { color: '#6366f180', type: 'dashed' },
+                    label: { color: '#9ca3af', fontSize: 10, formatter: '均值: {c}' }
+                }
+            }]
+        };
+        myChart.setOption(option);
+        window.addEventListener('resize', function() { myChart.resize(); });
+    })();    // 阿密说游戏 chart
 
     (function() {
         var chartDom = document.getElementById('chart-ami');
         if (!chartDom) return;
         var myChart = echarts.init(chartDom);
-        var dates = ["03-30", "03-30", "03-31", "03-31", "04-01", "04-01", "04-02", "04-02", "04-03", "04-03", "04-04", "04-04", "04-05", "04-05", "04-07", "04-08", "04-08", "04-09", "04-09", "04-09", "04-10", "04-10", "04-11", "04-11", "04-12", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "04-18", "04-19", "04-20", "04-21", "04-22", "04-23", "04-23", "04-24", "04-24", "04-25", "04-25", "04-26", "04-27", "04-28", "04-29", "04-30", "05-01", "05-01", "05-02", "05-02", "05-03", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-16", "05-17", "05-18", "05-19", "05-20", "05-20", "05-21", "05-21", "05-22", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-28", "05-29", "05-29", "05-30", "05-31", "06-01", "06-02", "06-03", "06-04", "06-05", "06-06", "06-07"];
-        var plays = [1189, 1152, 748, 945, 847, 1158, 867, 745, 696, 600, 483, 874, 1169, 876, 764, 672, 543, 336, 1055, 756, 435, 841, 2464, 2283, 975, 1027, 1398, 189, 2046, 2768, 1431, 1231, 2616, 780, 298, 1279, 544, 751, 3273, 3784, 2257, 988, 1881, 1218, 572, 4026, 1620, 907, 824, 1038, 1228, 29885, 479, 797, 1009, 585, 1518, 904, 1568, 1134, 1284, 801, 1220, 1655, 1173, 1511, 746, 798, 1072, 528, 757, 8145, 478, 499, 7885, 1958, 887, 831, 255, 825, 13105, 0, 342, 1893, 631, 1627, 686, 683, 0, 1040, 582, 2363, 17811, 993];
-        var chartData = [["03-30", 1189, "亚洲首杀 + 世界第二、第三！中国魔兽公"], ["03-30", 1152, "四月国内新游汇总，看看哪款是你的菜！"], ["03-31", 748, "归环新PV炸了！时间循环+骰子战斗，这开"], ["03-31", 945, "大司马杯欢乐整活，节目效果直接拉满"], ["04-01", 847, "泪痣御姐绯雪！这一刀下去！谁的DNA动了"], ["04-01", 1158, "顶级折磨！谁看了大司马的操作能不笑啊！"], ["04-02", 867, "暗区 S17 更新，诡雾山谷或将改变当前"], ["04-02", 745, "怪猎IP手游化！这是经典IP的革新还是妥"], ["04-03", 696, "今日炸场！《蓝色星原：旅谣》新 PV 流"], ["04-03", 600, "星布谷地新PV实测：星际旅行+地形改造，"], ["04-04", 483, "原神莉奈娅登场！新角色细节藏满惊喜，颜值"], ["04-04", 874, "同为洛克玩家，别人卷天梯，另类玩家却在玩"], ["04-05", 1169, "没想到这些游戏，竟然陪我们走过了十年以上"], ["04-05", 876, "国区运营都被裁了！没有免费游戏白嫖了"], ["04-07", 764, "都是腾讯的 “世界” 游戏，王者和洛克差"], ["04-08", 672, "原神莉奈娅前瞻炸锅！岩队迎来真神？"], ["04-08", 543, "千冶·刃定位与卡池前瞻：火系输出，4.3"], ["04-09", 336, "王者荣耀世界伽罗远程射手天花板"], ["04-09", 1055, "聊聊三角洲行动游戏环境"], ["04-09", 756, "放耳机也算违规？宝可梦赛事判罚引玩家两极"], ["04-10", 435, "逆战未来 S2 把老玩家青春搬回来了！樱"], ["04-10", 841, "被 ELO 制裁到破防，律师玩家告腾讯，"], ["04-11", 2464, "洛克王国精灵竟和大博主撞脸？！"], ["04-11", 2283, "爽玩2026第一友尽小游戏"], ["04-12", 975, "Epic裁员千人要断奶？虚惊一场依旧享有"], ["04-12", 1027, "红色沙漠翻盘！玩法多到玩不过来！"], ["04-13", 1398, "洛克王国世界创新玩法大赏"], ["04-14", 189, "桃晚安会二次回应粉丝的期待吗？"], ["04-15", 2046, "最抽象联机游戏！6 个小地精偷家，死法比"], ["04-16", 2768, "拒绝歧视！第五选手Pit用实力封嘴，这才"], ["04-17", 1431, "全网都在等的戴安娜终于来了！4.17 上"], ["04-18", 1231, "那些让人看了就想入坑的角色，绯雪直接杀疯"], ["04-19", 2616, "一眼沦陷的蛇系天才，希希芙的角色塑造也太"], ["04-20", 780, "黑客泄露 R 星账本：GTA 赚麻了，荒"], ["04-21", 298, "累计 470 抽！异环这波福利，让所有二"], ["04-22", 1279, "重生之我在星露谷玩搜打撤"], ["04-23", 544, "看懂六大异能内核，才算真正玩明白异环"], ["04-23", 751, "IGN 评分再引众怒！开发商阴阳回应，肯"], ["04-24", 3273, "王者最新功能：东皇一键踢全服下线，官方连"], ["04-24", 3784, "电竞圈ctbz实锤：KPL 官方致歉，选"], ["04-25", 2257, "从 “深蓝我爱你” 到 “此恨绵绵无绝期"], ["04-25", 988, "重生之我在洛克王国世界摆烂赚大钱"], ["04-26", 1881, "屠龙者终将成恶龙！无畏契约反炸鱼，才是低"], ["04-27", 1218, "血赚！steam一折游戏上新！暗黑 4 "], ["04-28", 572, "从夯到拉：谁是竞拍之王最顶的主播？谁又是"], ["04-29", 4026, "靠锐评玩梗爆火，如今被群嘲，神枪小子太真"], ["04-30", 1620, "被骂崩盘后紧急救场！终末地 1.2 版本"], ["05-01", 907, "道歉信成新游标配？玩家要的从来不是客套话"], ["05-01", 824, "盘点那些开服翻车后期口碑直接逆袭的游戏—"], ["05-02", 1038, "腾讯从 FPS 卷到 MOBA，卡莎直接"], ["05-02", 1228, "90% 玩家都不知道的神级彩蛋，小岛秀夫"], ["05-03", 29885, "二游吉祥物两极分化！有人成电子家人，有人"], ["05-04", 479, "把歌单变格斗场，Dead as Disc"], ["05-05", 797, "从默默无闻到潜力封神，这些电竞新人，值得"], ["05-06", 1009, "限时白嫖！国产顶流魂 Like 入库 P"], ["05-07", 585, "散爆硬刚腾讯网易！宣战射击赛道！"], ["05-08", 1518, "尘白禁区王者归来，是逆天改命还是送人头？"], ["05-09", 904, "蹲了 670 天直接破防！挽昼军装改皮衣"], ["05-10", 1568, "讽刺拉满！杀戮尖塔 2 从国服差评到全球"], ["05-10", 1134, "满分神作续作！深海迷航2，这次不再孤身一"], ["05-11", 1284, "射击游戏卷出新高度！撤离肉鸽构筑三合一太"], ["05-12", 801, "拿命拍灵异素材升级装备！这款联机恐怖新游"], ["05-13", 1220, "末世废墟搬砖致富，随机地图 + 奇葩怪物"], ["05-14", 1655, "星露谷要出出轨模式？种田游戏差点变成伦理"], ["05-15", 1173, "游戏圈集体翻车！深海迷航2泄露三连杀？！"], ["05-16", 1511, "PSN 实锤 GTA6 上线日期，这次真"], ["05-16", 746, "盘点那些被运营拖垮的好游戏，属实太可惜！"], ["05-17", 798, "时隔 13 年终于等来 GTA6，PC "], ["05-18", 1072, "新世纪难题出现！选Faker还是柳智敏？"], ["05-19", 528, "Coke 离谱答题封神，红焖肉体积最小气"], ["05-20", 757, "鸣潮抄袭风波致多方轮番下场对线，真相越扒"], ["05-20", 8145, "火影顶流跨界综艺！Coke 清奇脑回路直"], ["05-21", 478, "删档测试码炒到五位数？冒险岛老玩家为青春"], ["05-21", 499, "洛克王国世界获腾讯财报点名，比起隔壁火影"], ["05-22", 7885, "异环又翻车？冲着女角色入坑，如今新增男性"], ["05-22", 1958, "守望先锋十周年变 “杀猪盘”，一场内定福"], ["05-23", 887, "腾讯三箭齐发 VS 网易雪藏大作，《无限"], ["05-24", 831, "IGN 仅评 7 分遭打脸，深海迷航 2"], ["05-25", 255, "全程不甩锅直面错误，洛克王国这次道歉你会"], ["05-26", 825, "豪掷7.5 万美金办 AI 大赛，猛兽派"], ["05-27", 13105, "一月双冠 + 败者组一穿四！孩神37 岁"], ["05-28", 0, "DNF 手游二周年杀疯了！2 套天空白送"], ["05-28", 342, "腾讯发布会杀疯了，彩六首测、黑旗中文、A"], ["05-29", 1893, "拿玩家共创当挡箭牌？暗区福瑞时装翻车现场"], ["05-29", 631, "三角洲把御窑镇馆之宝做成顶级大红！"], ["05-30", 1627, "一手好牌打得稀烂！盘点那些高开低走的游戏"], ["05-31", 686, "任天堂扔出核弹！星际火狐归来，老玩家直接"], ["06-01", 683, "玩家整活算啥？官方抽象起来才是降维打击！"], ["06-02", 0, "追击塔菲喵，FPS 离谱联动？！"], ["06-03", 1040, "熬过永世轮回，应星落幕，千冶・刃浴火新生"], ["06-04", 582, "MMO 大乱斗！逆水寒、燕云、诡秘三大重"], ["06-05", 2363, "发售倒计时半年，R 星员工集体罢工建工会"], ["06-06", 17811, "点一则老旧广告开启探案，这款 ARG 游"], ["06-07", 993, "高考完三个月，三款消磨时光放松爽玩神作！"]];
+        var dates = ["06-08", "06-10", "06-11", "06-12", "06-13", "06-14"];
+        var plays = [2109, 5434, 4719, 1343, 6405, 1212];
+        var chartData = [["06-08", 2109, "弟弟登山失踪，只剩一张符咒餐巾纸？ARG"], ["06-10", 5434, "捉宠赛道变天：帕鲁终版杀来，伊莫三测爆火"], ["06-11", 4719, "实机封神！异人之下能翻盘吗？"], ["06-12", 1343, "比起单薄穿搭，鲜活人设与剧情，才是留住玩"], ["06-13", 6405, "二游男角色沦为陪衬？问题根本不在玩家，而"], ["06-14", 1212, "从二创梗到全球顶流！细数三位现象级游戏角"]];
         var color = '#fb923c';
 
         var option = {
@@ -4994,17 +4709,12 @@ function switchTab(name) {
         myChart.setOption(option);
         window.addEventListener('resize', function() { myChart.resize(); });
     })();
-    // 哈吉米说游戏 chart
+    // 阿密说游戏 weekly trend (no extremes)
 
     (function() {
-        var chartDom = document.getElementById('chart-hajimi');
+        var chartDom = document.getElementById('chart-weekly-ami');
         if (!chartDom) return;
         var myChart = echarts.init(chartDom);
-        var dates = ["03-23", "03-24", "03-25", "03-26", "03-26", "03-27", "03-27", "03-28", "03-28", "03-29", "03-29", "03-30", "03-30", "03-31", "03-31", "04-01", "04-01", "04-02", "04-02", "04-03", "04-03", "04-04", "04-04", "04-05", "04-05", "04-07", "04-08", "04-08", "04-09", "04-09", "04-10", "04-10", "04-11", "04-11", "04-11", "04-12", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "04-18", "04-19", "04-20", "04-21", "04-22", "04-23", "04-24", "04-25", "04-26", "04-27", "04-28", "04-29", "04-29", "04-30", "04-30", "05-01", "05-02", "05-02", "05-03", "05-03", "05-04", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-09", "05-10", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02", "06-03", "06-04", "06-05", "06-06", "06-07"];
-        var plays = [6491, 338, 183, 266, 145, 192, 184, 382, 250, 176, 2501, 629, 124, 228, 495, 189, 444, 129, 177, 0, 0, 169, 162, 174, 747, 251, 196, 213, 211, 362, 4767, 121, 142, 152, 719, 390, 295, 1083, 244, 368, 1448, 518, 1620, 189, 1466, 1776, 176, 173, 17517, 2236, 392, 283, 3509, 139, 693, 612, 221, 644, 241, 962, 3231, 384, 2207, 390, 180, 8971, 1537, 25703, 1836, 3070, 377, 139194, 1427, 513, 407, 3339, 2095, 142, 352, 1345, 1860, 6817, 3351, 184, 195, 256, 2873, 262, 319, 664, 2780, 404, 257, 1411, 724, 524, 5193, 512, 130, 80];
-        var chartData = [["03-23", 6491, "今年真的有希望了！BLG 横扫先锋赛夺冠"], ["03-24", 338, "年度3A杀疯了！《死亡搁浅2》96%好评"], ["03-25", 183, "农批玩家狂喜！王者荣耀世界终于定档4/1"], ["03-26", 266, "从全网骂到疯狂道歉！红色沙漠这波口碑反转"], ["03-26", 145, "别等结束再后悔！春促史低游戏推荐，手慢无"], ["03-27", 192, "15年青春回归！首日1500 万小洛克重"], ["03-27", 184, "开服数据炸了！56% 玩家选火花，御三家"], ["03-28", 382, "以前 Epic 送游戏，现在 Epic "], ["03-28", 250, "小破站强势拿下授权，三国志：王道天下正式"], ["03-29", 176, "Steam 喜加一！《Lurkers》永"], ["03-29", 2501, "别再玩普通休闲游戏了，捣蛋蛙才是真上头"], ["03-30", 629, "魔兽这波杀疯了！中国俩公会包揽世界第二第"], ["03-30", 124, "4 月国产新游直接炸场！这才是真正的神仙"], ["03-31", 228, "归环实机PV曝光！骰子决定命运，这玩法我"], ["03-31", 495, "大司马杯欢乐不断，Uzi 杯竞争激烈看点"], ["04-01", 189, "世一冰换人！绯雪实机太帅，达妮娅直接萌出"], ["04-01", 444, "冠军待遇！小白夺冠第一天，就被大司马折磨"], ["04-02", 129, "暗区S17炸了！诡雾山谷+理智值+怪物，"], ["04-02", 177, "从PSP到手机！我的青春终于可以在掌上狩"], ["04-03", 0, "看完今日蓝色星原新 PV，我直接蹲测试资"], ["04-03", 0, "米哈游杀疯了！《星布谷地》新PV流出，治"], ["04-04", 169, "温柔又能打！原神莉奈娅，承包岩系队伍辅助"], ["04-04", 162, "-别再只肝主线了，洛克另类玩家的玩法，藏"], ["04-05", 174, "从网吧爆款到时代印记，存活十年以上的游戏"], ["04-05", 747, "一边捧上天一边踩到底？纳克园玩家评价，到"], ["04-07", 251, "腾讯半个月两款大世界！王者世界和洛克王国"], ["04-08", 196, "岩队终于有救了？莉奈娅减抗+回血双buf"], ["04-08", 213, "剧情升华+强度保障！千冶刃这波，厨党和强"], ["04-09", 211, "三角洲的环境怎么了？"], ["04-09", 362, "随手放耳机丢冠军？宝可梦赛事争议判罚引全"], ["04-10", 4767, "以为是卖萌？逆战新角色黑化变渊・黑蝶，剧"], ["04-10", 121, "王者排位机制将迎来转机？玩家的春天终于要"], ["04-11", 142, "王者荣耀世界拉完了？"], ["04-11", 152, "盘点那些游戏里的隐藏彩蛋"], ["04-11", 719, "洛克王国精灵撞脸大博主？"], ["04-12", 390, "纳克园测评，三角洲强劲对手真的要来了？"], ["04-12", 295, "舰长过期 = 毁号？三角洲主播彻底刷新底"], ["04-13", 1083, "4:0 被零封！狼队决赛失误不断，看得太"], ["04-14", 244, "BLG 连胜无人能破？LPL 谁能终结这"], ["04-15", 368, "VCT 全面改革！取消联赛、CN 赛区独"], ["04-16", 1448, "场均3.67分的OMNI黑马，为何还要遭"], ["04-17", 518, "靠跳票道歉火遍全网的游戏角色，4.17 "], ["04-18", 1620, "从 0-22 到暴打 BLG，TES 这"], ["04-19", 189, "老 LPL 人测试：这些梗你能认出一半吗"], ["04-20", 1466, "洛克王国大型反内卷现场：躺平才是版本答案"], ["04-21", 1776, "ESL 科隆名场面：致命失误后，1v3 "], ["04-22", 176, "重启作里藏着原版游戏！这是制作组写给老玩"], ["04-23", 173, "游戏里最意难平的角色之死，这才是最狠的刀"], ["04-24", 17517, "线下五赋能，川传这波这么狠？！"], ["04-25", 2236, "不看背景，只看枪法，这才是最纯粹的电竞天"], ["04-26", 392, "不止是选手冒犯，麻木的审核，才是电竞最大"], ["04-27", 283, "陈伯五排狙击赛：85万已有得主！120万"], ["04-28", 3509, "Faker 主场三连翻，复刻 S5 经典"], ["04-29", 139, "竞拍之王主播操作盘点，谁夯谁拉一目了然！"], ["04-29", 693, "偷暖阳签名、割粉丝韭菜，被 Hero 打"], ["04-30", 612, "万字长文控诉→深夜反转，rookie这瓜"], ["04-30", 221, "从三连冠到续约 2029，Keria 的"], ["05-01", 644, "沙特壕掷 7500 万，把电竞世界杯焊死"], ["05-02", 241, "昔日赛场战神褪去队服，FPS 选手的后职"], ["05-02", 962, "一场意外黑屏bug，铸就赛博朋克最经典的"], ["05-03", 3231, "亚运金牌只是开始，花花凭一己之力，书写 "], ["05-03", 384, "三大顶级电竞狠话！每一句嚣张，最后都用实"], ["05-04", 2207, "游戏指引让往东偏要往西！叛逆玩家，专治各"], ["05-04", 390, "千寺狐：一位中国玩家，留在夜之城的最后浪"], ["05-05", 180, "Dead as Disco 卡点暴打，蹦"], ["05-06", 8971, "CN瓦双零封，第一之争燃炸！"], ["05-07", 1537, "4 比 0 横扫狼队！第九支冠军战队，流"], ["05-08", 25703, "盘点 Dank1ng 传世名梗，老 CS"], ["05-09", 1836, "付出所有应援，最后只剩失望，电竞饭圈该醒"], ["05-09", 3070, "电竞圈饭圈双炸！Faker 表白 aes"], ["05-10", 377, "早点恩怨复刻！去年劝他退役，今年坐他旁边"], ["05-10", 139194, "时隔一年终于释怀！团子北京站哽咽祝福S1"], ["05-11", 1427, "低谷重建再登顶！EDG九冠功勋全员在线！"], ["05-12", 513, "KPL 九支王朝战队封神史，每一座奖杯都"], ["05-13", 407, "玩家撕碎官方悲情结局，逆水寒上演真正的全"], ["05-14", 3339, "欠选手七位数不还，RNG 转头祝福 IG"], ["05-15", 2095, "Faker 和柳智敏完整广告终于出炉，全"], ["05-16", 142, "地平线 6、深海迷航 2 扎堆偷跑，厂商"], ["05-17", 352, "一封 AI 假举报信，差点带崩整个 LP"], ["05-18", 1345, "弃我者必败！Taeyoon一战封神，复仇"], ["05-19", 1860, "格斗之神横扫全球，居然忘了赛事报名？！"], ["05-20", 6817, "零剧本纯天然抽象，coke这脑回路正常人"], ["05-21", 3351, "武将杯最大对手竟是括约肌，林树赛前直接惨"], ["05-22", 184, "从任性翻车到主动自律，桃黑黑这番转变你如"], ["05-23", 195, "专属电竞出圈 BGM，旋律一响瞬间梦回名"], ["05-24", 256, "电竞圈颜值内卷拉满！现在观赛技术颜值双双"], ["05-25", 2873, "NiKo 决赛又拉胯！背身空枪改写战局"], ["05-26", 262, "从1-3到5-3！KPL史诗级逆转，狼队"], ["05-27", 319, "EWC 取消直通又怎样？小孩用冠军硬拿双"], ["05-28", 664, "从世界冠军到次级联赛，Simon 的跌落"], ["05-29", 2780, "Faker 领衔六冠班底！中国队缺席传闻"], ["05-30", 404, "三冲 Major 皆遗憾，蛋神没拿到贴纸"], ["05-31", 257, "从判死刑到五棵松满座！三角洲 79 天救"], ["06-01", 1411, "从倒数第一到掀翻银河战舰，WE 这波以下"], ["06-02", 724, "pero26坐在直播间，目送没有自己的战"], ["06-03", 524, "外挂住进反作弊白名单，FPS 正式进入吸"], ["06-04", 5193, "Bin哥依旧钢背，全程黑脸，无视粉丝拒击"], ["06-05", 512, "先下饭再封神，Jee 算不算天禄的双刃剑"], ["06-06", 130, "全星铁第一人！刃涅槃变身千冶刃？！"], ["06-07", 80, "别人等放假，电竞人天天熬夜追比赛！"]];
-        var color = '#22c55e';
-
         var option = {
             backgroundColor: 'transparent',
             tooltip: {
@@ -5014,16 +4724,15 @@ function switchTab(name) {
                 textStyle: { color: '#e4e4e7', fontSize: 12 },
                 formatter: function(params) {
                     var idx = params[0].dataIndex;
-                    var item = chartData[idx];
-                    return '<b>' + item[2] + '</b><br/>' +
-                           item[0] + '<br/>' +
-                           '播放量: <b>' + item[1].toLocaleString() + '</b>';
+                    var item = ["比起单薄穿搭，鲜活人设与剧情，才是留住玩家的核心！", "实机封神！异人之下能翻盘吗？ #异人之下 #异人之", "捉宠赛道变天：帕鲁终版杀来，伊莫三测爆火，第二把交", "弟弟登山失踪，只剩一张符咒餐巾纸？ARG 神作细思"][idx];
+                    return '<b>' + item + '</b><br/>' +
+                           '播放量: <b>' + params[0].value.toLocaleString() + '</b>';
                 }
             },
             grid: { left: '2%', right: '4%', bottom: '3%', top: '8%', containLabel: false },
             xAxis: {
                 type: 'category',
-                data: dates,
+                data: ["06-12", "06-11", "06-10", "06-08"],
                 axisLine: { lineStyle: { color: '#2a2d3a' } },
                 axisLabel: { color: '#9ca3af', fontSize: 10, rotate: 45 },
                 axisTick: { show: false }
@@ -5034,31 +4743,10 @@ function switchTab(name) {
                 splitLine: { show: false }
             },
             series: [{
-                type: 'line',
-                data: plays,
-                smooth: true,
-                symbol: 'circle',
-                symbolSize: 8,
-                lineStyle: { color: color, width: 2.5 },
-                itemStyle: { color: color, borderColor: '#0f1117', borderWidth: 2 },
-                areaStyle: {
-                    color: {
-                        type: 'linear', x: 0, y: 0, x2: 0, y2: 1,
-                        colorStops: [
-                            { offset: 0, color: color + '40' },
-                            { offset: 1, color: color + '05' }
-                        ]
-                    }
-                },
-                markPoint: {
-                    data: [
-                        { type: 'max', name: '最高' },
-                        { type: 'min', name: '最低' }
-                    ],
-                    symbolSize: 50,
-                    label: { color: '#fff', fontSize: 10 },
-                    itemStyle: { color: color }
-                },
+                type: 'bar',
+                data: [1343, 4719, 5434, 2109],
+                itemStyle: { color: '#fb923c', borderRadius: [4,4,0,0] },
+                emphasis: { itemStyle: { shadowBlur: 10, shadowColor: '#fb923c80' } },
                 markLine: {
                     data: [{ type: 'average', name: '均值' }],
                     lineStyle: { color: '#6366f180', type: 'dashed' },
@@ -5068,16 +4756,15 @@ function switchTab(name) {
         };
         myChart.setOption(option);
         window.addEventListener('resize', function() { myChart.resize(); });
-    })();
-    // 有料玩家 chart
+    })();    // 有料玩家 chart
 
     (function() {
         var chartDom = document.getElementById('chart-youliao');
         if (!chartDom) return;
         var myChart = echarts.init(chartDom);
-        var dates = ["04-24", "04-28", "04-29", "05-07", "05-08", "05-11", "05-15", "05-19", "05-20", "05-21", "05-26", "05-26", "05-28", "06-02", "06-03", "06-04", "06-05"];
-        var plays = [157034, 343944, 497654, 5333355, 156194, 253183, 164405, 163544, 159707, 161959, 157273, 1010086, 152522, 138329, 233547, 52854, 114179];
-        var chartData = [["04-24", 157034, "全队赋能，川传一句话薄纱全场，用战绩实现"], ["04-28", 343944, "靠争议吃饭，终被争议反噬，神枪小子结局早"], ["04-29", 497654, "s1mple+Senzu 合体，CSGO"], ["05-07", 5333355, "宗师碰瓷钟意？自曝 AG 试训 “不想抢"], ["05-08", 156194, "回旋镖扎满！团子首次公开回应S1mon离"], ["05-11", 253183, "复刻康康名梗 + 极限四杀！王俊凯这波杀"], ["05-15", 164405, "再无跳票可能！GTA6 彻底锁死档期！"], ["05-19", 163544, "脱离游戏本色出镜，Coke 脑回路直接颠"], ["05-20", 159707, "几个嘉豪私自代表全体玩家出征，纯纯自作自"], ["05-21", 161959, "赛场大杀四方，场外忘报名！格斗之神小孩反"], ["05-26", 157273, "13个月七进决赛七连亚，Falcons沦"], ["05-26", 1010086, "被取消直通又如何？小孩败者组一穿四，凭实"], ["05-28", 152522, "从亚一狙到抽象主播：Dank1ng 传奇"], ["06-02", 138329, "ACE 防遍外敌，栽在自家安全软件手里？"], ["06-03", 233547, "燕云新剧情引争议，文化工作者需有文化的含"], ["06-04", 52854, "j神枪法烂到被蛋神吐槽，转头精准狙击拿下"], ["06-05", 114179, "16 万绝版账号一键作废，主播开挂被封还"]];
+        var dates = ["06-10", "06-13", "06-13"];
+        var plays = [253582, 172179, 180587];
+        var chartData = [["06-10", 253582, "二游联动天花板！鸣潮凭什么让全球玩家认它"], ["06-13", 172179, "蛋仔太会了！吞吞鱼把养成玩出新高度！"], ["06-13", 180587, "千年白蛇变蛋仔！这也太会整了吧"]];
         var color = '#06b6d4';
 
         var option = {
@@ -5144,7 +4831,54 @@ function switchTab(name) {
         myChart.setOption(option);
         window.addEventListener('resize', function() { myChart.resize(); });
     })();
+    // 有料玩家 weekly trend (no extremes)
 
+    (function() {
+        var chartDom = document.getElementById('chart-weekly-youliao');
+        if (!chartDom) return;
+        var myChart = echarts.init(chartDom);
+        var option = {
+            backgroundColor: 'transparent',
+            tooltip: {
+                trigger: 'axis',
+                backgroundColor: '#1a1d28',
+                borderColor: '#2a2d3a',
+                textStyle: { color: '#e4e4e7', fontSize: 12 },
+                formatter: function(params) {
+                    var idx = params[0].dataIndex;
+                    var item = ["千年白蛇变蛋仔！这也太会整了吧 #蛋仔派对 #蛋仔"][idx];
+                    return '<b>' + item + '</b><br/>' +
+                           '播放量: <b>' + params[0].value.toLocaleString() + '</b>';
+                }
+            },
+            grid: { left: '2%', right: '4%', bottom: '3%', top: '8%', containLabel: false },
+            xAxis: {
+                type: 'category',
+                data: ["06-13"],
+                axisLine: { lineStyle: { color: '#2a2d3a' } },
+                axisLabel: { color: '#9ca3af', fontSize: 10, rotate: 45 },
+                axisTick: { show: false }
+            },
+            yAxis: {
+                type: 'value',
+                show: false,
+                splitLine: { show: false }
+            },
+            series: [{
+                type: 'bar',
+                data: [180587],
+                itemStyle: { color: '#06b6d4', borderRadius: [4,4,0,0] },
+                emphasis: { itemStyle: { shadowBlur: 10, shadowColor: '#06b6d480' } },
+                markLine: {
+                    data: [{ type: 'average', name: '均值' }],
+                    lineStyle: { color: '#6366f180', type: 'dashed' },
+                    label: { color: '#9ca3af', fontSize: 10, formatter: '均值: {c}' }
+                }
+            }]
+        };
+        myChart.setOption(option);
+        window.addEventListener('resize', function() { myChart.resize(); });
+    })();
 
 // Comparison chart
 
@@ -5152,9 +4886,9 @@ function switchTab(name) {
         var chartDom = document.getElementById('chart-comparison');
         if (!chartDom) return;
         var myChart = echarts.init(chartDom);
-        var names = ["鱿鱼说游", "牛马说游戏", "阿密说游戏", "哈吉米说游戏", "有料玩家"];
-        var plays = [153174, 175694, 1876, 2846, 544104];
-        var colors = ["#a78bfa", "#f472b6", "#fb923c", "#22c55e", "#06b6d4"];
+        var names = ["鱿鱼说游", "牛马说游戏", "阿密说游戏", "有料玩家"];
+        var plays = [166254, 153437, 2161, 448789];
+        var colors = ["#a78bfa", "#f472b6", "#fb923c", "#06b6d4"];
         var target = 150000;
 
         var option = {
